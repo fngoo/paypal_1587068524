@@ -1,0 +1,1073 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 76a6404f-3fe3-46a5-ba1f-ac63c136b1a2@1.worker-org-689d9fcfd5-lk47n.gce-production-1
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-2fb19352-cf3c-452f-8125-54a69a914aaa travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.050236027s
+travis_fold:end:worker_info[0Ktravis_time:start:004f135c[0Ktravis_time:end:004f135c:start=1582849876516553162,finish=1582849876654200815,duration=137647653,event=no_world_writable_dirs[0Ktravis_time:start:196abe4a[0Ktravis_time:end:196abe4a:start=1582849876657412208,finish=1582849876664074406,duration=6662198,event=agent[0Ktravis_time:start:13340aa2[0Ktravis_time:end:13340aa2:start=1582849876666771488,finish=1582849876668900145,duration=2128657,event=check_unsupported[0Ktravis_time:start:0b2a7600[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 656038540
+Job id: 656038541
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 171ee24bb
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:0b2a7600:start=1582849876671607229,finish=1582849876678162332,duration=6555103,event=show_system_info[0Ktravis_time:start:1f158339[0Ktravis_time:end:1f158339:start=1582849876681122843,finish=1582849876692846321,duration=11723478,event=rm_riak_source[0Ktravis_time:start:20c13ae8[0Ktravis_time:end:20c13ae8:start=1582849876695663137,finish=1582849876700307050,duration=4643913,event=fix_rwky_redis[0Ktravis_time:start:01a9a4c7[0Ktravis_time:end:01a9a4c7:start=1582849876702960531,finish=1582849877068785378,duration=365824847,event=wait_for_network[0Ktravis_time:start:041284e0[0Ktravis_time:end:041284e0:start=1582849877071987956,finish=1582849877266874872,duration=194886916,event=update_apt_keys[0Ktravis_time:start:16edba80[0Ktravis_time:end:16edba80:start=1582849877270091159,finish=1582849877320011078,duration=49919919,event=fix_hhvm_source[0Ktravis_time:start:075f67c3[0Ktravis_time:end:075f67c3:start=1582849877322999264,finish=1582849877325506843,duration=2507579,event=update_mongo_arch[0Ktravis_time:start:107a2910[0Ktravis_time:end:107a2910:start=1582849877328191930,finish=1582849877367885381,duration=39693451,event=fix_sudo_enabled_trusty[0Ktravis_time:start:065cf224[0Ktravis_time:end:065cf224:start=1582849877371096490,finish=1582849877373240204,duration=2143714,event=update_glibc[0Ktravis_time:start:1afd9e7a[0Ktravis_time:end:1afd9e7a:start=1582849877376146274,finish=1582849877383073547,duration=6927273,event=clean_up_path[0Ktravis_time:start:07604b98[0Ktravis_time:end:07604b98:start=1582849877385778808,finish=1582849877393032982,duration=7254174,event=fix_resolv_conf[0Ktravis_time:start:1bccf540[0Ktravis_time:end:1bccf540:start=1582849877395705563,finish=1582849877403827483,duration=8121920,event=fix_etc_hosts[0Ktravis_time:start:1d008f35[0Ktravis_time:end:1d008f35:start=1582849877406928004,finish=1582849877414847727,duration=7919723,event=fix_mvn_settings_xml[0Ktravis_time:start:16132b60[0Ktravis_time:end:16132b60:start=1582849877417625512,finish=1582849877426164033,duration=8538521,event=no_ipv6_localhost[0Ktravis_time:start:0e9c02ec[0Ktravis_time:end:0e9c02ec:start=1582849877428814801,finish=1582849877430762508,duration=1947707,event=fix_etc_mavenrc[0Ktravis_time:start:0de7140c[0Ktravis_time:end:0de7140c:start=1582849877433612949,finish=1582849877436168483,duration=2555534,event=fix_wwdr_certificate[0Ktravis_time:start:0941abb2[0Ktravis_time:end:0941abb2:start=1582849877439004930,finish=1582849877460893206,duration=21888276,event=put_localhost_first[0Ktravis_time:start:29dac15c[0Ktravis_time:end:29dac15c:start=1582849877463694651,finish=1582849877466246292,duration=2551641,event=home_paths[0Ktravis_time:start:09394a7e[0Ktravis_time:end:09394a7e:start=1582849877468948941,finish=1582849877479908321,duration=10959380,event=disable_initramfs[0Ktravis_time:start:200cd2ca[0Ktravis_time:end:200cd2ca:start=1582849877482650158,finish=1582849877720123675,duration=237473517,event=disable_ssh_roaming[0Ktravis_time:start:253235da[0Ktravis_time:end:253235da:start=1582849877723296798,finish=1582849877725660790,duration=2363992,event=debug_tools[0Ktravis_time:start:00f8b560[0Ktravis_time:end:00f8b560:start=1582849877728393275,finish=1582849877731287472,duration=2894197,event=uninstall_oclint[0Ktravis_time:start:1f5f1f78[0Ktravis_time:end:1f5f1f78:start=1582849877734151136,finish=1582849877736904735,duration=2753599,event=rvm_use[0Ktravis_time:start:00914d40[0Ktravis_time:end:00914d40:start=1582849877739689118,finish=1582849877746709401,duration=7020283,event=rm_etc_boto_cfg[0Ktravis_time:start:00409ec6[0Ktravis_time:end:00409ec6:start=1582849877749430752,finish=1582849877751871177,duration=2440425,event=rm_oraclejdk8_symlink[0Ktravis_time:start:05f391fc[0Ktravis_time:end:05f391fc:start=1582849877754643064,finish=1582849877847731845,duration=93088781,event=enable_i386[0Ktravis_time:start:2b901a7d[0Ktravis_time:end:2b901a7d:start=1582849877850687832,finish=1582849877856538444,duration=5850612,event=update_rubygems[0Ktravis_time:start:2331321a[0Ktravis_time:end:2331321a:start=1582849877859401108,finish=1582849878626111557,duration=766710449,event=ensure_path_components[0Ktravis_time:start:024e4fea[0Ktravis_time:end:024e4fea:start=1582849878629494076,finish=1582849878631874597,duration=2380521,event=redefine_curl[0Ktravis_time:start:215cd1e7[0Ktravis_time:end:215cd1e7:start=1582849878634629287,finish=1582849878636621053,duration=1991766,event=nonblock_pipe[0Ktravis_time:start:36b3c217[0Ktravis_time:end:36b3c217:start=1582849878639332818,finish=1582849884671454312,duration=6032121494,event=apt_get_update[0Ktravis_time:start:0693fcb7[0Ktravis_time:end:0693fcb7:start=1582849884674758009,finish=1582849884676974720,duration=2216711,event=deprecate_xcode_64[0Ktravis_time:start:2186d84c[0Ktravis_time:end:2186d84c:start=1582849884679711302,finish=1582849887109125646,duration=2429414344,event=update_heroku[0Ktravis_time:start:25134ab0[0Ktravis_time:end:25134ab0:start=1582849887112154597,finish=1582849887114327011,duration=2172414,event=shell_session_update[0Ktravis_time:start:23206d20[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:23206d20:start=1582849887117035403,finish=1582849889326315124,duration=2209279721,event=set_docker_mtu[0Ktravis_time:start:1aaebca0[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1aaebca0:start=1582849889329532874,finish=1582849889393451573,duration=63918699,event=resolvconf[0Ktravis_time:start:18eadcee[0Ktravis_time:end:18eadcee:start=1582849889397555838,finish=1582849889531568330,duration=134012492,event=maven_central_mirror[0Ktravis_time:start:06d91b98[0Ktravis_time:end:06d91b98:start=1582849889535017921,finish=1582849889628763436,duration=93745515,event=maven_https[0Ktravis_time:start:334dd710[0Ktravis_time:end:334dd710:start=1582849889632481669,finish=1582849889634944209,duration=2462540,event=fix_ps4[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:19b331e0[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2020-02-28 00:31:30 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [63111826/63111826] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:19b331e0:start=1582849889680006031,finish=1582849890874699687,duration=1194693656,event=prepare[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (80.0.3987.122-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (80.0.3987.122-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0Ktravis_time:start:0d522d88[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:07b2cd7b[0K$ git clone --depth=50 https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 615, done.[K
+remote: Counting objects:   0% (1/615)[Kremote: Counting objects:   1% (7/615)[Kremote: Counting objects:   2% (13/615)[Kremote: Counting objects:   3% (19/615)[Kremote: Counting objects:   4% (25/615)[Kremote: Counting objects:   5% (31/615)[Kremote: Counting objects:   6% (37/615)[Kremote: Counting objects:   7% (44/615)[Kremote: Counting objects:   8% (50/615)[Kremote: Counting objects:   9% (56/615)[Kremote: Counting objects:  10% (62/615)[Kremote: Counting objects:  11% (68/615)[Kremote: Counting objects:  12% (74/615)[Kremote: Counting objects:  13% (80/615)[Kremote: Counting objects:  14% (87/615)[Kremote: Counting objects:  15% (93/615)[Kremote: Counting objects:  16% (99/615)[Kremote: Counting objects:  17% (105/615)[Kremote: Counting objects:  18% (111/615)[Kremote: Counting objects:  19% (117/615)[Kremote: Counting objects:  20% (123/615)[Kremote: Counting objects:  21% (130/615)[Kremote: Counting objects:  22% (136/615)[Kremote: Counting objects:  23% (142/615)[Kremote: Counting objects:  24% (148/615)[Kremote: Counting objects:  25% (154/615)[Kremote: Counting objects:  26% (160/615)[Kremote: Counting objects:  27% (167/615)[Kremote: Counting objects:  28% (173/615)[Kremote: Counting objects:  29% (179/615)[Kremote: Counting objects:  30% (185/615)[Kremote: Counting objects:  31% (191/615)[Kremote: Counting objects:  32% (197/615)[Kremote: Counting objects:  33% (203/615)[Kremote: Counting objects:  34% (210/615)[Kremote: Counting objects:  35% (216/615)[Kremote: Counting objects:  36% (222/615)[Kremote: Counting objects:  37% (228/615)[Kremote: Counting objects:  38% (234/615)[Kremote: Counting objects:  39% (240/615)[Kremote: Counting objects:  40% (246/615)[Kremote: Counting objects:  41% (253/615)[Kremote: Counting objects:  42% (259/615)[Kremote: Counting objects:  43% (265/615)[Kremote: Counting objects:  44% (271/615)[Kremote: Counting objects:  45% (277/615)[Kremote: Counting objects:  46% (283/615)[Kremote: Counting objects:  47% (290/615)[Kremote: Counting objects:  48% (296/615)[Kremote: Counting objects:  49% (302/615)[Kremote: Counting objects:  50% (308/615)[Kremote: Counting objects:  51% (314/615)[Kremote: Counting objects:  52% (320/615)[Kremote: Counting objects:  53% (326/615)[Kremote: Counting objects:  54% (333/615)[Kremote: Counting objects:  55% (339/615)[Kremote: Counting objects:  56% (345/615)[Kremote: Counting objects:  57% (351/615)[Kremote: Counting objects:  58% (357/615)[Kremote: Counting objects:  59% (363/615)[Kremote: Counting objects:  60% (369/615)[Kremote: Counting objects:  61% (376/615)[Kremote: Counting objects:  62% (382/615)[Kremote: Counting objects:  63% (388/615)[Kremote: Counting objects:  64% (394/615)[Kremote: Counting objects:  65% (400/615)[Kremote: Counting objects:  66% (406/615)[Kremote: Counting objects:  67% (413/615)[Kremote: Counting objects:  68% (419/615)[Kremote: Counting objects:  69% (425/615)[Kremote: Counting objects:  70% (431/615)[Kremote: Counting objects:  71% (437/615)[Kremote: Counting objects:  72% (443/615)[Kremote: Counting objects:  73% (449/615)[Kremote: Counting objects:  74% (456/615)[Kremote: Counting objects:  75% (462/615)[Kremote: Counting objects:  76% (468/615)[Kremote: Counting objects:  77% (474/615)[Kremote: Counting objects:  78% (480/615)[Kremote: Counting objects:  79% (486/615)[Kremote: Counting objects:  80% (492/615)[Kremote: Counting objects:  81% (499/615)[Kremote: Counting objects:  82% (505/615)[Kremote: Counting objects:  83% (511/615)[Kremote: Counting objects:  84% (517/615)[Kremote: Counting objects:  85% (523/615)[Kremote: Counting objects:  86% (529/615)[Kremote: Counting objects:  87% (536/615)[Kremote: Counting objects:  88% (542/615)[Kremote: Counting objects:  89% (548/615)[Kremote: Counting objects:  90% (554/615)[Kremote: Counting objects:  91% (560/615)[Kremote: Counting objects:  92% (566/615)[Kremote: Counting objects:  93% (572/615)[Kremote: Counting objects:  94% (579/615)[Kremote: Counting objects:  95% (585/615)[Kremote: Counting objects:  96% (591/615)[Kremote: Counting objects:  97% (597/615)[Kremote: Counting objects:  98% (603/615)[Kremote: Counting objects:  99% (609/615)[Kremote: Counting objects: 100% (615/615)[Kremote: Counting objects: 100% (615/615), done.[K
+remote: Compressing objects:   0% (1/316)[Kremote: Compressing objects:   1% (4/316)[Kremote: Compressing objects:   2% (7/316)[Kremote: Compressing objects:   3% (10/316)[Kremote: Compressing objects:   4% (13/316)[Kremote: Compressing objects:   5% (16/316)[Kremote: Compressing objects:   6% (19/316)[Kremote: Compressing objects:   7% (23/316)[Kremote: Compressing objects:   8% (26/316)[Kremote: Compressing objects:   9% (29/316)[Kremote: Compressing objects:  10% (32/316)[Kremote: Compressing objects:  11% (35/316)[Kremote: Compressing objects:  12% (38/316)[Kremote: Compressing objects:  13% (42/316)[Kremote: Compressing objects:  14% (45/316)[Kremote: Compressing objects:  15% (48/316)[Kremote: Compressing objects:  16% (51/316)[Kremote: Compressing objects:  17% (54/316)[Kremote: Compressing objects:  18% (57/316)[Kremote: Compressing objects:  19% (61/316)[Kremote: Compressing objects:  20% (64/316)[Kremote: Compressing objects:  21% (67/316)[Kremote: Compressing objects:  22% (70/316)[Kremote: Compressing objects:  23% (73/316)[Kremote: Compressing objects:  24% (76/316)[Kremote: Compressing objects:  25% (79/316)[Kremote: Compressing objects:  26% (83/316)[Kremote: Compressing objects:  27% (86/316)[Kremote: Compressing objects:  28% (89/316)[Kremote: Compressing objects:  29% (92/316)[Kremote: Compressing objects:  30% (95/316)[Kremote: Compressing objects:  31% (98/316)[Kremote: Compressing objects:  32% (102/316)[Kremote: Compressing objects:  33% (105/316)[Kremote: Compressing objects:  34% (108/316)[Kremote: Compressing objects:  35% (111/316)[Kremote: Compressing objects:  36% (114/316)[Kremote: Compressing objects:  37% (117/316)[Kremote: Compressing objects:  38% (121/316)[Kremote: Compressing objects:  39% (124/316)[Kremote: Compressing objects:  40% (127/316)[Kremote: Compressing objects:  41% (130/316)[Kremote: Compressing objects:  42% (133/316)[Kremote: Compressing objects:  43% (136/316)[Kremote: Compressing objects:  44% (140/316)[Kremote: Compressing objects:  45% (143/316)[Kremote: Compressing objects:  46% (146/316)[Kremote: Compressing objects:  47% (149/316)[Kremote: Compressing objects:  48% (152/316)[Kremote: Compressing objects:  49% (155/316)[Kremote: Compressing objects:  50% (158/316)[Kremote: Compressing objects:  51% (162/316)[Kremote: Compressing objects:  52% (165/316)[Kremote: Compressing objects:  53% (168/316)[Kremote: Compressing objects:  54% (171/316)[Kremote: Compressing objects:  55% (174/316)[Kremote: Compressing objects:  56% (177/316)[Kremote: Compressing objects:  57% (181/316)[Kremote: Compressing objects:  58% (184/316)[Kremote: Compressing objects:  59% (187/316)[Kremote: Compressing objects:  60% (190/316)[Kremote: Compressing objects:  61% (193/316)[Kremote: Compressing objects:  62% (196/316)[Kremote: Compressing objects:  63% (200/316)[Kremote: Compressing objects:  64% (203/316)[Kremote: Compressing objects:  65% (206/316)[Kremote: Compressing objects:  66% (209/316)[Kremote: Compressing objects:  67% (212/316)[Kremote: Compressing objects:  68% (215/316)[Kremote: Compressing objects:  69% (219/316)[Kremote: Compressing objects:  70% (222/316)[Kremote: Compressing objects:  71% (225/316)[Kremote: Compressing objects:  72% (228/316)[Kremote: Compressing objects:  73% (231/316)[Kremote: Compressing objects:  74% (234/316)[Kremote: Compressing objects:  75% (237/316)[Kremote: Compressing objects:  76% (241/316)[Kremote: Compressing objects:  77% (244/316)[Kremote: Compressing objects:  78% (247/316)[Kremote: Compressing objects:  79% (250/316)[Kremote: Compressing objects:  80% (253/316)[Kremote: Compressing objects:  81% (256/316)[Kremote: Compressing objects:  82% (260/316)[Kremote: Compressing objects:  83% (263/316)[Kremote: Compressing objects:  84% (266/316)[Kremote: Compressing objects:  85% (269/316)[Kremote: Compressing objects:  86% (272/316)[Kremote: Compressing objects:  87% (275/316)[Kremote: Compressing objects:  88% (279/316)[Kremote: Compressing objects:  89% (282/316)[Kremote: Compressing objects:  90% (285/316)[Kremote: Compressing objects:  91% (288/316)[Kremote: Compressing objects:  92% (291/316)[Kremote: Compressing objects:  93% (294/316)[Kremote: Compressing objects:  94% (298/316)[Kremote: Compressing objects:  95% (301/316)[Kremote: Compressing objects:  96% (304/316)[Kremote: Compressing objects:  97% (307/316)[Kremote: Compressing objects:  98% (310/316)[Kremote: Compressing objects:  99% (313/316)[Kremote: Compressing objects: 100% (316/316)[Kremote: Compressing objects: 100% (316/316), done.[K
+Receiving objects:   0% (1/615)   Receiving objects:   1% (7/615)   Receiving objects:   2% (13/615)   Receiving objects:   3% (19/615)   Receiving objects:   4% (25/615)   Receiving objects:   5% (31/615)   Receiving objects:   6% (37/615)   Receiving objects:   7% (44/615)   Receiving objects:   8% (50/615)   Receiving objects:   9% (56/615)   Receiving objects:  10% (62/615)   Receiving objects:  11% (68/615)   Receiving objects:  12% (74/615)   Receiving objects:  13% (80/615)   Receiving objects:  14% (87/615)   Receiving objects:  15% (93/615)   Receiving objects:  16% (99/615)   Receiving objects:  17% (105/615)   Receiving objects:  18% (111/615)   Receiving objects:  19% (117/615)   Receiving objects:  20% (123/615)   Receiving objects:  21% (130/615)   Receiving objects:  22% (136/615)   Receiving objects:  23% (142/615)   Receiving objects:  24% (148/615)   Receiving objects:  25% (154/615)   Receiving objects:  26% (160/615)   Receiving objects:  27% (167/615)   Receiving objects:  28% (173/615)   Receiving objects:  29% (179/615)   Receiving objects:  30% (185/615)   Receiving objects:  31% (191/615)   Receiving objects:  32% (197/615)   Receiving objects:  33% (203/615)   Receiving objects:  34% (210/615)   Receiving objects:  35% (216/615)   Receiving objects:  36% (222/615)   Receiving objects:  37% (228/615)   Receiving objects:  38% (234/615)   Receiving objects:  39% (240/615)   Receiving objects:  40% (246/615)   Receiving objects:  41% (253/615)   Receiving objects:  42% (259/615)   Receiving objects:  43% (265/615)   Receiving objects:  44% (271/615)   Receiving objects:  45% (277/615)   Receiving objects:  46% (283/615)   Receiving objects:  47% (290/615)   Receiving objects:  48% (296/615)   Receiving objects:  49% (302/615)   Receiving objects:  50% (308/615)   Receiving objects:  51% (314/615)   Receiving objects:  52% (320/615)   Receiving objects:  53% (326/615)   Receiving objects:  54% (333/615)   Receiving objects:  55% (339/615)   Receiving objects:  56% (345/615)   Receiving objects:  57% (351/615)   Receiving objects:  58% (357/615)   Receiving objects:  59% (363/615)   Receiving objects:  60% (369/615)   Receiving objects:  61% (376/615)   Receiving objects:  62% (382/615)   Receiving objects:  63% (388/615)   Receiving objects:  64% (394/615)   Receiving objects:  65% (400/615)   Receiving objects:  66% (406/615)   Receiving objects:  67% (413/615)   Receiving objects:  68% (419/615)   Receiving objects:  69% (425/615)   Receiving objects:  70% (431/615)   Receiving objects:  71% (437/615)   Receiving objects:  72% (443/615)   Receiving objects:  73% (449/615)   Receiving objects:  74% (456/615)   Receiving objects:  75% (462/615)   Receiving objects:  76% (468/615)   Receiving objects:  77% (474/615)   Receiving objects:  78% (480/615)   Receiving objects:  79% (486/615)   Receiving objects:  80% (492/615)   Receiving objects:  81% (499/615)   Receiving objects:  82% (505/615)   Receiving objects:  83% (511/615)   Receiving objects:  84% (517/615)   Receiving objects:  85% (523/615)   Receiving objects:  86% (529/615)   remote: Total 615 (delta 345), reused 485 (delta 290), pack-reused 0[K
+Receiving objects:  87% (536/615)   Receiving objects:  88% (542/615)   Receiving objects:  89% (548/615)   Receiving objects:  90% (554/615)   Receiving objects:  91% (560/615)   Receiving objects:  92% (566/615)   Receiving objects:  93% (572/615)   Receiving objects:  94% (579/615)   Receiving objects:  95% (585/615)   Receiving objects:  96% (591/615)   Receiving objects:  97% (597/615)   Receiving objects:  98% (603/615)   Receiving objects:  99% (609/615)   Receiving objects: 100% (615/615)   Receiving objects: 100% (615/615), 918.42 KiB | 9.98 MiB/s, done.
+Resolving deltas:   0% (0/345)   Resolving deltas:   1% (4/345)   Resolving deltas:   4% (16/345)   Resolving deltas:   5% (19/345)   Resolving deltas:   6% (23/345)   Resolving deltas:   7% (25/345)   Resolving deltas:  11% (38/345)   Resolving deltas:  13% (47/345)   Resolving deltas:  15% (53/345)   Resolving deltas:  16% (57/345)   Resolving deltas:  17% (59/345)   Resolving deltas:  18% (63/345)   Resolving deltas:  21% (73/345)   Resolving deltas:  22% (76/345)   Resolving deltas:  24% (85/345)   Resolving deltas:  28% (98/345)   Resolving deltas:  29% (101/345)   Resolving deltas:  30% (106/345)   Resolving deltas:  31% (109/345)   Resolving deltas:  33% (117/345)   Resolving deltas:  34% (120/345)   Resolving deltas:  35% (121/345)   Resolving deltas:  41% (143/345)   Resolving deltas:  42% (145/345)   Resolving deltas:  48% (166/345)   Resolving deltas:  52% (180/345)   Resolving deltas:  56% (196/345)   Resolving deltas:  57% (200/345)   Resolving deltas:  58% (203/345)   Resolving deltas:  59% (205/345)   Resolving deltas:  61% (211/345)   Resolving deltas:  62% (214/345)   Resolving deltas:  63% (220/345)   Resolving deltas:  64% (221/345)   Resolving deltas:  65% (225/345)   Resolving deltas:  66% (228/345)   Resolving deltas:  67% (232/345)   Resolving deltas:  68% (235/345)   Resolving deltas:  69% (239/345)   Resolving deltas:  70% (243/345)   Resolving deltas:  71% (246/345)   Resolving deltas:  72% (249/345)   Resolving deltas:  73% (252/345)   Resolving deltas:  75% (262/345)   Resolving deltas:  76% (263/345)   Resolving deltas:  77% (266/345)   Resolving deltas:  78% (270/345)   Resolving deltas:  79% (273/345)   Resolving deltas:  80% (276/345)   Resolving deltas:  81% (280/345)   Resolving deltas:  82% (283/345)   Resolving deltas:  83% (287/345)   Resolving deltas:  85% (294/345)   Resolving deltas:  86% (297/345)   Resolving deltas:  87% (303/345)   Resolving deltas:  90% (311/345)   Resolving deltas:  91% (314/345)   Resolving deltas:  92% (318/345)   Resolving deltas:  93% (321/345)   Resolving deltas:  95% (328/345)   Resolving deltas: 100% (345/345)   Resolving deltas: 100% (345/345), done.
+travis_time:end:07b2cd7b:start=1582849898579154645,finish=1582849899553882538,duration=974727893,event=checkout[0K$ cd paypal/paypal-smart-payment-buttons
+travis_time:start:3e501572[0K$ git fetch origin +refs/pull/29/merge:
+remote: Enumerating objects: 114, done.[K
+remote: Counting objects:   1% (1/90)[Kremote: Counting objects:   2% (2/90)[Kremote: Counting objects:   3% (3/90)[Kremote: Counting objects:   4% (4/90)[Kremote: Counting objects:   5% (5/90)[Kremote: Counting objects:   6% (6/90)[Kremote: Counting objects:   7% (7/90)[Kremote: Counting objects:   8% (8/90)[Kremote: Counting objects:  10% (9/90)[Kremote: Counting objects:  11% (10/90)[Kremote: Counting objects:  12% (11/90)[Kremote: Counting objects:  13% (12/90)[Kremote: Counting objects:  14% (13/90)[Kremote: Counting objects:  15% (14/90)[Kremote: Counting objects:  16% (15/90)[Kremote: Counting objects:  17% (16/90)[Kremote: Counting objects:  18% (17/90)[Kremote: Counting objects:  20% (18/90)[Kremote: Counting objects:  21% (19/90)[Kremote: Counting objects:  22% (20/90)[Kremote: Counting objects:  23% (21/90)[Kremote: Counting objects:  24% (22/90)[Kremote: Counting objects:  25% (23/90)[Kremote: Counting objects:  26% (24/90)[Kremote: Counting objects:  27% (25/90)[Kremote: Counting objects:  28% (26/90)[Kremote: Counting objects:  30% (27/90)[Kremote: Counting objects:  31% (28/90)[Kremote: Counting objects:  32% (29/90)[Kremote: Counting objects:  33% (30/90)[Kremote: Counting objects:  34% (31/90)[Kremote: Counting objects:  35% (32/90)[Kremote: Counting objects:  36% (33/90)[Kremote: Counting objects:  37% (34/90)[Kremote: Counting objects:  38% (35/90)[Kremote: Counting objects:  40% (36/90)[Kremote: Counting objects:  41% (37/90)[Kremote: Counting objects:  42% (38/90)[Kremote: Counting objects:  43% (39/90)[Kremote: Counting objects:  44% (40/90)[Kremote: Counting objects:  45% (41/90)[Kremote: Counting objects:  46% (42/90)[Kremote: Counting objects:  47% (43/90)[Kremote: Counting objects:  48% (44/90)[Kremote: Counting objects:  50% (45/90)[Kremote: Counting objects:  51% (46/90)[Kremote: Counting objects:  52% (47/90)[Kremote: Counting objects:  53% (48/90)[Kremote: Counting objects:  54% (49/90)[Kremote: Counting objects:  55% (50/90)[Kremote: Counting objects:  56% (51/90)[Kremote: Counting objects:  57% (52/90)[Kremote: Counting objects:  58% (53/90)[Kremote: Counting objects:  60% (54/90)[Kremote: Counting objects:  61% (55/90)[Kremote: Counting objects:  62% (56/90)[Kremote: Counting objects:  63% (57/90)[Kremote: Counting objects:  64% (58/90)[Kremote: Counting objects:  65% (59/90)[Kremote: Counting objects:  66% (60/90)[Kremote: Counting objects:  67% (61/90)[Kremote: Counting objects:  68% (62/90)[Kremote: Counting objects:  70% (63/90)[Kremote: Counting objects:  71% (64/90)[Kremote: Counting objects:  72% (65/90)[Kremote: Counting objects:  73% (66/90)[Kremote: Counting objects:  74% (67/90)[Kremote: Counting objects:  75% (68/90)[Kremote: Counting objects:  76% (69/90)[Kremote: Counting objects:  77% (70/90)[Kremote: Counting objects:  78% (71/90)[Kremote: Counting objects:  80% (72/90)[Kremote: Counting objects:  81% (73/90)[Kremote: Counting objects:  82% (74/90)[Kremote: Counting objects:  83% (75/90)[Kremote: Counting objects:  84% (76/90)[Kremote: Counting objects:  85% (77/90)[Kremote: Counting objects:  86% (78/90)[Kremote: Counting objects:  87% (79/90)[Kremote: Counting objects:  88% (80/90)[Kremote: Counting objects:  90% (81/90)[Kremote: Counting objects:  91% (82/90)[Kremote: Counting objects:  92% (83/90)[Kremote: Counting objects:  93% (84/90)[Kremote: Counting objects:  94% (85/90)[Kremote: Counting objects:  95% (86/90)[Kremote: Counting objects:  96% (87/90)[Kremote: Counting objects:  97% (88/90)[Kremote: Counting objects:  98% (89/90)[Kremote: Counting objects: 100% (90/90)[Kremote: Counting objects: 100% (90/90), done.[K
+remote: Compressing objects:   4% (1/25)[Kremote: Compressing objects:   8% (2/25)[Kremote: Compressing objects:  12% (3/25)[Kremote: Compressing objects:  16% (4/25)[Kremote: Compressing objects:  20% (5/25)[Kremote: Compressing objects:  24% (6/25)[Kremote: Compressing objects:  28% (7/25)[Kremote: Compressing objects:  32% (8/25)[Kremote: Compressing objects:  36% (9/25)[Kremote: Compressing objects:  40% (10/25)[Kremote: Compressing objects:  44% (11/25)[Kremote: Compressing objects:  48% (12/25)[Kremote: Compressing objects:  52% (13/25)[Kremote: Compressing objects:  56% (14/25)[Kremote: Compressing objects:  60% (15/25)[Kremote: Compressing objects:  64% (16/25)[Kremote: Compressing objects:  68% (17/25)[Kremote: Compressing objects:  72% (18/25)[Kremote: Compressing objects:  76% (19/25)[Kremote: Compressing objects:  80% (20/25)[Kremote: Compressing objects:  84% (21/25)[Kremote: Compressing objects:  88% (22/25)[Kremote: Compressing objects:  92% (23/25)[Kremote: Compressing objects:  96% (24/25)[Kremote: Compressing objects: 100% (25/25)[Kremote: Compressing objects: 100% (25/25), done.[K
+remote: Total 40 (delta 17), reused 35 (delta 13), pack-reused 0[K
+Unpacking objects:   2% (1/40)   Unpacking objects:   5% (2/40)   Unpacking objects:   7% (3/40)   Unpacking objects:  10% (4/40)   Unpacking objects:  12% (5/40)   Unpacking objects:  15% (6/40)   Unpacking objects:  17% (7/40)   Unpacking objects:  20% (8/40)   Unpacking objects:  22% (9/40)   Unpacking objects:  25% (10/40)   Unpacking objects:  27% (11/40)   Unpacking objects:  30% (12/40)   Unpacking objects:  32% (13/40)   Unpacking objects:  35% (14/40)   Unpacking objects:  37% (15/40)   Unpacking objects:  40% (16/40)   Unpacking objects:  42% (17/40)   Unpacking objects:  45% (18/40)   Unpacking objects:  47% (19/40)   Unpacking objects:  50% (20/40)   Unpacking objects:  52% (21/40)   Unpacking objects:  55% (22/40)   Unpacking objects:  57% (23/40)   Unpacking objects:  60% (24/40)   Unpacking objects:  62% (25/40)   Unpacking objects:  65% (26/40)   Unpacking objects:  67% (27/40)   Unpacking objects:  70% (28/40)   Unpacking objects:  72% (29/40)   Unpacking objects:  75% (30/40)   Unpacking objects:  77% (31/40)   Unpacking objects:  80% (32/40)   Unpacking objects:  82% (33/40)   Unpacking objects:  85% (34/40)   Unpacking objects:  87% (35/40)   Unpacking objects:  90% (36/40)   Unpacking objects:  92% (37/40)   Unpacking objects:  95% (38/40)   Unpacking objects:  97% (39/40)   Unpacking objects: 100% (40/40)   Unpacking objects: 100% (40/40), done.
+From https://github.com/paypal/paypal-smart-payment-buttons
+ * branch            refs/pull/29/merge -> FETCH_HEAD
+travis_time:end:3e501572:start=1582849899557832258,finish=1582849900229900153,duration=672067895,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:3e501572:start=1582849899557832258,finish=1582849900256902460,duration=699070202,event=checkout[0Ktravis_time:start:0a44ee81[0Ktravis_time:end:0a44ee81:start=1582849900260188638,finish=1582849900265354687,duration=5166049,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:0371ac93[0K$ nvm install 10
+Downloading and installing node v10.19.0...
+Downloading https://nodejs.org/dist/v10.19.0/node-v10.19.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.19.0 (npm v6.13.4)
+travis_time:end:0371ac93:start=1582849901230941328,finish=1582849904128448474,duration=2897507146,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.19.0
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:install.npm[0Ktravis_time:start:363cbee4[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m istanbul@0.4.5: This module is no longer maintained, try this instead:
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m   npm i nyc
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m Visit https://istanbul.js.org/integrations for other alternatives.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m request@2.81.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m left-pad@1.3.0: use String.prototype.padStart()
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+[0m
+> node-sass@4.13.1 install /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.13.1/linux-x64-64_binding.node
+Download complete
+Binary saved to /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Caching binary to /home/travis/.npm/node-sass/4.13.1/linux-x64-64_binding.node
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/ejs
+> node ./postinstall.js
+
+
+> node-sass@4.13.1 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.198 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules/karma/node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.1 (node_modules/mocha/node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.198 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/fsevents/node_modules/abbrev):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.abbrev.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/fsevents/node_modules/ansi-regex):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/fsevents/node_modules/aproba):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.aproba.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/fsevents/node_modules/balanced-match):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/fsevents/node_modules/chownr):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.chownr.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/fsevents/node_modules/code-point-at):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/fsevents/node_modules/concat-map):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.concat-map.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/fsevents/node_modules/console-control-strings):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/fsevents/node_modules/core-util-is):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/fsevents/node_modules/deep-extend):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/fsevents/node_modules/delegates):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.delegates.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/fsevents/node_modules/detect-libc):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/fsevents/node_modules/fs.realpath):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/fsevents/node_modules/has-unicode):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/fsevents/node_modules/inherits):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.inherits.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/fsevents/node_modules/ini):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ini.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/fsevents/node_modules/isarray):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.isarray.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/fsevents/node_modules/minimist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.minimist.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/fsevents/node_modules/ms):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ms.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/fsevents/node_modules/npm-normalize-package-bin):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/fsevents/node_modules/number-is-nan):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/fsevents/node_modules/object-assign):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.object-assign.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/fsevents/node_modules/os-homedir):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/fsevents/node_modules/os-tmpdir):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/fsevents/node_modules/path-is-absolute):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/fsevents/node_modules/process-nextick-args):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/fsevents/node_modules/rc/node_modules/minimist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/fsevents/node_modules/safe-buffer):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/fsevents/node_modules/safer-buffer):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/fsevents/node_modules/sax):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.sax.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/fsevents/node_modules/semver):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.semver.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/fsevents/node_modules/set-blocking):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/fsevents/node_modules/signal-exit):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/fsevents/node_modules/strip-json-comments):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/fsevents/node_modules/util-deprecate):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/fsevents/node_modules/wrappy):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.wrappy.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/fsevents/node_modules/yallist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.yallist.DELETE'
+[0m
+added 2935 packages from 2477 contributors and audited 925379 packages in 56.35s
+
+53 packages are looking for funding
+  run `npm fund` for details
+
+found [91m53[0m vulnerabilities (8 [1mlow[0m, 25 [93mmoderate[0m, 20 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:363cbee4:start=1582849905272842824,finish=1582849963302313783,duration=58029470959,event=install[0Ktravis_fold:end:install.npm[0K
+travis_time:start:02fa8b9a[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.198 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow check && npm run karma && npm run jest; fi;
+
+
+> @paypal/smart-payment-buttons@2.0.198 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint --ext .js --ext .jsx src/ server/ test/ *.js
+
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/index.js[24m[0m
+[0m  [2m5:15[22m  [31merror[39m  No named exports found in module './walletItem'  [2mimport/export[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/page/index.jsx[24m[0m
+[0m   [2m7:1[22m   [31merror[39m  There should be no empty line within import group  [2mimport/order[22m[0m
+[0m  [2m18:16[22m  [31merror[39m  A space is required after '{'                      [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m18:23[22m  [31merror[39m  A space is required before '}'                     [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m19:33[22m  [31merror[39m  A space is required after '{'                      [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m19:49[22m  [31merror[39m  A space is required before '}'                     [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m21:3[22m   [31merror[39m  Newline required at end of file but not found      [2meol-last[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/style/index.jsx[24m[0m
+[0m  [2m89:2[22m  [31merror[39m  Missing semicolon  [2msemi[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/wallet/index.jsx[24m[0m
+[0m   [2m8:1[22m   [31merror[39m  There should be no empty line within import group  [2mimport/order[22m[0m
+[0m  [2m26:9[22m   [31merror[39m  A space is required after '['                      [2marray-bracket-spacing[22m[0m
+[0m  [2m26:31[22m  [31merror[39m  A space is required before ']'                     [2marray-bracket-spacing[22m[0m
+[0m  [2m27:9[22m   [31merror[39m  A space is required after '['                      [2marray-bracket-spacing[22m[0m
+[0m  [2m27:51[22m  [31merror[39m  A space is required before ']'                     [2marray-bracket-spacing[22m[0m
+[0m  [2m31:15[22m  [31merror[39m  Strings must use singlequote                       [2mquotes[22m[0m
+[0m  [2m33:26[22m  [31merror[39m  A space is required after '{'                      [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m33:31[22m  [31merror[39m  A space is required before '}'                     [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m38:15[22m  [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m39:6[22m   [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m45:30[22m  [31merror[39m  A space is required after '{'                      [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m45:66[22m  [31merror[39m  A space is required before '}'                     [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m52:15[22m  [31merror[39m  Strings must use singlequote                       [2mquotes[22m[0m
+[0m  [2m52:17[22m  [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m53:6[22m   [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m56:20[22m  [31merror[39m  A space is required after '{'                      [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m56:27[22m  [31merror[39m  A space is required before '}'                     [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m65:6[22m   [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m66:2[22m   [31merror[39m  Missing semicolon                                  [2msemi[22m[0m
+[0m  [2m68:1[22m   [31merror[39m  Prefer named exports                               [2mimport/no-default-export[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/walletItem/index.jsx[24m[0m
+[0m    [2m6:1[22m    [31merror[39m  There should be no empty line within import group                                    [2mimport/order[22m[0m
+[0m   [2m10:1[22m    [31merror[39m  There should be at least one empty line between import groups                        [2mimport/order[22m[0m
+[0m   [2m11:1[22m    [31merror[39m  There should be at least one empty line between import groups                        [2mimport/order[22m[0m
+[0m   [2m11:1[22m    [31merror[39m  `preact/hooks` import should occur before import of `../../types`                    [2mimport/order[22m[0m
+[0m   [2m12:1[22m    [31merror[39m  `../../images/check.jsx` import should occur before import of `./style.scoped.scss`  [2mimport/order[22m[0m
+[0m   [2m12:23[22m   [31merror[39m  Unexpected use of file extension "jsx" for "../../images/check.jsx"                  [2mimport/extensions[22m[0m
+[0m   [2m15:5[22m    [31merror[39m  There must be a space before "selected" type annotation colon                        [2mflowtype/space-before-type-colon[22m[0m
+[0m   [2m30:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m30:49[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m30:62[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m31:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m31:51[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m31:64[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m32:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m32:49[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m32:62[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m33:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m33:49[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m33:62[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m34:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m34:35[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m34:48[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m35:9[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m35:39[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m48:49[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m53:33[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m56:8[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m56:22[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m60:8[22m    [31merror[39m  A space is required after '['                                                        [2marray-bracket-spacing[22m[0m
+[0m   [2m60:17[22m   [31merror[39m  A space is required before ']'                                                       [2marray-bracket-spacing[22m[0m
+[0m   [2m60:19[22m   [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m   [2m70:15[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m70:17[22m   [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m   [2m71:6[22m    [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m   [2m76:15[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m76:17[22m   [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m   [2m77:6[22m    [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m   [2m80:20[22m   [31merror[39m  A space is required after '{'                                                        [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m80:27[22m   [31merror[39m  A space is required before '}'                                                       [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m81:28[22m   [31merror[39m  A space is required after '{'                                                        [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m81:42[22m   [31merror[39m  Expected space(s) after '${'                                                         [2mtemplate-curly-spacing[22m[0m
+[0m   [2m81:57[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m81:82[22m   [31merror[39m  Strings must use singlequote                                                         [2mquotes[22m[0m
+[0m   [2m81:84[22m   [31merror[39m  Expected space(s) before '}'                                                         [2mtemplate-curly-spacing[22m[0m
+[0m   [2m81:86[22m   [31merror[39m  A space is required before '}'                                                       [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m81:96[22m   [31merror[39m  A space is required after '{'                                                        [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m81:128[22m  [31merror[39m  A space is required before '}'                                                       [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m83:30[22m   [31merror[39m  A space is required after '{'                                                        [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m83:48[22m   [31merror[39m  A space is required before '}'                                                       [2mreact/jsx-curly-spacing[22m[0m
+[0m   [2m89:57[22m   [31merror[39m  Expected space(s) after '${'                                                         [2mtemplate-curly-spacing[22m[0m
+[0m   [2m89:69[22m   [31merror[39m  Expected space(s) before '}'                                                         [2mtemplate-curly-spacing[22m[0m
+[0m   [2m93:17[22m   [31merror[39m  Empty components are self-closing                                                    [2mreact/self-closing-comp[22m[0m
+[0m   [2m97:6[22m    [31merror[39m  Missing semicolon                                                                    [2msemi[22m[0m
+[0m  [2m100:1[22m    [31merror[39m  Prefer named exports                                                                 [2mimport/no-default-export[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/images/check.jsx[24m[0m
+[0m  [2m13:21[22m  [31merror[39m  Empty components are self-closing              [2mreact/self-closing-comp[22m[0m
+[0m  [2m18:3[22m   [31merror[39m  Newline required at end of file but not found  [2meol-last[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/types.js[24m[0m
+[0m  [2m9:5[22m  [31merror[39m  There must be a space before "isPreferred" type annotation colon  [2mflowtype/space-before-type-colon[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/wallet.jsx[24m[0m
+[0m  [2m53:30[22m  [31merror[39m  A space is required after '{'   [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m53:39[22m  [31merror[39m  A space is required before '}'  [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m54:35[22m  [31merror[39m  A space is required after '{'   [2mreact/jsx-curly-spacing[22m[0m
+[0m  [2m54:51[22m  [31merror[39m  A space is required before '}'  [2mreact/jsx-curly-spacing[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/server/devServer.js[24m[0m
+[0m   [2m94:50[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m   [2m95:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m95:39[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m95:39[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m   [2m96:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m97:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m97:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m97:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m   [2m98:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m98:45[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m   [2m98:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m   [2m99:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m100:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m100:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m100:45[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m101:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m101:58[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m101:58[22m  [31merror[39m  Missing space before value for key 'instrumentSubType'       [2mkey-spacing[22m[0m
+[0m  [2m102:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m102:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m102:51[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m103:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m103:46[22m  [31merror[39m  Missing space before value for key 'image'                   [2mkey-spacing[22m[0m
+[0m  [2m104:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m104:58[22m  [31merror[39m  Missing space before value for key 'institutionImages'       [2mkey-spacing[22m[0m
+[0m  [2m105:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m105:52[22m  [31merror[39m  Missing space before value for key 'isPreferred'             [2mkey-spacing[22m[0m
+[0m  [2m106:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m106:52[22m  [31merror[39m  Missing space before value for key 'attribution'             [2mkey-spacing[22m[0m
+[0m  [2m107:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m107:48[22m  [31merror[39m  Missing space before value for key 'rewards'                 [2mkey-spacing[22m[0m
+[0m  [2m108:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m108:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m108:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m109:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m109:63[22m  [31merror[39m  Missing space before value for key 'creditFIAdditionalData'  [2mkey-spacing[22m[0m
+[0m  [2m110:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m110:56[22m  [31merror[39m  Missing space before value for key 'payerDisclaimer'         [2mkey-spacing[22m[0m
+[0m  [2m112:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m112:45[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m113:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m113:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m113:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m114:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m114:55[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m115:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m116:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m116:51[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m116:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m117:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m117:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m117:53[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m118:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m118:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m118:53[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m119:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m119:66[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m120:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m120:59[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m120:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m121:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m121:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m121:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m123:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m123:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m123:62[22m  [31merror[39m  Missing space before value for key 'fundingMethodType'       [2mkey-spacing[22m[0m
+[0m  [2m124:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m125:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m125:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m126:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m126:61[22m  [31merror[39m  Missing space before value for key 'currencyCode'            [2mkey-spacing[22m[0m
+[0m  [2m126:61[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m127:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m127:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m127:62[22m  [31merror[39m  Missing space before value for key 'currencyValue'           [2mkey-spacing[22m[0m
+[0m  [2m128:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m128:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m129:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m129:63[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m129:63[22m  [31merror[39m  Missing space before value for key 'currencyFormat'          [2mkey-spacing[22m[0m
+[0m  [2m130:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m130:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m130:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m132:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m133:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m133:55[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m133:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m134:38[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m135:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m135:51[22m  [31merror[39m  Missing space before value for key 'isSelected'              [2mkey-spacing[22m[0m
+[0m  [2m136:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m137:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m137:47[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m137:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m138:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m138:49[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m138:49[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m139:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m139:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m140:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m140:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m142:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m142:59[22m  [31merror[39m  Missing space before value for key 'currencyConversion'      [2mkey-spacing[22m[0m
+[0m  [2m143:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m144:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m144:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m144:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m145:34[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m146:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m146:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m148:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m148:39[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m148:39[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m149:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m150:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m150:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m150:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m151:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m151:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m151:45[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m152:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m153:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m153:45[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m153:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m154:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m154:58[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m154:58[22m  [31merror[39m  Missing space before value for key 'instrumentSubType'       [2mkey-spacing[22m[0m
+[0m  [2m155:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m155:51[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m156:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m156:46[22m  [31merror[39m  Missing space before value for key 'image'                   [2mkey-spacing[22m[0m
+[0m  [2m157:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m157:58[22m  [31merror[39m  Missing space before value for key 'institutionImages'       [2mkey-spacing[22m[0m
+[0m  [2m158:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m158:52[22m  [31merror[39m  Missing space before value for key 'isPreferred'             [2mkey-spacing[22m[0m
+[0m  [2m159:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m159:52[22m  [31merror[39m  Missing space before value for key 'attribution'             [2mkey-spacing[22m[0m
+[0m  [2m160:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m160:48[22m  [31merror[39m  Missing space before value for key 'rewards'                 [2mkey-spacing[22m[0m
+[0m  [2m161:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m161:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m161:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m162:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m162:63[22m  [31merror[39m  Missing space before value for key 'creditFIAdditionalData'  [2mkey-spacing[22m[0m
+[0m  [2m163:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m163:56[22m  [31merror[39m  Missing space before value for key 'payerDisclaimer'         [2mkey-spacing[22m[0m
+[0m  [2m165:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m165:45[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m166:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m166:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m166:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m167:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m167:55[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m168:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m169:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m169:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m169:51[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m170:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m170:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m170:53[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m171:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m171:53[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m171:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m172:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m172:66[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m173:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m173:59[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m174:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m174:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m174:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m176:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m176:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m176:62[22m  [31merror[39m  Missing space before value for key 'fundingMethodType'       [2mkey-spacing[22m[0m
+[0m  [2m177:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m178:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m178:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m179:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m179:61[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m179:61[22m  [31merror[39m  Missing space before value for key 'currencyCode'            [2mkey-spacing[22m[0m
+[0m  [2m180:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m180:62[22m  [31merror[39m  Missing space before value for key 'currencyValue'           [2mkey-spacing[22m[0m
+[0m  [2m180:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m181:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m181:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m182:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m182:63[22m  [31merror[39m  Missing space before value for key 'currencyFormat'          [2mkey-spacing[22m[0m
+[0m  [2m182:63[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m183:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m183:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m183:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m185:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m186:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m186:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m186:55[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m187:38[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m188:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m188:51[22m  [31merror[39m  Missing space before value for key 'isSelected'              [2mkey-spacing[22m[0m
+[0m  [2m189:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m190:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m190:59[22m  [31merror[39m  Missing space before value for key 'currencyConversion'      [2mkey-spacing[22m[0m
+[0m  [2m191:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m191:61[22m  [31merror[39m  Missing space before value for key 'preAuthorizationData'    [2mkey-spacing[22m[0m
+[0m  [2m192:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m192:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m192:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m193:34[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m194:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m194:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m196:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m196:39[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m196:39[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m197:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m198:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m198:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m198:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m199:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m199:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m199:45[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m200:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m200:65[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m201:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m201:45[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m201:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m202:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m202:58[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m202:58[22m  [31merror[39m  Missing space before value for key 'instrumentSubType'       [2mkey-spacing[22m[0m
+[0m  [2m203:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m203:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m203:51[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m204:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m204:46[22m  [31merror[39m  Missing space before value for key 'image'                   [2mkey-spacing[22m[0m
+[0m  [2m205:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m206:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m206:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m206:53[22m  [31merror[39m  Missing space before value for key 'href'                    [2mkey-spacing[22m[0m
+[0m  [2m207:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m207:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m209:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m209:50[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m209:50[22m  [31merror[39m  Missing space before value for key 'width'                   [2mkey-spacing[22m[0m
+[0m  [2m210:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m210:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m210:51[22m  [31merror[39m  Missing space before value for key 'height'                  [2mkey-spacing[22m[0m
+[0m  [2m211:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m211:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m213:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m213:58[22m  [31merror[39m  Missing space before value for key 'institutionImages'       [2mkey-spacing[22m[0m
+[0m  [2m214:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m214:52[22m  [31merror[39m  Missing space before value for key 'isPreferred'             [2mkey-spacing[22m[0m
+[0m  [2m215:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m215:52[22m  [31merror[39m  Missing space before value for key 'attribution'             [2mkey-spacing[22m[0m
+[0m  [2m216:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m216:48[22m  [31merror[39m  Missing space before value for key 'rewards'                 [2mkey-spacing[22m[0m
+[0m  [2m217:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m217:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m217:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m218:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m219:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m219:56[22m  [31merror[39m  Missing space before value for key 'payerDisclaimer'         [2mkey-spacing[22m[0m
+[0m  [2m221:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m221:45[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m222:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m222:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m222:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m223:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m223:55[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m224:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m225:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m225:51[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m225:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m226:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m226:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m226:53[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m227:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m227:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m227:53[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m228:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m228:66[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m229:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m229:59[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m229:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m230:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m230:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m230:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m232:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m232:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m232:62[22m  [31merror[39m  Missing space before value for key 'fundingMethodType'       [2mkey-spacing[22m[0m
+[0m  [2m233:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m234:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m234:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m235:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m235:61[22m  [31merror[39m  Missing space before value for key 'currencyCode'            [2mkey-spacing[22m[0m
+[0m  [2m235:61[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m236:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m236:62[22m  [31merror[39m  Missing space before value for key 'currencyValue'           [2mkey-spacing[22m[0m
+[0m  [2m236:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m237:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m237:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m238:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m238:63[22m  [31merror[39m  Missing space before value for key 'currencyFormat'          [2mkey-spacing[22m[0m
+[0m  [2m238:63[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m239:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m239:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m239:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m241:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m242:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m242:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m242:55[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m243:38[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m244:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m244:51[22m  [31merror[39m  Missing space before value for key 'isSelected'              [2mkey-spacing[22m[0m
+[0m  [2m245:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m246:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m246:59[22m  [31merror[39m  Missing space before value for key 'currencyConversion'      [2mkey-spacing[22m[0m
+[0m  [2m247:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m247:61[22m  [31merror[39m  Missing space before value for key 'preAuthorizationData'    [2mkey-spacing[22m[0m
+[0m  [2m248:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m248:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m249:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m249:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m250:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m250:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m251:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m251:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m251:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m253:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m253:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m255:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m255:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m256:34[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m257:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m257:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m259:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m259:39[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m259:39[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m260:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m261:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m261:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m261:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m262:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m262:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m262:45[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m263:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m263:65[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m264:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m264:45[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m264:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m265:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m265:58[22m  [31merror[39m  Missing space before value for key 'instrumentSubType'       [2mkey-spacing[22m[0m
+[0m  [2m265:58[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m266:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m266:51[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m266:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m267:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m267:46[22m  [31merror[39m  Missing space before value for key 'image'                   [2mkey-spacing[22m[0m
+[0m  [2m268:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m269:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m269:53[22m  [31merror[39m  Missing space before value for key 'href'                    [2mkey-spacing[22m[0m
+[0m  [2m269:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m270:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m270:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m272:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m272:50[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m272:50[22m  [31merror[39m  Missing space before value for key 'width'                   [2mkey-spacing[22m[0m
+[0m  [2m273:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m273:51[22m  [31merror[39m  Missing space before value for key 'height'                  [2mkey-spacing[22m[0m
+[0m  [2m273:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m274:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m274:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m276:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m276:58[22m  [31merror[39m  Missing space before value for key 'institutionImages'       [2mkey-spacing[22m[0m
+[0m  [2m277:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m277:52[22m  [31merror[39m  Missing space before value for key 'isPreferred'             [2mkey-spacing[22m[0m
+[0m  [2m278:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m278:52[22m  [31merror[39m  Missing space before value for key 'attribution'             [2mkey-spacing[22m[0m
+[0m  [2m279:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m279:48[22m  [31merror[39m  Missing space before value for key 'rewards'                 [2mkey-spacing[22m[0m
+[0m  [2m280:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m280:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m280:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m281:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m282:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m282:56[22m  [31merror[39m  Missing space before value for key 'payerDisclaimer'         [2mkey-spacing[22m[0m
+[0m  [2m284:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m284:45[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m285:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m285:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m285:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m286:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m286:55[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m287:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m288:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m288:51[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m288:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m289:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m289:53[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m289:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m290:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m290:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m290:53[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m291:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m291:66[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m292:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m292:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m292:59[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m293:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m293:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m293:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m295:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m295:62[22m  [31merror[39m  Missing space before value for key 'fundingMethodType'       [2mkey-spacing[22m[0m
+[0m  [2m295:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m296:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m297:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m297:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m298:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m298:61[22m  [31merror[39m  Missing space before value for key 'currencyCode'            [2mkey-spacing[22m[0m
+[0m  [2m298:61[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m299:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m299:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m299:62[22m  [31merror[39m  Missing space before value for key 'currencyValue'           [2mkey-spacing[22m[0m
+[0m  [2m300:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m300:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m301:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m301:63[22m  [31merror[39m  Missing space before value for key 'currencyFormat'          [2mkey-spacing[22m[0m
+[0m  [2m301:63[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m302:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m302:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m302:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m304:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m305:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m305:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m305:55[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m306:38[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m307:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m307:51[22m  [31merror[39m  Missing space before value for key 'isSelected'              [2mkey-spacing[22m[0m
+[0m  [2m308:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m309:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m309:59[22m  [31merror[39m  Missing space before value for key 'currencyConversion'      [2mkey-spacing[22m[0m
+[0m  [2m310:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m310:61[22m  [31merror[39m  Missing space before value for key 'preAuthorizationData'    [2mkey-spacing[22m[0m
+[0m  [2m311:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m311:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m312:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m312:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m313:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m313:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m314:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m314:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m314:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m316:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m316:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m318:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m318:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m319:34[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m320:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m320:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m322:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m322:39[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m322:39[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m323:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m324:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m324:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m324:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m325:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m325:45[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m325:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m326:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m326:65[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m327:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m327:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m327:45[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m328:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m328:58[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m328:58[22m  [31merror[39m  Missing space before value for key 'instrumentSubType'       [2mkey-spacing[22m[0m
+[0m  [2m329:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m329:51[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m329:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m330:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m330:46[22m  [31merror[39m  Missing space before value for key 'image'                   [2mkey-spacing[22m[0m
+[0m  [2m331:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m332:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m332:53[22m  [31merror[39m  Missing space before value for key 'href'                    [2mkey-spacing[22m[0m
+[0m  [2m332:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m333:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m333:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m335:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m335:50[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m335:50[22m  [31merror[39m  Missing space before value for key 'width'                   [2mkey-spacing[22m[0m
+[0m  [2m336:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m336:51[22m  [31merror[39m  Missing space before value for key 'height'                  [2mkey-spacing[22m[0m
+[0m  [2m336:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m337:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m337:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m339:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m339:58[22m  [31merror[39m  Missing space before value for key 'institutionImages'       [2mkey-spacing[22m[0m
+[0m  [2m340:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m340:52[22m  [31merror[39m  Missing space before value for key 'isPreferred'             [2mkey-spacing[22m[0m
+[0m  [2m341:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m341:52[22m  [31merror[39m  Missing space before value for key 'attribution'             [2mkey-spacing[22m[0m
+[0m  [2m342:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m342:48[22m  [31merror[39m  Missing space before value for key 'rewards'                 [2mkey-spacing[22m[0m
+[0m  [2m343:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m343:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m343:51[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m344:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m345:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m345:56[22m  [31merror[39m  Missing space before value for key 'payerDisclaimer'         [2mkey-spacing[22m[0m
+[0m  [2m347:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m347:45[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m348:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m348:43[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m348:43[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m349:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m349:55[22m  [31merror[39m  A space is required after '['                                [2marray-bracket-spacing[22m[0m
+[0m  [2m350:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m351:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m351:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m351:51[22m  [31merror[39m  Missing space before value for key 'id'                      [2mkey-spacing[22m[0m
+[0m  [2m352:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m352:53[22m  [31merror[39m  Missing space before value for key 'name'                    [2mkey-spacing[22m[0m
+[0m  [2m352:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m353:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m353:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m353:53[22m  [31merror[39m  Missing space before value for key 'type'                    [2mkey-spacing[22m[0m
+[0m  [2m354:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m354:66[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m355:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m355:59[22m  [31merror[39m  Missing space before value for key 'lastDigits'              [2mkey-spacing[22m[0m
+[0m  [2m355:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m356:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m356:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m356:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m358:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m358:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m358:62[22m  [31merror[39m  Missing space before value for key 'fundingMethodType'       [2mkey-spacing[22m[0m
+[0m  [2m359:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m360:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m360:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m361:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m361:61[22m  [31merror[39m  Missing space before value for key 'currencyCode'            [2mkey-spacing[22m[0m
+[0m  [2m361:61[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m362:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m362:62[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m362:62[22m  [31merror[39m  Missing space before value for key 'currencyValue'           [2mkey-spacing[22m[0m
+[0m  [2m363:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m363:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m364:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m364:63[22m  [31merror[39m  Missing space before value for key 'currencyFormat'          [2mkey-spacing[22m[0m
+[0m  [2m364:63[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m365:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m365:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m365:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m367:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m368:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m368:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m368:55[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m369:38[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m370:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m370:51[22m  [31merror[39m  Missing space before value for key 'isSelected'              [2mkey-spacing[22m[0m
+[0m  [2m371:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m372:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m372:59[22m  [31merror[39m  Missing space before value for key 'currencyConversion'      [2mkey-spacing[22m[0m
+[0m  [2m373:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m373:61[22m  [31merror[39m  Missing space before value for key 'preAuthorizationData'    [2mkey-spacing[22m[0m
+[0m  [2m374:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m374:53[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m375:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m375:51[22m  [31merror[39m  Missing space before value for key 'amount'                  [2mkey-spacing[22m[0m
+[0m  [2m376:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m376:80[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m377:45[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m377:59[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m377:59[22m  [31merror[39m  Missing space before value for key '__typename'              [2mkey-spacing[22m[0m
+[0m  [2m379:41[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m379:55[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m381:37[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m381:51[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m382:34[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m383:33[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m383:47[22m  [31merror[39m  Strings must use singlequote                                 [2mquotes[22m[0m
+[0m  [2m384:30[22m  [31merror[39m  A space is required before ']'                               [2marray-bracket-spacing[22m[0m
+[0m  [2m384:31[22m  [31merror[39m  Unexpected trailing comma                                    [2mcomma-dangle[22m[0m
+[0m[0m
+[0m[31m[1m✖ 671 problems (671 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[31m[1m  667 errors and 0 warnings potentially fixable with the `--fix` option.[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.198 lint: `eslint --ext .js --ext .jsx src/ server/ test/ *.js`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.198 lint script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2020-02-28T00_32_57_508Z-debug.log
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.198 test: `if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow check && npm run karma && npm run jest; fi;`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.198 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2020-02-28T00_32_57_521Z-debug.log
+[0mtravis_time:end:02fa8b9a:start=1582849963306696438,finish=1582849977530470582,duration=14223774144,event=script[0K[31;1mThe command "npm run test" exited with 1.[0m
+
+
+Done. Your build exited with 1.

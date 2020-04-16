@@ -1,0 +1,378 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 1af372f9-3345-4aa3-9f03-3432a75036d8@1.production-2-worker-org-gce-hlxz
+version: v6.2.0 https://github.com/travis-ci/worker/tree/5e5476e01646095f48eec13196fdb3faf8f5cbf7
+instance: travis-job-bca0e1f0-bebb-4118-b500-39878e6af262 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.473416064s
+travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 530791619
+Job id: 530791620
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: ad2d13976
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:2ed52b1c[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2019-05-10 14:51:10 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [58535144/58535144] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:2ed52b1c:start=1557499869191889868,finish=1557499870242985307,duration=1051095439[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (74.0.3729.131-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (74.0.3729.131-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:07df6a45[0K$ git clone --depth=50 https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 452, done.[K
+remote: Counting objects:   0% (1/452)   [Kremote: Counting objects:   1% (5/452)   [Kremote: Counting objects:   2% (10/452)   [Kremote: Counting objects:   3% (14/452)   [Kremote: Counting objects:   4% (19/452)   [Kremote: Counting objects:   5% (23/452)   [Kremote: Counting objects:   6% (28/452)   [Kremote: Counting objects:   7% (32/452)   [Kremote: Counting objects:   8% (37/452)   [Kremote: Counting objects:   9% (41/452)   [Kremote: Counting objects:  10% (46/452)   [Kremote: Counting objects:  11% (50/452)   [Kremote: Counting objects:  12% (55/452)   [Kremote: Counting objects:  13% (59/452)   [Kremote: Counting objects:  14% (64/452)   [Kremote: Counting objects:  15% (68/452)   [Kremote: Counting objects:  16% (73/452)   [Kremote: Counting objects:  17% (77/452)   [Kremote: Counting objects:  18% (82/452)   [Kremote: Counting objects:  19% (86/452)   [Kremote: Counting objects:  20% (91/452)   [Kremote: Counting objects:  21% (95/452)   [Kremote: Counting objects:  22% (100/452)   [Kremote: Counting objects:  23% (104/452)   [Kremote: Counting objects:  24% (109/452)   [Kremote: Counting objects:  25% (113/452)   [Kremote: Counting objects:  26% (118/452)   [Kremote: Counting objects:  27% (123/452)   [Kremote: Counting objects:  28% (127/452)   [Kremote: Counting objects:  29% (132/452)   [Kremote: Counting objects:  30% (136/452)   [Kremote: Counting objects:  31% (141/452)   [Kremote: Counting objects:  32% (145/452)   [Kremote: Counting objects:  33% (150/452)   [Kremote: Counting objects:  34% (154/452)   [Kremote: Counting objects:  35% (159/452)   [Kremote: Counting objects:  36% (163/452)   [Kremote: Counting objects:  37% (168/452)   [Kremote: Counting objects:  38% (172/452)   [Kremote: Counting objects:  39% (177/452)   [Kremote: Counting objects:  40% (181/452)   [Kremote: Counting objects:  41% (186/452)   [Kremote: Counting objects:  42% (190/452)   [Kremote: Counting objects:  43% (195/452)   [Kremote: Counting objects:  44% (199/452)   [Kremote: Counting objects:  45% (204/452)   [Kremote: Counting objects:  46% (208/452)   [Kremote: Counting objects:  47% (213/452)   [Kremote: Counting objects:  48% (217/452)   [Kremote: Counting objects:  49% (222/452)   [Kremote: Counting objects:  50% (226/452)   [Kremote: Counting objects:  51% (231/452)   [Kremote: Counting objects:  52% (236/452)   [Kremote: Counting objects:  53% (240/452)   [Kremote: Counting objects:  54% (245/452)   [Kremote: Counting objects:  55% (249/452)   [Kremote: Counting objects:  56% (254/452)   [Kremote: Counting objects:  57% (258/452)   [Kremote: Counting objects:  58% (263/452)   [Kremote: Counting objects:  59% (267/452)   [Kremote: Counting objects:  60% (272/452)   [Kremote: Counting objects:  61% (276/452)   [Kremote: Counting objects:  62% (281/452)   [Kremote: Counting objects:  63% (285/452)   [Kremote: Counting objects:  64% (290/452)   [Kremote: Counting objects:  65% (294/452)   [Kremote: Counting objects:  66% (299/452)   [Kremote: Counting objects:  67% (303/452)   [Kremote: Counting objects:  68% (308/452)   [Kremote: Counting objects:  69% (312/452)   [Kremote: Counting objects:  70% (317/452)   [Kremote: Counting objects:  71% (321/452)   [Kremote: Counting objects:  72% (326/452)   [Kremote: Counting objects:  73% (330/452)   [Kremote: Counting objects:  74% (335/452)   [Kremote: Counting objects:  75% (339/452)   [Kremote: Counting objects:  76% (344/452)   [Kremote: Counting objects:  77% (349/452)   [Kremote: Counting objects:  78% (353/452)   [Kremote: Counting objects:  79% (358/452)   [Kremote: Counting objects:  80% (362/452)   [Kremote: Counting objects:  81% (367/452)   [Kremote: Counting objects:  82% (371/452)   [Kremote: Counting objects:  83% (376/452)   [Kremote: Counting objects:  84% (380/452)   [Kremote: Counting objects:  85% (385/452)   [Kremote: Counting objects:  86% (389/452)   [Kremote: Counting objects:  87% (394/452)   [Kremote: Counting objects:  88% (398/452)   [Kremote: Counting objects:  89% (403/452)   [Kremote: Counting objects:  90% (407/452)   [Kremote: Counting objects:  91% (412/452)   [Kremote: Counting objects:  92% (416/452)   [Kremote: Counting objects:  93% (421/452)   [Kremote: Counting objects:  94% (425/452)   [Kremote: Counting objects:  95% (430/452)   [Kremote: Counting objects:  96% (434/452)   [Kremote: Counting objects:  97% (439/452)   [Kremote: Counting objects:  98% (443/452)   [Kremote: Counting objects:  99% (448/452)   [Kremote: Counting objects: 100% (452/452)   [Kremote: Counting objects: 100% (452/452), done.[K
+remote: Compressing objects:   0% (1/215)   [Kremote: Compressing objects:   1% (3/215)   [Kremote: Compressing objects:   2% (5/215)   [Kremote: Compressing objects:   3% (7/215)   [Kremote: Compressing objects:   4% (9/215)   [Kremote: Compressing objects:   5% (11/215)   [Kremote: Compressing objects:   6% (13/215)   [Kremote: Compressing objects:   7% (16/215)   [Kremote: Compressing objects:   8% (18/215)   [Kremote: Compressing objects:   9% (20/215)   [Kremote: Compressing objects:  10% (22/215)   [Kremote: Compressing objects:  11% (24/215)   [Kremote: Compressing objects:  12% (26/215)   [Kremote: Compressing objects:  13% (28/215)   [Kremote: Compressing objects:  14% (31/215)   [Kremote: Compressing objects:  15% (33/215)   [Kremote: Compressing objects:  16% (35/215)   [Kremote: Compressing objects:  17% (37/215)   [Kremote: Compressing objects:  18% (39/215)   [Kremote: Compressing objects:  19% (41/215)   [Kremote: Compressing objects:  20% (43/215)   [Kremote: Compressing objects:  21% (46/215)   [Kremote: Compressing objects:  22% (48/215)   [Kremote: Compressing objects:  23% (50/215)   [Kremote: Compressing objects:  24% (52/215)   [Kremote: Compressing objects:  25% (54/215)   [Kremote: Compressing objects:  26% (56/215)   [Kremote: Compressing objects:  27% (59/215)   [Kremote: Compressing objects:  28% (61/215)   [Kremote: Compressing objects:  29% (63/215)   [Kremote: Compressing objects:  30% (65/215)   [Kremote: Compressing objects:  31% (67/215)   [Kremote: Compressing objects:  32% (69/215)   [Kremote: Compressing objects:  33% (71/215)   [Kremote: Compressing objects:  34% (74/215)   [Kremote: Compressing objects:  35% (76/215)   [Kremote: Compressing objects:  36% (78/215)   [Kremote: Compressing objects:  37% (80/215)   [Kremote: Compressing objects:  38% (82/215)   [Kremote: Compressing objects:  39% (84/215)   [Kremote: Compressing objects:  40% (86/215)   [Kremote: Compressing objects:  41% (89/215)   [Kremote: Compressing objects:  42% (91/215)   [Kremote: Compressing objects:  43% (93/215)   [Kremote: Compressing objects:  44% (95/215)   [Kremote: Compressing objects:  45% (97/215)   [Kremote: Compressing objects:  46% (99/215)   [Kremote: Compressing objects:  47% (102/215)   [Kremote: Compressing objects:  48% (104/215)   [Kremote: Compressing objects:  49% (106/215)   [Kremote: Compressing objects:  50% (108/215)   [Kremote: Compressing objects:  51% (110/215)   [Kremote: Compressing objects:  52% (112/215)   [Kremote: Compressing objects:  53% (114/215)   [Kremote: Compressing objects:  54% (117/215)   [Kremote: Compressing objects:  55% (119/215)   [Kremote: Compressing objects:  56% (121/215)   [Kremote: Compressing objects:  57% (123/215)   [Kremote: Compressing objects:  58% (125/215)   [Kremote: Compressing objects:  59% (127/215)   [Kremote: Compressing objects:  60% (129/215)   [Kremote: Compressing objects:  61% (132/215)   [Kremote: Compressing objects:  62% (134/215)   [Kremote: Compressing objects:  63% (136/215)   [Kremote: Compressing objects:  64% (138/215)   [Kremote: Compressing objects:  65% (140/215)   [Kremote: Compressing objects:  66% (142/215)   [Kremote: Compressing objects:  67% (145/215)   [Kremote: Compressing objects:  68% (147/215)   [Kremote: Compressing objects:  69% (149/215)   [Kremote: Compressing objects:  70% (151/215)   [Kremote: Compressing objects:  71% (153/215)   [Kremote: Compressing objects:  72% (155/215)   [Kremote: Compressing objects:  73% (157/215)   [Kremote: Compressing objects:  74% (160/215)   [Kremote: Compressing objects:  75% (162/215)   [Kremote: Compressing objects:  76% (164/215)   [Kremote: Compressing objects:  77% (166/215)   [Kremote: Compressing objects:  78% (168/215)   [Kremote: Compressing objects:  79% (170/215)   [Kremote: Compressing objects:  80% (172/215)   [Kremote: Compressing objects:  81% (175/215)   [Kremote: Compressing objects:  82% (177/215)   [Kremote: Compressing objects:  83% (179/215)   [Kremote: Compressing objects:  84% (181/215)   [Kremote: Compressing objects:  85% (183/215)   [Kremote: Compressing objects:  86% (185/215)   [Kremote: Compressing objects:  87% (188/215)   [Kremote: Compressing objects:  88% (190/215)   [Kremote: Compressing objects:  89% (192/215)   [Kremote: Compressing objects:  90% (194/215)   [Kremote: Compressing objects:  91% (196/215)   [Kremote: Compressing objects:  92% (198/215)   [Kremote: Compressing objects:  93% (200/215)   [Kremote: Compressing objects:  94% (203/215)   [Kremote: Compressing objects:  95% (205/215)   [Kremote: Compressing objects:  96% (207/215)   [Kremote: Compressing objects:  97% (209/215)   [Kremote: Compressing objects:  98% (211/215)   [Kremote: Compressing objects:  99% (213/215)   [Kremote: Compressing objects: 100% (215/215)   [Kremote: Compressing objects: 100% (215/215), done.[K
+Receiving objects:   0% (1/452)   Receiving objects:   1% (5/452)   Receiving objects:   2% (10/452)   Receiving objects:   3% (14/452)   Receiving objects:   4% (19/452)   Receiving objects:   5% (23/452)   Receiving objects:   6% (28/452)   Receiving objects:   7% (32/452)   Receiving objects:   8% (37/452)   Receiving objects:   9% (41/452)   Receiving objects:  10% (46/452)   Receiving objects:  11% (50/452)   Receiving objects:  12% (55/452)   Receiving objects:  13% (59/452)   Receiving objects:  14% (64/452)   Receiving objects:  15% (68/452)   Receiving objects:  16% (73/452)   Receiving objects:  17% (77/452)   Receiving objects:  18% (82/452)   Receiving objects:  19% (86/452)   Receiving objects:  20% (91/452)   Receiving objects:  21% (95/452)   Receiving objects:  22% (100/452)   Receiving objects:  23% (104/452)   Receiving objects:  24% (109/452)   Receiving objects:  25% (113/452)   Receiving objects:  26% (118/452)   Receiving objects:  27% (123/452)   Receiving objects:  28% (127/452)   Receiving objects:  29% (132/452)   Receiving objects:  30% (136/452)   Receiving objects:  31% (141/452)   Receiving objects:  32% (145/452)   Receiving objects:  33% (150/452)   Receiving objects:  34% (154/452)   Receiving objects:  35% (159/452)   Receiving objects:  36% (163/452)   Receiving objects:  37% (168/452)   Receiving objects:  38% (172/452)   Receiving objects:  39% (177/452)   Receiving objects:  40% (181/452)   Receiving objects:  41% (186/452)   Receiving objects:  42% (190/452)   Receiving objects:  43% (195/452)   Receiving objects:  44% (199/452)   Receiving objects:  45% (204/452)   Receiving objects:  46% (208/452)   Receiving objects:  47% (213/452)   Receiving objects:  48% (217/452)   Receiving objects:  49% (222/452)   Receiving objects:  50% (226/452)   Receiving objects:  51% (231/452)   Receiving objects:  52% (236/452)   Receiving objects:  53% (240/452)   Receiving objects:  54% (245/452)   Receiving objects:  55% (249/452)   Receiving objects:  56% (254/452)   Receiving objects:  57% (258/452)   Receiving objects:  58% (263/452)   Receiving objects:  59% (267/452)   Receiving objects:  60% (272/452)   Receiving objects:  61% (276/452)   Receiving objects:  62% (281/452)   Receiving objects:  63% (285/452)   Receiving objects:  64% (290/452)   Receiving objects:  65% (294/452)   Receiving objects:  66% (299/452)   Receiving objects:  67% (303/452)   Receiving objects:  68% (308/452)   remote: Total 452 (delta 262), reused 397 (delta 232), pack-reused 0[K
+Receiving objects:  69% (312/452)   Receiving objects:  70% (317/452)   Receiving objects:  71% (321/452)   Receiving objects:  72% (326/452)   Receiving objects:  73% (330/452)   Receiving objects:  74% (335/452)   Receiving objects:  75% (339/452)   Receiving objects:  76% (344/452)   Receiving objects:  77% (349/452)   Receiving objects:  78% (353/452)   Receiving objects:  79% (358/452)   Receiving objects:  80% (362/452)   Receiving objects:  81% (367/452)   Receiving objects:  82% (371/452)   Receiving objects:  83% (376/452)   Receiving objects:  84% (380/452)   Receiving objects:  85% (385/452)   Receiving objects:  86% (389/452)   Receiving objects:  87% (394/452)   Receiving objects:  88% (398/452)   Receiving objects:  89% (403/452)   Receiving objects:  90% (407/452)   Receiving objects:  91% (412/452)   Receiving objects:  92% (416/452)   Receiving objects:  93% (421/452)   Receiving objects:  94% (425/452)   Receiving objects:  95% (430/452)   Receiving objects:  96% (434/452)   Receiving objects:  97% (439/452)   Receiving objects:  98% (443/452)   Receiving objects:  99% (448/452)   Receiving objects: 100% (452/452)   Receiving objects: 100% (452/452), 468.34 KiB | 7.32 MiB/s, done.
+Resolving deltas:   0% (0/262)   Resolving deltas:  19% (52/262)   Resolving deltas:  23% (62/262)   Resolving deltas:  25% (67/262)   Resolving deltas:  29% (76/262)   Resolving deltas:  30% (79/262)   Resolving deltas:  31% (82/262)   Resolving deltas:  32% (84/262)   Resolving deltas:  34% (91/262)   Resolving deltas:  35% (94/262)   Resolving deltas:  36% (95/262)   Resolving deltas:  37% (98/262)   Resolving deltas:  39% (103/262)   Resolving deltas:  40% (105/262)   Resolving deltas:  41% (108/262)   Resolving deltas:  45% (118/262)   Resolving deltas:  48% (128/262)   Resolving deltas:  53% (139/262)   Resolving deltas:  56% (148/262)   Resolving deltas:  57% (150/262)   Resolving deltas:  58% (153/262)   Resolving deltas:  59% (155/262)   Resolving deltas:  60% (158/262)   Resolving deltas:  62% (164/262)   Resolving deltas:  63% (166/262)   Resolving deltas:  64% (168/262)   Resolving deltas:  65% (172/262)   Resolving deltas:  66% (175/262)   Resolving deltas:  67% (177/262)   Resolving deltas:  68% (179/262)   Resolving deltas:  70% (186/262)   Resolving deltas:  71% (187/262)   Resolving deltas:  75% (197/262)   Resolving deltas:  82% (216/262)   Resolving deltas:  84% (222/262)   Resolving deltas:  86% (226/262)   Resolving deltas:  88% (233/262)   Resolving deltas:  89% (234/262)   Resolving deltas:  91% (241/262)   Resolving deltas:  93% (244/262)   Resolving deltas:  94% (247/262)   Resolving deltas:  95% (249/262)   Resolving deltas: 100% (262/262)   Resolving deltas: 100% (262/262), done.
+travis_time:end:07df6a45:start=1557499879767549695,finish=1557499880575286941,duration=807737246[0K$ cd paypal/paypal-smart-payment-buttons
+travis_time:start:0083002e[0K$ git fetch origin +refs/pull/14/merge:
+remote: Enumerating objects: 156, done.[K
+remote: Counting objects:   1% (1/71)   [Kremote: Counting objects:   2% (2/71)   [Kremote: Counting objects:   4% (3/71)   [Kremote: Counting objects:   5% (4/71)   [Kremote: Counting objects:   7% (5/71)   [Kremote: Counting objects:   8% (6/71)   [Kremote: Counting objects:   9% (7/71)   [Kremote: Counting objects:  11% (8/71)   [Kremote: Counting objects:  12% (9/71)   [Kremote: Counting objects:  14% (10/71)   [Kremote: Counting objects:  15% (11/71)   [Kremote: Counting objects:  16% (12/71)   [Kremote: Counting objects:  18% (13/71)   [Kremote: Counting objects:  19% (14/71)   [Kremote: Counting objects:  21% (15/71)   [Kremote: Counting objects:  22% (16/71)   [Kremote: Counting objects:  23% (17/71)   [Kremote: Counting objects:  25% (18/71)   [Kremote: Counting objects:  26% (19/71)   [Kremote: Counting objects:  28% (20/71)   [Kremote: Counting objects:  29% (21/71)   [Kremote: Counting objects:  30% (22/71)   [Kremote: Counting objects:  32% (23/71)   [Kremote: Counting objects:  33% (24/71)   [Kremote: Counting objects:  35% (25/71)   [Kremote: Counting objects:  36% (26/71)   [Kremote: Counting objects:  38% (27/71)   [Kremote: Counting objects:  39% (28/71)   [Kremote: Counting objects:  40% (29/71)   [Kremote: Counting objects:  42% (30/71)   [Kremote: Counting objects:  43% (31/71)   [Kremote: Counting objects:  45% (32/71)   [Kremote: Counting objects:  46% (33/71)   [Kremote: Counting objects:  47% (34/71)   [Kremote: Counting objects:  49% (35/71)   [Kremote: Counting objects:  50% (36/71)   [Kremote: Counting objects:  52% (37/71)   [Kremote: Counting objects:  53% (38/71)   [Kremote: Counting objects:  54% (39/71)   [Kremote: Counting objects:  56% (40/71)   [Kremote: Counting objects:  57% (41/71)   [Kremote: Counting objects:  59% (42/71)   [Kremote: Counting objects:  60% (43/71)   [Kremote: Counting objects:  61% (44/71)   [Kremote: Counting objects:  63% (45/71)   [Kremote: Counting objects:  64% (46/71)   [Kremote: Counting objects:  66% (47/71)   [Kremote: Counting objects:  67% (48/71)   [Kremote: Counting objects:  69% (49/71)   [Kremote: Counting objects:  70% (50/71)   [Kremote: Counting objects:  71% (51/71)   [Kremote: Counting objects:  73% (52/71)   [Kremote: Counting objects:  74% (53/71)   [Kremote: Counting objects:  76% (54/71)   [Kremote: Counting objects:  77% (55/71)   [Kremote: Counting objects:  78% (56/71)   [Kremote: Counting objects:  80% (57/71)   [Kremote: Counting objects:  81% (58/71)   [Kremote: Counting objects:  83% (59/71)   [Kremote: Counting objects:  84% (60/71)   [Kremote: Counting objects:  85% (61/71)   [Kremote: Counting objects:  87% (62/71)   [Kremote: Counting objects:  88% (63/71)   [Kremote: Counting objects:  90% (64/71)   [Kremote: Counting objects:  91% (65/71)   [Kremote: Counting objects:  92% (66/71)   [Kremote: Counting objects:  94% (67/71)   [Kremote: Counting objects:  95% (68/71)   [Kremote: Counting objects:  97% (69/71)   [Kremote: Counting objects:  98% (70/71)   [Kremote: Counting objects: 100% (71/71)   [Kremote: Counting objects: 100% (71/71), done.[K
+remote: Compressing objects:  16% (1/6)   [Kremote: Compressing objects:  33% (2/6)   [Kremote: Compressing objects:  50% (3/6)   [Kremote: Compressing objects:  66% (4/6)   [Kremote: Compressing objects:  83% (5/6)   [Kremote: Compressing objects: 100% (6/6)   [Kremote: Compressing objects: 100% (6/6), done.[K
+remote: Total 20 (delta 14), reused 19 (delta 14), pack-reused 0[K
+Unpacking objects:   5% (1/20)   Unpacking objects:  10% (2/20)   Unpacking objects:  15% (3/20)   Unpacking objects:  20% (4/20)   Unpacking objects:  25% (5/20)   Unpacking objects:  30% (6/20)   Unpacking objects:  35% (7/20)   Unpacking objects:  40% (8/20)   Unpacking objects:  45% (9/20)   Unpacking objects:  50% (10/20)   Unpacking objects:  55% (11/20)   Unpacking objects:  60% (12/20)   Unpacking objects:  65% (13/20)   Unpacking objects:  70% (14/20)   Unpacking objects:  75% (15/20)   Unpacking objects:  80% (16/20)   Unpacking objects:  85% (17/20)   Unpacking objects:  90% (18/20)   Unpacking objects:  95% (19/20)   Unpacking objects: 100% (20/20)   Unpacking objects: 100% (20/20), done.
+From https://github.com/paypal/paypal-smart-payment-buttons
+ * branch            refs/pull/14/merge -> FETCH_HEAD
+travis_time:end:0083002e:start=1557499880580576817,finish=1557499881208222740,duration=627645923[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_fold:start:nvm.install[0Ktravis_time:start:0b651967[0K$ nvm install 10
+Downloading and installing node v10.15.3...
+Downloading https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.15.3 (npm v6.4.1)
+travis_time:end:0b651967:start=1557499882363121798,finish=1557499889820580231,duration=7457458433[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.15.3
+$ npm --version
+6.4.1
+$ nvm --version
+0.34.0
+
+travis_fold:start:install.npm[0Ktravis_time:start:07087dae[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m istanbul@0.4.5: This module is no longer maintained, try this instead:
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m   npm i nyc
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m Visit https://istanbul.js.org/integrations for other alternatives.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m node-uuid@1.4.8: Use uuid module instead
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m left-pad@1.3.0: use String.prototype.padStart()
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m
+> webpack-cli@3.3.2 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/webpack-cli
+> node ./bin/opencollective.js
+
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.91 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.91 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
+added 2584 packages from 2472 contributors and audited 51754 packages in 50.825s
+found [91m156[0m vulnerabilities (66 [1mlow[0m, 70 [93mmoderate[0m, 20 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:07087dae:start=1557499891645530372,finish=1557499942956551893,duration=51311021521[0Ktravis_fold:end:install.npm[0K
+travis_time:start:009dfc6a[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.91 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest
+
+
+> @paypal/smart-payment-buttons@2.0.91 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint src/ server/ test/ *.js
+
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/api/subscription.js[24m
+    [2m3:35[22m   [31merror[39m  Strings must use singlequote                                                        [2mquotes[22m
+    [2m4:1[22m    [31merror[39m  There should be at least one empty line between import groups                       [2mimport/order[22m
+    [2m4:25[22m   [31merror[39m  Strings must use singlequote                                                        [2mquotes[22m
+    [2m7:5[22m    [31merror[39m  'REVISE_SUBSCRIPTIONS_API_URL' is defined but never used                            [2mno-unused-vars[22m
+    [2m8:5[22m    [31merror[39m  'GET_SUBSCRIPTIONS_API_URL' is defined but never used                               [2mno-unused-vars[22m
+    [2m9:5[22m    [31merror[39m  'ACTIVATE_SUBSCRIPTIONS_API_URL' is defined but never used                          [2mno-unused-vars[22m
+   [2m11:1[22m    [31merror[39m  There should be at least one empty line between import groups                       [2mimport/order[22m
+   [2m12:1[22m    [31merror[39m  `@paypal/sdk-constants/src` import should occur before import of `../config`        [2mimport/order[22m
+   [2m14:1[22m    [31merror[39m  There should be at least one empty line between import groups                       [2mimport/order[22m
+   [2m15:30[22m   [31merror[39m  Strings must use singlequote                                                        [2mquotes[22m
+   [2m16:36[22m   [31merror[39m  Strings must use singlequote                                                        [2mquotes[22m
+   [2m19:5[22m    [31merror[39m  There must be a space before "plan_id" type annotation colon                        [2mflowtype/space-before-type-colon[22m
+   [2m20:5[22m    [31merror[39m  There must be a space before "start_time" type annotation colon                     [2mflowtype/space-before-type-colon[22m
+   [2m21:5[22m    [31merror[39m  There must be a space before "quantity" type annotation colon                       [2mflowtype/space-before-type-colon[22m
+   [2m22:5[22m    [31merror[39m  There must be a space before "shipping_amount" type annotation colon                [2mflowtype/space-before-type-colon[22m
+   [2m23:9[22m    [31merror[39m  There must be a space before "currency_code" type annotation colon                  [2mflowtype/space-before-type-colon[22m
+   [2m24:9[22m    [31merror[39m  There must be a space before "value" type annotation colon                          [2mflowtype/space-before-type-colon[22m
+   [2m26:5[22m    [31merror[39m  There must be a space before "auto_renewal" type annotation colon                   [2mflowtype/space-before-type-colon[22m
+   [2m27:5[22m    [31merror[39m  There must be a space before "application_context" type annotation colon            [2mflowtype/space-before-type-colon[22m
+   [2m28:9[22m    [31merror[39m  There must be a space before "brand_name" type annotation colon                     [2mflowtype/space-before-type-colon[22m
+   [2m29:9[22m    [31merror[39m  There must be a space before "locale" type annotation colon                         [2mflowtype/space-before-type-colon[22m
+   [2m30:9[22m    [31merror[39m  There must be a space before "shipping_preference" type annotation colon            [2mflowtype/space-before-type-colon[22m
+   [2m31:9[22m    [31merror[39m  There must be a space before "user_action" type annotation colon                    [2mflowtype/space-before-type-colon[22m
+   [2m32:9[22m    [31merror[39m  There must be a space before "payment_method" type annotation colon                 [2mflowtype/space-before-type-colon[22m
+   [2m33:13[22m   [31merror[39m  There must be a space before "payer_selected" type annotation colon                 [2mflowtype/space-before-type-colon[22m
+   [2m34:13[22m   [31merror[39m  There must be a space before "payee_preferred" type annotation colon                [2mflowtype/space-before-type-colon[22m
+   [2m39:8[22m    [31merror[39m  There must be a space before return type colon                                      [2mflowtype/space-before-type-colon[22m
+   [2m39:36[22m   [31merror[39m  There must be a space before "accessToken" parameter type annotation colon          [2mflowtype/space-before-type-colon[22m
+   [2m39:57[22m   [31merror[39m  There must be a space before "subscriptionPayload" parameter type annotation colon  [2mflowtype/space-before-type-colon[22m
+   [2m50:11[22m   [31merror[39m  There must be a space before const type annotation colon                            [2mflowtype/space-before-type-colon[22m
+   [2m51:26[22m   [31merror[39m  Missing space before value for key 'Authorization'                                  [2mkey-spacing[22m
+   [2m51:34[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+   [2m51:47[22m   [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+   [2m57:14[22m   [31merror[39m  Missing space before value for key 'url'                                            [2mkey-spacing[22m
+   [2m59:15[22m   [31merror[39m  Missing space before value for key 'json'                                           [2mkey-spacing[22m
+   [2m60:13[22m   [31merror[39m  There must be a space before return type colon                                      [2mflowtype/space-before-type-colon[22m
+   [2m63:73[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+   [2m63:104[22m  [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+   [2m67:31[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.STATE'                        [2mkey-spacing[22m
+   [2m68:36[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.TRANSITION'                   [2mkey-spacing[22m
+   [2m70:31[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.TOKEN'                        [2mkey-spacing[22m
+   [2m71:36[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.CONTEXT_ID'                   [2mkey-spacing[22m
+   [2m78:8[22m    [31merror[39m  There must be a space before return type colon                                      [2mflowtype/space-before-type-colon[22m
+   [2m78:36[22m   [31merror[39m  There must be a space before "accessToken" parameter type annotation colon          [2mflowtype/space-before-type-colon[22m
+   [2m78:57[22m   [31merror[39m  There must be a space before "subscriptionId" parameter type annotation colon       [2mflowtype/space-before-type-colon[22m
+   [2m78:81[22m   [31merror[39m  There must be a space before "subscriptionPayload" parameter type annotation colon  [2mflowtype/space-before-type-colon[22m
+   [2m89:11[22m   [31merror[39m  There must be a space before const type annotation colon                            [2mflowtype/space-before-type-colon[22m
+   [2m90:26[22m   [31merror[39m  Missing space before value for key 'Authorization'                                  [2mkey-spacing[22m
+   [2m90:34[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+   [2m90:47[22m   [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+   [2m96:14[22m   [31merror[39m  Missing space before value for key 'url'                                            [2mkey-spacing[22m
+   [2m96:15[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+   [2m96:45[22m   [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+   [2m96:47[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+   [2m96:63[22m   [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+   [2m98:15[22m   [31merror[39m  Missing space before value for key 'json'                                           [2mkey-spacing[22m
+   [2m99:13[22m   [31merror[39m  There must be a space before return type colon                                      [2mflowtype/space-before-type-colon[22m
+  [2m102:59[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+  [2m102:67[22m   [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+  [2m102:89[22m   [31merror[39m  Expected space(s) after '${'                                                        [2mtemplate-curly-spacing[22m
+  [2m102:120[22m  [31merror[39m  Expected space(s) before '}'                                                        [2mtemplate-curly-spacing[22m
+  [2m106:31[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.STATE'                        [2mkey-spacing[22m
+  [2m107:36[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.TRANSITION'                   [2mkey-spacing[22m
+  [2m109:31[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.TOKEN'                        [2mkey-spacing[22m
+  [2m110:36[22m   [31merror[39m  Missing space before value for computed key 'FPTI_KEY.CONTEXT_ID'                   [2mkey-spacing[22m
+  [2m120:14[22m   [31merror[39m  Missing space before value for key 'url'                                            [2mkey-spacing[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/button/props/createOrder.js[24m
+  [2m46:8[22m    [31merror[39m  There must be a space before return type colon                                                                 [2mflowtype/space-before-type-colon[22m
+  [2m46:32[22m   [31merror[39m  There must be a space before "xprops" parameter type annotation colon                                          [2mflowtype/space-before-type-colon[22m
+  [2m46:48[22m   [31merror[39m  There must be a space before "{ createBillingAgreement, createSubscription }" parameter type annotation colon  [2mflowtype/space-before-type-colon[22m
+  [2m46:98[22m   [31merror[39m  There must be a space before "createBillingAgreement" type annotation colon                                    [2mflowtype/space-before-type-colon[22m
+  [2m46:147[22m  [31merror[39m  There must be a space before "createSubscription" type annotation colon                                        [2mflowtype/space-before-type-colon[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/button/props/createSubscription.js[24m
+   [2m6:1[22m   [31merror[39m  There should be at least one empty line between import groups                [2mimport/order[22m
+   [2m7:1[22m   [31merror[39m  `../../api` import should occur before import of `./types`                   [2mimport/order[22m
+   [2m7:75[22m  [31merror[39m  Strings must use singlequote                                                 [2mquotes[22m
+  [2m12:5[22m   [31merror[39m  There must be a space before "subscriptions" type annotation colon           [2mflowtype/space-before-type-colon[22m
+  [2m13:9[22m   [31merror[39m  There must be a space before "create" type annotation colon                  [2mflowtype/space-before-type-colon[22m
+  [2m14:9[22m   [31merror[39m  There must be a space before "revise" type annotation colon                  [2mflowtype/space-before-type-colon[22m
+  [2m20:8[22m   [31merror[39m  There must be a space before return type colon                               [2mflowtype/space-before-type-colon[22m
+  [2m25:8[22m   [31merror[39m  There must be a space before return type colon                               [2mflowtype/space-before-type-colon[22m
+  [2m25:49[22m  [31merror[39m  There must be a space before "{ clientID }" parameter type annotation colon  [2mflowtype/space-before-type-colon[22m
+  [2m25:65[22m  [31merror[39m  There must be a space before "clientID" type annotation colon                [2mflowtype/space-before-type-colon[22m
+  [2m45:8[22m   [31merror[39m  There must be a space before return type colon                               [2mflowtype/space-before-type-colon[22m
+  [2m45:39[22m  [31merror[39m  There must be a space before "xprops" parameter type annotation colon        [2mflowtype/space-before-type-colon[22m
+  [2m46:13[22m  [31merror[39m  'createSubscription' is already declared in the upper scope                  [2mno-shadow[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/button/props/onApprove.js[24m
+  [2m79:16[22m  [31merror[39m  Missing space before value for key 'order'  [2mkey-spacing[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/config.js[24m
+  [2m19:15[22m  [31merror[39m  Missing space before value for key 'GRAPHQL'  [2mkey-spacing[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/constants.js[24m
+  [2m64:70[22m  [31merror[39m  Unexpected trailing comma                          [2mcomma-dangle[22m
+  [2m72:19[22m  [31merror[39m  Missing space before value for key 'BUTTON_LOAD'   [2mkey-spacing[22m
+  [2m73:19[22m  [31merror[39m  Missing space before value for key 'CREATE_ORDER'  [2mkey-spacing[22m
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/payment-flows/checkout.js[24m
+  [2m48:5[22m  [31merror[39m  Unexpected trailing delimiter  [2mflowtype/delimiter-dangle[22m
+  [2m88:5[22m  [31merror[39m  Unexpected trailing delimiter  [2mflowtype/delimiter-dangle[22m
+
+[31m[1m✖ 91 problems (91 errors, 0 warnings)[22m[39m
+[31m[1m[22m[39m[31m[1m  87 errors and 0 warnings potentially fixable with the `--fix` option.[22m[39m
+[31m[1m[22m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.91 lint: `eslint src/ server/ test/ *.js`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.91 lint script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-05-10T14_52_31_336Z-debug.log
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.91 test: `npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.91 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-05-10T14_52_31_350Z-debug.log
+[0mtravis_time:end:009dfc6a:start=1557499942961761291,finish=1557499951363096914,duration=8401335623[0K[31;1mThe command "npm run test" exited with 1.[0m
+
+
+
+Done. Your build exited with 1.

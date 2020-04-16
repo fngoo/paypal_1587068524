@@ -1,0 +1,807 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 5322d7f8-f5a6-4f5a-bc54-af84d5dd4932@1.worker-org-676f4fdd9b-lrkfz.gce-production-2
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-c42d4854-2815-4b25-8dca-00896da64b67 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.228669759s
+travis_fold:end:worker_info[0Ktravis_time:start:1471d14e[0Ktravis_time:end:1471d14e:start=1580742050609314897,finish=1580742050770138925,duration=160824028,event=no_world_writable_dirs[0Ktravis_time:start:13a9a3c0[0Ktravis_time:end:13a9a3c0:start=1580742050773073149,finish=1580742050776076345,duration=3003196,event=setup_filter[0Ktravis_time:start:063a8a78[0Ktravis_time:end:063a8a78:start=1580742050783965307,finish=1580742050791413742,duration=7448435,event=agent[0Ktravis_time:start:00b2a8d0[0Ktravis_time:end:00b2a8d0:start=1580742050793891887,finish=1580742050795737987,duration=1846100,event=check_unsupported[0Ktravis_time:start:1c71b9e2[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 645495335
+Job id: 645495336
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: fac76917d
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:1c71b9e2:start=1580742050798091703,finish=1580742050828249615,duration=30157912,event=show_system_info[0Ktravis_time:start:0bac374d[0Ktravis_time:end:0bac374d:start=1580742050844586236,finish=1580742050880219843,duration=35633607,event=rm_riak_source[0Ktravis_time:start:122c39c6[0Ktravis_time:end:122c39c6:start=1580742050883212663,finish=1580742050898013668,duration=14801005,event=fix_rwky_redis[0Ktravis_time:start:05fd2514[0Ktravis_time:end:05fd2514:start=1580742050901440114,finish=1580742051232672933,duration=331232819,event=wait_for_network[0Ktravis_time:start:058da4d8[0Ktravis_time:end:058da4d8:start=1580742051237883290,finish=1580742051455298815,duration=217415525,event=update_apt_keys[0Ktravis_time:start:02bbd3c3[0Ktravis_time:end:02bbd3c3:start=1580742051459318990,finish=1580742051520104373,duration=60785383,event=fix_hhvm_source[0Ktravis_time:start:175e5b50[0Ktravis_time:end:175e5b50:start=1580742051523782260,finish=1580742051531120052,duration=7337792,event=update_mongo_arch[0Ktravis_time:start:112b09b0[0Ktravis_time:end:112b09b0:start=1580742051536938462,finish=1580742051580892217,duration=43953755,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0a45ed40[0Ktravis_time:end:0a45ed40:start=1580742051586866198,finish=1580742051589880411,duration=3014213,event=update_glibc[0Ktravis_time:start:24bf0f6c[0Ktravis_time:end:24bf0f6c:start=1580742051597265353,finish=1580742051606522700,duration=9257347,event=clean_up_path[0Ktravis_time:start:08f6fc3c[0Ktravis_time:end:08f6fc3c:start=1580742051611927451,finish=1580742051620516771,duration=8589320,event=fix_resolv_conf[0Ktravis_time:start:227a5420[0Ktravis_time:end:227a5420:start=1580742051624319519,finish=1580742051633530441,duration=9210922,event=fix_etc_hosts[0Ktravis_time:start:1c3f32b7[0Ktravis_time:end:1c3f32b7:start=1580742051638928579,finish=1580742051657753146,duration=18824567,event=fix_mvn_settings_xml[0Ktravis_time:start:27aa856e[0Ktravis_time:end:27aa856e:start=1580742051662994911,finish=1580742051672912482,duration=9917571,event=no_ipv6_localhost[0Ktravis_time:start:3007e8bd[0Ktravis_time:end:3007e8bd:start=1580742051679074754,finish=1580742051682310451,duration=3235697,event=fix_etc_mavenrc[0Ktravis_time:start:05b8f6bb[0Ktravis_time:end:05b8f6bb:start=1580742051687926323,finish=1580742051692240929,duration=4314606,event=fix_wwdr_certificate[0Ktravis_time:start:001ff690[0Ktravis_time:end:001ff690:start=1580742051697360240,finish=1580742051722756091,duration=25395851,event=put_localhost_first[0Ktravis_time:start:00958d90[0Ktravis_time:end:00958d90:start=1580742051728548362,finish=1580742051735391994,duration=6843632,event=home_paths[0Ktravis_time:start:115bcd4c[0Ktravis_time:end:115bcd4c:start=1580742051741871708,finish=1580742051755056202,duration=13184494,event=disable_initramfs[0Ktravis_time:start:05a2cd45[0Ktravis_time:end:05a2cd45:start=1580742051758864060,finish=1580742052040037760,duration=281173700,event=disable_ssh_roaming[0Ktravis_time:start:03f1441c[0Ktravis_time:end:03f1441c:start=1580742052046134321,finish=1580742052049361656,duration=3227335,event=debug_tools[0Ktravis_time:start:14f9ea25[0Ktravis_time:end:14f9ea25:start=1580742052055876614,finish=1580742052059419488,duration=3542874,event=uninstall_oclint[0Ktravis_time:start:04f5a6e0[0Ktravis_time:end:04f5a6e0:start=1580742052063755584,finish=1580742052066902707,duration=3147123,event=rvm_use[0Ktravis_time:start:2e1fd52e[0Ktravis_time:end:2e1fd52e:start=1580742052072536562,finish=1580742052090126264,duration=17589702,event=rm_etc_boto_cfg[0Ktravis_time:start:07a5b9f8[0Ktravis_time:end:07a5b9f8:start=1580742052094236578,finish=1580742052097250693,duration=3014115,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0085a3f0[0Ktravis_time:end:0085a3f0:start=1580742052104299943,finish=1580742052214619828,duration=110319885,event=enable_i386[0Ktravis_time:start:0357bed4[0Ktravis_time:end:0357bed4:start=1580742052219270568,finish=1580742052230175200,duration=10904632,event=update_rubygems[0Ktravis_time:start:33f6fa94[0Ktravis_time:end:33f6fa94:start=1580742052236999601,finish=1580742053064746702,duration=827747101,event=ensure_path_components[0Ktravis_time:start:04fbb469[0Ktravis_time:end:04fbb469:start=1580742053071504725,finish=1580742053073910007,duration=2405282,event=redefine_curl[0Ktravis_time:start:09cc86af[0Ktravis_time:end:09cc86af:start=1580742053078140167,finish=1580742053188854382,duration=110714215,event=nonblock_pipe[0Ktravis_time:start:1b7197db[0Ktravis_time:end:1b7197db:start=1580742053192921825,finish=1580742059232613913,duration=6039692088,event=apt_get_update[0Ktravis_time:start:0a7c0628[0Ktravis_time:end:0a7c0628:start=1580742059236325532,finish=1580742059238753293,duration=2427761,event=deprecate_xcode_64[0Ktravis_time:start:123fcb6a[0Ktravis_time:end:123fcb6a:start=1580742059243414848,finish=1580742061785058747,duration=2541643899,event=update_heroku[0Ktravis_time:start:0b08be87[0Ktravis_time:end:0b08be87:start=1580742061790743951,finish=1580742061796955669,duration=6211718,event=shell_session_update[0Ktravis_time:start:0b4130e2[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0b4130e2:start=1580742061801152401,finish=1580742063023085595,duration=1221933194,event=set_docker_mtu[0Ktravis_time:start:07ebe494[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:07ebe494:start=1580742063027337848,finish=1580742063096470270,duration=69132422,event=resolvconf[0Ktravis_time:start:0124148f[0Ktravis_time:end:0124148f:start=1580742063107794370,finish=1580742063257709142,duration=149914772,event=maven_central_mirror[0Ktravis_time:start:03b2b350[0Ktravis_time:end:03b2b350:start=1580742063263068474,finish=1580742063363525578,duration=100457104,event=maven_https[0Ktravis_time:start:241f1dd8[0Ktravis_time:end:241f1dd8:start=1580742063372770503,finish=1580742063375943243,duration=3172740,event=fix_ps4[0Ktravis_fold:start:hosts.before[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-c42d4854-2815-4b25-8dca-00896da64b67 travis-job-c42d4854-2815-4b25-8dca-00896da64b67 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-c42d4854-2815-4b25-8dca-00896da64b67 
+
+travis_fold:end:hosts.before[0Ktravis_fold:start:hosts[0Ktravis_fold:end:hosts[0Ktravis_fold:start:hosts.after[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-c42d4854-2815-4b25-8dca-00896da64b67 travis-job-c42d4854-2815-4b25-8dca-00896da64b67 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-c42d4854-2815-4b25-8dca-00896da64b67  localhost.paypal.com
+
+travis_fold:end:hosts.after[0Ktravis_time:start:2aad1e0e[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0e55dcfe[0K$ git clone --depth=50 --branch=release https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+travis_time:end:0e55dcfe:start=1580742063431852370,finish=1580742064520006205,duration=1088153835,event=checkout[0K$ cd paypal/paypal-messaging-components
+$ git checkout -qf e11404d1670112b4d9374b8829a6f1eb34622870
+travis_fold:end:git.checkout[0K
+travis_time:end:0e55dcfe:start=1580742063431852370,finish=1580742064602778574,duration=1170926204,event=checkout[0Ktravis_time:start:0eb9d0ec[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_EMAIL=[secure]
+$ export GH_TOKEN=[secure]
+$ export NPM_TOKEN=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DIRTY_SNAPSHOTS=0
+
+travis_time:end:0eb9d0ec:start=1580742064611436307,finish=1580742064620806100,duration=9369793,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:0d6827e8[0K$ nvm install 10
+Downloading and installing node v10.18.1...
+Downloading https://nodejs.org/dist/v10.18.1/node-v10.18.1-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.18.1 (npm v6.13.4)
+travis_time:end:0d6827e8:start=1580742065414559166,finish=1580742068484711299,duration=3070152133,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.18.1
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:0ab295fa[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.18.1/bin/npm -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npm-cli.js
+/home/travis/.nvm/versions/node/v10.18.1/bin/npx -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.13.7
+added 7 packages from 3 contributors, removed 3 packages and updated 12 packages in 5.495s
+travis_time:end:0ab295fa:start=1580742069720983163,finish=1580742075660255798,duration=5939272635,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:2b37f450[0K$ npm install 
+
+> @paypal/messaging-components@1.6.0 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> puppeteer@2.1.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer
+> node install.js
+
+
+Chromium downloaded to /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer/.local-chromium/linux-722234
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/wait-on/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @typescript-eslint/parser@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @paypal/messaging-components@1.6.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/mocha/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/karma/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 2740 packages from 2333 contributors and audited 1821951 packages in 61.118s
+
+43 packages are looking for funding
+  run `npm fund` for details
+
+found 52 vulnerabilities (8 low, 25 moderate, 19 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:2b37f450:start=1580742075860707611,finish=1580742138743845780,duration=62883138169,event=install[0Ktravis_fold:end:install.npm[0K
+travis_fold:start:before_script.1[0Ktravis_time:start:035466fe[0K$ npm run dev:snapshot &
+travis_time:end:035466fe:start=1580742138758796887,finish=1580742138762436058,duration=3639171,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:02400cf5[0K$ sleep 20
+
+> @paypal/messaging-components@1.6.0 dev:snapshot /home/travis/build/paypal/paypal-messaging-components
+> webpack-dev-server --config webpack.config.snapshot.js
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost.paypal.com:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./tests/functional/content
+travis_time:end:02400cf5:start=1580742138780261305,finish=1580742158785967842,duration=20005706537,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_time:start:045b258a[0K$ npm run lint
+
+> @paypal/messaging-components@1.6.0 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 3c430ba137b7cf778f2e
+Version: webpack 4.41.5
+Time: 30761ms
+Built at: 02/03/2020 3:02:50 PM
+                   Asset      Size     Chunks             Chunk Names
+             merchant.js  1.92 MiB   merchant  [emitted]  merchant
+ merchant.js.LICENSE.txt  51 bytes             [emitted]  
+            messaging.js  1.87 MiB  messaging  [emitted]  messaging
+messaging.js.LICENSE.txt  51 bytes             [emitted]  
+Entrypoint messaging = messaging.js
+Entrypoint merchant = merchant.js
+[0] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js 40 bytes {messaging} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[1] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js 40 bytes {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/@babel/runtime/helpers/esm/extends.js] 397 bytes {messaging} {merchant} [built]
+[./node_modules/core-js-pure/stable/array/from.js] 70 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/core-js-pure/stable/object/entries.js] 74 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/core-js-pure/stable/string/starts-with.js] 78 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] (webpack)-dev-server/client?http://localhost.paypal.com:8080 4.29 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./src/index.js] 161 bytes {messaging} [built]
+    ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js (referenced with single entry)
+[./src/legacy/index.js] ./src/legacy/index.js + 2 modules 17.4 KiB {merchant} [built]
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./src/interface/messages.js
+    ModuleConcatenation bailout: Cannot concat with ./src/messages/services/logger/index.js
+    ModuleConcatenation bailout: Cannot concat with ./src/utils/index.js
+    | ./src/legacy/index.js 10.2 KiB [built]
+    |     ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js (referenced with single entry)
+    | ./src/legacy/toNewPipeline.js 4.02 KiB [built]
+    | ./src/legacy/map.js 3.14 KiB [built]
+    + 151 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js
+  166:17  warning  Unexpected console statement  no-console
+  177:17  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Modal/index.js
+  167:21  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js
+  118:17  warning  Unexpected console statement  no-console
+  125:9   warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/utils/proxyImadserv.js
+  76:31  warning  Unexpected console statement  no-console
+
+✖ 6 problems (0 errors, 6 warnings)
+
+travis_time:end:045b258a:start=1580742158809210721,finish=1580742175049373873,duration=16240163152,event=script[0K[32;1mThe command "npm run lint" exited with 0.[0m
+travis_time:start:05ac762f[0K$ npm run test
+
+> @paypal/messaging-components@1.6.0 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+PASS tests/unit/spec/src/messages/models/Container/events.test.js
+PASS tests/unit/spec/src/utils/index.test.js
+PASS tests/unit/spec/src/messages/models/Modal/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/setSize.test.js
+PASS tests/unit/spec/src/messages/models/Container/stats.test.js
+PASS tests/unit/spec/src/messages/models/Banner/validateOptions.test.js
+PASS tests/unit/spec/src/messages/models/Banner/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/insertMarkup.test.js
+PASS tests/unit/spec/src/messages/models/Container/index.test.js
+
+Test Suites: 9 passed, 9 total
+Tests:       55 passed, 55 total
+Snapshots:   0 total
+Time:        10.269s
+Ran all test suites.
+travis_time:end:05ac762f:start=1580742175061212962,finish=1580742186390293020,duration=11329080058,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_time:start:2735c540[0K$ ./scripts/snapshot-tests/run-tests.sh
+
+> @paypal/messaging-components@1.6.0 test:func /home/travis/build/paypal/paypal-messaging-components
+> jest --projects tests/functional
+
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=8c11b9df-6130-41d2-91b7-a59f65b53fac-1&uuid=NI:NON-US::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=3f982fd7-3f0f-41bc-87ca-b03c2e39be06-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c3a6084d-a571-492b-b0cb-8a8960297d34-1&uuid=NI:NON-US::layout:text::logo.position:right::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=6990d8b7-7ef2-4179-9614-5f2a2f0b37f2-1&uuid=NI:NON-US::layout:text::logo.position:top::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=dba33102-edd8-4a26-814a-f1b626ad0247-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7c7c30e8-ca3f-4911-a307-e362b68bad40-1&uuid=NI:NON-US::layout:text::logo.position:right::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=389313eb-4acf-43c2-b5c0-3fcd9d3e2ced-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=80709a35-b1b2-4d6d-a97b-90da3cecf15b-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=335ef489-9c0e-492d-a7fc-a795afbe7f5d-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=2299090a-dc81-4d03-9052-90c62f91f910-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=9c824980-ca42-4197-8b5a-d0b68415d544-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=2e505025-493f-4fa3-a32e-21af5bd193ae-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=b8ffa680-e770-4eeb-bd2d-65322e013daa-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=6fb1533c-c92f-4027-ac6a-5a497a037cc3-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=daf8dc55-052d-40b9-af4e-62179e0b67e9-1&uuid=NI:NON-US::layout:text::logo.position:left::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=1efe47f7-b66e-400d-80fa-d8c647fc60cb-1&uuid=NI:NON-US::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=144e49db-695d-49b0-9510-5bf227ae6b5c-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=33f6c87f-b8db-4638-958b-3570a3ebd54f-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=4aa491f2-a906-4b97-8850-fdc6e09ee3da-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:right::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=21e34514-17e6-4f44-8bd3-44b2746daa15-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:top::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=d4b73030-e3e8-4a03-994d-6c0d9385c925-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=b7df0ae2-d2bc-49c8-8c71-c74587762334-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:right::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=f4bd188c-8634-468e-a1c5-065fdd191625-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7761e93a-5683-4539-a65b-d33f9ecc0eb7-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=795c1e0a-272c-4ab8-b161-2e676e51a1af-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=8e545ce9-682d-4422-a79f-f70a479727eb-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=a8045c30-4818-4732-a182-28c6e1157f13-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=ef7e813b-7837-4440-be25-0166c742e455-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=da277238-ad2a-46f2-8f59-e2cbe771bec2-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c453d9d0-7442-46d7-8a9e-6a828573d036-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=354efef5-4ea4-49e9-902b-65a743f00dc4-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:left::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=14&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=true&message_request_id=9c4baee8-beed-4717-80b8-15fafdcdb224-1&uuid=EZP:ANY:EQZ::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12::banner.hidden:true'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=bef8cc29-8a8c-4495-a3d6-31c4c6f0e12e-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=b28138b5-8795-4523-8706-82cf7a73c872-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7454a906-ea67-4e97-a55c-38ef88832c09-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:right::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=62d64582-cf52-44ae-bf58-6c1d59f014a7-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:top::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=87b1a8e0-6fb0-4a7a-8d86-cb753c3d04d5-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7107cd99-956a-4013-bee6-3df66172e24d-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:right::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=bff6f8cd-0464-431f-beeb-41881d15f7f6-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=e5be9503-1cfb-43a7-b57a-388b9b4d42ee-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=3b8f66cc-a79c-48e3-a920-a062531d3b74-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=a6bc4e32-f27a-47df-b622-39df385c59ab-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=ffc65cfa-c100-486f-a36d-fe2667566b0e-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=377454e6-2abe-48d7-a579-a1a339207bd8-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=9240073e-d32b-48cf-89f6-ceb3f3c83f00-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7954fa6c-6808-4803-8294-923bd60fbffb-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=600&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c3317588-de7e-4c63-82de-7893d5cab40b-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:left::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=14&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=true&message_request_id=083a59dd-3f6e-43d4-ad99-4acb63fd5f99-1&uuid=PALA:SINGLE:EQZ::layout:text::logo.position:top::logo.type:primary::text.color:black::text.size:12::banner.hidden:true'
+PASS tests/functional/spec/US/text.test.js (106.636s)
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=fa8c1aac-31b8-4c40-af2b-d9ba254d35d5-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=5202a9ea-6e7a-4638-8aa7-33ce6500a82f-1&uuid=INST:ANY:EQZ::layout:text::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=d9b9eb74-5409-4880-b2e8-d1eea9fffe83-1&uuid=INST:ANY:EQZ::layout:text::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=1a3a4b92-4ba5-403a-8282-7e9230dbfb5a-1&uuid=INST:ANY:EQZ::layout:text::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=b5305cc5-98a4-4bea-921e-55ed092706c0-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=cffb8baf-09d8-4fec-a8ca-10040d766497-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=70ba6a83-c65e-4587-a775-2580152cd384-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=37058709-891c-42d6-857c-c92b0e7c7bfc-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7186ac53-8236-45b4-ad03-649758c82300-1&uuid=INST:ANY:EQZ::layout:text::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c47200a2-a126-4cce-928c-07f1cc8bb5bb-1&uuid=INST:ANY:EQZ::layout:text::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=743fca91-47a7-4a66-b334-bb13ea9da962-1&uuid=INST:ANY:EQZ::layout:text::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=14&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=true&message_request_id=4cd078e9-05d6-4a6b-94e9-a088e316b6c5-1&uuid=INST:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12::banner.hidden:true'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=ade7580e-98c5-494a-b21c-bee3dabd7f61-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=41eba887-534f-4a90-894b-70acd2373a42-1&uuid=INST:ANY:GTZ::layout:text::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=72a196e5-30ef-4256-b083-6377de995131-1&uuid=INST:ANY:GTZ::layout:text::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=23980096-5368-4374-8cab-5bef687feb85-1&uuid=INST:ANY:GTZ::layout:text::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=67c49cc5-b400-40e0-8ab2-3a2b4672b084-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=cc564031-4bca-4707-9c3d-f7ae34237d7c-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=fbbe4110-7d90-4006-b465-2fc5a6c2fba1-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=f06905b1-cbe8-45c6-8617-9f535443ad70-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=6da8f457-7e8f-4be3-a3d7-84b8336a20d0-1&uuid=INST:ANY:GTZ::layout:text::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=646ea31f-7ab6-4674-b762-742fe52cb708-1&uuid=INST:ANY:GTZ::layout:text::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=792e1b35-38eb-4bb7-99ea-33b86ca6e3c8-1&uuid=INST:ANY:GTZ::layout:text::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=d42b941b-8518-436d-95bd-192e6275feea-1&uuid=INST:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=ae2d48c3-9a75-4687-b891-cbeab536263f-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=2c280c64-6d34-4b13-8220-611555b0f8c7-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=bd0fb2f3-20b0-46ce-bcf9-9c0abfa71897-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=e48bcef8-6acf-4460-96c5-b1fa773cabd5-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=43b527da-b6c6-4635-8a38-46b2680ff4e8-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=8922856e-afa4-4429-9a1a-fb770eafefdc-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=019c44ab-9a58-46e6-b61f-232e3a2c3c37-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=450c8c65-2db9-4fae-b271-7d9e6085192e-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=27ca826d-c153-4b00-a70c-18a9c9cb0f72-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=49da2ccb-6c79-4e83-9133-33ae669977d4-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=03d8f4d0-b713-4f8f-b995-2e4243728e28-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=14&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=true&message_request_id=8d9ddf07-9115-4372-89f8-30df0995a46e-1&uuid=PALAQ:ANY:GTZ::layout:text::logo.type:primary::text.color:black::text.size:12::banner.hidden:true'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=440bff98-547e-4153-a5c0-2b4804e45f61-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=1259daa7-df76-4833-b3cb-8f55f23634a9-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:alternative::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=90748a22-2619-44f7-bb0b-dff4ad2fa526-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:inline::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=8544eba0-67c2-498c-8ab9-90b0f5647478-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:none::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=0b597f5c-f7b7-46fa-aed7-bfa00606a55b-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:10'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=ba0c2088-da06-4ad7-80c2-de441ca7f40a-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=65f0cda9-4940-4ee6-b77c-49976a0ff80d-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:16'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c9bb6c6b-8487-4eb1-a2e0-312bf68c2316-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c8fab122-2a84-401b-8a3e-3d52882c55fa-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:alternative::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=8d4a106c-6cc7-440e-9b55-5b26a4dc7e88-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:inline::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=9bccb69b-da7d-416b-8f01-d3dc30e5d825-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:none::text.color:white::text.size:12'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=14&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=true&message_request_id=3b0c54d0-c4ef-4ab3-b3a6-6a0a45ff2ae2-1&uuid=PALAQ:ANY:EQZ::layout:text::logo.type:primary::text.color:black::text.size:12::banner.hidden:true'
+PASS tests/functional/spec/DE/text.test.js (40.47s)
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=ec08231b-4503-4c74-8037-695efb267265-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=229ef8bf-f855-4bf3-90d0-64f7950fcbb6-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=71ae8fe1-9e15-4f34-9f7f-c511d93e9858-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=73ee3401-9941-428d-8819-29bde793a4fc-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c1929009-0c61-440d-9c1e-df8f0b53038b-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=bebb87a2-6f00-4d09-9f03-b01a3196fcb8-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=0e45dd68-9dfc-45ea-b7d3-161e2403b40f-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=28ede374-ae45-4253-95f7-a28b0c9080f2-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=92b58573-0e49-4d99-ad12-1819b891705d-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=dbf1906c-71bb-48e8-907b-a97db6e64e28-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=55abe3a0-878b-4f5b-bb7c-17f5ef400799-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c17eb4de-074c-49bd-88c8-66e7ffdd4075-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=0292c572-c637-4acd-a833-6e9104b21f98-1&uuid=NI:NON-US::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=9dc4f360-2f6c-4c58-b3b8-e14826bed6fe-1&uuid=NI:NON-US::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=9210f99b-1b56-456e-8b2e-6c484fa4de8a-1&uuid=NI:NON-US::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=549fa913-ee65-46e6-bd6c-30698545f0af-1&uuid=NI:NON-US::color:white-no-border::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=c88a3ee6-1470-4feb-941d-1a2ce8aea804-1&uuid=NI:NON-US::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=bf69efb6-a5bf-48fb-afcf-9b9b2b25c78d-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=3bf91b10-c460-4b4c-9a71-b79f32656024-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=478d6915-d020-4a00-b999-8bde0f43ba25-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c3504417-ea41-44f5-b102-29f31cabab3a-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=67132a69-0856-4fad-b956-9785b4b06279-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=fb8ea7ea-8fa7-490a-a031-27d5ccda9b5a-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=0a4191ae-4a38-468b-b7d1-51ec7c21d86d-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=4b115e08-b05c-4f6a-9f9d-27feca6069b3-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=766140c2-e368-4ff0-a23c-5f532c225c62-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=cd4c0411-36d2-4e15-a64a-5fef75ea86dd-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=5899e014-0c69-48c7-b496-9517575978c5-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=9e9cb219-7ab9-4665-87e6-c823652705d0-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=4028685f-41c2-452f-a633-4f0ad0ca6baf-1&uuid=EZP:ANY:EQZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=d0832f72-60b4-4915-a1a0-5ee06ccb05e8-1&uuid=EZP:ANY:EQZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=ff524da2-eeaf-4cc9-b56c-a247baa77b96-1&uuid=EZP:ANY:EQZ::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=99063783-4932-4e62-afcd-2f8f1794f821-1&uuid=EZP:ANY:EQZ::color:white-no-border::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=df967a4b-8698-4759-a0a7-f1bb85ec4f5f-1&uuid=EZP:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=23d6dc73-02da-4669-a34d-1cf7837e933b-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=0bd93de5-e89a-4423-bdd2-f6e721b5ac69-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=8c011dea-d82a-411b-930d-baffea0c867d-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=07ce5d9a-f207-41cf-afd1-b08d66b7cc27-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=d1bef504-3a1b-4091-9bfb-0fa2f7ee7995-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=663742cd-b225-41ee-8f8a-37e5f12c7ac2-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c0197430-99e4-4f70-857b-048697169236-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=af6d4af9-5d36-457e-be48-c518e8da6935-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=07a228b0-b217-42ff-bb06-64f624a9c44f-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=cd4034ec-2c63-4543-9637-6c64851988a0-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=0e785246-1de0-4a64-9ff2-f65f926cbdb4-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=57f21941-7297-4009-8921-0a92b9c8a03a-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=1403bfe3-10a2-4406-86c2-125b7e334f30-1&uuid=PALA:SINGLE:EQZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=19047257-5fdb-48a4-8277-bb7abfc05dad-1&uuid=PALA:SINGLE:EQZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=3a03b84c-630e-4ab7-85ef-6bd7d407fe46-1&uuid=PALA:SINGLE:EQZ::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=001bbc81-0f73-404b-9669-ed9f73e3d317-1&uuid=PALA:SINGLE:EQZ::color:white-no-border::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=200&browser_height=100&visible=true&adblock=false&blocked=false&message_request_id=7c8f58ab-92d7-48cd-bdf8-646bc2afa2be-1&uuid=PALA:SINGLE:EQZ::color:blue::layout:flex::ratio:1x1'
+PASS tests/functional/spec/US/flex.test.js (118.341s)
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=5e3b7e90-9871-4aba-b7b7-c5deca7fdbc5-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=40d211e7-4dca-4220-9342-f949217991a1-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=6b9df8fd-1688-42c0-b1c2-c9571049f47e-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=70d4061a-4f00-4e0b-88de-bc59954985b4-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c1de9b8f-a117-4dd4-a787-e26a7f9dc3e9-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=6578d5b7-5e37-497b-b1d7-a244c63dda50-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=7636abf0-7a49-410a-8d90-a795f7a9a240-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=0b059e60-bd25-4bd7-9cb2-974c18f008e4-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=00695f7f-8fe8-41bb-a758-5c2cda3b800d-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=9e2157a9-5752-4048-9cde-9cf43d6e8058-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=f913d633-a7f9-4f07-95f4-8764fb4786ba-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=84b02972-f1b3-4da3-8ddf-fd8d01753fce-1&uuid=INST:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=fb3de9bc-bcdd-4b9f-8214-da96bced91af-1&uuid=INST:ANY:EQZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=b80c74d2-ec41-4734-9a29-9bbd8dff7d4b-1&uuid=INST:ANY:EQZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=840cd2cb-b86f-42f8-9d3b-30e81d69ac5b-1&uuid=INST:ANY:EQZ::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=ffd3650f-63a5-482d-8d05-eff17422683f-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=4e32c30f-7d6f-45b2-b7f1-8c982bac7239-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=db57d94b-f87e-40ed-965e-d17e0a8151e5-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=287a7857-398a-4974-aed8-a7b590a46091-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=99c0fddb-2e03-47ba-8450-b35cc5488838-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=f21ed328-8a94-4647-abdb-bb316f294c2d-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=bfd7273e-8972-463b-a8a5-4af694f0917e-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=93beb5c9-1072-4107-bea1-343d39d362a5-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=9e453bc9-ccb3-427d-a11e-7467a3ea096d-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=6360b092-a037-4e7d-85ce-c0bb1ab00a83-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=d146cf7b-419b-47d4-98de-281ed3798689-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=be11c64f-dc57-408c-9f39-a51c718dea2a-1&uuid=INST:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=146f974b-3e18-422e-8c93-6d0b8f0d1fa7-1&uuid=INST:ANY:GTZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=17a37618-c52a-47c4-a25e-9d525d9ba26f-1&uuid=INST:ANY:GTZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=3dae4101-06e2-465b-b422-dce31220f18b-1&uuid=INST:ANY:GTZ::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=1ae29cf4-d8c6-4df5-8bc3-ebf7bd03f239-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=62ab091f-6dd2-48ab-9a7b-3a903a55463e-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=4e34d156-1624-42e1-adad-042df0c33f95-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=369da448-50e3-4899-9768-4ef21114846b-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=62eb41e2-ae24-48c9-91f2-bf2b5063db65-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=6f760eba-2ecc-4815-833a-1463e6e6e017-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=784a845a-c037-404f-bdd9-a0f2a94b0191-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=9b50ea14-1326-473b-9cba-e20b5053568f-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=f827b46e-04cf-4d25-8d6f-3076b6ff89ae-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=f9bbd9e3-b53c-4426-9c4a-c4ab10cbf0da-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=8029d1c2-3024-4f10-b46f-9092dd8c48a0-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=62a210ee-d72c-4d51-b6b1-212b3672ee21-1&uuid=PALAQ:ANY:GTZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=86612300-317c-49e4-b357-9c49be45b1b4-1&uuid=PALAQ:ANY:GTZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=27f8b916-d5a8-42f0-9582-8011592c14bf-1&uuid=PALAQ:ANY:GTZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=c76be844-d7bc-4c3c-892a-5e030f7d49c7-1&uuid=PALAQ:ANY:GTZ::color:gray::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=64e4c04f-568e-47d6-aaaf-9149bc0caa2e-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=cdec637a-e7c2-4030-b8b8-68aaec2ae626-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=b0070b04-140b-44fb-81db-4f9b4d089eb4-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=a17ddb9b-1af0-4dd6-9597-24244b22ad4f-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=f5b04d8e-a5d0-47b8-bf78-0926573a729b-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=b7224052-4fc9-42cf-a53f-42de212b15a1-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:1x4'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=51b38bd7-59da-407e-ab74-e2f6fc39531d-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=ec7080be-d002-4838-a922-54c7ca7eeb64-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=6aafb8ba-e3c9-446e-9ad0-e2430ecb5a02-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:8x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=1896d67c-3d52-454b-9463-48eba6e8b547-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=100&browser_height=700&visible=false&adblock=false&blocked=false&message_request_id=f7ecedd5-4939-4daf-8bce-64d681ade00e-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=400&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=d4aaabd1-bf46-457e-98b6-9f372581bed2-1&uuid=PALAQ:ANY:EQZ::color:blue::layout:flex::ratio:20x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=f09f8f1e-a214-4977-bd9f-2d5e54ecceb5-1&uuid=PALAQ:ANY:EQZ::color:black::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=ce22aa85-ed74-4c57-9e2b-677739168d24-1&uuid=PALAQ:ANY:EQZ::color:white::layout:flex::ratio:1x1'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1100&browser_height=700&visible=true&adblock=false&blocked=false&message_request_id=848a2342-83ea-4c39-895e-528bbdcf580e-1&uuid=PALAQ:ANY:EQZ::color:gray::layout:flex::ratio:1x1'
+PASS tests/functional/spec/DE/flex.test.js (52.994s)
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=da464560-72d8-4fbd-ad4f-401f3f72658f-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:1000x36::typeEZP:html::typeNI:html'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=09662354-8b2c-4fac-8888-f4bd0da14d09-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:120x90::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=9d493624-589d-491d-b748-53fb3ad73c14-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:234x60::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=ee63992e-c6dc-4967-860a-d5f8da422d3c-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:250x250::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=cde2443b-225b-4f3e-854e-cd8684d6f820-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:300x50::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=36e1f478-0499-4711-9e90-2b0266cb7816-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:340x60::typeEZP:html::typeNI:html'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=0a9c5ef8-92c8-4f99-8a99-3b5c5841737f-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:468x60::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=f323fdbb-9f59-4030-b46e-47a46aee930e-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:728x90::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=e19867a6-bba8-4805-88b1-aea1b8379db7-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:540x200::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=92438dd5-31ce-46df-9494-746be466bdf2-1&uuid=EZP:ANY:EQZ::border:false::color:none::layout:legacy::size:170x100::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=3a8dcdb2-9534-4c30-b637-05e9c1de3ade-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:1000x36::typeEZP:html::typeNI:html'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=d013da0c-5eb3-40cb-a67a-b5bac9694e64-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:120x90::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=4f20341e-0217-4275-9f75-c90881a7ef21-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:234x60::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=368a3a87-76b4-4a8f-8383-639f2ead51b3-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:250x250::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=05e10bf3-742f-49b9-9cce-8ee34974913a-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:300x50::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=20f28c1f-69fb-4d63-b4b4-bc74be875e30-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:340x60::typeEZP:html::typeNI:html'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=8cb36d4b-7e02-453e-8b86-4dd4f196b0ff-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:468x60::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=dd46bdb0-7492-48e1-becf-6abeba757030-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:728x90::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=c0cf18db-c8a0-4327-a204-020f5100286e-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:540x200::typeEZP:html::typeNI:image'
+Error: ENAMETOOLONG: name too long, stat '/home/travis/build/paypal/paypal-messaging-components/tests/functional/content/&bdata=et=CLIENT_IMPRESSION&event_type=stats&integration_type=STANDALONE&messaging_version=1.6.0&placement=&pos_x=0&pos_y=0&browser_width=1000&browser_height=400&visible=true&amount=3000&adblock=false&blocked=false&message_request_id=26c7b72c-0701-423e-b241-bc1fb43e26d1-1&uuid=PALA:SINGLE:EQZ::border:false::color:none::layout:legacy::size:170x100::typeEZP:html::typeNI:image'
+PASS tests/functional/spec/US/legacy.test.js (35.674s)
+PASS tests/functional/spec/US/custom.test.js
+
+Test Suites: 6 passed, 6 total
+Tests:       401 passed, 401 total
+Snapshots:   401 passed, 401 total
+Time:        356.814s
+Ran all test suites.
+travis_time:end:2735c540:start=1580742186400682254,finish=1580742544688638011,duration=358287955757,event=script[0K[32;1mThe command "./scripts/snapshot-tests/run-tests.sh" exited with 0.[0m
+
+travis_fold:start:dpl_0[0Ktravis_time:start:02ac2789[0K$ rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install dpl
+Successfully installed dpl-1.10.14
+1 gem installed
+travis_time:end:02ac2789:start=1580742545971026810,finish=1580742547474444973,duration=1503418163,event=after_success[0Ktravis_fold:end:dpl_0[0Ktravis_time:start:195f6234[0Ktravis_fold:start:dpl.1[33mInstalling deploy dependencies[0m
+Successfully installed dpl-script-1.10.14
+1 gem installed
+
+travis_fold:end:dpl.1travis_fold:start:dpl.2[33mPreparing deploy[0m
+
+travis_fold:end:dpl.2travis_fold:start:dpl.3[33mDeploying application[0m
+npx: installed 759 in 18.618s
+[3:09:27 PM] [semantic-release] › ℹ  Running semantic-release version 15.14.0
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/changelog"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/npm"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/git"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/github"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "analyzeCommits" from "@semantic-release/commit-analyzer"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "analyzeCommits" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "verifyRelease" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "generateNotes" from "@semantic-release/release-notes-generator"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "generateNotes" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/changelog"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/npm"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/git"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/npm"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/github"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "success" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "success" from "@semantic-release/github"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "fail" from "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Loaded plugin "fail" from "@semantic-release/github"
+[3:09:28 PM] [semantic-release] › ✔  Run automated release from branch release
+[3:09:28 PM] [semantic-release] › ✔  Allowed to push to the Git repository
+[3:09:28 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/changelog"
+[3:09:28 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/changelog"
+[3:09:28 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/npm"
+[3:09:28 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/npm"
+[3:09:28 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/exec"
+[3:09:28 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/git"
+[3:09:28 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/git"
+[3:09:28 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/github"
+[3:09:28 PM] [semantic-release] [@semantic-release/github] › ℹ  Verify GitHub authentication
+[@octokit/rest] `const Octokit = require("@octokit/rest")` is deprecated. Use `const { Octokit } = require("@octokit/rest")` instead
+[3:09:29 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/github"
+[3:09:30 PM] [semantic-release] › ℹ  Found git tag v1.6.0 associated with version 1.6.0
+[3:09:30 PM] [semantic-release] › ℹ  Found 2 commits since last release
+[3:09:30 PM] [semantic-release] › ℹ  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[3:09:30 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: chore: cut release (#124)
+[3:09:30 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[3:09:30 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: fix: remove JSON parse from terms fetcher (#123)
+[3:09:30 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The release type for the commit is patch
+[3:09:30 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analysis of 2 commits complete: patch release
+[3:09:30 PM] [semantic-release] › ✔  Completed step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "analyzeCommits" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ✔  Completed step "analyzeCommits" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ℹ  The next release version is 1.6.1
+[3:09:30 PM] [semantic-release] › ℹ  Start step "verifyRelease" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ✔  Completed step "verifyRelease" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[3:09:30 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/changelog"
+[3:09:30 PM] [semantic-release] [@semantic-release/changelog] › ℹ  Update /home/travis/build/paypal/paypal-messaging-components/CHANGELOG.md
+[3:09:30 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/changelog"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/npm"
+[3:09:30 PM] [semantic-release] [@semantic-release/npm] › ℹ  Write version 1.6.1 to package.json in /home/travis/build/paypal/paypal-messaging-components
+v1.6.1
+[3:09:30 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/npm"
+[3:09:30 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/exec"
+[3:09:30 PM] [semantic-release] [@semantic-release/exec] › ℹ  Call script ./scripts/semantic-release/assets.sh 1.6.1
+[3:09:55 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/exec"
+[3:09:55 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/git"
+[3:09:55 PM] [semantic-release] [@semantic-release/git] › ℹ  Found 14 file(s) to commit
+[3:09:58 PM] [semantic-release] [@semantic-release/git] › ℹ  Prepared Git release: v1.6.1
+[3:09:58 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/git"
+[3:09:58 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[3:09:58 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[3:09:58 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/exec"
+[3:09:58 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/exec"
+[3:10:01 PM] [semantic-release] › ✔  Created tag v1.6.1
+[3:10:01 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/npm"
+[3:10:01 PM] [semantic-release] [@semantic-release/npm] › ℹ  Skip publishing to npm registry as npmPublish is false
+[3:10:01 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/npm"
+[3:10:01 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/exec"
+[3:10:01 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/exec"
+[3:10:01 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/github"
+[@octokit/rest] `const Octokit = require("@octokit/rest")` is deprecated. Use `const { Octokit } = require("@octokit/rest")` instead
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+{ Deprecation: [@octokit/rest] "file" parameter is deprecated for ".repos.uploadReleaseAsset()". Use "data" instead
+    at Object.keys.forEach.key (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13145:26)
+    at Array.forEach (<anonymous>)
+    at Object.patchedMethod [as uploadReleaseAsset] (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13142:26)
+    at Promise.all.globbedAssets.map (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/publish.js:95:30) name: 'Deprecation' }
+[3:10:05 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/messaging%401.6.1.js
+[3:10:08 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/messaging.js
+[3:10:11 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/merchant%401.6.1.js
+[3:10:14 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/merchant.js
+[3:10:17 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/messaging%401.6.1.js.map
+[3:10:20 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/messaging.js.map
+[3:10:23 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/merchant%401.6.1.js.map
+[3:10:26 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-b914f9d5ba9c49780fbd/merchant.js.map
+[3:10:29 PM] [semantic-release] [@semantic-release/github] › ℹ  Published GitHub release: https://github.com/paypal/paypal-messaging-components/releases/tag/v1.6.1
+[3:10:29 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/github"
+[3:10:29 PM] [semantic-release] › ℹ  Start step "success" of plugin "@semantic-release/exec"
+[3:10:29 PM] [semantic-release] [@semantic-release/exec] › ℹ  Call script ./scripts/semantic-release/merge.sh https://[secure]@github.com/paypal/paypal-messaging-components.git
+[3:10:32 PM] [semantic-release] › ✔  Completed step "success" of plugin "@semantic-release/exec"
+[3:10:32 PM] [semantic-release] › ℹ  Start step "success" of plugin "@semantic-release/github"
+[@octokit/rest] `const Octokit = require("@octokit/rest")` is deprecated. Use `const { Octokit } = require("@octokit/rest")` instead
+{ Deprecation: [@octokit/plugin-rest-endpoint-methods] "octokit.pullRequests.*" methods are deprecated, use "octokit.pulls.*" instead
+    at Object.get (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13184:9)
+    at pFilter (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/success.js:53:23)
+    at pMap (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/p-filter/index.js:7:36)
+    at Promise.resolve.then.element (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/p-map/index.js:47:21) name: 'Deprecation' }
+{ Deprecation: [@octokit/plugin-rest-endpoint-methods] "octokit.pullRequests.*" methods are deprecated, use "octokit.pulls.*" instead
+    at Object.get (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13184:9)
+    at pFilter (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/success.js:53:23)
+    at pMap (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/p-filter/index.js:7:36)
+    at Promise.resolve.then.element (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/p-map/index.js:47:21) name: 'Deprecation' }
+{ Deprecation: [@octokit/plugin-rest-endpoint-methods] "octokit.pullRequests.*" methods are deprecated, use "octokit.pulls.*" instead
+    at Object.get (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@octokit/plugin-rest-endpoint-methods/dist-node/index.js:13184:9)
+    at pFilter (/home/travis/.npm/_npx/8704/lib/node_modules/semantic-release/node_modules/@semantic-release/github/lib/success.js:55:42) name: 'Deprecation' }
+[3:10:36 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #124: https://github.com/paypal/paypal-messaging-components/pull/124#issuecomment-581460042
+[3:10:39 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #123: https://github.com/paypal/paypal-messaging-components/pull/123#issuecomment-581460070
+[3:10:42 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #124
+[3:10:45 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #123
+[3:10:45 PM] [semantic-release] › ✔  Completed step "success" of plugin "@semantic-release/github"
+[3:10:45 PM] [semantic-release] › ✔  Published release 1.6.1
+
+travis_fold:end:dpl.3travis_time:end:195f6234:start=1580742547494593639,finish=1580742646136731530,duration=98642137891,event=after_success[0K
+Done. Your build exited with 0.
+/home/travis/.travis/functions: line 533:  4592 Terminated              npm run dev:snapshot

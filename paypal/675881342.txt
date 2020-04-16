@@ -1,0 +1,9 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: de595e7e-6225-4ad7-9c92-1d7f2fca9181@1.worker-org-676f4fdd9b-6jjtj.gce-production-2
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-d033bd6b-c916-4c95-b1b9-d41ef3018e1b travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.387133586s
+travis_fold:end:worker_info[0K
+
+Done: Job Cancelled
+

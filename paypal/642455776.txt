@@ -1,0 +1,1545 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 240f892a-094c-4207-9e77-7911d7b8c0f0@1.worker-org-78789cc49c-nsdwj.gce-production-3
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.268201809s
+travis_fold:end:worker_info[0Ktravis_time:start:094d47b1[0Ktravis_time:end:094d47b1:start=1580142087819121471,finish=1580142087960187825,duration=141066354,event=no_world_writable_dirs[0Ktravis_time:start:071e2102[0Ktravis_time:end:071e2102:start=1580142087963240465,finish=1580142087966313373,duration=3072908,event=setup_filter[0Ktravis_time:start:0795eea4[0Ktravis_time:end:0795eea4:start=1580142087970745767,finish=1580142087978488490,duration=7742723,event=agent[0Ktravis_time:start:0286bb1c[0Ktravis_time:end:0286bb1c:start=1580142087981085494,finish=1580142087982927009,duration=1841515,event=check_unsupported[0Ktravis_time:start:1f4c0c16[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 642455770
+Job id: 642455776
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 74fa7e3af
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:1f4c0c16:start=1580142087985261694,finish=1580142087990183008,duration=4921314,event=show_system_info[0Ktravis_time:start:21921c5d[0Ktravis_time:end:21921c5d:start=1580142087992589469,finish=1580142088003063583,duration=10474114,event=rm_riak_source[0Ktravis_time:start:22e35bd8[0Ktravis_time:end:22e35bd8:start=1580142088007599198,finish=1580142088012544184,duration=4944986,event=fix_rwky_redis[0Ktravis_time:start:0be66afc[0Ktravis_time:end:0be66afc:start=1580142088015160191,finish=1580142088508012605,duration=492852414,event=wait_for_network[0Ktravis_time:start:0723d16d[0Ktravis_time:end:0723d16d:start=1580142088512811141,finish=1580142088709407758,duration=196596617,event=update_apt_keys[0Ktravis_time:start:26e66290[0Ktravis_time:end:26e66290:start=1580142088715072452,finish=1580142088766180946,duration=51108494,event=fix_hhvm_source[0Ktravis_time:start:1474a3cc[0Ktravis_time:end:1474a3cc:start=1580142088769755053,finish=1580142088772497111,duration=2742058,event=update_mongo_arch[0Ktravis_time:start:1a371dbe[0Ktravis_time:end:1a371dbe:start=1580142088778020714,finish=1580142088817901790,duration=39881076,event=fix_sudo_enabled_trusty[0Ktravis_time:start:043fea6c[0Ktravis_time:end:043fea6c:start=1580142088821450082,finish=1580142088823904837,duration=2454755,event=update_glibc[0Ktravis_time:start:0b6945a0[0Ktravis_time:end:0b6945a0:start=1580142088828272636,finish=1580142088836655808,duration=8383172,event=clean_up_path[0Ktravis_time:start:01553fc4[0Ktravis_time:end:01553fc4:start=1580142088839950005,finish=1580142088847998299,duration=8048294,event=fix_resolv_conf[0Ktravis_time:start:06479306[0Ktravis_time:end:06479306:start=1580142088853429866,finish=1580142088862003438,duration=8573572,event=fix_etc_hosts[0Ktravis_time:start:11dbb700[0Ktravis_time:end:11dbb700:start=1580142088865144453,finish=1580142088872770443,duration=7625990,event=fix_mvn_settings_xml[0Ktravis_time:start:2763461c[0Ktravis_time:end:2763461c:start=1580142088875897970,finish=1580142088884620314,duration=8722344,event=no_ipv6_localhost[0Ktravis_time:start:0bf93887[0Ktravis_time:end:0bf93887:start=1580142088890562700,finish=1580142088893621348,duration=3058648,event=fix_etc_mavenrc[0Ktravis_time:start:06f89f20[0Ktravis_time:end:06f89f20:start=1580142088898689989,finish=1580142088901769388,duration=3079399,event=fix_wwdr_certificate[0Ktravis_time:start:01251c24[0Ktravis_time:end:01251c24:start=1580142088907279782,finish=1580142088929780224,duration=22500442,event=put_localhost_first[0Ktravis_time:start:006241b1[0Ktravis_time:end:006241b1:start=1580142088934475359,finish=1580142088937287437,duration=2812078,event=home_paths[0Ktravis_time:start:0eab9d68[0Ktravis_time:end:0eab9d68:start=1580142088942034885,finish=1580142088953365258,duration=11330373,event=disable_initramfs[0Ktravis_time:start:007811fd[0Ktravis_time:end:007811fd:start=1580142088958623364,finish=1580142089203220482,duration=244597118,event=disable_ssh_roaming[0Ktravis_time:start:13ba373f[0Ktravis_time:end:13ba373f:start=1580142089207933142,finish=1580142089210107881,duration=2174739,event=debug_tools[0Ktravis_time:start:11c09778[0Ktravis_time:end:11c09778:start=1580142089214264444,finish=1580142089217684501,duration=3420057,event=uninstall_oclint[0Ktravis_time:start:0b8a4584[0Ktravis_time:end:0b8a4584:start=1580142089224350987,finish=1580142089227551061,duration=3200074,event=rvm_use[0Ktravis_time:start:1af99eec[0Ktravis_time:end:1af99eec:start=1580142089231763709,finish=1580142089239650876,duration=7887167,event=rm_etc_boto_cfg[0Ktravis_time:start:0715499a[0Ktravis_time:end:0715499a:start=1580142089242817861,finish=1580142089245582690,duration=2764829,event=rm_oraclejdk8_symlink[0Ktravis_time:start:06a5a9c8[0Ktravis_time:end:06a5a9c8:start=1580142089250452994,finish=1580142089342407233,duration=91954239,event=enable_i386[0Ktravis_time:start:0d8bcc40[0Ktravis_time:end:0d8bcc40:start=1580142089346419891,finish=1580142089351772063,duration=5352172,event=update_rubygems[0Ktravis_time:start:11ff9711[0Ktravis_time:end:11ff9711:start=1580142089356779823,finish=1580142090115787967,duration=759008144,event=ensure_path_components[0Ktravis_time:start:006b471d[0Ktravis_time:end:006b471d:start=1580142090120938670,finish=1580142090124141855,duration=3203185,event=redefine_curl[0Ktravis_time:start:12a620f0[0Ktravis_time:end:12a620f0:start=1580142090129185028,finish=1580142090222771448,duration=93586420,event=nonblock_pipe[0Ktravis_time:start:14925d11[0Ktravis_time:end:14925d11:start=1580142090226275183,finish=1580142096257527350,duration=6031252167,event=apt_get_update[0Ktravis_time:start:09730cf2[0Ktravis_time:end:09730cf2:start=1580142096262567117,finish=1580142096265168356,duration=2601239,event=deprecate_xcode_64[0Ktravis_time:start:0921d6a4[0Ktravis_time:end:0921d6a4:start=1580142096269102406,finish=1580142098639162267,duration=2370059861,event=update_heroku[0Ktravis_time:start:09b8741b[0Ktravis_time:end:09b8741b:start=1580142098643737775,finish=1580142098645820329,duration=2082554,event=shell_session_update[0Ktravis_time:start:01cb1721[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:01cb1721:start=1580142098649628661,finish=1580142100805006105,duration=2155377444,event=set_docker_mtu[0Ktravis_time:start:0516ff5b[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0516ff5b:start=1580142100810517222,finish=1580142100869485371,duration=58968149,event=resolvconf[0Ktravis_time:start:03762868[0Ktravis_time:end:03762868:start=1580142100881353607,finish=1580142101008388839,duration=127035232,event=maven_central_mirror[0Ktravis_time:start:000cde00[0Ktravis_time:end:000cde00:start=1580142101014914901,finish=1580142101105879819,duration=90964918,event=maven_https[0Ktravis_time:start:08232a00[0Ktravis_time:end:08232a00:start=1580142101110931861,finish=1580142101113301254,duration=2369393,event=fix_ps4[0Ktravis_fold:start:hosts.before[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d 
+
+travis_fold:end:hosts.before[0Ktravis_fold:start:hosts[0Ktravis_fold:end:hosts[0Ktravis_fold:start:hosts.after[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-26f14420-0d99-47d0-8c1c-95ce140f883d  localhost.paypal.com
+
+travis_fold:end:hosts.after[0Ktravis_time:start:043927a0[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0bc9ab98[0K$ git clone --depth=50 --branch=develop https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+travis_time:end:0bc9ab98:start=1580142101142296164,finish=1580142102219942460,duration=1077646296,event=checkout[0K$ cd paypal/paypal-messaging-components
+$ git checkout -qf cffb4ce7976d1be1ec283a92ead9f9e79f98bffa
+travis_fold:end:git.checkout[0K
+travis_time:end:0bc9ab98:start=1580142101142296164,finish=1580142102253330296,duration=1111034132,event=checkout[0Ktravis_time:start:17a65397[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_TOKEN=[secure]
+$ export NPM_EMAIL=[secure]
+$ export GH_TOKEN=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DIRTY_SNAPSHOTS=1
+
+travis_time:end:17a65397:start=1580142102257615467,finish=1580142102265987790,duration=8372323,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:068c5805[0K$ nvm install 10
+Downloading and installing node v10.18.1...
+Downloading https://nodejs.org/dist/v10.18.1/node-v10.18.1-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.18.1 (npm v6.13.4)
+travis_time:end:068c5805:start=1580142103174257477,finish=1580142106220649113,duration=3046391636,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.18.1
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:002eedbc[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.18.1/bin/npm -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npm-cli.js
+/home/travis/.nvm/versions/node/v10.18.1/bin/npx -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.13.6
+updated 2 packages in 5.116s
+travis_time:end:002eedbc:start=1580142107292390058,finish=1580142112825842873,duration=5533452815,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:0744ca51[0K$ npm install 
+
+> @paypal/messaging-components@1.5.1 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> puppeteer@2.1.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer
+> node install.js
+
+
+Chromium downloaded to /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer/.local-chromium/linux-722234
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/wait-on/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-plugin-flowtype@4.6.0 requires a peer of eslint@>=6.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-plugin-unicorn@15.0.1 requires a peer of eslint@>=6.7.1 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+npm WARN eslint-template-visitor@1.1.0 requires a peer of eslint@^6.4.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @paypal/messaging-components@1.5.1 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/mocha/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/karma/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 2716 packages from 2331 contributors and audited 1822681 packages in 57.699s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+found 49 vulnerabilities (8 low, 25 moderate, 16 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:0744ca51:start=1580142113011588592,finish=1580142172377449903,duration=59365861311,event=install[0Ktravis_fold:end:install.npm[0K
+travis_fold:start:before_script.1[0Ktravis_time:start:36c729ea[0K$ npm run dev:standalone &
+travis_time:end:36c729ea:start=1580142172386502034,finish=1580142172390484026,duration=3981992,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:090dc218[0K$ sleep 20
+
+> @paypal/messaging-components@1.5.1 dev:standalone /home/travis/build/paypal/paypal-messaging-components
+> webpack-dev-server --config webpack.config.dev.js --env.localMessage --env.standalone
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost.paypal.com:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./demo
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /standalone.html
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 7ac684c91f90b049656d
+Version: webpack 4.41.5
+Time: 15367ms
+Built at: 01/27/2020 4:23:08 PM
+               Asset      Size  Chunks             Chunk Names
+        messaging.js  1.85 MiB    main  [emitted]  main
+messaging.js.LICENSE  51 bytes          [emitted]  
+Entrypoint main = messaging.js
+[0] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js 40 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/ansi-html/index.js] 4.27 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/html-entities/index.js] 230 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/loglevel/lib/loglevel.js] 7.43 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/url/url.js] 22.3 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] (webpack)-dev-server/client?http://localhost.paypal.com:8080 4.29 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 162 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./src/index.js] ./src/index.js + 174 modules 365 KiB {main} [built]
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/every.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/number/is-nan.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/assign.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/values.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/ends-with.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/includes.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/pad-start.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/zalgo-promise/index.js (<- Module is not an ECMAScript module)
+    | ./src/index.js 161 bytes [built]
+    |     ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js (referenced with single entry)
+    | ./src/interface/messages.js 1.84 KiB [built]
+    | ./node_modules/@babel/runtime/helpers/esm/extends.js 397 bytes [built]
+    | ./src/utils/index.js 166 bytes [built]
+    | ./src/messages/services/logger/index.js 4.74 KiB [built]
+    | ./src/messages/index.js 882 bytes [built]
+    | ./src/utils/mockServices.js 4.41 KiB [built]
+    | ./src/utils/functional.js 4.1 KiB [built]
+    | ./src/utils/objects.js 6.51 KiB [built]
+    | ./src/utils/elements.js 5.31 KiB [built]
+    | ./src/utils/sdk.js 969 bytes [built]
+    | ./src/utils/miscellaneous.js 3.49 KiB [built]
+    | ./src/utils/global.js 1.05 KiB [built]
+    | ./src/messages/services/logger/sendBeacon.js 1.13 KiB [built]
+    | ./src/messages/controllers/render.js 2.55 KiB [built]
+    |     + 160 hidden modules
+    + 141 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+travis_time:end:090dc218:start=1580142172395164453,finish=1580142192399790201,duration=20004625748,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_time:start:261f0b28[0K$ npm run lint
+
+> @paypal/messaging-components@1.5.1 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+
+/home/travis/build/paypal/paypal-messaging-components/src/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/interface/messages.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/legacy/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/legacy/map.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/legacy/toNewPipeline.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/logos.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/modal.js
+    1:1   error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+    1:1   error  Definition for rule 'default-param-last' was not found              default-param-last
+    1:1   error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+    1:1   error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+    1:1   error  Definition for rule 'no-import-assign' was not found                no-import-assign
+    1:1   error  Definition for rule 'no-setter-return' was not found                no-setter-return
+    1:1   error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+    1:1   error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  104:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+  108:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+  109:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+  110:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+  111:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+  112:25  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/mutations/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/mutations/inst_any_eqz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/mutations/inst_any_gtz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/mutations/palaq_any_eqz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/mutations/palaq_any_gtz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/styles/flex/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/styles/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/styles/text/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/termsTable.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/DE/validOptions.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/logos.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/modal.js
+    1:1   error  Definition for rule 'no-import-assign' was not found                no-import-assign
+    1:1   error  Definition for rule 'default-param-last' was not found              default-param-last
+    1:1   error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+    1:1   error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+    1:1   error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+    1:1   error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+    1:1   error  Definition for rule 'no-setter-return' was not found                no-setter-return
+    1:1   error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  117:55  error  Prefer `.textContent` over `.innerText`                             unicorn/prefer-text-content
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/ezp_any_eqz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/ezp_any_gtz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/ni_non-us.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/ni.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/pala_multi_eqz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/pala_multi_gtz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/pala_single_eqz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/mutations/pala_single_gtz.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/styles/flex/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/styles/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/termsTable.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/locale/US/validOptions.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/controllers/render.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js
+    1:1   error    Definition for rule 'no-setter-return' was not found                no-setter-return
+    1:1   error    Definition for rule 'default-param-last' was not found              default-param-last
+    1:1   error    Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+    1:1   error    Definition for rule 'no-constructor-return' was not found           no-constructor-return
+    1:1   error    Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+    1:1   error    Definition for rule 'no-import-assign' was not found                no-import-assign
+    1:1   error    Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+    1:1   error    Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  165:17  warning  Unexpected console statement                                        no-console
+  176:17  warning  Unexpected console statement                                        no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/types.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/validateOptions.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Container/events.js
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Container/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Container/insertMarkup.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Container/setSize.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Container/stats.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Modal/index.js
+    1:1   error    Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+    1:1   error    Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+    1:1   error    Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+    1:1   error    Definition for rule 'no-constructor-return' was not found           no-constructor-return
+    1:1   error    Definition for rule 'default-param-last' was not found              default-param-last
+    1:1   error    Definition for rule 'no-import-assign' was not found                no-import-assign
+    1:1   error    Definition for rule 'no-setter-return' was not found                no-setter-return
+    1:1   error    Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  131:66  error    Use `.key` instead of `.charCode`                                   unicorn/prefer-event-key
+  166:21  warning  Unexpected console statement                                        no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Modal/utils.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/styles/custom/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/styles/flex/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/styles/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/styles/legacyHtml/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Template/styles/text/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/banner/customTemplate.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/banner/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/banner/public.key.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js
+    1:1   error    Definition for rule 'no-import-assign' was not found                no-import-assign
+    1:1   error    Definition for rule 'default-param-last' was not found              default-param-last
+    1:1   error    Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+    1:1   error    Definition for rule 'no-constructor-return' was not found           no-constructor-return
+    1:1   error    Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+    1:1   error    Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+    1:1   error    Definition for rule 'no-setter-return' was not found                no-setter-return
+    1:1   error    Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  118:17  warning  Unexpected console statement                                        no-console
+  125:9   warning  Unexpected console statement                                        no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/sendBeacon.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/modal/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/terms/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/elements.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/functional.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/global.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/index.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/miscellaneous.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/mockServices.js
+   1:1   error  Definition for rule 'no-import-assign' was not found                no-import-assign
+   1:1   error  Definition for rule 'default-param-last' was not found              default-param-last
+   1:1   error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+   1:1   error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+   1:1   error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+   1:1   error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+   1:1   error  Definition for rule 'no-setter-return' was not found                no-setter-return
+   1:1   error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  69:71  error  'unicorn/no-unsafe-regex' rule is disabled but never reported       eslint-comments/no-unused-disable
+  71:71  error  'unicorn/no-unsafe-regex' rule is disabled but never reported       eslint-comments/no-unused-disable
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/objects.js
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+
+/home/travis/build/paypal/paypal-messaging-components/src/utils/sdk.js
+  1:1  error  Definition for rule 'prefer-regex-literals' was not found           prefer-regex-literals
+  1:1  error  Definition for rule 'default-param-last' was not found              default-param-last
+  1:1  error  Definition for rule 'grouped-accessor-pairs' was not found          grouped-accessor-pairs
+  1:1  error  Definition for rule 'no-constructor-return' was not found           no-constructor-return
+  1:1  error  Definition for rule 'no-dupe-else-if' was not found                 no-dupe-else-if
+  1:1  error  Definition for rule 'no-import-assign' was not found                no-import-assign
+  1:1  error  Definition for rule 'no-setter-return' was not found                no-setter-return
+  1:1  error  Definition for rule 'function-call-argument-newline' was not found  function-call-argument-newline
+
+/home/travis/build/paypal/paypal-messaging-components/utils/proxyImadserv.js
+  75:31  warning  Unexpected console statement  no-console
+
+✖ 560 problems (554 errors, 6 warnings)
+  7 errors and 0 warnings potentially fixable with the `--fix` option.
+
+npm ERR! code ELIFECYCLE
+npm ERR! errno 1
+npm ERR! @paypal/messaging-components@1.5.1 lint: `eslint . --ext .js,.jsx`
+npm ERR! Exit status 1
+npm ERR! 
+npm ERR! Failed at the @paypal/messaging-components@1.5.1 lint script.
+npm ERR! This is probably not a problem with npm. There is likely additional logging output above.
+
+npm ERR! A complete log of this run can be found in:
+npm ERR!     /home/travis/.npm/_logs/2020-01-27T16_23_21_593Z-debug.log
+travis_time:end:261f0b28:start=1580142192406985850,finish=1580142201635135539,duration=9228149689,event=script[0K[31;1mThe command "npm run lint" exited with 1.[0m
+travis_time:start:0bf8a09c[0K$ npm run test
+
+> @paypal/messaging-components@1.5.1 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+PASS tests/unit/spec/src/messages/models/Container/events.test.js
+PASS tests/unit/spec/src/utils/index.test.js
+PASS tests/unit/spec/src/messages/models/Modal/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/setSize.test.js
+PASS tests/unit/spec/src/messages/models/Container/stats.test.js
+PASS tests/unit/spec/src/messages/models/Banner/validateOptions.test.js
+PASS tests/unit/spec/src/messages/models/Banner/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/insertMarkup.test.js
+PASS tests/unit/spec/src/messages/models/Container/index.test.js
+
+Test Suites: 9 passed, 9 total
+Tests:       55 passed, 55 total
+Snapshots:   0 total
+Time:        9.354s
+Ran all test suites.
+travis_time:end:0bf8a09c:start=1580142201653970360,finish=1580142212744541676,duration=11090571316,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_time:start:0b07dabd[0K$ ./scripts/snapshot-tests/run-tests.sh
+
+> @paypal/messaging-components@1.5.1 test:func /home/travis/build/paypal/paypal-messaging-components
+> jest --projects tests/functional "-u"
+
+PASS tests/functional/spec/US/text.test.js (144.641s)
+ › 128 snapshots written.
+PASS tests/functional/spec/DE/text.test.js (54.481s)
+ › 48 snapshots written.
+PASS tests/functional/spec/US/flex.test.js (158.719s)
+ › 136 snapshots written.
+PASS tests/functional/spec/DE/flex.test.js (70.188s)
+ › 60 snapshots written.
+PASS tests/functional/spec/US/legacy.test.js (31.405s)
+ › 27 snapshots written.
+PASS tests/functional/spec/US/custom.test.js
+ › 2 snapshots written.
+
+Snapshot Summary
+ › 401 snapshots written from 6 test suites.
+
+Test Suites: 6 passed, 6 total
+Tests:       401 passed, 401 total
+Snapshots:   401 written, 401 total
+Time:        461.941s
+Ran all test suites.
+Switched to branch 'develop'
+M	.travis.yml
+Your branch is up to date with 'origin/develop'.
+[develop 35123e6] chore(snapshots): update snapshots [skip ci]
+ 402 files changed, 1 insertion(+), 1 deletion(-)
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-alternative-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-alternative_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-inline-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-inline_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-none-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-none_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-primary-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-primary_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-primary_text.size-10-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-primary_text.size-12-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAG/text/logo.type-primary_text.size-16-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-alternative-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-alternative_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-inline-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-inline_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-none-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-none_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-primary-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-primary_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-primary_text.size-10-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-primary_text.size-12-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV0000000IAZ/text/logo.type-primary_text.size-16-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-alternative-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-alternative_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-inline-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-inline_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-none-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-none_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-primary-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-primary_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-primary_text.size-10-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-primary_text.size-12-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAG/text/logo.type-primary_text.size-16-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-alternative-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-alternative_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-inline-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-inline_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-none-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-none_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-primary-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-primary_text.color-white-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-primary_text.size-10-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-primary_text.size-12-1000-snap.png
+ create mode 100644 tests/functional/snapshots/DE/DEV000000PQAZ/text/logo.type-primary_text.size-16-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/6QXSKQZUKASMW/custom/-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-1000x36-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-1000x50-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-168x374-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-234x100-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-310x100-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-340x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/legacy/dimensions-765x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV00000000NI/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAG/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-1000x36-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-120x90-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-170x100-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-234x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-250x250-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-300x50-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-340x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-468x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-540x200-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/legacy/dimensions-728x90-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000EAZ/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMG/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PMZ/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSG/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-1000x36-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-120x90-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-170x100-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-234x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-250x250-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-300x50-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-340x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-468x60-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-540x200-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/legacy/dimensions-728x90-1000-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV0000000PSZ/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-black_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x4-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x4-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-1x4-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-20x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-20x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-20x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-8x1-100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-8x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-blue_ratio-8x1-400-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-gray_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-white-no-border_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/color-white_ratio-1x1-1100-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/flex/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-alternative_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-alternative_text.size-10-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-alternative_text.size-12-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-alternative_text.size-16-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-inline_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-none_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-primary-200-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-left_logo.type-primary_text.color-white-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-right_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-right_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-top_logo.type-alternative-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.position-top_logo.type-primary-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.type-inline-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/DEV000NINONUS/text/logo.type-none-600-snap.png
+ create mode 100644 tests/functional/snapshots/US/S3STW9PF9H6MW/custom/-600-snap.png
+To https://github.com/paypal/paypal-messaging-components.git
+   cffb4ce..35123e6  develop -> develop
+travis_time:end:0b07dabd:start=1580142212749694092,finish=1580142679284574700,duration=466534880608,event=script[0K[32;1mThe command "./scripts/snapshot-tests/run-tests.sh" exited with 0.[0m
+
+
+Done. Your build exited with 1.
+/home/travis/.travis/functions: line 533:  4345 Terminated              npm run dev:standalone

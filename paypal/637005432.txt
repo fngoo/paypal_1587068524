@@ -1,0 +1,433 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 465a3044-09ca-4117-8c9c-c5b1c31ff742@1.worker-org-85d846cc5-pmkss.gce-production-1
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-deeb91b5-c46e-4250-b7ba-309f0c4caa33 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.251674007s
+travis_fold:end:worker_info[0Ktravis_time:start:0299f777[0Ktravis_time:end:0299f777:start=1579021894193442313,finish=1579021894333125283,duration=139682970,event=no_world_writable_dirs[0Ktravis_time:start:32ce9d8e[0Ktravis_time:end:32ce9d8e:start=1579021894335889639,finish=1579021894341910487,duration=6020848,event=setup_filter[0Ktravis_time:start:0fb81f4f[0Ktravis_time:end:0fb81f4f:start=1579021894345171641,finish=1579021894351932985,duration=6761344,event=agent[0Ktravis_time:start:07ca7b8d[0Ktravis_time:end:07ca7b8d:start=1579021894354424611,finish=1579021894356308183,duration=1883572,event=check_unsupported[0Ktravis_time:start:0b57c07c[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 637005431
+Job id: 637005432
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 1c634e1df
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:0b57c07c:start=1579021894358902521,finish=1579021894364435727,duration=5533206,event=show_system_info[0Ktravis_time:start:1662c579[0Ktravis_time:end:1662c579:start=1579021894368615613,finish=1579021894392113356,duration=23497743,event=rm_riak_source[0Ktravis_time:start:0dbd2060[0Ktravis_time:end:0dbd2060:start=1579021894416286816,finish=1579021894440928947,duration=24642131,event=fix_rwky_redis[0Ktravis_time:start:2432cc38[0Ktravis_time:end:2432cc38:start=1579021894444110994,finish=1579021894746413773,duration=302302779,event=wait_for_network[0Ktravis_time:start:079b9ea2[0Ktravis_time:end:079b9ea2:start=1579021894752021365,finish=1579021894928598007,duration=176576642,event=update_apt_keys[0Ktravis_time:start:0919d38c[0Ktravis_time:end:0919d38c:start=1579021894932825635,finish=1579021894982316674,duration=49491039,event=fix_hhvm_source[0Ktravis_time:start:038a946d[0Ktravis_time:end:038a946d:start=1579021894986176101,finish=1579021894988623950,duration=2447849,event=update_mongo_arch[0Ktravis_time:start:10041ca1[0Ktravis_time:end:10041ca1:start=1579021894992181624,finish=1579021895031547871,duration=39366247,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0759bfab[0Ktravis_time:end:0759bfab:start=1579021895035371983,finish=1579021895037317625,duration=1945642,event=update_glibc[0Ktravis_time:start:048834ee[0Ktravis_time:end:048834ee:start=1579021895040794296,finish=1579021895047804755,duration=7010459,event=clean_up_path[0Ktravis_time:start:12c8045c[0Ktravis_time:end:12c8045c:start=1579021895051311625,finish=1579021895058578817,duration=7267192,event=fix_resolv_conf[0Ktravis_time:start:099525c3[0Ktravis_time:end:099525c3:start=1579021895061995525,finish=1579021895070061042,duration=8065517,event=fix_etc_hosts[0Ktravis_time:start:105b4ccc[0Ktravis_time:end:105b4ccc:start=1579021895073728543,finish=1579021895081177330,duration=7448787,event=fix_mvn_settings_xml[0Ktravis_time:start:0b05883a[0Ktravis_time:end:0b05883a:start=1579021895084867866,finish=1579021895093354649,duration=8486783,event=no_ipv6_localhost[0Ktravis_time:start:1463cfb0[0Ktravis_time:end:1463cfb0:start=1579021895097229953,finish=1579021895099686530,duration=2456577,event=fix_etc_mavenrc[0Ktravis_time:start:0d377e54[0Ktravis_time:end:0d377e54:start=1579021895103482810,finish=1579021895106613358,duration=3130548,event=fix_wwdr_certificate[0Ktravis_time:start:0b08725e[0Ktravis_time:end:0b08725e:start=1579021895110208179,finish=1579021895132159271,duration=21951092,event=put_localhost_first[0Ktravis_time:start:1d55a500[0Ktravis_time:end:1d55a500:start=1579021895135534882,finish=1579021895138339184,duration=2804302,event=home_paths[0Ktravis_time:start:048e0b89[0Ktravis_time:end:048e0b89:start=1579021895141633254,finish=1579021895152368639,duration=10735385,event=disable_initramfs[0Ktravis_time:start:1cf4e04f[0Ktravis_time:end:1cf4e04f:start=1579021895155900083,finish=1579021895364052529,duration=208152446,event=disable_ssh_roaming[0Ktravis_time:start:03feb22c[0Ktravis_time:end:03feb22c:start=1579021895369476576,finish=1579021895372599004,duration=3122428,event=debug_tools[0Ktravis_time:start:00b6f616[0Ktravis_time:end:00b6f616:start=1579021895376841677,finish=1579021895380319293,duration=3477616,event=uninstall_oclint[0Ktravis_time:start:158dd13b[0Ktravis_time:end:158dd13b:start=1579021895383800703,finish=1579021895386541486,duration=2740783,event=rvm_use[0Ktravis_time:start:0b2c41dc[0Ktravis_time:end:0b2c41dc:start=1579021895390315306,finish=1579021895397533631,duration=7218325,event=rm_etc_boto_cfg[0Ktravis_time:start:2951ca6e[0Ktravis_time:end:2951ca6e:start=1579021895400768448,finish=1579021895403254493,duration=2486045,event=rm_oraclejdk8_symlink[0Ktravis_time:start:0b45ac48[0Ktravis_time:end:0b45ac48:start=1579021895407578975,finish=1579021895498280282,duration=90701307,event=enable_i386[0Ktravis_time:start:0fa9c9e7[0Ktravis_time:end:0fa9c9e7:start=1579021895502762591,finish=1579021895509771438,duration=7008847,event=update_rubygems[0Ktravis_time:start:242090d0[0Ktravis_time:end:242090d0:start=1579021895513288327,finish=1579021896276613291,duration=763324964,event=ensure_path_components[0Ktravis_time:start:0085bc00[0Ktravis_time:end:0085bc00:start=1579021896281092450,finish=1579021896284246159,duration=3153709,event=redefine_curl[0Ktravis_time:start:115c7073[0Ktravis_time:end:115c7073:start=1579021896288205118,finish=1579021896366152863,duration=77947745,event=nonblock_pipe[0Ktravis_time:start:0089b23b[0Ktravis_time:end:0089b23b:start=1579021896369919556,finish=1579021902398072500,duration=6028152944,event=apt_get_update[0Ktravis_time:start:0677f5b0[0Ktravis_time:end:0677f5b0:start=1579021902402032787,finish=1579021902405179509,duration=3146722,event=deprecate_xcode_64[0Ktravis_time:start:19a984e0[0Ktravis_time:end:19a984e0:start=1579021902409805318,finish=1579021904697310438,duration=2287505120,event=update_heroku[0Ktravis_time:start:02ec1952[0Ktravis_time:end:02ec1952:start=1579021904703205589,finish=1579021904705962670,duration=2757081,event=shell_session_update[0Ktravis_time:start:2196a17c[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:2196a17c:start=1579021904709951927,finish=1579021906792516243,duration=2082564316,event=set_docker_mtu[0Ktravis_time:start:20708302[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:20708302:start=1579021906797793601,finish=1579021906863267778,duration=65474177,event=resolvconf[0Ktravis_time:start:0757106d[0Ktravis_time:end:0757106d:start=1579021906868600340,finish=1579021906996168716,duration=127568376,event=maven_central_mirror[0Ktravis_time:start:032cad8c[0Ktravis_time:end:032cad8c:start=1579021907001145960,finish=1579021907003760360,duration=2614400,event=fix_ps4[0Ktravis_time:start:0274496d[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:131ae91c[0K$ git clone --depth=50 --branch=release https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+travis_time:end:131ae91c:start=1579021907014224214,finish=1579021907791091825,duration=776867611,event=checkout[0K$ cd paypal/paypal-messaging-components
+$ git checkout -qf f3b2b0f50281e1c1b67c463b575e92baa2121ac2
+travis_fold:end:git.checkout[0K
+travis_time:end:131ae91c:start=1579021907014224214,finish=1579021907824485401,duration=810261187,event=checkout[0Ktravis_time:start:0354af4a[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_TOKEN=[secure]
+$ export NPM_EMAIL=[secure]
+$ export GH_TOKEN=[secure]
+
+travis_time:end:0354af4a:start=1579021907830762950,finish=1579021907840771128,duration=10008178,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:17725cba[0K$ nvm install 10
+Downloading and installing node v10.18.1...
+Downloading https://nodejs.org/dist/v10.18.1/node-v10.18.1-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.18.1 (npm v6.13.4)
+travis_time:end:17725cba:start=1579021908533148127,finish=1579021911485874480,duration=2952726353,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.18.1
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:225ab911[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.18.1/bin/npm -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npm-cli.js
+/home/travis/.nvm/versions/node/v10.18.1/bin/npx -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.13.6
+updated 2 packages in 5.035s
+travis_time:end:225ab911:start=1579021912442663319,finish=1579021917898171273,duration=5455507954,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:0496dceb[0K$ npm install 
+
+> @paypal/messaging-components@1.5.0 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+npm WARN deprecated circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated circular-json@0.3.3: CircularJSON is in maintenance only, flatted is its successor.
+npm WARN deprecated kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+npm WARN deprecated node-uuid@1.4.8: Use uuid module instead
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-register/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/karma/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @paypal/messaging-components@1.5.0 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 2794 packages from 2767 contributors and audited 2722962 packages in 53.286s
+
+30 packages are looking for funding
+  run `npm fund` for details
+
+found 181 vulnerabilities (79 low, 76 moderate, 26 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:0496dceb:start=1579021918094845706,finish=1579021973138985572,duration=55044139866,event=install[0Ktravis_fold:end:install.npm[0K
+travis_time:start:09c2844c[0K$ npm run lint
+
+> @paypal/messaging-components@1.5.0 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js
+  165:17  warning  Unexpected console statement  no-console
+  176:17  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Modal/index.js
+  166:21  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js
+  118:17  warning  Unexpected console statement  no-console
+  125:9   warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/utils/proxyImadserv.js
+  75:31  warning  Unexpected console statement  no-console
+
+✖ 6 problems (0 errors, 6 warnings)
+
+travis_time:end:09c2844c:start=1579021973143158609,finish=1579021982047877355,duration=8904718746,event=script[0K[32;1mThe command "npm run lint" exited with 0.[0m
+travis_time:start:1dd95180[0K$ npm run test
+
+> @paypal/messaging-components@1.5.0 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+PASS tests/unit/spec/src/messages/models/Container/events.test.js
+PASS tests/unit/spec/src/utils/index.test.js
+PASS tests/unit/spec/src/messages/models/Modal/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/setSize.test.js
+PASS tests/unit/spec/src/messages/models/Container/stats.test.js
+PASS tests/unit/spec/src/messages/models/Banner/validateOptions.test.js
+PASS tests/unit/spec/src/messages/models/Banner/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/insertMarkup.test.js
+PASS tests/unit/spec/src/messages/models/Container/index.test.js
+
+Test Suites: 9 passed, 9 total
+Tests:       55 passed, 55 total
+Snapshots:   0 total
+Time:        9.96s
+Ran all test suites.
+travis_time:end:1dd95180:start=1579021982052746350,finish=1579021993029563390,duration=10976817040,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+
+travis_fold:start:dpl_0[0Ktravis_time:start:0695ebe6[0K$ rvm $(travis_internal_ruby) --fuzzy do ruby -S gem install dpl
+Successfully installed dpl-1.10.14
+1 gem installed
+travis_time:end:0695ebe6:start=1579021994027575745,finish=1579021995313905874,duration=1286330129,event=after_success[0Ktravis_fold:end:dpl_0[0Ktravis_time:start:05c20466[0Ktravis_fold:start:dpl.1[33mInstalling deploy dependencies[0m
+Successfully installed dpl-script-1.10.14
+1 gem installed
+
+travis_fold:end:dpl.1travis_fold:start:dpl.2[33mPreparing deploy[0m
+
+travis_fold:end:dpl.2travis_fold:start:dpl.3[33mDeploying application[0m
+npx: installed 751 in 13.046s
+[5:13:29 PM] [semantic-release] › ℹ  Running semantic-release version 15.14.0
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/changelog"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/npm"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/git"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyConditions" from "@semantic-release/github"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "analyzeCommits" from "@semantic-release/commit-analyzer"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "analyzeCommits" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "verifyRelease" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "generateNotes" from "@semantic-release/release-notes-generator"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "generateNotes" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/changelog"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/npm"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "prepare" from "@semantic-release/git"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/npm"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "publish" from "@semantic-release/github"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "success" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "success" from "@semantic-release/github"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "fail" from "@semantic-release/exec"
+[5:13:30 PM] [semantic-release] › ✔  Loaded plugin "fail" from "@semantic-release/github"
+[5:13:30 PM] [semantic-release] › ✔  Run automated release from branch release
+[5:13:30 PM] [semantic-release] › ✔  Allowed to push to the Git repository
+[5:13:30 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/changelog"
+[5:13:30 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/changelog"
+[5:13:30 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/npm"
+[5:13:30 PM] [semantic-release] [@semantic-release/npm] › ℹ  Verify authentication for registry https://registry.npmjs.org/
+[5:13:30 PM] [semantic-release] [@semantic-release/npm] › ℹ  Reading npm config from /home/travis/.npmrc, /home/travis/build/paypal/paypal-messaging-components/.npmrc
+[5:13:30 PM] [semantic-release] [@semantic-release/npm] › ℹ  Wrote NPM_TOKEN to /tmp/919dfb59923a29b849cdd7649012420d/.npmrc
+seavenly
+[5:13:31 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/npm"
+[5:13:31 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/exec"
+[5:13:31 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/exec"
+[5:13:31 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/git"
+[5:13:31 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/git"
+[5:13:31 PM] [semantic-release] › ℹ  Start step "verifyConditions" of plugin "@semantic-release/github"
+[5:13:31 PM] [semantic-release] [@semantic-release/github] › ℹ  Verify GitHub authentication
+[5:13:31 PM] [semantic-release] › ✔  Completed step "verifyConditions" of plugin "@semantic-release/github"
+[5:13:32 PM] [semantic-release] › ℹ  Found git tag v1.5.0 associated with version 1.5.0
+[5:13:32 PM] [semantic-release] › ℹ  Found 5 commits since last release
+[5:13:32 PM] [semantic-release] › ℹ  Start step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: chore: cut release (#111)
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: ci: lock semantic-release version (#110)
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: chore: cut release (#109)
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The commit should not trigger a release
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: fix: NI 1x4 banners (#108)
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The release type for the commit is patch
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analyzing commit: fix: DE flex styles (#107)
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  The release type for the commit is patch
+[5:13:32 PM] [semantic-release] [@semantic-release/commit-analyzer] › ℹ  Analysis of 5 commits complete: patch release
+[5:13:32 PM] [semantic-release] › ✔  Completed step "analyzeCommits" of plugin "@semantic-release/commit-analyzer"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "analyzeCommits" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ✔  Completed step "analyzeCommits" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ℹ  The next release version is 1.5.1
+[5:13:32 PM] [semantic-release] › ℹ  Start step "verifyRelease" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ✔  Completed step "verifyRelease" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[5:13:32 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/changelog"
+[5:13:32 PM] [semantic-release] [@semantic-release/changelog] › ℹ  Update /home/travis/build/paypal/paypal-messaging-components/CHANGELOG.md
+[5:13:32 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/changelog"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/npm"
+[5:13:32 PM] [semantic-release] [@semantic-release/npm] › ℹ  Write version 1.5.1 to package.json in /home/travis/build/paypal/paypal-messaging-components
+v1.5.1
+[5:13:32 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/npm"
+[5:13:32 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/exec"
+[5:13:32 PM] [semantic-release] [@semantic-release/exec] › ℹ  Call script ./scripts/semantic-release/assets.sh 1.5.1
+[5:13:56 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/exec"
+[5:13:56 PM] [semantic-release] › ℹ  Start step "prepare" of plugin "@semantic-release/git"
+[5:13:56 PM] [semantic-release] [@semantic-release/git] › ℹ  Found 14 file(s) to commit
+[5:13:59 PM] [semantic-release] [@semantic-release/git] › ℹ  Prepared Git release: v1.5.1
+[5:13:59 PM] [semantic-release] › ✔  Completed step "prepare" of plugin "@semantic-release/git"
+[5:13:59 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[5:13:59 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/release-notes-generator"
+[5:13:59 PM] [semantic-release] › ℹ  Start step "generateNotes" of plugin "@semantic-release/exec"
+[5:13:59 PM] [semantic-release] › ✔  Completed step "generateNotes" of plugin "@semantic-release/exec"
+[5:14:01 PM] [semantic-release] › ✔  Created tag v1.5.1
+[5:14:01 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/npm"
+[5:14:01 PM] [semantic-release] [@semantic-release/npm] › ℹ  Publishing version 1.5.1 to npm registry
++ @paypal/messaging-components@1.5.1
+[5:14:07 PM] [semantic-release] [@semantic-release/npm] › ℹ  Published @paypal/messaging-components@1.5.1 on https://registry.npmjs.org/
+[5:14:07 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/npm"
+[5:14:07 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/exec"
+[5:14:07 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/exec"
+[5:14:07 PM] [semantic-release] › ℹ  Start step "publish" of plugin "@semantic-release/github"
+[5:14:11 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/messaging%401.5.1.js
+[5:14:13 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/messaging.js
+[5:14:16 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/merchant%401.5.1.js
+[5:14:20 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/merchant.js
+[5:14:22 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/messaging%401.5.1.js.map
+[5:14:25 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/messaging.js.map
+[5:14:29 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/merchant.js.map
+[5:14:31 PM] [semantic-release] [@semantic-release/github] › ℹ  Published file https://github.com/paypal/paypal-messaging-components/releases/download/untagged-69e755fef5fe4e6a5b4e/merchant%401.5.1.js.map
+[5:14:34 PM] [semantic-release] [@semantic-release/github] › ℹ  Published GitHub release: https://github.com/paypal/paypal-messaging-components/releases/tag/v1.5.1
+[5:14:34 PM] [semantic-release] › ✔  Completed step "publish" of plugin "@semantic-release/github"
+[5:14:34 PM] [semantic-release] › ℹ  Start step "success" of plugin "@semantic-release/exec"
+[5:14:34 PM] [semantic-release] [@semantic-release/exec] › ℹ  Call script ./scripts/semantic-release/merge.sh https://[secure]@github.com/paypal/paypal-messaging-components.git
+[5:14:38 PM] [semantic-release] › ✔  Completed step "success" of plugin "@semantic-release/exec"
+[5:14:38 PM] [semantic-release] › ℹ  Start step "success" of plugin "@semantic-release/github"
+[5:14:49 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #109: https://github.com/paypal/paypal-messaging-components/pull/109#issuecomment-574279641
+[5:14:52 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #111: https://github.com/paypal/paypal-messaging-components/pull/111#issuecomment-574279668
+[5:14:55 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #108: https://github.com/paypal/paypal-messaging-components/pull/108#issuecomment-574279691
+[5:14:58 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #110: https://github.com/paypal/paypal-messaging-components/pull/110#issuecomment-574279712
+[5:15:01 PM] [semantic-release] [@semantic-release/github] › ℹ  Added comment to issue #107: https://github.com/paypal/paypal-messaging-components/pull/107#issuecomment-574279725
+[5:15:04 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #109
+[5:15:07 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #111
+[5:15:10 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #108
+[5:15:12 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #110
+[5:15:16 PM] [semantic-release] [@semantic-release/github] › ℹ  Added labels [ 'released' ] to issue #107
+[5:15:16 PM] [semantic-release] › ✔  Completed step "success" of plugin "@semantic-release/github"
+[5:15:16 PM] [semantic-release] › ✔  Published release 1.5.1
+
+travis_fold:end:dpl.3travis_time:end:05c20466:start=1579021995319703071,finish=1579022116888304071,duration=121568601000,event=after_success[0K
+Done. Your build exited with 0.

@@ -1,0 +1,1029 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: cd4c1703-6b2b-49a2-90b7-3f62796c61d6@1.worker-org-767b688855-4gzvw.gce-production-3
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-542fbdcb-61de-4673-8a66-420425a8689c travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.196926538s
+travis_fold:end:worker_info[0Ktravis_time:start:0db4c95a[0Ktravis_time:end:0db4c95a:start=1582834851564314263,finish=1582834851700648743,duration=136334480,event=no_world_writable_dirs[0Ktravis_time:start:0de2125f[0Ktravis_time:end:0de2125f:start=1582834851703344864,finish=1582834851707009804,duration=3664940,event=setup_filter[0Ktravis_time:start:0480c600[0Ktravis_time:end:0480c600:start=1582834851710696542,finish=1582834851718269750,duration=7573208,event=agent[0Ktravis_time:start:01389194[0Ktravis_time:end:01389194:start=1582834851720638776,finish=1582834851722363867,duration=1725091,event=check_unsupported[0Ktravis_time:start:1d1b4050[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 655953683
+Job id: 655953684
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 171ee24bb
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:1d1b4050:start=1582834851724737617,finish=1582834851729642399,duration=4904782,event=show_system_info[0Ktravis_time:start:2b849a3d[0Ktravis_time:end:2b849a3d:start=1582834851732520659,finish=1582834851774839878,duration=42319219,event=rm_riak_source[0Ktravis_time:start:00318634[0Ktravis_time:end:00318634:start=1582834851791258227,finish=1582834851797245697,duration=5987470,event=fix_rwky_redis[0Ktravis_time:start:177bde1c[0Ktravis_time:end:177bde1c:start=1582834851799860194,finish=1582834852217806421,duration=417946227,event=wait_for_network[0Ktravis_time:start:1422cbfd[0Ktravis_time:end:1422cbfd:start=1582834852222176632,finish=1582834852408008862,duration=185832230,event=update_apt_keys[0Ktravis_time:start:0bbbb738[0Ktravis_time:end:0bbbb738:start=1582834852413575978,finish=1582834852462723994,duration=49148016,event=fix_hhvm_source[0Ktravis_time:start:0a6d2abd[0Ktravis_time:end:0a6d2abd:start=1582834852467178888,finish=1582834852470060648,duration=2881760,event=update_mongo_arch[0Ktravis_time:start:0283f0a8[0Ktravis_time:end:0283f0a8:start=1582834852474234608,finish=1582834852511922183,duration=37687575,event=fix_sudo_enabled_trusty[0Ktravis_time:start:109f67b8[0Ktravis_time:end:109f67b8:start=1582834852517022804,finish=1582834852519533410,duration=2510606,event=update_glibc[0Ktravis_time:start:0280cb60[0Ktravis_time:end:0280cb60:start=1582834852524617370,finish=1582834852531950341,duration=7332971,event=clean_up_path[0Ktravis_time:start:0a30fbf0[0Ktravis_time:end:0a30fbf0:start=1582834852535225254,finish=1582834852542114715,duration=6889461,event=fix_resolv_conf[0Ktravis_time:start:3731ea22[0Ktravis_time:end:3731ea22:start=1582834852545384286,finish=1582834852553030669,duration=7646383,event=fix_etc_hosts[0Ktravis_time:start:1c40d2f1[0Ktravis_time:end:1c40d2f1:start=1582834852556531314,finish=1582834852564119360,duration=7588046,event=fix_mvn_settings_xml[0Ktravis_time:start:0ebcd764[0Ktravis_time:end:0ebcd764:start=1582834852567242897,finish=1582834852575591609,duration=8348712,event=no_ipv6_localhost[0Ktravis_time:start:0627d74c[0Ktravis_time:end:0627d74c:start=1582834852579791350,finish=1582834852581671520,duration=1880170,event=fix_etc_mavenrc[0Ktravis_time:start:00db5772[0Ktravis_time:end:00db5772:start=1582834852586383060,finish=1582834852589604464,duration=3221404,event=fix_wwdr_certificate[0Ktravis_time:start:00a36074[0Ktravis_time:end:00a36074:start=1582834852592648389,finish=1582834852613863768,duration=21215379,event=put_localhost_first[0Ktravis_time:start:157b8f56[0Ktravis_time:end:157b8f56:start=1582834852618934139,finish=1582834852622104377,duration=3170238,event=home_paths[0Ktravis_time:start:1f5d9540[0Ktravis_time:end:1f5d9540:start=1582834852627212854,finish=1582834852638545546,duration=11332692,event=disable_initramfs[0Ktravis_time:start:08b28b2f[0Ktravis_time:end:08b28b2f:start=1582834852642677028,finish=1582834852914253037,duration=271576009,event=disable_ssh_roaming[0Ktravis_time:start:02b645d4[0Ktravis_time:end:02b645d4:start=1582834852918890969,finish=1582834852921258603,duration=2367634,event=debug_tools[0Ktravis_time:start:20649400[0Ktravis_time:end:20649400:start=1582834852926137774,finish=1582834852929304475,duration=3166701,event=uninstall_oclint[0Ktravis_time:start:07fc52b3[0Ktravis_time:end:07fc52b3:start=1582834852932929819,finish=1582834852935398839,duration=2469020,event=rvm_use[0Ktravis_time:start:007e9bac[0Ktravis_time:end:007e9bac:start=1582834852938930894,finish=1582834852946131432,duration=7200538,event=rm_etc_boto_cfg[0Ktravis_time:start:0935eb80[0Ktravis_time:end:0935eb80:start=1582834852949972086,finish=1582834852952636687,duration=2664601,event=rm_oraclejdk8_symlink[0Ktravis_time:start:239fc7ae[0Ktravis_time:end:239fc7ae:start=1582834852957567158,finish=1582834853052088604,duration=94521446,event=enable_i386[0Ktravis_time:start:1227ec11[0Ktravis_time:end:1227ec11:start=1582834853056028592,finish=1582834853061913731,duration=5885139,event=update_rubygems[0Ktravis_time:start:02f057aa[0Ktravis_time:end:02f057aa:start=1582834853067146555,finish=1582834853812541509,duration=745394954,event=ensure_path_components[0Ktravis_time:start:00b0bdbe[0Ktravis_time:end:00b0bdbe:start=1582834853818334568,finish=1582834853820667137,duration=2332569,event=redefine_curl[0Ktravis_time:start:0166e150[0Ktravis_time:end:0166e150:start=1582834853824088562,finish=1582834853916722446,duration=92633884,event=nonblock_pipe[0Ktravis_time:start:0dea65de[0Ktravis_time:end:0dea65de:start=1582834853920252365,finish=1582834859948079238,duration=6027826873,event=apt_get_update[0Ktravis_time:start:130c8d80[0Ktravis_time:end:130c8d80:start=1582834859952142242,finish=1582834859954055668,duration=1913426,event=deprecate_xcode_64[0Ktravis_time:start:1e316275[0Ktravis_time:end:1e316275:start=1582834859958210995,finish=1582834862303130913,duration=2344919918,event=update_heroku[0Ktravis_time:start:11798092[0Ktravis_time:end:11798092:start=1582834862309215152,finish=1582834862311682595,duration=2467443,event=shell_session_update[0Ktravis_time:start:15cf10ec[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:15cf10ec:start=1582834862316794887,finish=1582834864497707787,duration=2180912900,event=set_docker_mtu[0Ktravis_time:start:006c199d[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:006c199d:start=1582834864503262002,finish=1582834864564726145,duration=61464143,event=resolvconf[0Ktravis_time:start:03da7e10[0Ktravis_time:end:03da7e10:start=1582834864571118735,finish=1582834864713361411,duration=142242676,event=maven_central_mirror[0Ktravis_time:start:28339b5a[0Ktravis_time:end:28339b5a:start=1582834864717727170,finish=1582834864812384388,duration=94657218,event=maven_https[0Ktravis_time:start:0cf04060[0Ktravis_time:end:0cf04060:start=1582834864817154329,finish=1582834864819644546,duration=2490217,event=fix_ps4[0Ktravis_fold:start:hosts.before[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-542fbdcb-61de-4673-8a66-420425a8689c travis-job-542fbdcb-61de-4673-8a66-420425a8689c ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-542fbdcb-61de-4673-8a66-420425a8689c 
+
+travis_fold:end:hosts.before[0Ktravis_fold:start:hosts[0Ktravis_fold:end:hosts[0Ktravis_fold:start:hosts.after[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-542fbdcb-61de-4673-8a66-420425a8689c travis-job-542fbdcb-61de-4673-8a66-420425a8689c ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-542fbdcb-61de-4673-8a66-420425a8689c  localhost.paypal.com
+
+travis_fold:end:hosts.after[0Ktravis_time:start:1c1ad7b2[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0b321f22[0K$ git clone --depth=50 --branch=modal-apply-now https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+travis_time:end:0b321f22:start=1582834864850674331,finish=1582834865918357242,duration=1067682911,event=checkout[0K$ cd paypal/paypal-messaging-components
+$ git checkout -qf a985bfd64e2c138bba900f5508c15a91e0d417c9
+travis_fold:end:git.checkout[0K
+travis_time:end:0b321f22:start=1582834864850674331,finish=1582834866008695365,duration=1158021034,event=checkout[0Ktravis_time:start:10ad1f5c[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_EMAIL=[secure]
+$ export GH_TOKEN=[secure]
+$ export NPM_TOKEN=[secure]
+$ export PR_COMMENT_TOKEN=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DIRTY_SNAPSHOTS=1
+
+travis_time:end:10ad1f5c:start=1582834866013344454,finish=1582834866021288328,duration=7943874,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:280536f0[0K$ nvm install 10
+Downloading and installing node v10.19.0...
+Downloading https://nodejs.org/dist/v10.19.0/node-v10.19.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.19.0 (npm v6.13.4)
+travis_time:end:280536f0:start=1582834866739340839,finish=1582834869582185706,duration=2842844867,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.19.0
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:050660ac[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.19.0/bin/npm -> /home/travis/.nvm/versions/node/v10.19.0/lib/node_modules/npm/bin/npm-cli.js
+/home/travis/.nvm/versions/node/v10.19.0/bin/npx -> /home/travis/.nvm/versions/node/v10.19.0/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.14.1
+added 8 packages from 4 contributors, removed 3 packages and updated 18 packages in 5.48s
+travis_time:end:050660ac:start=1582834870652811085,finish=1582834876539925196,duration=5887114111,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:124d1a1b[0K$ npm install 
+
+> @paypal/messaging-components@1.7.3 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+npm WARN deprecated request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated request@2.81.0: request has been deprecated, see https://github.com/request/request/issues/3142
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+> node-sass@4.13.1 install /home/travis/build/paypal/paypal-messaging-components/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.13.1/linux-x64-64_binding.node
+Download complete
+Binary saved to /home/travis/build/paypal/paypal-messaging-components/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Caching binary to /home/travis/.npm/node-sass/4.13.1/linux-x64-64_binding.node
+
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> puppeteer@2.1.1 install /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer
+> node install.js
+
+
+Chromium downloaded to /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer/.local-chromium/linux-722234
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/wait-on/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> node-sass@4.13.1 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/travis/build/paypal/paypal-messaging-components/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^2.1.2 (node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/grumbler-scripts/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/@jest/environment/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/@jest/reporters/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/jest-runtime/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/@jest/test-sequencer/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/jest-runner/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/jest-config/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/@jest/core/node_modules/jest-haste-map/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN jest-image-snapshot@2.12.0 requires a peer of jest@>=20 <=24 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @typescript-eslint/parser@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @paypal/messaging-components@1.7.3 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/@jest/core/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/@jest/core/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/@jest/core/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/@jest/core/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/@jest/core/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/@jest/core/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/@jest/core/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/@jest/core/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/@jest/core/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/core/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/@jest/environment/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/@jest/environment/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/@jest/environment/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/@jest/environment/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/@jest/environment/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/@jest/environment/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/@jest/environment/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/@jest/environment/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/@jest/environment/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/environment/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/@jest/reporters/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/reporters/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optionaladded 3162 packages from 2360 contributors and audited 2140550 packages in 69.566s
+
+55 packages are looking for funding
+  run `npm fund` for details
+
+found 52 vulnerabilities (8 low, 25 moderate, 19 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+ SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/@jest/test-sequencer/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/chokidar/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/chokidar/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/chokidar/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/chokidar/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/chokidar/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/chokidar/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/chokidar/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/chokidar/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/chokidar/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/chokidar/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/chokidar/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/chokidar/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/chokidar/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/chokidar/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/chokidar/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/chokidar/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/chokidar/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/chokidar/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/chokidar/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/chokidar/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/chokidar/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/chokidar/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/chokidar/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/chokidar/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/chokidar/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/chokidar/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/chokidar/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/grumbler-scripts/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/grumbler-scripts/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/jest-config/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/jest-config/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/jest-config/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/jest-config/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/jest-config/node_modules/fsevents/node_modules/chownr):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.chownr.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/jest-config/node_modules/fsevents/node_modules/code-point-at):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/concat-map):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.concat-map.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/jest-config/node_modules/fsevents/node_modules/console-control-strings):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/core-util-is):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/jest-config/node_modules/fsevents/node_modules/deep-extend):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/jest-config/node_modules/fsevents/node_modules/delegates):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.delegates.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/jest-config/node_modules/fsevents/node_modules/detect-libc):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/jest-config/node_modules/fsevents/node_modules/fs.realpath):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/has-unicode):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/jest-config/node_modules/fsevents/node_modules/inherits):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.inherits.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/jest-config/node_modules/fsevents/node_modules/ini):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.ini.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/jest-config/node_modules/fsevents/node_modules/isarray):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.isarray.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/jest-config/node_modules/fsevents/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/jest-config/node_modules/fsevents/node_modules/ms):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.ms.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/npm-normalize-package-bin):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/number-is-nan):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/jest-config/node_modules/fsevents/node_modules/object-assign):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.object-assign.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/os-homedir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/os-tmpdir):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/path-is-absolute):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/process-nextick-args):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/jest-config/node_modules/fsevents/node_modules/rc/node_modules/minimist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/jest-config/node_modules/fsevents/node_modules/safe-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/jest-config/node_modules/fsevents/node_modules/safer-buffer):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/jest-config/node_modules/fsevents/node_modules/sax):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.sax.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/jest-config/node_modules/fsevents/node_modules/semver):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.semver.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/jest-config/node_modules/fsevents/node_modules/set-blocking):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/signal-exit):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/jest-config/node_modules/fsevents/node_modules/strip-json-comments):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/util-deprecate):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/jest-config/node_modules/fsevents/node_modules/wrappy):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.wrappy.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/jest-config/node_modules/fsevents/node_modules/yallist):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-config/node_modules/fsevents/node_modules/.yallist.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/jest-runner/node_modules/fsevents/node_modules/abbrev):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/.abbrev.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/jest-runner/node_modules/fsevents/node_modules/ansi-regex):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/jest-runner/node_modules/fsevents/node_modules/aproba):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/.aproba.DELETE'
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/jest-runner/node_modules/fsevents/node_modules/balanced-match):
+npm WARN enoent SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-messaging-components/node_modules/jest-runner/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-messaging-components/nodetravis_time:end:124d1a1b:start=1582834876721000971,finish=1582834949827992832,duration=73106991861,event=install[0Ktravis_fold:end:install.npm[0K
+travis_fold:start:before_script.1[0Ktravis_time:start:10460eaf[0K$ npm run dev:snapshot &
+travis_time:end:10460eaf:start=1582834949832835793,finish=1582834949839269935,duration=6434142,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:05d16d1e[0K$ sleep 20
+
+> @paypal/messaging-components@1.7.3 dev:snapshot /home/travis/build/paypal/paypal-messaging-components
+> webpack-dev-server --config webpack.config.snapshot.js --env.TARGET=standalone --env.NODE_ENV=local
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost.paypal.com:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./tests/functional/content
+travis_time:end:05d16d1e:start=1582834949844429791,finish=1582834969885438452,duration=20041008661,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_time:start:1b8a2201[0K$ npm run lint
+
+> @paypal/messaging-components@1.7.3 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js
+  167:17  warning  Unexpected console statement  no-console
+  178:17  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js
+  118:17  warning  Unexpected console statement  no-console
+  125:9   warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/utils/devServerProxy.js
+  116:31  warning  Unexpected console statement  no-console
+
+✖ 5 problems (0 errors, 5 warnings)
+
+travis_time:end:1b8a2201:start=1582834969933713695,finish=1582834994328051719,duration=24394338024,event=script[0K[32;1mThe command "npm run lint" exited with 0.[0m
+travis_time:start:1f07294d[0K$ npm run test
+
+> @paypal/messaging-components@1.7.3 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+PASS tests/unit/spec/src/messages/models/Container/events.test.js
+PASS tests/unit/spec/src/utils/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/setSize.test.js
+PASS tests/unit/spec/src/messages/models/Container/stats.test.js
+PASS tests/unit/spec/src/messages/models/Banner/validateOptions.test.js
+PASS tests/unit/spec/src/messages/models/Banner/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/insertMarkup.test.js
+PASS tests/unit/spec/src/messages/models/Container/index.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/helpers.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/transitionState.test.js
+PASS tests/unit/spec/src/messages/components/Modal/index.test.js
+PASS tests/unit/spec/src/modal/lib/transition.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/calculator.test.js
+
+Test Suites: 13 passed, 13 total
+Tests:       6 todo, 49 passed, 55 total
+Snapshots:   0 total
+Time:        11.571s
+Ran all test suites.
+travis_time:end:1f07294d:start=1582834994335029327,finish=1582835007686695368,duration=13351666041,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_time:start:0c37157a[0K$ ./scripts/snapshot-tests/run-tests.sh
+travis_time:end:0c37157a:start=1582835007702080741,finish=1582835007721757438,duration=19676697,event=script[0K[32;1mThe command "./scripts/snapshot-tests/run-tests.sh" exited with 0.[0m
+
+[33;1mSkipping a deployment with the script provider because this branch is not permitted: modal-apply-now[0m
+
+Done. Your build exited with 0.
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 0b949cdb6ecdf1df3aa2766a23a1cfdedc6a47d2
+Version: webpack 4.41.6
+Child
+    Hash: 0b949cdb6ecdf1df3aa2
+    Time: 56203ms
+    Built at: 02/27/2020 8:23:27 PM
+                       Asset       Size     Chunks             Chunk Names
+                 merchant.js    2.8 MiB   merchant  [emitted]  merchant
+     merchant.js.LICENSE.txt  151 bytes             [emitted]  
+                messaging.js   2.75 MiB  messaging  [emitted]  messaging
+    messaging.js.LICENSE.txt  151 bytes             [emitted]  
+    Entrypoint messaging = messaging.js
+    Entrypoint merchant = merchant.js
+    [0] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js 40 bytes {messaging} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [1] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js 40 bytes {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/@babel/runtime/helpers/esm/extends.js] 397 bytes {messaging} {merchant} [built]
+    [./node_modules/core-js-pure/stable/array/from.js] 70 bytes {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/core-js-pure/stable/object/entries.js] 74 bytes {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/core-js-pure/stable/string/starts-with.js] 78 bytes {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] (webpack)-dev-server/client?http://localhost.paypal.com:8080 4.29 KiB {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {messaging} {merchant} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./src/index.js] 161 bytes {messaging} [built]
+        ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js (referenced with single entry)
+    [./src/legacy/index.js] ./src/legacy/index.js + 2 modules 17.4 KiB {merchant} [built]
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/interface/messages.js
+        ModuleConcatenation bailout: Cannot concat with ./src/messages/services/logger/index.js
+        ModuleConcatenation bailout: Cannot concat with ./src/utils/index.js
+        | ./src/legacy/index.js 10.2 KiB [built]
+        |     ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js (referenced with single entry)
+        | ./src/legacy/toNewPipeline.js 4.02 KiB [built]
+        | ./src/legacy/map.js 3.14 KiB [built]
+        + 262 hidden modules
+Child
+    Hash: 766a23a1cfdedc6a47d2
+    Time: 28216ms
+    Built at: 02/27/2020 8:22:59 PM
+                                Asset       Size  Chunks             Chunk Names
+                smart-credit-modal.js   1.75 MiB    main  [emitted]  main
+    smart-credit-modal.js.LICENSE.txt  151 bytes          [emitted]  
+    Entrypoint main = smart-credit-modal.js
+    [0] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/modal/index.js 40 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/ansi-html/index.js] 4.27 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/html-entities/index.js] 230 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/loglevel/lib/loglevel.js] 7.48 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/url/url.js] 22.3 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] (webpack)-dev-server/client?http://localhost.paypal.com:8080 4.29 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] (webpack)-dev-server/node_modules/strip-ansi/index.js 162 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./node_modules/webpack/hot sync ^\.\/log$] (webpack)/hot sync nonrecursive ^\.\/log$ 170 bytes {main} [built]
+        ModuleConcatenation bailout: Module is not an ECMAScript module
+    [./src/modal/index.js] ./src/modal/index.js + 94 modules 268 KiB {main} [built]
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/assign.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/includes.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./node_modules/zalgo-promise/index.js (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/messages/models/Template/styles/fonts.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/common--us.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/common.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/de--inst.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/fonts.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/modal-frame.scss (<- Module is not an ECMAScript module)
+        ModuleConcatenation bailout: Cannot concat with ./src/modal/styles/us--ezp.scss (<- Module is not an ECMAScript module)
+        | ./src/modal/index.js 238 bytes [built]
+        |     ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/modal/index.js (referenced with single entry)
+        | ./node_modules/preact/dist/preact.module.js 9.07 KiB [built]
+        | ./src/modal/Modal.jsx 546 bytes [built]
+        | ./src/modal/lib/context.js 511 bytes [built]
+        | ./src/modal/lib/transition.jsx 1.05 KiB [built]
+        | ./src/modal/parts/Container.jsx 1.38 KiB [built]
+        | ./src/modal/styles/index.js 538 bytes [built]
+        | ./src/modal/content/Content.jsx 1.01 KiB [built]
+        | ./node_modules/preact/hooks/dist/hooks.module.js 2.44 KiB [built]
+        | ./src/modal/lib/hooks/helpers.js 753 bytes [built]
+        | ./src/modal/lib/hooks/index.js 252 bytes [built]
+        | ./src/modal/lib/scroll.jsx 1.52 KiB [built]
+        | ./src/modal/parts/Header.jsx 2.44 KiB [built]
+        | ./src/modal/parts/Overlay.jsx 1.37 KiB [built]
+        | ./src/modal/content/US/NI.jsx 4.47 KiB [built]
+        |     + 80 hidden modules
+        + 137 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+/home/travis/.travis/functions: line 536:  4309 Terminated              npm run dev:snapshot

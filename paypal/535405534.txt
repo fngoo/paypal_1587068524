@@ -1,0 +1,580 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 74aab516-8105-414a-a93f-ba55564894ec@1.production-2-worker-org-gce-pl6v
+version: v6.2.0 https://github.com/travis-ci/worker/tree/5e5476e01646095f48eec13196fdb3faf8f5cbf7
+instance: travis-job-0d555d57-1cdb-4b6d-a20d-eac75580f047 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.394092968s
+travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 535405532
+Job id: 535405534
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 0696e6115
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:129ea74c[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2019-05-21 17:28:11 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [58527216/58527216] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:129ea74c:start=1558459690298437167,finish=1558459691304024634,duration=1005587467[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (74.0.3729.157-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (74.0.3729.157-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0cf1d466[0K$ git clone --depth=50 --branch=master https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 421, done.[K
+remote: Counting objects:   0% (1/421)   [Kremote: Counting objects:   1% (5/421)   [Kremote: Counting objects:   2% (9/421)   [Kremote: Counting objects:   3% (13/421)   [Kremote: Counting objects:   4% (17/421)   [Kremote: Counting objects:   5% (22/421)   [Kremote: Counting objects:   6% (26/421)   [Kremote: Counting objects:   7% (30/421)   [Kremote: Counting objects:   8% (34/421)   [Kremote: Counting objects:   9% (38/421)   [Kremote: Counting objects:  10% (43/421)   [Kremote: Counting objects:  11% (47/421)   [Kremote: Counting objects:  12% (51/421)   [Kremote: Counting objects:  13% (55/421)   [Kremote: Counting objects:  14% (59/421)   [Kremote: Counting objects:  15% (64/421)   [Kremote: Counting objects:  16% (68/421)   [Kremote: Counting objects:  17% (72/421)   [Kremote: Counting objects:  18% (76/421)   [Kremote: Counting objects:  19% (80/421)   [Kremote: Counting objects:  20% (85/421)   [Kremote: Counting objects:  21% (89/421)   [Kremote: Counting objects:  22% (93/421)   [Kremote: Counting objects:  23% (97/421)   [Kremote: Counting objects:  24% (102/421)   [Kremote: Counting objects:  25% (106/421)   [Kremote: Counting objects:  26% (110/421)   [Kremote: Counting objects:  27% (114/421)   [Kremote: Counting objects:  28% (118/421)   [Kremote: Counting objects:  29% (123/421)   [Kremote: Counting objects:  30% (127/421)   [Kremote: Counting objects:  31% (131/421)   [Kremote: Counting objects:  32% (135/421)   [Kremote: Counting objects:  33% (139/421)   [Kremote: Counting objects:  34% (144/421)   [Kremote: Counting objects:  35% (148/421)   [Kremote: Counting objects:  36% (152/421)   [Kremote: Counting objects:  37% (156/421)   [Kremote: Counting objects:  38% (160/421)   [Kremote: Counting objects:  39% (165/421)   [Kremote: Counting objects:  40% (169/421)   [Kremote: Counting objects:  41% (173/421)   [Kremote: Counting objects:  42% (177/421)   [Kremote: Counting objects:  43% (182/421)   [Kremote: Counting objects:  44% (186/421)   [Kremote: Counting objects:  45% (190/421)   [Kremote: Counting objects:  46% (194/421)   [Kremote: Counting objects:  47% (198/421)   [Kremote: Counting objects:  48% (203/421)   [Kremote: Counting objects:  49% (207/421)   [Kremote: Counting objects:  50% (211/421)   [Kremote: Counting objects:  51% (215/421)   [Kremote: Counting objects:  52% (219/421)   [Kremote: Counting objects:  53% (224/421)   [Kremote: Counting objects:  54% (228/421)   [Kremote: Counting objects:  55% (232/421)   [Kremote: Counting objects:  56% (236/421)   [Kremote: Counting objects:  57% (240/421)   [Kremote: Counting objects:  58% (245/421)   [Kremote: Counting objects:  59% (249/421)   [Kremote: Counting objects:  60% (253/421)   [Kremote: Counting objects:  61% (257/421)   [Kremote: Counting objects:  62% (262/421)   [Kremote: Counting objects:  63% (266/421)   [Kremote: Counting objects:  64% (270/421)   [Kremote: Counting objects:  65% (274/421)   [Kremote: Counting objects:  66% (278/421)   [Kremote: Counting objects:  67% (283/421)   [Kremote: Counting objects:  68% (287/421)   [Kremote: Counting objects:  69% (291/421)   [Kremote: Counting objects:  70% (295/421)   [Kremote: Counting objects:  71% (299/421)   [Kremote: Counting objects:  72% (304/421)   [Kremote: Counting objects:  73% (308/421)   [Kremote: Counting objects:  74% (312/421)   [Kremote: Counting objects:  75% (316/421)   [Kremote: Counting objects:  76% (320/421)   [Kremote: Counting objects:  77% (325/421)   [Kremote: Counting objects:  78% (329/421)   [Kremote: Counting objects:  79% (333/421)   [Kremote: Counting objects:  80% (337/421)   [Kremote: Counting objects:  81% (342/421)   [Kremote: Counting objects:  82% (346/421)   [Kremote: Counting objects:  83% (350/421)   [Kremote: Counting objects:  84% (354/421)   [Kremote: Counting objects:  85% (358/421)   [Kremote: Counting objects:  86% (363/421)   [Kremote: Counting objects:  87% (367/421)   [Kremote: Counting objects:  88% (371/421)   [Kremote: Counting objects:  89% (375/421)   [Kremote: Counting objects:  90% (379/421)   [Kremote: Counting objects:  91% (384/421)   [Kremote: Counting objects:  92% (388/421)   [Kremote: Counting objects:  93% (392/421)   [Kremote: Counting objects:  94% (396/421)   [Kremote: Counting objects:  95% (400/421)   [Kremote: Counting objects:  96% (405/421)   [Kremote: Counting objects:  97% (409/421)   [Kremote: Counting objects:  98% (413/421)   [Kremote: Counting objects:  99% (417/421)   [Kremote: Counting objects: 100% (421/421)   [Kremote: Counting objects: 100% (421/421), done.[K
+remote: Compressing objects:   0% (1/240)   [Kremote: Compressing objects:   1% (3/240)   [Kremote: Compressing objects:   2% (5/240)   [Kremote: Compressing objects:   3% (8/240)   [Kremote: Compressing objects:   4% (10/240)   [Kremote: Compressing objects:   5% (12/240)   [Kremote: Compressing objects:   6% (15/240)   [Kremote: Compressing objects:   7% (17/240)   [Kremote: Compressing objects:   8% (20/240)   [Kremote: Compressing objects:   9% (22/240)   [Kremote: Compressing objects:  10% (24/240)   [Kremote: Compressing objects:  11% (27/240)   [Kremote: Compressing objects:  12% (29/240)   [Kremote: Compressing objects:  13% (32/240)   [Kremote: Compressing objects:  14% (34/240)   [Kremote: Compressing objects:  15% (36/240)   [Kremote: Compressing objects:  16% (39/240)   [Kremote: Compressing objects:  17% (41/240)   [Kremote: Compressing objects:  18% (44/240)   [Kremote: Compressing objects:  19% (46/240)   [Kremote: Compressing objects:  20% (48/240)   [Kremote: Compressing objects:  21% (51/240)   [Kremote: Compressing objects:  22% (53/240)   [Kremote: Compressing objects:  23% (56/240)   [Kremote: Compressing objects:  24% (58/240)   [Kremote: Compressing objects:  25% (60/240)   [Kremote: Compressing objects:  26% (63/240)   [Kremote: Compressing objects:  27% (65/240)   [Kremote: Compressing objects:  28% (68/240)   [Kremote: Compressing objects:  29% (70/240)   [Kremote: Compressing objects:  30% (72/240)   [Kremote: Compressing objects:  31% (75/240)   [Kremote: Compressing objects:  32% (77/240)   [Kremote: Compressing objects:  33% (80/240)   [Kremote: Compressing objects:  34% (82/240)   [Kremote: Compressing objects:  35% (84/240)   [Kremote: Compressing objects:  36% (87/240)   [Kremote: Compressing objects:  37% (89/240)   [Kremote: Compressing objects:  38% (92/240)   [Kremote: Compressing objects:  39% (94/240)   [Kremote: Compressing objects:  40% (96/240)   [Kremote: Compressing objects:  41% (99/240)   [Kremote: Compressing objects:  42% (101/240)   [Kremote: Compressing objects:  43% (104/240)   [Kremote: Compressing objects:  44% (106/240)   [Kremote: Compressing objects:  45% (108/240)   [Kremote: Compressing objects:  46% (111/240)   [Kremote: Compressing objects:  47% (113/240)   [Kremote: Compressing objects:  48% (116/240)   [Kremote: Compressing objects:  49% (118/240)   [Kremote: Compressing objects:  50% (120/240)   [Kremote: Compressing objects:  51% (123/240)   [Kremote: Compressing objects:  52% (125/240)   [Kremote: Compressing objects:  53% (128/240)   [Kremote: Compressing objects:  54% (130/240)   [Kremote: Compressing objects:  55% (132/240)   [Kremote: Compressing objects:  56% (135/240)   [Kremote: Compressing objects:  57% (137/240)   [Kremote: Compressing objects:  58% (140/240)   [Kremote: Compressing objects:  59% (142/240)   [Kremote: Compressing objects:  60% (144/240)   [Kremote: Compressing objects:  61% (147/240)   [Kremote: Compressing objects:  62% (149/240)   [Kremote: Compressing objects:  63% (152/240)   [Kremote: Compressing objects:  64% (154/240)   [Kremote: Compressing objects:  65% (156/240)   [Kremote: Compressing objects:  66% (159/240)   [Kremote: Compressing objects:  67% (161/240)   [Kremote: Compressing objects:  68% (164/240)   [Kremote: Compressing objects:  69% (166/240)   [Kremote: Compressing objects:  70% (168/240)   [Kremote: Compressing objects:  71% (171/240)   [Kremote: Compressing objects:  72% (173/240)   [Kremote: Compressing objects:  73% (176/240)   [Kremote: Compressing objects:  74% (178/240)   [Kremote: Compressing objects:  75% (180/240)   [Kremote: Compressing objects:  76% (183/240)   [Kremote: Compressing objects:  77% (185/240)   [Kremote: Compressing objects:  78% (188/240)   [Kremote: Compressing objects:  79% (190/240)   [Kremote: Compressing objects:  80% (192/240)   [Kremote: Compressing objects:  81% (195/240)   [Kremote: Compressing objects:  82% (197/240)   [Kremote: Compressing objects:  83% (200/240)   [Kremote: Compressing objects:  84% (202/240)   [Kremote: Compressing objects:  85% (204/240)   [Kremote: Compressing objects:  86% (207/240)   [Kremote: Compressing objects:  87% (209/240)   [Kremote: Compressing objects:  88% (212/240)   [Kremote: Compressing objects:  89% (214/240)   [Kremote: Compressing objects:  90% (216/240)   [Kremote: Compressing objects:  91% (219/240)   [Kremote: Compressing objects:  92% (221/240)   [Kremote: Compressing objects:  93% (224/240)   [Kremote: Compressing objects:  94% (226/240)   [Kremote: Compressing objects:  95% (228/240)   [Kremote: Compressing objects:  96% (231/240)   [Kremote: Compressing objects:  97% (233/240)   [Kremote: Compressing objects:  98% (236/240)   [Kremote: Compressing objects:  99% (238/240)   [Kremote: Compressing objects: 100% (240/240)   [Kremote: Compressing objects: 100% (240/240), done.[K
+Receiving objects:   0% (1/421)   Receiving objects:   1% (5/421)   Receiving objects:   2% (9/421)   Receiving objects:   3% (13/421)   Receiving objects:   4% (17/421)   Receiving objects:   5% (22/421)   Receiving objects:   6% (26/421)   Receiving objects:   7% (30/421)   Receiving objects:   8% (34/421)   Receiving objects:   9% (38/421)   Receiving objects:  10% (43/421)   Receiving objects:  11% (47/421)   Receiving objects:  12% (51/421)   Receiving objects:  13% (55/421)   Receiving objects:  14% (59/421)   Receiving objects:  15% (64/421)   Receiving objects:  16% (68/421)   Receiving objects:  17% (72/421)   Receiving objects:  18% (76/421)   Receiving objects:  19% (80/421)   Receiving objects:  20% (85/421)   Receiving objects:  21% (89/421)   Receiving objects:  22% (93/421)   Receiving objects:  23% (97/421)   Receiving objects:  24% (102/421)   Receiving objects:  25% (106/421)   Receiving objects:  26% (110/421)   Receiving objects:  27% (114/421)   Receiving objects:  28% (118/421)   Receiving objects:  29% (123/421)   Receiving objects:  30% (127/421)   Receiving objects:  31% (131/421)   Receiving objects:  32% (135/421)   Receiving objects:  33% (139/421)   Receiving objects:  34% (144/421)   Receiving objects:  35% (148/421)   Receiving objects:  36% (152/421)   Receiving objects:  37% (156/421)   Receiving objects:  38% (160/421)   Receiving objects:  39% (165/421)   Receiving objects:  40% (169/421)   Receiving objects:  41% (173/421)   Receiving objects:  42% (177/421)   Receiving objects:  43% (182/421)   Receiving objects:  44% (186/421)   Receiving objects:  45% (190/421)   Receiving objects:  46% (194/421)   Receiving objects:  47% (198/421)   Receiving objects:  48% (203/421)   Receiving objects:  49% (207/421)   Receiving objects:  50% (211/421)   Receiving objects:  51% (215/421)   Receiving objects:  52% (219/421)   Receiving objects:  53% (224/421)   Receiving objects:  54% (228/421)   Receiving objects:  55% (232/421)   Receiving objects:  56% (236/421)   Receiving objects:  57% (240/421)   Receiving objects:  58% (245/421)   Receiving objects:  59% (249/421)   Receiving objects:  60% (253/421)   Receiving objects:  61% (257/421)   Receiving objects:  62% (262/421)   Receiving objects:  63% (266/421)   Receiving objects:  64% (270/421)   Receiving objects:  65% (274/421)   Receiving objects:  66% (278/421)   Receiving objects:  67% (283/421)   Receiving objects:  68% (287/421)   Receiving objects:  69% (291/421)   Receiving objects:  70% (295/421)   Receiving objects:  71% (299/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  72% (304/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  73% (308/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  74% (312/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  75% (316/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  76% (320/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  77% (325/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  78% (329/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  79% (333/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  80% (337/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  81% (342/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  82% (346/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  83% (350/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  84% (354/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  85% (358/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  86% (363/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  87% (367/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  88% (371/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  89% (375/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  90% (379/421), 540.00 KiB | 1.02 MiB/s   remote: Total 421 (delta 243), reused 330 (delta 177), pack-reused 0[K
+Receiving objects:  91% (384/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  92% (388/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  93% (392/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  94% (396/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  95% (400/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  96% (405/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  97% (409/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  98% (413/421), 540.00 KiB | 1.02 MiB/s   Receiving objects:  99% (417/421), 540.00 KiB | 1.02 MiB/s   Receiving objects: 100% (421/421), 540.00 KiB | 1.02 MiB/s   Receiving objects: 100% (421/421), 574.81 KiB | 1.07 MiB/s, done.
+Resolving deltas:   0% (0/243)   Resolving deltas:   2% (7/243)   Resolving deltas:   3% (8/243)   Resolving deltas:   6% (17/243)   Resolving deltas:   8% (21/243)   Resolving deltas:  11% (29/243)   Resolving deltas:  13% (33/243)   Resolving deltas:  15% (38/243)   Resolving deltas:  16% (39/243)   Resolving deltas:  17% (43/243)   Resolving deltas:  20% (49/243)   Resolving deltas:  23% (57/243)   Resolving deltas:  24% (59/243)   Resolving deltas:  27% (68/243)   Resolving deltas:  28% (69/243)   Resolving deltas:  29% (72/243)   Resolving deltas:  30% (73/243)   Resolving deltas:  43% (105/243)   Resolving deltas:  49% (121/243)   Resolving deltas:  55% (135/243)   Resolving deltas:  61% (150/243)   Resolving deltas:  63% (155/243)   Resolving deltas:  64% (156/243)   Resolving deltas:  65% (158/243)   Resolving deltas:  66% (161/243)   Resolving deltas:  67% (163/243)   Resolving deltas:  68% (166/243)   Resolving deltas:  72% (175/243)   Resolving deltas:  73% (178/243)   Resolving deltas:  74% (181/243)   Resolving deltas:  75% (183/243)   Resolving deltas:  77% (188/243)   Resolving deltas:  78% (191/243)   Resolving deltas:  79% (192/243)   Resolving deltas:  81% (197/243)   Resolving deltas:  82% (201/243)   Resolving deltas:  85% (207/243)   Resolving deltas:  87% (213/243)   Resolving deltas:  88% (216/243)   Resolving deltas:  90% (221/243)   Resolving deltas:  91% (222/243)   Resolving deltas:  92% (224/243)   Resolving deltas: 100% (243/243)   Resolving deltas: 100% (243/243), done.
+travis_time:end:0cf1d466:start=1558459709924156649,finish=1558459711284660711,duration=1360504062[0K$ cd paypal/paypal-smart-payment-buttons
+$ git checkout -qf b192e990870a2690fb814562b6ae53cf9237613e
+travis_fold:end:git.checkout[0K
+travis_fold:start:nvm.install[0Ktravis_time:start:2af8ccec[0K$ nvm install 10
+Downloading and installing node v10.15.3...
+Downloading https://nodejs.org/dist/v10.15.3/node-v10.15.3-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.15.3 (npm v6.4.1)
+travis_time:end:2af8ccec:start=1558459712506955882,finish=1558459716490915339,duration=3983959457[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.15.3
+$ npm --version
+6.4.1
+$ nvm --version
+0.34.0
+
+travis_fold:start:install.npm[0Ktravis_time:start:2c012fce[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m istanbul@0.4.5: This module is no longer maintained, try this instead:
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m   npm i nyc
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m Visit https://istanbul.js.org/integrations for other alternatives.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m nomnom@1.8.1: Package no longer supported. Contact support@npmjs.com for more info.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m circular-json@0.5.9: CircularJSON is in maintenance only, flatted is its successor.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m kleur@2.0.2: Please upgrade to kleur@3 or migrate to 'ansi-colors' if you prefer the old syntax. Visit <https://github.com/lukeed/kleur/releases/tag/v3.0.0\> for migration path(s).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m node-uuid@1.4.8: Use uuid module instead
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m left-pad@1.3.0: use String.prototype.padStart()
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m
+> core-js@3.1.1 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/@babel/register/node_modules/core-js
+> node scripts/postinstall
+
+
+> core-js@2.6.7 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/core-js
+> node scripts/postinstall
+
+
+> core-js-pure@3.1.1 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/core-js-pure
+> node scripts/postinstall
+
+
+> webpack-cli@3.3.2 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/webpack-cli
+> node ./bin/opencollective.js
+
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.96 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.96 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
+added 2567 packages from 2472 contributors and audited 51867 packages in 53.964s
+found [91m174[0m vulnerabilities (66 [1mlow[0m, 70 [93mmoderate[0m, 38 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:2c012fce:start=1558459717949354313,finish=1558459772413298784,duration=54463944471[0Ktravis_fold:end:install.npm[0K
+travis_time:start:0167f492[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.96 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest
+
+
+> @paypal/smart-payment-buttons@2.0.96 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint src/ server/ test/ *.js
+
+
+> @paypal/smart-payment-buttons@2.0.96 flow-typed /home/travis/build/paypal/paypal-smart-payment-buttons
+> rm -rf ./flow-typed && flow-typed install --ignoreDeps peer && flow-typed install jest@22 mocha@3
+
+[before-after-hook]: "Hook()" repurposing warning, use "Hook.Collection()". Read more: https://git.io/upgrade-before-after-hook-to-1.4
+• Found 15 dependencies in package.json to install libdefs for. Searching...
+• flow-typed cache not found, fetching from GitHub...
+• Installing 2 libDefs...
+[1m  • express_v4.16.x.js[22m
+[1m    └> [32m./flow-typed/npm/express_v4.16.x.js[39m[22m
+express
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+[1m  • flow-bin_v0.x.x.js[22m
+[1m    └> [32m./flow-typed/npm/flow-bin_v0.x.x.js[39m[22m
+flow-bin
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+• Generating stubs for untyped dependencies...
+[1m  • babel-core@^7.0.0-bridge.0[22m
+[1m    └> [31mflow-typed/npm/babel-core_vx.x.x.js[39m[22m
+[1m  • @paypal/sdk-client@^4.0.27[22m
+[1m    └> [31mflow-typed/npm/@paypal/sdk-client_vx.x.x.js[39m[22m
+[1m  • sync-browser-mocks@^1.0.44[22m
+[1m    └> [31mflow-typed/npm/sync-browser-mocks_vx.x.x.js[39m[22m
+[1m  • grumbler-scripts@^3.0.18[22m
+[1m    └> [31mflow-typed/npm/grumbler-scripts_vx.x.x.js[39m[22m
+[1m  • grabthar@^3[22m
+[1m    └> [31mflow-typed/npm/grabthar_vx.x.x.js[39m[22m
+[1m  • webpack-mem-compile@^1.0.2[22m
+[1m    └> [31mflow-typed/npm/webpack-mem-compile_vx.x.x.js[39m[22m
+[1m  • belter@^1.0.19[22m
+[1m    └> [31mflow-typed/npm/belter_vx.x.x.js[39m[22m
+[1m  • jsx-pragmatic@^2[22m
+[1m    └> [31mflow-typed/npm/jsx-pragmatic_vx.x.x.js[39m[22m
+[1m  • @paypal/checkout-components@^5.0.30[22m
+[1m    └> [31mflow-typed/npm/@paypal/checkout-components_vx.x.x.js[39m[22m
+[31m[39m
+[31m!! No flow@v0.70.0-compatible libdefs found in flow-typed for the above untyped dependencies !![39m
+
+I've generated `any`-typed stubs for these packages, but consider submitting 
+libdefs for them to [1mhttps://github.com/flowtype/flow-typed/[22m
+
+[before-after-hook]: "Hook()" repurposing warning, use "Hook.Collection()". Read more: https://git.io/upgrade-before-after-hook-to-1.4
+• Searching for 2 libdefs...
+• Installing 1 libDefs...
+[1m  • jest_v22.x.x.js[22m
+[1m    └> [32m./flow-typed/npm/jest_v22.x.x.js[39m[22m
+jest
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+• Generating stubs for untyped dependencies...
+[1m  • mocha@3[22m
+[1m    └> [31mflow-typed/npm/mocha_vx.x.x.js[39m[22m
+[31m[39m
+[31m!! No flow@v0.70.0-compatible libdefs found in flow-typed for the above untyped dependencies !![39m
+
+I've generated `any`-typed stubs for this package, but consider submitting 
+a libdef for it to [1mhttps://github.com/flowtype/flow-typed/[22m
+
+
+> @paypal/smart-payment-buttons@2.0.96 flow /home/travis/build/paypal/paypal-smart-payment-buttons
+> flow
+
+Launching Flow server for /home/travis/build/paypal/paypal-smart-payment-buttons
+Spawned flow server (pid=4633)
+Logs will go to /tmp/flow/zShomezStraviszSbuildzSpaypalzSpaypal-smart-payment-buttons.log
+Monitor logs will go to /tmp/flow/zShomezStraviszSbuildzSpaypalzSpaypal-smart-payment-buttons.monitor_log
+Started a new flow server: -[0K[0KPlease wait. Server is starting up: \[0KPlease wait. Server is initializing (starting up): |[0KPlease wait. Server is initializing (parsed files 0): /[0KPlease wait. Server is initializing (parsed files 1000): -[0KPlease wait. Server is initializing (parsed files 2000): \[0KPlease wait. Server is initializing (parsed files 2000): |[0KPlease wait. Server is initializing (parsed files 3000): /[0KPlease wait. Server is initializing (parsed files 3000): -[0KPlease wait. Server is initializing (parsed files 4000): \[0KPlease wait. Server is initializing (parsed files 5000): |[0KPlease wait. Server is initializing (parsed files 5000): /[0KPlease wait. Server is initializing (parsed files 6000): -[0KPlease wait. Server is initializing (parsed files 7000): \[0KPlease wait. Server is initializing (parsed files 11000): |[0KPlease wait. Server is initializing (parsed files 12000): /[0KPlease wait. Server is initializing (parsed files 15000): -[0KPlease wait. Server is initializing (parsed files 17000): \[0KPlease wait. Server is initializing (parsed files 18000): |[0KPlease wait. Server is initializing (parsed files 19000): /[0KPlease wait. Server is initializing (parsed files 21000): -[0KPlease wait. Server is initializing (parsed files 21832): \[0KPlease wait. Server is initializing (parsed files 21832): |[0KPlease wait. Server is initializing (parsed files 21832): /[0KPlease wait. Server is initializing (parsed files 21832): -[0KPlease wait. Server is initializing (parsed files 21832): \[0KPlease wait. Server is initializing (parsed files 21832): |[0KPlease wait. Server is initializing (parsed files 21832): /[0KPlease wait. Server is initializing (parsed files 21832): -[0KPlease wait. Server is initializing (parsed files 21832): \[0KPlease wait. Server is initializing (parsed files 21832): |[0KPlease wait. Server is initializing (parsed files 21832): /[0KPlease wait. Server is initializing (resolving dependencies): -[0KPlease wait. Server is initializing (resolving dependencies): \[0KPlease wait. Server is initializing (resolving dependencies): |[0KPlease wait. Server is initializing (calculating dependencies): /[0KPlease wait. Server is initializing (merged files 0/121 (0.0%)): -[0KPlease wait. Server is initializing (merged files 47/121 (38.8%)): \[0KPlease wait. Server is initializing (merged files 65/121 (53.7%)): |[0KPlease wait. Server is initializing (merged files 72/121 (59.5%)): /[0KPlease wait. Server is initializing (merged files 88/121 (72.7%)): -[0KPlease wait. Server is initializing (merged files 105/121 (86.8%)): \[0KPlease wait. Server is initializing (finishing up): |[0KPlease wait. Server is initializing (garbage collecting shared memory): /[0KPlease wait. Server is handling a request (starting up): -[0KPlease wait. Server is handling a request (collating errors): \[0K[31mError ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ src/button/logs.js:38:23[0m[0m
+[0m[0m
+[0m[0mCannot[0m[0m [0m[0mget[0m[0m [0m[0m[0m[0;1mFPTI_KEY.BUTTON_COLOR[0m[0m[0m[0m [0m[0mbecause[0m[0m[0m[0m [0m[0m[0m[0mproperty[0m[0m [0m[0m[0m[0;1mBUTTON_COLOR[0m[0m[0m[0m [0m[0mis[0m[0m [0m[0mmissing[0m[0m [0m[0min[0m[0m
+[0m[0m[0m[0;4mobject[0m[0;4m [0m[0;4mliteral[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m.[0m[0m
+[0m[0m
+[0m[0m     [0m[0msrc/button/logs.js
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.FUNDING_COUNT]:  fundingSources.length.toString(),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.PAGE_LOAD_TIME]: pageRenderTime ? pageRenderTime.toString() : '',[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LAYOUT]:  (style && style.layout),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[0;2m            [[0m[0mFPTI_KEY.[0m[31mBUTTON_COLOR[0m[31m[0m[0;2m]:   (style && style.color),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SIZE]:    (style && style.size),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m40[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SHAPE]:   (style && style.shape),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m41[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LABEL]:   (style && style.label),[0m[0m
+[0m[0m
+[0m[0m     [0m[0mnode_modules/@paypal/sdk-constants/src/fpti.js
+[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m [0m[0m [0m[0;2m3[0m[0;2m│[0m[0m [0m[0;2mexport const FPTI_KEY = [0m[36m{[0m[0m
+[0m[0m     [0m[0m [0m[0;2m4[0m[0;2m│[0m[0m [0m[36m    FEED:                   ('feed_name' : 'feed_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m5[0m[0;2m│[0m[0m [0m[36m    STATE:                  ('state_name' : 'state_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m6[0m[0;2m│[0m[0m [0m[36m    TRANSITION:             ('transition_name' : 'transition_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m7[0m[0;2m│[0m[0m [0m[36m    BUTTON_TYPE:            ('button_type' : 'button_type'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m8[0m[0;2m│[0m[0m [0m[36m    SESSION_UID:            ('page_session_id' : 'page_session_id'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m9[0m[0;2m│[0m[0m [0m[36m    BUTTON_SESSION_UID:     ('button_session_id' : 'button_session_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m10[0m[0;2m│[0m[0m [0m[36m    TOKEN:                  ('token' : 'token'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m11[0m[0;2m│[0m[0m [0m[36m    CONTEXT_ID:             ('context_id' : 'context_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m12[0m[0;2m│[0m[0m [0m[36m    CONTEXT_TYPE:           ('context_type' : 'context_type'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m13[0m[0;2m│[0m[0m [0m[36m    REFERER:                ('referer_url' : 'referer_url'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m14[0m[0;2m│[0m[0m [0m[36m    PAY_ID:                 ('pay_id' : 'pay_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m15[0m[0;2m│[0m[0m [0m[36m    SELLER_ID:              ('seller_id' : 'seller_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m16[0m[0;2m│[0m[0m [0m[36m    CLIENT_ID:              ('client_id' : 'client_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m17[0m[0;2m│[0m[0m [0m[36m    DATA_SOURCE:            ('serverside_data_source' : 'serverside_data_source'),[0m[0m
+[0m[0m       [0m[0;2m:[0m[0m
+[0m[0m     [0m[0m[0m[0;2m25[0m[0;2m│[0m[0m [0m[36m    FUNDING_LIST:           ('eligible_payment_methods' : 'eligible_payment_methods'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m26[0m[0;2m│[0m[0m [0m[36m    FUNDING_COUNT:          ('eligible_payment_count' : 'eligible_payment_count'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m27[0m[0;2m│[0m[0m [0m[36m    CHOSEN_FUNDING:         ('selected_payment_method' : 'selected_payment_method'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m28[0m[0;2m│[0m[0m [0m[36m    BUTTON_LAYOUT:          ('button_layout' : 'button_layout'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m29[0m[0;2m│[0m[0m [0m[36m    VERSION:                ('checkoutjs_version' : 'checkoutjs_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m30[0m[0;2m│[0m[0m [0m[36m    LOCALE:                 ('locale' : 'locale'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m31[0m[0;2m│[0m[0m [0m[36m    BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m32[0m[0;2m│[0m[0m [0m[36m    INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m33[0m[0;2m│[0m[0m [0m[36m    PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m34[0m[0;2m│[0m[0m [0m[36m    SDK_NAME:               ('sdk_name' : 'sdk_name'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[36m    SDK_VERSION:            ('sdk_version' : 'sdk_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[36m    USER_AGENT:             ('user_agent' : 'user_agent'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[36m    USER_ACTION:            ('user_action' : 'user_action'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[36m    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[36m}[0m[0;2m;[0m[0m
+[0m[0m
+[0m[0m
+[0m[31mError ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ src/button/logs.js:39:23[0m[0m
+[0m[0m
+[0m[0mCannot[0m[0m [0m[0mget[0m[0m [0m[0m[0m[0;1mFPTI_KEY.BUTTON_SIZE[0m[0m[0m[0m [0m[0mbecause[0m[0m[0m[0m [0m[0m[0m[0mproperty[0m[0m [0m[0m[0m[0;1mBUTTON_SIZE[0m[0m[0m[0m [0m[0mis[0m[0m [0m[0mmissing[0m[0m [0m[0min[0m[0m
+[0m[0m[0m[0;4mobject[0m[0;4m [0m[0;4mliteral[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m.[0m[0m
+[0m[0m
+[0m[0m     [0m[0msrc/button/logs.js
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.PAGE_LOAD_TIME]: pageRenderTime ? pageRenderTime.toString() : '',[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LAYOUT]:  (style && style.layout),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_COLOR]:   (style && style.color),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[0;2m            [[0m[0mFPTI_KEY.[0m[31mBUTTON_SIZE[0m[31m[0m[0;2m]:    (style && style.size),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m40[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SHAPE]:   (style && style.shape),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m41[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LABEL]:   (style && style.label),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m42[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_WIDTH]:   window.innerWidth,[0m[0m
+[0m[0m
+[0m[0m     [0m[0mnode_modules/@paypal/sdk-constants/src/fpti.js
+[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m [0m[0m [0m[0;2m3[0m[0;2m│[0m[0m [0m[0;2mexport const FPTI_KEY = [0m[36m{[0m[0m
+[0m[0m     [0m[0m [0m[0;2m4[0m[0;2m│[0m[0m [0m[36m    FEED:                   ('feed_name' : 'feed_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m5[0m[0;2m│[0m[0m [0m[36m    STATE:                  ('state_name' : 'state_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m6[0m[0;2m│[0m[0m [0m[36m    TRANSITION:             ('transition_name' : 'transition_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m7[0m[0;2m│[0m[0m [0m[36m    BUTTON_TYPE:            ('button_type' : 'button_type'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m8[0m[0;2m│[0m[0m [0m[36m    SESSION_UID:            ('page_session_id' : 'page_session_id'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m9[0m[0;2m│[0m[0m [0m[36m    BUTTON_SESSION_UID:     ('button_session_id' : 'button_session_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m10[0m[0;2m│[0m[0m [0m[36m    TOKEN:                  ('token' : 'token'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m11[0m[0;2m│[0m[0m [0m[36m    CONTEXT_ID:             ('context_id' : 'context_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m12[0m[0;2m│[0m[0m [0m[36m    CONTEXT_TYPE:           ('context_type' : 'context_type'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m13[0m[0;2m│[0m[0m [0m[36m    REFERER:                ('referer_url' : 'referer_url'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m14[0m[0;2m│[0m[0m [0m[36m    PAY_ID:                 ('pay_id' : 'pay_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m15[0m[0;2m│[0m[0m [0m[36m    SELLER_ID:              ('seller_id' : 'seller_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m16[0m[0;2m│[0m[0m [0m[36m    CLIENT_ID:              ('client_id' : 'client_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m17[0m[0;2m│[0m[0m [0m[36m    DATA_SOURCE:            ('serverside_data_source' : 'serverside_data_source'),[0m[0m
+[0m[0m       [0m[0;2m:[0m[0m
+[0m[0m     [0m[0m[0m[0;2m25[0m[0;2m│[0m[0m [0m[36m    FUNDING_LIST:           ('eligible_payment_methods' : 'eligible_payment_methods'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m26[0m[0;2m│[0m[0m [0m[36m    FUNDING_COUNT:          ('eligible_payment_count' : 'eligible_payment_count'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m27[0m[0;2m│[0m[0m [0m[36m    CHOSEN_FUNDING:         ('selected_payment_method' : 'selected_payment_method'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m28[0m[0;2m│[0m[0m [0m[36m    BUTTON_LAYOUT:          ('button_layout' : 'button_layout'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m29[0m[0;2m│[0m[0m [0m[36m    VERSION:                ('checkoutjs_version' : 'checkoutjs_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m30[0m[0;2m│[0m[0m [0m[36m    LOCALE:                 ('locale' : 'locale'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m31[0m[0;2m│[0m[0m [0m[36m    BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m32[0m[0;2m│[0m[0m [0m[36m    INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m33[0m[0;2m│[0m[0m [0m[36m    PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m34[0m[0;2m│[0m[0m [0m[36m    SDK_NAME:               ('sdk_name' : 'sdk_name'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[36m    SDK_VERSION:            ('sdk_version' : 'sdk_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[36m    USER_AGENT:             ('user_agent' : 'user_agent'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[36m    USER_ACTION:            ('user_action' : 'user_action'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[36m    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[36m}[0m[0;2m;[0m[0m
+[0m[0m
+[0m[0m
+[0m[31mError ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ src/button/logs.js:40:23[0m[0m
+[0m[0m
+[0m[0mCannot[0m[0m [0m[0mget[0m[0m [0m[0m[0m[0;1mFPTI_KEY.BUTTON_SHAPE[0m[0m[0m[0m [0m[0mbecause[0m[0m[0m[0m [0m[0m[0m[0mproperty[0m[0m [0m[0m[0m[0;1mBUTTON_SHAPE[0m[0m[0m[0m [0m[0mis[0m[0m [0m[0mmissing[0m[0m [0m[0min[0m[0m
+[0m[0m[0m[0;4mobject[0m[0;4m [0m[0;4mliteral[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m.[0m[0m
+[0m[0m
+[0m[0m     [0m[0msrc/button/logs.js
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LAYOUT]:  (style && style.layout),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_COLOR]:   (style && style.color),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SIZE]:    (style && style.size),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m40[0m[0;2m│[0m[0m [0m[0;2m            [[0m[0mFPTI_KEY.[0m[31mBUTTON_SHAPE[0m[31m[0m[0;2m]:   (style && style.shape),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m41[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LABEL]:   (style && style.label),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m42[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_WIDTH]:   window.innerWidth,[0m[0m
+[0m[0m     [0m[0m[0m[0;2m43[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_TYPE]:    FPTI_BUTTON_TYPE.IFRAME[0m[0m
+[0m[0m
+[0m[0m     [0m[0mnode_modules/@paypal/sdk-constants/src/fpti.js
+[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m [0m[0m [0m[0;2m3[0m[0;2m│[0m[0m [0m[0;2mexport const FPTI_KEY = [0m[36m{[0m[0m
+[0m[0m     [0m[0m [0m[0;2m4[0m[0;2m│[0m[0m [0m[36m    FEED:                   ('feed_name' : 'feed_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m5[0m[0;2m│[0m[0m [0m[36m    STATE:                  ('state_name' : 'state_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m6[0m[0;2m│[0m[0m [0m[36m    TRANSITION:             ('transition_name' : 'transition_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m7[0m[0;2m│[0m[0m [0m[36m    BUTTON_TYPE:            ('button_type' : 'button_type'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m8[0m[0;2m│[0m[0m [0m[36m    SESSION_UID:            ('page_session_id' : 'page_session_id'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m9[0m[0;2m│[0m[0m [0m[36m    BUTTON_SESSION_UID:     ('button_session_id' : 'button_session_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m10[0m[0;2m│[0m[0m [0m[36m    TOKEN:                  ('token' : 'token'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m11[0m[0;2m│[0m[0m [0m[36m    CONTEXT_ID:             ('context_id' : 'context_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m12[0m[0;2m│[0m[0m [0m[36m    CONTEXT_TYPE:           ('context_type' : 'context_type'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m13[0m[0;2m│[0m[0m [0m[36m    REFERER:                ('referer_url' : 'referer_url'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m14[0m[0;2m│[0m[0m [0m[36m    PAY_ID:                 ('pay_id' : 'pay_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m15[0m[0;2m│[0m[0m [0m[36m    SELLER_ID:              ('seller_id' : 'seller_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m16[0m[0;2m│[0m[0m [0m[36m    CLIENT_ID:              ('client_id' : 'client_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m17[0m[0;2m│[0m[0m [0m[36m    DATA_SOURCE:            ('serverside_data_source' : 'serverside_data_source'),[0m[0m
+[0m[0m       [0m[0;2m:[0m[0m
+[0m[0m     [0m[0m[0m[0;2m25[0m[0;2m│[0m[0m [0m[36m    FUNDING_LIST:           ('eligible_payment_methods' : 'eligible_payment_methods'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m26[0m[0;2m│[0m[0m [0m[36m    FUNDING_COUNT:          ('eligible_payment_count' : 'eligible_payment_count'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m27[0m[0;2m│[0m[0m [0m[36m    CHOSEN_FUNDING:         ('selected_payment_method' : 'selected_payment_method'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m28[0m[0;2m│[0m[0m [0m[36m    BUTTON_LAYOUT:          ('button_layout' : 'button_layout'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m29[0m[0;2m│[0m[0m [0m[36m    VERSION:                ('checkoutjs_version' : 'checkoutjs_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m30[0m[0;2m│[0m[0m [0m[36m    LOCALE:                 ('locale' : 'locale'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m31[0m[0;2m│[0m[0m [0m[36m    BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m32[0m[0;2m│[0m[0m [0m[36m    INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m33[0m[0;2m│[0m[0m [0m[36m    PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m34[0m[0;2m│[0m[0m [0m[36m    SDK_NAME:               ('sdk_name' : 'sdk_name'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[36m    SDK_VERSION:            ('sdk_version' : 'sdk_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[36m    USER_AGENT:             ('user_agent' : 'user_agent'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[36m    USER_ACTION:            ('user_action' : 'user_action'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[36m    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[36m}[0m[0;2m;[0m[0m
+[0m[0m
+[0m[0m
+[0m[31mError ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ src/button/logs.js:41:23[0m[0m
+[0m[0m
+[0m[0mCannot[0m[0m [0m[0mget[0m[0m [0m[0m[0m[0;1mFPTI_KEY.BUTTON_LABEL[0m[0m[0m[0m [0m[0mbecause[0m[0m[0m[0m [0m[0m[0m[0mproperty[0m[0m [0m[0m[0m[0;1mBUTTON_LABEL[0m[0m[0m[0m [0m[0mis[0m[0m [0m[0mmissing[0m[0m [0m[0min[0m[0m
+[0m[0m[0m[0;4mobject[0m[0;4m [0m[0;4mliteral[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m.[0m[0m
+[0m[0m
+[0m[0m     [0m[0msrc/button/logs.js
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_COLOR]:   (style && style.color),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SIZE]:    (style && style.size),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m40[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SHAPE]:   (style && style.shape),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m41[0m[0;2m│[0m[0m [0m[0;2m            [[0m[0mFPTI_KEY.[0m[31mBUTTON_LABEL[0m[31m[0m[0;2m]:   (style && style.label),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m42[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_WIDTH]:   window.innerWidth,[0m[0m
+[0m[0m     [0m[0m[0m[0;2m43[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_TYPE]:    FPTI_BUTTON_TYPE.IFRAME[0m[0m
+[0m[0m     [0m[0m[0m[0;2m44[0m[0;2m│[0m[0m [0m[0;2m        });[0m[0m
+[0m[0m
+[0m[0m     [0m[0mnode_modules/@paypal/sdk-constants/src/fpti.js
+[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m [0m[0m [0m[0;2m3[0m[0;2m│[0m[0m [0m[0;2mexport const FPTI_KEY = [0m[36m{[0m[0m
+[0m[0m     [0m[0m [0m[0;2m4[0m[0;2m│[0m[0m [0m[36m    FEED:                   ('feed_name' : 'feed_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m5[0m[0;2m│[0m[0m [0m[36m    STATE:                  ('state_name' : 'state_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m6[0m[0;2m│[0m[0m [0m[36m    TRANSITION:             ('transition_name' : 'transition_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m7[0m[0;2m│[0m[0m [0m[36m    BUTTON_TYPE:            ('button_type' : 'button_type'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m8[0m[0;2m│[0m[0m [0m[36m    SESSION_UID:            ('page_session_id' : 'page_session_id'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m9[0m[0;2m│[0m[0m [0m[36m    BUTTON_SESSION_UID:     ('button_session_id' : 'button_session_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m10[0m[0;2m│[0m[0m [0m[36m    TOKEN:                  ('token' : 'token'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m11[0m[0;2m│[0m[0m [0m[36m    CONTEXT_ID:             ('context_id' : 'context_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m12[0m[0;2m│[0m[0m [0m[36m    CONTEXT_TYPE:           ('context_type' : 'context_type'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m13[0m[0;2m│[0m[0m [0m[36m    REFERER:                ('referer_url' : 'referer_url'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m14[0m[0;2m│[0m[0m [0m[36m    PAY_ID:                 ('pay_id' : 'pay_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m15[0m[0;2m│[0m[0m [0m[36m    SELLER_ID:              ('seller_id' : 'seller_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m16[0m[0;2m│[0m[0m [0m[36m    CLIENT_ID:              ('client_id' : 'client_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m17[0m[0;2m│[0m[0m [0m[36m    DATA_SOURCE:            ('serverside_data_source' : 'serverside_data_source'),[0m[0m
+[0m[0m       [0m[0;2m:[0m[0m
+[0m[0m     [0m[0m[0m[0;2m25[0m[0;2m│[0m[0m [0m[36m    FUNDING_LIST:           ('eligible_payment_methods' : 'eligible_payment_methods'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m26[0m[0;2m│[0m[0m [0m[36m    FUNDING_COUNT:          ('eligible_payment_count' : 'eligible_payment_count'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m27[0m[0;2m│[0m[0m [0m[36m    CHOSEN_FUNDING:         ('selected_payment_method' : 'selected_payment_method'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m28[0m[0;2m│[0m[0m [0m[36m    BUTTON_LAYOUT:          ('button_layout' : 'button_layout'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m29[0m[0;2m│[0m[0m [0m[36m    VERSION:                ('checkoutjs_version' : 'checkoutjs_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m30[0m[0;2m│[0m[0m [0m[36m    LOCALE:                 ('locale' : 'locale'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m31[0m[0;2m│[0m[0m [0m[36m    BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m32[0m[0;2m│[0m[0m [0m[36m    INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m33[0m[0;2m│[0m[0m [0m[36m    PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m34[0m[0;2m│[0m[0m [0m[36m    SDK_NAME:               ('sdk_name' : 'sdk_name'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[36m    SDK_VERSION:            ('sdk_version' : 'sdk_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[36m    USER_AGENT:             ('user_agent' : 'user_agent'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[36m    USER_ACTION:            ('user_action' : 'user_action'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[36m    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[36m}[0m[0;2m;[0m[0m
+[0m[0m
+[0m[0m
+[0m[31mError ┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈┈ src/button/logs.js:42:23[0m[0m
+[0m[0m
+[0m[0mCannot[0m[0m [0m[0mget[0m[0m [0m[0m[0m[0;1mFPTI_KEY.BUTTON_WIDTH[0m[0m[0m[0m [0m[0mbecause[0m[0m[0m[0m [0m[0m[0m[0mproperty[0m[0m [0m[0m[0m[0;1mBUTTON_WIDTH[0m[0m[0m[0m [0m[0mis[0m[0m [0m[0mmissing[0m[0m [0m[0min[0m[0m
+[0m[0m[0m[0;4mobject[0m[0;4m [0m[0;4mliteral[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m.[0m[0m
+[0m[0m
+[0m[0m     [0m[0msrc/button/logs.js
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SIZE]:    (style && style.size),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m40[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_SHAPE]:   (style && style.shape),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m41[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_LABEL]:   (style && style.label),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m42[0m[0;2m│[0m[0m [0m[0;2m            [[0m[0mFPTI_KEY.[0m[31mBUTTON_WIDTH[0m[31m[0m[0;2m]:   window.innerWidth,[0m[0m
+[0m[0m     [0m[0m[0m[0;2m43[0m[0;2m│[0m[0m [0m[0;2m            [FPTI_KEY.BUTTON_TYPE]:    FPTI_BUTTON_TYPE.IFRAME[0m[0m
+[0m[0m     [0m[0m[0m[0;2m44[0m[0;2m│[0m[0m [0m[0;2m        });[0m[0m
+[0m[0m     [0m[0m[0m[0;2m45[0m[0;2m│[0m[0;2m[0m[0m
+[0m[0m
+[0m[0m     [0m[0mnode_modules/@paypal/sdk-constants/src/fpti.js
+[0m[0m [0m[0;2m[[0m[36m1[0m[0;2m][0m[0m [0m[0m [0m[0;2m3[0m[0;2m│[0m[0m [0m[0;2mexport const FPTI_KEY = [0m[36m{[0m[0m
+[0m[0m     [0m[0m [0m[0;2m4[0m[0;2m│[0m[0m [0m[36m    FEED:                   ('feed_name' : 'feed_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m5[0m[0;2m│[0m[0m [0m[36m    STATE:                  ('state_name' : 'state_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m6[0m[0;2m│[0m[0m [0m[36m    TRANSITION:             ('transition_name' : 'transition_name'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m7[0m[0;2m│[0m[0m [0m[36m    BUTTON_TYPE:            ('button_type' : 'button_type'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m8[0m[0;2m│[0m[0m [0m[36m    SESSION_UID:            ('page_session_id' : 'page_session_id'),[0m[0m
+[0m[0m     [0m[0m [0m[0;2m9[0m[0;2m│[0m[0m [0m[36m    BUTTON_SESSION_UID:     ('button_session_id' : 'button_session_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m10[0m[0;2m│[0m[0m [0m[36m    TOKEN:                  ('token' : 'token'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m11[0m[0;2m│[0m[0m [0m[36m    CONTEXT_ID:             ('context_id' : 'context_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m12[0m[0;2m│[0m[0m [0m[36m    CONTEXT_TYPE:           ('context_type' : 'context_type'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m13[0m[0;2m│[0m[0m [0m[36m    REFERER:                ('referer_url' : 'referer_url'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m14[0m[0;2m│[0m[0m [0m[36m    PAY_ID:                 ('pay_id' : 'pay_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m15[0m[0;2m│[0m[0m [0m[36m    SELLER_ID:              ('seller_id' : 'seller_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m16[0m[0;2m│[0m[0m [0m[36m    CLIENT_ID:              ('client_id' : 'client_id'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m17[0m[0;2m│[0m[0m [0m[36m    DATA_SOURCE:            ('serverside_data_source' : 'serverside_data_source'),[0m[0m
+[0m[0m       [0m[0;2m:[0m[0m
+[0m[0m     [0m[0m[0m[0;2m25[0m[0;2m│[0m[0m [0m[36m    FUNDING_LIST:           ('eligible_payment_methods' : 'eligible_payment_methods'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m26[0m[0;2m│[0m[0m [0m[36m    FUNDING_COUNT:          ('eligible_payment_count' : 'eligible_payment_count'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m27[0m[0;2m│[0m[0m [0m[36m    CHOSEN_FUNDING:         ('selected_payment_method' : 'selected_payment_method'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m28[0m[0;2m│[0m[0m [0m[36m    BUTTON_LAYOUT:          ('button_layout' : 'button_layout'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m29[0m[0;2m│[0m[0m [0m[36m    VERSION:                ('checkoutjs_version' : 'checkoutjs_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m30[0m[0;2m│[0m[0m [0m[36m    LOCALE:                 ('locale' : 'locale'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m31[0m[0;2m│[0m[0m [0m[36m    BUYER_COUNTRY:          ('buyer_cntry' : 'buyer_cntry'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m32[0m[0;2m│[0m[0m [0m[36m    INTEGRATION_IDENTIFIER: ('integration_identifier' : 'integration_identifier'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m33[0m[0;2m│[0m[0m [0m[36m    PARTNER_ATTRIBUTION_ID: ('bn_code' : 'bn_code'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m34[0m[0;2m│[0m[0m [0m[36m    SDK_NAME:               ('sdk_name' : 'sdk_name'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m35[0m[0;2m│[0m[0m [0m[36m    SDK_VERSION:            ('sdk_version' : 'sdk_version'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m36[0m[0;2m│[0m[0m [0m[36m    USER_AGENT:             ('user_agent' : 'user_agent'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m37[0m[0;2m│[0m[0m [0m[36m    USER_ACTION:            ('user_action' : 'user_action'),[0m[0m
+[0m[0m     [0m[0m[0m[0;2m38[0m[0;2m│[0m[0m [0m[36m    CONTEXT_CORRID:         ('context_correlation_id' : 'context_correlation_id')[0m[0m
+[0m[0m     [0m[0m[0m[0;2m39[0m[0;2m│[0m[0m [0m[36m}[0m[0;2m;[0m[0m
+[0m[0m
+[0m[0m
+[0m
+Found 5 errors
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 2
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.96 flow: `flow`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 2
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.96 flow script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-05-21T17_30_11_140Z-debug.log
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 2
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.96 test: `npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 2
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.96 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-05-21T17_30_11_160Z-debug.log
+[0mtravis_time:end:0167f492:start=1558459772418486030,finish=1558459811172597016,duration=38754110986[0K[31;1mThe command "npm run test" exited with 2.[0m
+
+
+
+Done. Your build exited with 1.

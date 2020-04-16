@@ -1,0 +1,670 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 6c6740cd-b879-4acd-917c-e6f092a7e95c@1.worker-org-95567d544-cpbs6.gce-production-3
+version: v6.2.1 https://github.com/travis-ci/worker/tree/4e3246c044eb4915c2378ffacd0b3d3ed0136bba
+instance: travis-job-21e5b0db-c66c-4e20-98cb-17d3dc044257 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.300716602s
+travis_fold:end:worker_info[0Ktravis_time:start:03affb4a[0Ktravis_time:end:03affb4a:start=1569892576225493422,finish=1569892576428096883,duration=202603461,event=no_world_writable_dirs[0Ktravis_time:start:1f55c508[0Ktravis_time:end:1f55c508:start=1569892576432216162,finish=1569892576443132291,duration=10916129,event=agent[0Ktravis_time:start:10342830[0Ktravis_time:end:10342830:start=1569892576446754599,finish=1569892576449470338,duration=2715739,event=check_unsupported[0Ktravis_time:start:01c66aeb[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 591774384
+Job id: 591774385
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: beba64be6
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:01c66aeb:start=1569892576452891823,finish=1569892576461914944,duration=9023121,event=show_system_info[0Ktravis_time:start:09424024[0Ktravis_time:end:09424024:start=1569892576465964614,finish=1569892576480515154,duration=14550540,event=rm_riak_source[0Ktravis_time:start:193c15da[0Ktravis_time:end:193c15da:start=1569892576484909343,finish=1569892576491369342,duration=6459999,event=fix_rwky_redis[0Ktravis_time:start:0e682294[0Ktravis_time:end:0e682294:start=1569892576495446488,finish=1569892576850125892,duration=354679404,event=wait_for_network[0Ktravis_time:start:261454bc[0Ktravis_time:end:261454bc:start=1569892576854204101,finish=1569892577128957802,duration=274753701,event=update_apt_keys[0Ktravis_time:start:086e94a0[0Ktravis_time:end:086e94a0:start=1569892577132994394,finish=1569892577197578230,duration=64583836,event=fix_hhvm_source[0Ktravis_time:start:1895c160[0Ktravis_time:end:1895c160:start=1569892577201752924,finish=1569892577205161147,duration=3408223,event=update_mongo_arch[0Ktravis_time:start:08efdcee[0Ktravis_time:end:08efdcee:start=1569892577208736566,finish=1569892577258792435,duration=50055869,event=fix_sudo_enabled_trusty[0Ktravis_time:start:1106d4b6[0Ktravis_time:end:1106d4b6:start=1569892577262637492,finish=1569892577265366468,duration=2728976,event=update_glibc[0Ktravis_time:start:10a920ec[0Ktravis_time:end:10a920ec:start=1569892577268931689,finish=1569892577278333475,duration=9401786,event=clean_up_path[0Ktravis_time:start:030e1f30[0Ktravis_time:end:030e1f30:start=1569892577281936385,finish=1569892577291440958,duration=9504573,event=fix_resolv_conf[0Ktravis_time:start:33fbab49[0Ktravis_time:end:33fbab49:start=1569892577295579764,finish=1569892577306790363,duration=11210599,event=fix_etc_hosts[0Ktravis_time:start:08bd8d16[0Ktravis_time:end:08bd8d16:start=1569892577310678970,finish=1569892577321715593,duration=11036623,event=fix_mvn_settings_xml[0Ktravis_time:start:07720ca2[0Ktravis_time:end:07720ca2:start=1569892577325473819,finish=1569892577336971763,duration=11497944,event=no_ipv6_localhost[0Ktravis_time:start:1ee348e8[0Ktravis_time:end:1ee348e8:start=1569892577340650217,finish=1569892577343221484,duration=2571267,event=fix_etc_mavenrc[0Ktravis_time:start:002de71e[0Ktravis_time:end:002de71e:start=1569892577346872476,finish=1569892577350637899,duration=3765423,event=fix_wwdr_certificate[0Ktravis_time:start:0fb959b0[0Ktravis_time:end:0fb959b0:start=1569892577354288323,finish=1569892577384761477,duration=30473154,event=put_localhost_first[0Ktravis_time:start:0f9aa200[0Ktravis_time:end:0f9aa200:start=1569892577388817511,finish=1569892577392855877,duration=4038366,event=home_paths[0Ktravis_time:start:223afec0[0Ktravis_time:end:223afec0:start=1569892577396610972,finish=1569892577411909745,duration=15298773,event=disable_initramfs[0Ktravis_time:start:1a30756f[0Ktravis_time:end:1a30756f:start=1569892577415773547,finish=1569892577849444754,duration=433671207,event=disable_ssh_roaming[0Ktravis_time:start:17d66c42[0Ktravis_time:end:17d66c42:start=1569892577853566875,finish=1569892577856528688,duration=2961813,event=debug_tools[0Ktravis_time:start:1175348e[0Ktravis_time:end:1175348e:start=1569892577860500838,finish=1569892577864527822,duration=4026984,event=uninstall_oclint[0Ktravis_time:start:011723b8[0Ktravis_time:end:011723b8:start=1569892577868586587,finish=1569892577872583527,duration=3996940,event=rvm_use[0Ktravis_time:start:233a59ac[0Ktravis_time:end:233a59ac:start=1569892577876538864,finish=1569892577886534611,duration=9995747,event=rm_etc_boto_cfg[0Ktravis_time:start:0680a5c0[0Ktravis_time:end:0680a5c0:start=1569892577890276648,finish=1569892577893926811,duration=3650163,event=rm_oraclejdk8_symlink[0Ktravis_time:start:07eb63b8[0Ktravis_time:end:07eb63b8:start=1569892577897745877,finish=1569892578028842356,duration=131096479,event=enable_i386[0Ktravis_time:start:0ae54406[0Ktravis_time:end:0ae54406:start=1569892578033143840,finish=1569892578042522398,duration=9378558,event=update_rubygems[0Ktravis_time:start:014f78c8[0Ktravis_time:end:014f78c8:start=1569892578046794106,finish=1569892578992975535,duration=946181429,event=ensure_path_components[0Ktravis_time:start:0f2aa078[0Ktravis_time:end:0f2aa078:start=1569892578996996248,finish=1569892578999954137,duration=2957889,event=redefine_curl[0Ktravis_time:start:14925798[0Ktravis_time:end:14925798:start=1569892579003905189,finish=1569892579006750304,duration=2845115,event=nonblock_pipe[0Ktravis_time:start:22a3fc60[0Ktravis_time:end:22a3fc60:start=1569892579010509634,finish=1569892579061721128,duration=51211494,event=apt_get_update[0Ktravis_time:start:00dca7e4[0Ktravis_time:end:00dca7e4:start=1569892579065438756,finish=1569892579068184837,duration=2746081,event=deprecate_xcode_64[0Ktravis_time:start:09ec1eb9[0Ktravis_time:end:09ec1eb9:start=1569892579071786016,finish=1569892581872642350,duration=2800856334,event=update_heroku[0Ktravis_time:start:27f6bc0c[0Ktravis_time:end:27f6bc0c:start=1569892581876558637,finish=1569892581879354618,duration=2795981,event=shell_session_update[0Ktravis_time:start:0003b568[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0003b568:start=1569892581883387654,finish=1569892584349646012,duration=2466258358,event=set_docker_mtu[0Ktravis_time:start:1e1c0119[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:1e1c0119:start=1569892584354028609,finish=1569892584433296724,duration=79268115,event=resolvconf[0Ktravis_time:start:0208a3f0[0Ktravis_time:end:0208a3f0:start=1569892584440509080,finish=1569892584616998908,duration=176489828,event=maven_central_mirror[0Ktravis_time:start:218182aa[0Ktravis_time:end:218182aa:start=1569892584621646501,finish=1569892584624796330,duration=3149829,event=fix_ps4[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:33ac4373[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2019-10-01 01:16:25 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [61065690/61065690] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:33ac4373:start=1569892584682914668,finish=1569892585915790155,duration=1232875487,event=prepare[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (77.0.3865.90-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (77.0.3865.90-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0Ktravis_time:start:03a91c7a[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0b3ef260[0K$ git clone --depth=50 --branch=master https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 552, done.[K
+remote: Counting objects:   0% (1/552)[Kremote: Counting objects:   1% (6/552)[Kremote: Counting objects:   2% (12/552)[Kremote: Counting objects:   3% (17/552)[Kremote: Counting objects:   4% (23/552)[Kremote: Counting objects:   5% (28/552)[Kremote: Counting objects:   6% (34/552)[Kremote: Counting objects:   7% (39/552)[Kremote: Counting objects:   8% (45/552)[Kremote: Counting objects:   9% (50/552)[Kremote: Counting objects:  10% (56/552)[Kremote: Counting objects:  11% (61/552)[Kremote: Counting objects:  12% (67/552)[Kremote: Counting objects:  13% (72/552)[Kremote: Counting objects:  14% (78/552)[Kremote: Counting objects:  15% (83/552)[Kremote: Counting objects:  16% (89/552)[Kremote: Counting objects:  17% (94/552)[Kremote: Counting objects:  18% (100/552)[Kremote: Counting objects:  19% (105/552)[Kremote: Counting objects:  20% (111/552)[Kremote: Counting objects:  21% (116/552)[Kremote: Counting objects:  22% (122/552)[Kremote: Counting objects:  23% (127/552)[Kremote: Counting objects:  24% (133/552)[Kremote: Counting objects:  25% (138/552)[Kremote: Counting objects:  26% (144/552)[Kremote: Counting objects:  27% (150/552)[Kremote: Counting objects:  28% (155/552)[Kremote: Counting objects:  29% (161/552)[Kremote: Counting objects:  30% (166/552)[Kremote: Counting objects:  31% (172/552)[Kremote: Counting objects:  32% (177/552)[Kremote: Counting objects:  33% (183/552)[Kremote: Counting objects:  34% (188/552)[Kremote: Counting objects:  35% (194/552)[Kremote: Counting objects:  36% (199/552)[Kremote: Counting objects:  37% (205/552)[Kremote: Counting objects:  38% (210/552)[Kremote: Counting objects:  39% (216/552)[Kremote: Counting objects:  40% (221/552)[Kremote: Counting objects:  41% (227/552)[Kremote: Counting objects:  42% (232/552)[Kremote: Counting objects:  43% (238/552)[Kremote: Counting objects:  44% (243/552)[Kremote: Counting objects:  45% (249/552)[Kremote: Counting objects:  46% (254/552)[Kremote: Counting objects:  47% (260/552)[Kremote: Counting objects:  48% (265/552)[Kremote: Counting objects:  49% (271/552)[Kremote: Counting objects:  50% (276/552)[Kremote: Counting objects:  51% (282/552)[Kremote: Counting objects:  52% (288/552)[Kremote: Counting objects:  53% (293/552)[Kremote: Counting objects:  54% (299/552)[Kremote: Counting objects:  55% (304/552)[Kremote: Counting objects:  56% (310/552)[Kremote: Counting objects:  57% (315/552)[Kremote: Counting objects:  58% (321/552)[Kremote: Counting objects:  59% (326/552)[Kremote: Counting objects:  60% (332/552)[Kremote: Counting objects:  61% (337/552)[Kremote: Counting objects:  62% (343/552)[Kremote: Counting objects:  63% (348/552)[Kremote: Counting objects:  64% (354/552)[Kremote: Counting objects:  65% (359/552)[Kremote: Counting objects:  66% (365/552)[Kremote: Counting objects:  67% (370/552)[Kremote: Counting objects:  68% (376/552)[Kremote: Counting objects:  69% (381/552)[Kremote: Counting objects:  70% (387/552)[Kremote: Counting objects:  71% (392/552)[Kremote: Counting objects:  72% (398/552)[Kremote: Counting objects:  73% (403/552)[Kremote: Counting objects:  74% (409/552)[Kremote: Counting objects:  75% (414/552)[Kremote: Counting objects:  76% (420/552)[Kremote: Counting objects:  77% (426/552)[Kremote: Counting objects:  78% (431/552)[Kremote: Counting objects:  79% (437/552)[Kremote: Counting objects:  80% (442/552)[Kremote: Counting objects:  81% (448/552)[Kremote: Counting objects:  82% (453/552)[Kremote: Counting objects:  83% (459/552)[Kremote: Counting objects:  84% (464/552)[Kremote: Counting objects:  85% (470/552)[Kremote: Counting objects:  86% (475/552)[Kremote: Counting objects:  87% (481/552)[Kremote: Counting objects:  88% (486/552)[Kremote: Counting objects:  89% (492/552)[Kremote: Counting objects:  90% (497/552)[Kremote: Counting objects:  91% (503/552)[Kremote: Counting objects:  92% (508/552)[Kremote: Counting objects:  93% (514/552)[Kremote: Counting objects:  94% (519/552)[Kremote: Counting objects:  95% (525/552)[Kremote: Counting objects:  96% (530/552)[Kremote: Counting objects:  97% (536/552)[Kremote: Counting objects:  98% (541/552)[Kremote: Counting objects:  99% (547/552)[Kremote: Counting objects: 100% (552/552)[Kremote: Counting objects: 100% (552/552), done.[K
+remote: Compressing objects:   0% (1/329)[Kremote: Compressing objects:   1% (4/329)[Kremote: Compressing objects:   2% (7/329)[Kremote: Compressing objects:   3% (10/329)[Kremote: Compressing objects:   4% (14/329)[Kremote: Compressing objects:   5% (17/329)[Kremote: Compressing objects:   6% (20/329)[Kremote: Compressing objects:   7% (24/329)[Kremote: Compressing objects:   8% (27/329)[Kremote: Compressing objects:   9% (30/329)[Kremote: Compressing objects:  10% (33/329)[Kremote: Compressing objects:  11% (37/329)[Kremote: Compressing objects:  12% (40/329)[Kremote: Compressing objects:  13% (43/329)[Kremote: Compressing objects:  14% (47/329)[Kremote: Compressing objects:  15% (50/329)[Kremote: Compressing objects:  16% (53/329)[Kremote: Compressing objects:  17% (56/329)[Kremote: Compressing objects:  18% (60/329)[Kremote: Compressing objects:  19% (63/329)[Kremote: Compressing objects:  20% (66/329)[Kremote: Compressing objects:  21% (70/329)[Kremote: Compressing objects:  22% (73/329)[Kremote: Compressing objects:  23% (76/329)[Kremote: Compressing objects:  24% (79/329)[Kremote: Compressing objects:  25% (83/329)[Kremote: Compressing objects:  26% (86/329)[Kremote: Compressing objects:  27% (89/329)[Kremote: Compressing objects:  28% (93/329)[Kremote: Compressing objects:  29% (96/329)[Kremote: Compressing objects:  30% (99/329)[Kremote: Compressing objects:  31% (102/329)[Kremote: Compressing objects:  32% (106/329)[Kremote: Compressing objects:  33% (109/329)[Kremote: Compressing objects:  34% (112/329)[Kremote: Compressing objects:  35% (116/329)[Kremote: Compressing objects:  36% (119/329)[Kremote: Compressing objects:  37% (122/329)[Kremote: Compressing objects:  38% (126/329)[Kremote: Compressing objects:  39% (129/329)[Kremote: Compressing objects:  40% (132/329)[Kremote: Compressing objects:  41% (135/329)[Kremote: Compressing objects:  42% (139/329)[Kremote: Compressing objects:  43% (142/329)[Kremote: Compressing objects:  44% (145/329)[Kremote: Compressing objects:  45% (149/329)[Kremote: Compressing objects:  46% (152/329)[Kremote: Compressing objects:  47% (155/329)[Kremote: Compressing objects:  48% (158/329)[Kremote: Compressing objects:  49% (162/329)[Kremote: Compressing objects:  50% (165/329)[Kremote: Compressing objects:  51% (168/329)[Kremote: Compressing objects:  52% (172/329)[Kremote: Compressing objects:  53% (175/329)[Kremote: Compressing objects:  54% (178/329)[Kremote: Compressing objects:  55% (181/329)[Kremote: Compressing objects:  56% (185/329)[Kremote: Compressing objects:  57% (188/329)[Kremote: Compressing objects:  58% (191/329)[Kremote: Compressing objects:  59% (195/329)[Kremote: Compressing objects:  60% (198/329)[Kremote: Compressing objects:  61% (201/329)[Kremote: Compressing objects:  62% (204/329)[Kremote: Compressing objects:  63% (208/329)[Kremote: Compressing objects:  64% (211/329)[Kremote: Compressing objects:  65% (214/329)[Kremote: Compressing objects:  66% (218/329)[Kremote: Compressing objects:  67% (221/329)[Kremote: Compressing objects:  68% (224/329)[Kremote: Compressing objects:  69% (228/329)[Kremote: Compressing objects:  70% (231/329)[Kremote: Compressing objects:  71% (234/329)[Kremote: Compressing objects:  72% (237/329)[Kremote: Compressing objects:  73% (241/329)[Kremote: Compressing objects:  74% (244/329)[Kremote: Compressing objects:  75% (247/329)[Kremote: Compressing objects:  76% (251/329)[Kremote: Compressing objects:  77% (254/329)[Kremote: Compressing objects:  78% (257/329)[Kremote: Compressing objects:  79% (260/329)[Kremote: Compressing objects:  80% (264/329)[Kremote: Compressing objects:  81% (267/329)[Kremote: Compressing objects:  82% (270/329)[Kremote: Compressing objects:  83% (274/329)[Kremote: Compressing objects:  84% (277/329)[Kremote: Compressing objects:  85% (280/329)[Kremote: Compressing objects:  86% (283/329)[Kremote: Compressing objects:  87% (287/329)[Kremote: Compressing objects:  88% (290/329)[Kremote: Compressing objects:  89% (293/329)[Kremote: Compressing objects:  90% (297/329)[Kremote: Compressing objects:  91% (300/329)[Kremote: Compressing objects:  92% (303/329)[Kremote: Compressing objects:  93% (306/329)[Kremote: Compressing objects:  94% (310/329)[Kremote: Compressing objects:  95% (313/329)[Kremote: Compressing objects:  96% (316/329)[Kremote: Compressing objects:  97% (320/329)[Kremote: Compressing objects:  98% (323/329)[Kremote: Compressing objects:  99% (326/329)[Kremote: Compressing objects: 100% (329/329)[Kremote: Compressing objects: 100% (329/329), done.[K
+Receiving objects:   0% (1/552)   Receiving objects:   1% (6/552)   Receiving objects:   2% (12/552)   Receiving objects:   3% (17/552)   Receiving objects:   4% (23/552)   Receiving objects:   5% (28/552)   Receiving objects:   6% (34/552)   Receiving objects:   7% (39/552)   Receiving objects:   8% (45/552)   Receiving objects:   9% (50/552)   Receiving objects:  10% (56/552)   Receiving objects:  11% (61/552)   Receiving objects:  12% (67/552)   Receiving objects:  13% (72/552)   Receiving objects:  14% (78/552)   Receiving objects:  15% (83/552)   Receiving objects:  16% (89/552)   Receiving objects:  17% (94/552)   Receiving objects:  18% (100/552)   Receiving objects:  19% (105/552)   Receiving objects:  20% (111/552)   Receiving objects:  21% (116/552)   Receiving objects:  22% (122/552)   Receiving objects:  23% (127/552)   Receiving objects:  24% (133/552)   Receiving objects:  25% (138/552)   Receiving objects:  26% (144/552)   Receiving objects:  27% (150/552)   Receiving objects:  28% (155/552)   Receiving objects:  29% (161/552)   Receiving objects:  30% (166/552)   Receiving objects:  31% (172/552)   Receiving objects:  32% (177/552)   Receiving objects:  33% (183/552)   Receiving objects:  34% (188/552)   Receiving objects:  35% (194/552)   Receiving objects:  36% (199/552)   Receiving objects:  37% (205/552)   Receiving objects:  38% (210/552)   Receiving objects:  39% (216/552)   Receiving objects:  40% (221/552)   Receiving objects:  41% (227/552)   Receiving objects:  42% (232/552)   Receiving objects:  43% (238/552)   Receiving objects:  44% (243/552)   Receiving objects:  45% (249/552)   Receiving objects:  46% (254/552)   Receiving objects:  47% (260/552)   Receiving objects:  48% (265/552)   Receiving objects:  49% (271/552)   Receiving objects:  50% (276/552)   Receiving objects:  51% (282/552)   Receiving objects:  52% (288/552)   Receiving objects:  53% (293/552)   Receiving objects:  54% (299/552)   Receiving objects:  55% (304/552)   Receiving objects:  56% (310/552)   Receiving objects:  57% (315/552)   Receiving objects:  58% (321/552)   Receiving objects:  59% (326/552)   Receiving objects:  60% (332/552)   Receiving objects:  61% (337/552)   Receiving objects:  62% (343/552)   Receiving objects:  63% (348/552)   Receiving objects:  64% (354/552)   Receiving objects:  65% (359/552)   Receiving objects:  66% (365/552)   Receiving objects:  67% (370/552)   Receiving objects:  68% (376/552)   Receiving objects:  69% (381/552)   Receiving objects:  70% (387/552)   Receiving objects:  71% (392/552)   Receiving objects:  72% (398/552)   Receiving objects:  73% (403/552)   Receiving objects:  74% (409/552)   Receiving objects:  75% (414/552)   Receiving objects:  76% (420/552)   Receiving objects:  77% (426/552)   Receiving objects:  78% (431/552)   Receiving objects:  79% (437/552)   Receiving objects:  80% (442/552)   Receiving objects:  81% (448/552)   Receiving objects:  82% (453/552)   Receiving objects:  83% (459/552)   Receiving objects:  84% (464/552)   Receiving objects:  85% (470/552)   Receiving objects:  86% (475/552)   Receiving objects:  87% (481/552)   Receiving objects:  88% (486/552)   Receiving objects:  89% (492/552)   Receiving objects:  90% (497/552)   Receiving objects:  91% (503/552)   Receiving objects:  92% (508/552)   remote: Total 552 (delta 343), reused 397 (delta 219), pack-reused 0[K
+Receiving objects:  93% (514/552)   Receiving objects:  94% (519/552)   Receiving objects:  95% (525/552)   Receiving objects:  96% (530/552)   Receiving objects:  97% (536/552)   Receiving objects:  98% (541/552)   Receiving objects:  99% (547/552)   Receiving objects: 100% (552/552)   Receiving objects: 100% (552/552), 821.92 KiB | 8.93 MiB/s, done.
+Resolving deltas:   0% (0/343)   Resolving deltas:   1% (5/343)   Resolving deltas:   9% (33/343)   Resolving deltas:  14% (51/343)   Resolving deltas:  23% (81/343)   Resolving deltas:  24% (85/343)   Resolving deltas:  26% (91/343)   Resolving deltas:  27% (95/343)   Resolving deltas:  29% (100/343)   Resolving deltas:  30% (104/343)   Resolving deltas:  32% (112/343)   Resolving deltas:  38% (131/343)   Resolving deltas:  39% (136/343)   Resolving deltas:  40% (140/343)   Resolving deltas:  41% (141/343)   Resolving deltas:  42% (145/343)   Resolving deltas:  43% (148/343)   Resolving deltas:  44% (154/343)   Resolving deltas:  45% (155/343)   Resolving deltas:  46% (158/343)   Resolving deltas:  49% (170/343)   Resolving deltas:  52% (181/343)   Resolving deltas:  54% (187/343)   Resolving deltas:  55% (190/343)   Resolving deltas:  56% (193/343)   Resolving deltas:  57% (196/343)   Resolving deltas:  58% (199/343)   Resolving deltas:  59% (203/343)   Resolving deltas:  62% (214/343)   Resolving deltas:  64% (222/343)   Resolving deltas:  65% (223/343)   Resolving deltas:  66% (227/343)   Resolving deltas:  67% (230/343)   Resolving deltas:  68% (236/343)   Resolving deltas:  69% (240/343)   Resolving deltas:  71% (244/343)   Resolving deltas:  72% (248/343)   Resolving deltas:  73% (251/343)   Resolving deltas:  75% (258/343)   Resolving deltas:  80% (275/343)   Resolving deltas:  81% (278/343)   Resolving deltas:  83% (286/343)   Resolving deltas:  84% (291/343)   Resolving deltas:  85% (292/343)   Resolving deltas:  88% (305/343)   Resolving deltas:  91% (314/343)   Resolving deltas:  92% (317/343)   Resolving deltas:  93% (319/343)   Resolving deltas:  96% (330/343)   Resolving deltas: 100% (343/343)   Resolving deltas: 100% (343/343), done.
+travis_time:end:0b3ef260:start=1569892602784314567,finish=1569892603811749573,duration=1027435006,event=checkout[0K$ cd paypal/paypal-smart-payment-buttons
+$ git checkout -qf 56ed6bb5f8549a55c0185ddaca31dbd78828e8de
+travis_fold:end:git.checkout[0K
+travis_time:end:0b3ef260:start=1569892602784314567,finish=1569892603841099576,duration=1056785009,event=checkout[0Ktravis_time:start:01b6825c[0Ktravis_time:end:01b6825c:start=1569892603845530611,finish=1569892603853323951,duration=7793340,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:0b0feef7[0K$ nvm install 10
+Downloading and installing node v10.16.3...
+Downloading https://nodejs.org/dist/v10.16.3/node-v10.16.3-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.16.3 (npm v6.9.0)
+travis_time:end:0b0feef7:start=1569892604994734392,finish=1569892608641958797,duration=3647224405,event=setup[0Ktravis_fold:end:nvm.install[0K
+travis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:04ad97c6[0K$ Installing caching utilities
+travis_time:end:04ad97c6:start=1569892610042337745,finish=1569892610340331575,duration=297993830,event=setup_casher[0Ktravis_time:start:1c555b12[0Ktravis_time:end:1c555b12:start=1569892610346467346,finish=1569892610350086093,duration=3618747,event=setup_casher[0Ktravis_time:start:04c42558[0Kattempting to download cache archive[0m
+[32;1mfetching master/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfound cache[0m
+travis_time:end:04c42558:start=1569892610354430592,finish=1569892612386160047,duration=2031729455,event=setup_casher[0Ktravis_fold:end:cache.1[0K
+travis_fold:start:cache.npm[0K
+travis_time:start:05363dfc[0Ktravis_time:end:05363dfc:start=1569892612610185321,finish=1569892612613759194,duration=3573873,event=setup_cache[0Ktravis_time:start:1c9be76a[0Kadding /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules to cache[0m
+creating directory /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules[0m
+travis_time:end:1c9be76a:start=1569892612618232254,finish=1569892619467877537,duration=6849645283,event=setup_cache[0Ktravis_fold:end:cache.npm[0K$ node --version
+v10.16.3
+$ npm --version
+6.11.3
+$ nvm --version
+0.34.0
+
+travis_fold:start:install.npm[0Ktravis_time:start:030648b0[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.139 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.139 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
+audited 54058 packages in 11.323s
+found [91m174[0m vulnerabilities (72 [1mlow[0m, 76 [93mmoderate[0m, 26 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:030648b0:start=1569892620621971544,finish=1569892632444319388,duration=11822347844,event=install[0Ktravis_fold:end:install.npm[0K
+travis_time:start:262ca9ce[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.139 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest; fi;
+
+
+> @paypal/smart-payment-buttons@2.0.139 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint src/ server/ test/ *.js
+
+
+> @paypal/smart-payment-buttons@2.0.139 flow-typed /home/travis/build/paypal/paypal-smart-payment-buttons
+> rm -rf ./flow-typed && flow-typed install --ignoreDeps peer && flow-typed install jest@22 mocha@3 && flow-typed install express@4.16 && sed -i -e 's/http$IncomingMessage,/http$IncomingMessage<>,/g' ./flow-typed/npm/express_v4.16.x.js
+
+[before-after-hook]: "Hook()" repurposing warning, use "Hook.Collection()". Read more: https://git.io/upgrade-before-after-hook-to-1.4
+• Found 16 dependencies in package.json to install libdefs for. Searching...
+• flow-typed cache not found, fetching from GitHub...
+• Installing 2 libDefs...
+[1m  • express_v4.16.x.js[22m
+[1m    └> [32m./flow-typed/npm/express_v4.16.x.js[39m[22m
+express
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+[1m  • flow-bin_v0.x.x.js[22m
+[1m    └> [32m./flow-typed/npm/flow-bin_v0.x.x.js[39m[22m
+flow-bin
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+• Generating stubs for untyped dependencies...
+[1m  • babel-core@^7.0.0-bridge.0[22m
+[1m    └> [31mflow-typed/npm/babel-core_vx.x.x.js[39m[22m
+[1m  • @paypal/sdk-client@^4.0.27[22m
+[1m    └> [31mflow-typed/npm/@paypal/sdk-client_vx.x.x.js[39m[22m
+[1m  • grumbler-scripts@^3.0.18[22m
+[1m    └> [31mflow-typed/npm/grumbler-scripts_vx.x.x.js[39m[22m
+[1m  • sync-browser-mocks@^2.0.1[22m
+[1m    └> [31mflow-typed/npm/sync-browser-mocks_vx.x.x.js[39m[22m
+[1m  • belter@^1.0.19[22m
+[1m    └> [31mflow-typed/npm/belter_vx.x.x.js[39m[22m
+[1m  • webpack-mem-compile@^1.0.2[22m
+[1m    └> [31mflow-typed/npm/webpack-mem-compile_vx.x.x.js[39m[22m
+[1m  • grabthar@^3[22m
+[1m    └> [31mflow-typed/npm/grabthar_vx.x.x.js[39m[22m
+[1m  • jsx-pragmatic@^2[22m
+[1m    └> [31mflow-typed/npm/jsx-pragmatic_vx.x.x.js[39m[22m
+[1m  • @paypal/checkout-components@^5.0.30[22m
+[1m    └> [31mflow-typed/npm/@paypal/checkout-components_vx.x.x.js[39m[22m
+[31m[39m
+[31m!! No flow@v0.100.0-compatible libdefs found in flow-typed for the above untyped dependencies !![39m
+
+We've generated `any`-typed stubs for these packages, but consider submitting 
+libdefs for them to [1mhttps://github.com/flowtype/flow-typed/[22m
+
+[before-after-hook]: "Hook()" repurposing warning, use "Hook.Collection()". Read more: https://git.io/upgrade-before-after-hook-to-1.4
+• Searching for 2 libdefs...
+• Installing 1 libDefs...
+[1m  • jest_v22.x.x.js[22m
+[1m    └> [32m./flow-typed/npm/jest_v22.x.x.js[39m[22m
+jest
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+• Generating stubs for untyped dependencies...
+[1m  • mocha@3[22m
+[1m    └> [31mflow-typed/npm/mocha_vx.x.x.js[39m[22m
+[31m[39m
+[31m!! No flow@v0.100.0-compatible libdefs found in flow-typed for the above untyped dependencies !![39m
+
+We've generated `any`-typed stubs for this package, but consider submitting 
+a libdef for it to [1mhttps://github.com/flowtype/flow-typed/[22m
+
+[before-after-hook]: "Hook()" repurposing warning, use "Hook.Collection()". Read more: https://git.io/upgrade-before-after-hook-to-1.4
+• Searching for 1 libdefs...
+• Installing 1 libDefs...
+[1m  • express_v4.16.x.js[22m
+[1m    └> [32m./flow-typed/npm/express_v4.16.x.js[39m[22m
+express
+/home/travis/build/paypal/paypal-smart-payment-buttons/flow-typed/npm
+
+> @paypal/smart-payment-buttons@2.0.139 flow /home/travis/build/paypal/paypal-smart-payment-buttons
+> flow
+
+Launching Flow server for /home/travis/build/paypal/paypal-smart-payment-buttons
+Spawned flow server (pid=5896)
+Logs will go to /tmp/flow/zShomezStraviszSbuildzSpaypalzSpaypal-smart-payment-buttons.log
+Monitor logs will go to /tmp/flow/zShomezStraviszSbuildzSpaypalzSpaypal-smart-payment-buttons.monitor_log
+Started a new flow server: -[0K[0KPlease wait. Server is starting up: \[0KPlease wait. Server is initializing (starting up): |[0KPlease wait. Server is initializing (parsed files 0): /[0KPlease wait. Server is initializing (parsed files 1000): -[0KPlease wait. Server is initializing (parsed files 1000): \[0KPlease wait. Server is initializing (parsed files 2000): |[0KPlease wait. Server is initializing (parsed files 2000): /[0KPlease wait. Server is initializing (parsed files 3000): -[0KPlease wait. Server is initializing (parsed files 3000): \[0KPlease wait. Server is initializing (parsed files 5000): |[0KPlease wait. Server is initializing (parsed files 5000): /[0KPlease wait. Server is initializing (parsed files 5000): -[0KPlease wait. Server is initializing (parsed files 5000): \[0KPlease wait. Server is initializing (parsed files 5000): |[0KPlease wait. Server is initializing (parsed files 5000): /[0KPlease wait. Server is initializing (parsed files 6000): -[0KPlease wait. Server is initializing (parsed files 7000): \[0KPlease wait. Server is initializing (parsed files 10000): |[0KPlease wait. Server is initializing (parsed files 11000): /[0KPlease wait. Server is initializing (parsed files 14000): -[0KPlease wait. Server is initializing (parsed files 18000): \[0KPlease wait. Server is initializing (parsed files 19000): |[0KPlease wait. Server is initializing (parsed files 23000): /[0KPlease wait. Server is initializing (parsed files 23000): -[0KPlease wait. Server is initializing (parsed files 24000): \[0KPlease wait. Server is initializing (parsed files 24000): |[0KPlease wait. Server is initializing (parsed files 25000): /[0KPlease wait. Server is initializing (parsed files 25000): -[0KPlease wait. Server is initializing (parsed files 25000): \[0KPlease wait. Server is initializing (parsed files 25000): |[0KPlease wait. Server is initializing (parsed files 25000): /[0KPlease wait. Server is initializing (parsed files 25000): -[0KPlease wait. Server is initializing (parsed files 25000): \[0KPlease wait. Server is initializing (parsed files 25000): |[0KPlease wait. Server is initializing (parsed files 25000): /[0KPlease wait. Server is initializing (parsed files 25000): -[0KPlease wait. Server is initializing (parsed files 25000): \[0KPlease wait. Server is initializing (parsed files 25531): |[0KPlease wait. Server is initializing (parsed files 25531): /[0KPlease wait. Server is initializing (parsed files 25531): -[0KPlease wait. Server is initializing (parsed files 25531): \[0KPlease wait. Server is initializing (parsed files 25531): |[0KPlease wait. Server is initializing (parsed files 25531): /[0KPlease wait. Server is initializing (parsed files 25531): -[0KPlease wait. Server is initializing (resolving dependencies): \[0KPlease wait. Server is initializing (resolving dependencies): |[0KPlease wait. Server is initializing (waiting for Watchman - giving up in 21 seconds): /[0KPlease wait. Server is initializing (parsed files 0/0 (0.0%)): -[0KPlease wait. Server is initializing (calculating dependencies): \[0KPlease wait. Server is initializing (merged files 0/159 (0.0%)): |[0KPlease wait. Server is initializing (merged files 44/159 (27.7%)): /[0KPlease wait. Server is initializing (merged files 72/159 (45.3%)): -[0KPlease wait. Server is initializing (merged files 88/159 (55.3%)): \[0KPlease wait. Server is initializing (merged files 100/159 (62.9%)): |[0KPlease wait. Server is initializing (merged files 116/159 (73.0%)): /[0KPlease wait. Server is initializing (merged files 132/159 (83.0%)): -[0KPlease wait. Server is initializing (merged files 139/159 (87.4%)): \[0KPlease wait. Server is initializing (merged files 143/159 (89.9%)): |[0KPlease wait. Server is initializing (finishing up): /[0KPlease wait. Server is handling a request (starting up): -[0KPlease wait. Server is handling a request (collating errors): \[0KNo errors!
+
+> @paypal/smart-payment-buttons@2.0.139 karma /home/travis/build/paypal/paypal-smart-payment-buttons
+> cross-env NODE_ENV=test babel-node --plugins=transform-es2015-modules-commonjs ./node_modules/.bin/karma start
+
+[33m01 10 2019 01:18:03.565:WARN [watcher]: [39mPattern "/home/travis/build/paypal/paypal-smart-payment-buttons/test/**/*.jsx" does not match any file.
+[33m01 10 2019 01:18:03.571:WARN [watcher]: [39mPattern "/home/travis/build/paypal/paypal-smart-payment-buttons/test/**/*.htm" does not match any file.
+[34mℹ[39m [90m｢wdm｣[39m: Hash: d6718ea211de0509c485
+Version: webpack 4.41.0
+Time: 33175ms
+Built at: 10/01/2019 1:18:55 AM
+               Asset      Size             Chunks             Chunk Names
+             main.js  1.37 MiB               main  [emitted]  main
+test/declarations.js  1.97 KiB  test/declarations  [emitted]  test/declarations
+       test/index.js   1.6 MiB         test/index  [emitted]  test/index
+Entrypoint main = main.js
+Entrypoint test/index = test/index.js
+Entrypoint test/declarations = test/declarations.js
+[./node_modules/@babel/runtime/helpers/esm/extends.js] 397 bytes {main} {test/index} [built]
+[./node_modules/@paypal/sdk-constants/index.js] 112 bytes {test/index} [built]
+[./node_modules/@paypal/sdk-constants/src/index.js] ./node_modules/@paypal/sdk-constants/src/index.js + 8 modules 15.3 KiB {main} {test/index} [built]
+    | ./node_modules/@paypal/sdk-constants/src/index.js 206 bytes [built]
+    | ./node_modules/@paypal/sdk-constants/src/locale.js 10.4 KiB [built]
+    | ./node_modules/@paypal/sdk-constants/src/params.js 1.38 KiB [built]
+    | ./node_modules/@paypal/sdk-constants/src/env.js 122 bytes [built]
+    | ./node_modules/@paypal/sdk-constants/src/fpti.js 1.49 KiB [built]
+    | ./node_modules/@paypal/sdk-constants/src/order.js 586 bytes [built]
+    | ./node_modules/@paypal/sdk-constants/src/platform.js 67 bytes [built]
+    | ./node_modules/@paypal/sdk-constants/src/funding.js 622 bytes [built]
+    | ./node_modules/@paypal/sdk-constants/src/defaults.js 537 bytes [built]
+[./node_modules/belter/src/index.js] ./node_modules/belter/src/index.js + 16 modules 69.5 KiB {main} {test/index} [built]
+    | ./node_modules/belter/src/index.js 281 bytes [built]
+    | ./node_modules/belter/src/device.js 3.61 KiB [built]
+    | ./node_modules/belter/src/util.js 23.6 KiB [built]
+    | ./node_modules/belter/src/dom.js 22.1 KiB [built]
+    | ./node_modules/belter/src/storage.js 2.39 KiB [built]
+    | ./node_modules/belter/src/experiment.js 2.92 KiB [built]
+    | ./node_modules/belter/src/global.js 554 bytes [built]
+    | ./node_modules/belter/src/http.js 4.07 KiB [built]
+    | ./node_modules/belter/src/types.js 89 bytes [built]
+    | ./node_modules/belter/src/decorators.js 320 bytes [built]
+    | ./node_modules/belter/src/css.js 981 bytes [built]
+    | ./node_modules/belter/src/test.js 3.19 KiB [built]
+    | ./node_modules/cross-domain-safe-weakmap/src/index.js 62 bytes [built]
+    | ./node_modules/belter/src/constants.js 39 bytes [built]
+    | ./node_modules/cross-domain-safe-weakmap/src/weakmap.js 4.55 KiB [built]
+    |     + 2 hidden modules
+[./node_modules/zalgo-promise/index.js] 96 bytes {test/index} [built]
+[./node_modules/zalgo-promise/src/index.js] ./node_modules/zalgo-promise/src/index.js + 4 modules 11.9 KiB {main} {test/index} [built]
+    | ./node_modules/zalgo-promise/src/index.js 41 bytes [built]
+    | ./node_modules/zalgo-promise/src/promise.js 9.72 KiB [built]
+    | ./node_modules/zalgo-promise/src/utils.js 832 bytes [built]
+    | ./node_modules/zalgo-promise/src/exceptions.js 833 bytes [built]
+    | ./node_modules/zalgo-promise/src/flush.js 480 bytes [built]
+[./src/api/index.js] ./src/api/index.js + 5 modules 159 KiB {main} {test/index} [built]
+    | ./src/api/index.js 897 bytes [built]
+    | ./src/api/auth.js 9.34 KiB [built]
+    | ./src/api/order.js 29.5 KiB [built]
+    | ./src/api/subscription.js 16 KiB [built]
+    | ./src/api/socket.js 99.5 KiB [built]
+    | ./src/api/eligibility.js 3.81 KiB [built]
+[./src/button/button.js] ./src/button/button.js + 11 modules 269 KiB {main} {test/index} [built]
+    | ./src/button/button.js 29.6 KiB [built]
+    | ./src/payment-flows/index.js 955 bytes [built]
+    | ./src/button/logs.js 11.4 KiB [built]
+    | ./src/button/remember.js 4.18 KiB [built]
+    | ./src/button/pay.js 15.7 KiB [built]
+    | ./src/payment-flows/checkout.js 48.8 KiB [built]
+    | ./src/payment-flows/card-fields.js 41.7 KiB [built]
+    | ./src/payment-flows/vault-capture.js 28.7 KiB [built]
+    | ./src/payment-flows/native.js 46.5 KiB [built]
+    | ./src/payment-flows/popup-bridge.js 19.8 KiB [built]
+    | ./src/payment-flows/types.js 839 bytes [built]
+    | ./src/button/orders.js 20.7 KiB [built]
+[./src/button/dom.js] 7.4 KiB {main} {test/index} [built]
+[./src/button/index.js] 817 bytes {main} {test/index} [built]
+[./src/button/props/index.js] 1.18 KiB {main} {test/index} [built]
+[./src/index.js] 802 bytes {main} {test/index} [built]
+[./src/menu/index.js] ./src/menu/index.js + 5 modules 28.9 KiB {main} {test/index} [built]
+    | ./src/menu/index.js 786 bytes [built]
+    | ./src/menu/page.jsx 5.31 KiB [built]
+    | ./node_modules/preact/dist/preact.module.js 8.66 KiB [built]
+    | ./src/menu/hooks.js 5.25 KiB [built]
+    | ./src/menu/menu.jsx 6.98 KiB [built]
+    | ./node_modules/preact/hooks/dist/hooks.module.js 1.95 KiB [built]
+[./test/declarations.js] 0 bytes {test/declarations} [built]
+[./test/index.js] ./test/index.js + 20 modules 195 KiB {test/index} [built]
+    | ./test/index.js 18 bytes [built]
+    | ./test/client/index.js 371 bytes [built]
+    | ./test/client/mocks.js 27.4 KiB [built]
+    | ./test/client/happy.js 30 KiB [built]
+    | ./test/client/actions.js 28.4 KiB [built]
+    | ./test/client/auth.js 3.04 KiB [built]
+    | ./test/client/contingency.js 19.1 KiB [built]
+    | ./test/client/funding.js 2.61 KiB [built]
+    | ./test/client/error.js 3.67 KiB [built]
+    | ./test/client/eligibility.js 1.2 KiB [built]
+    | ./test/client/validation.js 9.5 KiB [built]
+    | ./test/client/prerender.js 9.6 KiB [built]
+    | ./test/client/vault.js 12.7 KiB [built]
+    | ./test/client/clientConfig.js 9.82 KiB [built]
+    | ./test/client/popupBridge.js 8.87 KiB [built]
+    |     + 6 hidden modules
+    + 24 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+
+  happy cases
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with a paymentID
+    [32m✓ [39mshould render a button with createBillingAgreement, click the button, and render checkout
+    [32m✓ [39mshould render a button with createSubscription, click the button, and render checkout
+    [32m✓ [39mshould render a button, press enter on the button, and render checkout
+    [32m✓ [39mshould render a button, click the button, and call onClick
+    [32m✓ [39mshould render a button, press enter on the button, and call onClick
+    [32m✓ [39mshould render a button, click the button, and render checkout, then call onCancel
+    [32m✓ [39mshould render a button, click the button, and render checkout, onApprove, restart and call onApprove again
+    [32m✓ [39mshould not error out if server-passed merchant id is different to payee
+    [32m✓ [39mshould not error out if no merchant-id is passed in xprops
+
+  actions cases
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.create
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.get
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.capture
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.authorize
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onShippingChange callback to the parent with actions.order.patch
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.patch
+    [32m✓ [39mshould render a subscription button, click the button, and render checkout, then pass onApprove callback to the parent with actions.subscription.create
+    [32m✓ [39mshould render a revise subscription button, click the button, and render checkout, then pass onApprove callback to the parent with actions.subscription.revise
+
+  auth cases
+    [32m✓ [39mshould render a button, call onAuth, and pass the access token to order get
+
+  contingency cases
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.capture and auto restart with INSTRUMENT_DECLINED
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.capture and auto restart with PAYER_ACTION_REQUIRED
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.authorize and auto restart with INSTRUMENT_DECLINED
+    [32m✓ [39mshould render a button, click the button, and render checkout, then pass onApprove callback to the parent with actions.order.authorize and auto restart with PAYER_ACTION_REQUIRED
+
+  funding source cases
+    [32m✓ [39mshould render a button, click the button, and render checkout with paypal funding source
+    [32m✓ [39mshould render a button, click the button, and render checkout with venmo funding source
+
+  error cases
+    [32m✓ [39mshould call xprops.onError for any onApprove error
+    [32m✓ [39mshould call xprops.onError for any onCancel error
+    [32m✓ [39mshould error on button setup if paypal not defined
+
+  eligibility cases
+    [32m✓ [39mshould call xprops.remember with venmo if venmo is eligible
+
+  validation cases
+    [32m✓ [39mshould render a button, enable the button, click, and call createOrder or onApprove
+    [32m✓ [39mshould render a button, disable the button, click, and not call Checkout or createOrder or onApprove
+    [32m✓ [39mshould render a button, disable the button, click, re-enable the button, click, and call createOrder or onApprove
+    [32m✓ [39mshould render a button, and resolve in onClick
+    [32m✓ [39mshould render a button, and reject in onClick
+    [32m✓ [39mshould render a button, and reject in onClick, then click again and resolve
+
+  prerender cases
+    [32m✓ [39mshould prerender a button, and call createOrder or onApprove
+    [32m✓ [39mshould render a button, enable the button, click, and call createOrder or onApprove
+    [32m✓ [39mshould render a button, disable the button, click, and not call Checkout or createOrder or onApprove
+    [32m✓ [39mshould render a button, disable the button, re-enable the button, click, and call createOrder or onApprove
+    [32m✓ [39mshould render a button, and resolve in onClick
+    [32m✓ [39mshould render a button, and reject in onClick
+
+  vault cases
+    [32m✓ [39mshould set up a new forced-vaulted funding source
+    [32m✓ [39mshould set up a new forced-vaulted funding source, and fail because paypal is not vaulable
+    [32m✓ [39mshould set up a new optionally-vaulted funding source
+    [32m✓ [39mshould not set up a new optionally-vaulted funding source when vaulting is not eligible
+    [32m✓ [39mshould continue with a one time payment for a new optionally-vaulted funding source when enableVault errors out
+    [32m✓ [39mshould pay with an existing vaulted paypal account
+    [32m✓ [39mshould pay with an existing vaulted card
+
+  client config cases
+    [32m✓ [39mshould pass the correct basic values for incontext checkout
+    [32m✓ [39mshould pass the correct basic values for inline card fields
+    [32m✓ [39mshould pass paypal when button clicked
+    [32m✓ [39mshould pass venmo when button clicked
+    [32m✓ [39mshould pass credit when button clicked
+
+  popup bridge cases
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout using popup bridge
+    [32m✓ [39mshould render a button with createOrder, click the button, and cancel using popup bridge
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout using popup bridge returning paymentID
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout using popup bridge returning billingToken
+
+  card field cases
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout
+
+  native cases
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout via popup to native path
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout via popup to native path with onCancel
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout via popup to native path with onError
+    [32m✓ [39mshould render a button with createOrder, click the button, and render checkout via popup to web path
+
+HeadlessChrome 77.0.3865 (Linux 0.0.0): Executed 63 of 63[32m SUCCESS[39m (9.979 secs / 9.55 secs)
+[32mTOTAL: 63 SUCCESS[39m
+
+----------------------------|----------|----------|----------|----------|----------------|
+File                        |  % Stmts | % Branch |  % Funcs |  % Lines |Uncovered Lines |
+----------------------------|----------|----------|----------|----------|----------------|
+ [32;1msrc/                      [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mconfig.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mconstants.js             [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+ [33;1msrc/api/                  [0m |[33;1m     65.9[0m |[31;1m       44[0m |[33;1m    71.91[0m |[33;1m    66.41[0m |[31;1m               [0m |
+  [32;1mapi.js                   [0m |[32;1m    82.14[0m |[33;1m    69.57[0m |[32;1m      100[0m |[32;1m    82.14[0m |[31;1m20,35,70,74,101[0m |
+  [32;1mauth.js                  [0m |[32;1m    81.82[0m |[33;1m       75[0m |[32;1m      100[0m |[32;1m    81.82[0m |[31;1m          32,36[0m |
+  [32;1meligibility.js           [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1morder.js                 [0m |[32;1m    89.29[0m |[31;1m    42.31[0m |[32;1m    93.33[0m |[32;1m    89.29[0m |[31;1m     53,198,252[0m |
+  [33;1msocket.js                [0m |[33;1m    57.14[0m |[31;1m    31.17[0m |[33;1m    56.36[0m |[33;1m    57.83[0m |[31;1m... 413,432,470[0m |
+  [33;1msubscription.js          [0m |[33;1m    70.83[0m |[33;1m    56.25[0m |[32;1m      100[0m |[33;1m    70.83[0m |[31;1m... 68,72,76,92[0m |
+ [32;1msrc/button/               [0m |[32;1m    93.18[0m |[32;1m    83.53[0m |[32;1m      100[0m |[32;1m    93.18[0m |[31;1m               [0m |
+  [32;1mbutton.js                [0m |[32;1m    96.15[0m |[32;1m    88.46[0m |[32;1m      100[0m |[32;1m    96.15[0m |[31;1m         95,124[0m |
+  [32;1mdom.js                   [0m |[32;1m      100[0m |[33;1m       75[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mlogs.js                  [0m |[32;1m    93.33[0m |[33;1m    72.73[0m |[32;1m      100[0m |[32;1m    93.33[0m |[31;1m             16[0m |
+  [33;1morders.js                [0m |[33;1m    78.26[0m |[33;1m    78.79[0m |[32;1m      100[0m |[33;1m    78.26[0m |[31;1m 58,62,69,73,85[0m |
+  [32;1mpay.js                   [0m |[32;1m    96.43[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m    96.43[0m |[31;1m             33[0m |
+  [32;1mremember.js              [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+ [33;1msrc/button/props/         [0m |[33;1m    78.71[0m |[33;1m    56.76[0m |[32;1m    92.31[0m |[33;1m    78.35[0m |[31;1m               [0m |
+  [32;1mcreateBillingAgreement.js[0m |[32;1m    88.89[0m |[32;1m    83.33[0m |[32;1m      100[0m |[32;1m    88.89[0m |[31;1m             36[0m |
+  [33;1mcreateOrder.js           [0m |[33;1m    78.05[0m |[33;1m    59.46[0m |[32;1m      100[0m |[33;1m    78.05[0m |[31;1m... 110,123,127[0m |
+  [32;1mcreateSubscription.js    [0m |[32;1m    93.75[0m |[32;1m    83.33[0m |[32;1m      100[0m |[32;1m    93.75[0m |[31;1m             52[0m |
+  [32;1mgetPageUrl.js            [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mgetPopupBridge.js        [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [33;1monApprove.js             [0m |[33;1m    64.44[0m |[31;1m       44[0m |[32;1m    85.71[0m |[33;1m     61.9[0m |[31;1m... 146,147,148[0m |
+  [33;1monCancel.js              [0m |[33;1m    52.94[0m |[31;1m        0[0m |[32;1m    85.71[0m |[33;1m    52.94[0m |[31;1m... 37,38,39,42[0m |
+  [32;1monClick.js               [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1monError.js               [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1monInit.js                [0m |[32;1m      100[0m |[33;1m       50[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1monShippingChange.js      [0m |[32;1m       80[0m |[32;1m       80[0m |[33;1m    66.67[0m |[32;1m    85.71[0m |[31;1m          44,49[0m |
+  [32;1mprops.js                 [0m |[32;1m    83.33[0m |[33;1m     61.9[0m |[32;1m      100[0m |[32;1m    83.33[0m |[31;1m 58,62,68,72,76[0m |
+  [32;1mrememberFunding.js       [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mtypes.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+ [31;1msrc/lib/                  [0m |[31;1m    46.81[0m |[31;1m    31.25[0m |[33;1m       55[0m |[31;1m    46.67[0m |[31;1m               [0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [33;1mlogger.js                [0m |[33;1m       75[0m |[33;1m       75[0m |[32;1m    83.33[0m |[33;1m       75[0m |[31;1m       71,76,81[0m |
+  [31;1mutil.js                  [0m |[31;1m    37.14[0m |[31;1m    16.67[0m |[31;1m    42.86[0m |[31;1m    36.36[0m |[31;1m... 57,58,60,69[0m |
+ [31;1msrc/menu/                 [0m |[31;1m    17.24[0m |[31;1m        0[0m |[31;1m     7.69[0m |[31;1m    17.86[0m |[31;1m               [0m |
+  [31;1mhooks.js                 [0m |[31;1m        0[0m |[32;1m      100[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 14,16,17,20[0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [31;1mmenu.jsx                 [0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 38,41,81,82[0m |
+  [31;1mpage.jsx                 [0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 22,23,26,57[0m |
+  [32;1mpopup.jsx                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+ [32;1msrc/payment-flows/        [0m |[32;1m    81.85[0m |[33;1m    71.21[0m |[33;1m    77.78[0m |[32;1m    82.61[0m |[31;1m               [0m |
+  [32;1mcard-fields.js           [0m |[32;1m    83.54[0m |[33;1m    73.33[0m |[32;1m       85[0m |[32;1m    83.54[0m |[31;1m... 126,134,142[0m |
+  [32;1mcheckout.js              [0m |[32;1m    87.01[0m |[33;1m    79.07[0m |[32;1m    91.67[0m |[32;1m    87.01[0m |[31;1m... 130,212,213[0m |
+  [32;1mindex.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [32;1mnative.js                [0m |[32;1m    83.87[0m |[33;1m    65.38[0m |[33;1m       75[0m |[32;1m    85.71[0m |[31;1m... 205,222,223[0m |
+  [32;1mpopup-bridge.js          [0m |[32;1m     87.5[0m |[33;1m    68.75[0m |[32;1m       90[0m |[32;1m     87.5[0m |[31;1m    41,56,81,89[0m |
+  [32;1mtypes.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[31;1m               [0m |
+  [33;1mvault-capture.js         [0m |[33;1m    61.36[0m |[33;1m    58.82[0m |[33;1m    52.38[0m |[33;1m    62.79[0m |[31;1m... ,93,115,117[0m |
+----------------------------|----------|----------|----------|----------|----------------|
+[33;1mAll files                  [0m |[33;1m    75.73[0m |[33;1m    60.04[0m |[33;1m    77.64[0m |[33;1m    76.14[0m |[31;1m               [0m |
+----------------------------|----------|----------|----------|----------|----------------|
+
+
+> @paypal/smart-payment-buttons@2.0.139 jest /home/travis/build/paypal/paypal-smart-payment-buttons
+> jest test/server --collectCoverage --env=node --no-cache
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    grabthar_info__paypal_checkout_components { registry: 'https://registry.npmjs.org' }
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    grabthar_info__paypal_smart_payment_buttons { registry: 'https://registry.npmjs.org' }
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    smart_button_render
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtest/server/[22m[1mrender.button.test.js[22m ([0m[1m[41m5.494s[49m[22m[0m)
+  [32m✓[39m [2mshould do a basic button render and succeed (1948ms)[22m
+  [32m✓[39m [2mshould do a basic button render and succeed when graphql fundingEligibility errors (32ms)[22m
+  [32m✓[39m [2mshould give a 400 error with no clientID passed (21ms)[22m
+
+[999D[K---------------------------|----------|----------|----------|----------|-------------------|
+File                       |  % Stmts | % Branch |  % Funcs |  % Lines | Uncovered Line #s |
+---------------------------|----------|----------|----------|----------|-------------------|
+[33;1mAll files                 [0m |[33;1m    72.09[0m |[31;1m    44.07[0m |[33;1m    64.41[0m |[33;1m    72.04[0m |[31;1m                  [0m |
+[32;1m server                   [0m |[32;1m      100[0m |[33;1m       50[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  watchers.js             [0m |[32;1m      100[0m |[33;1m       50[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                34[0m |
+[32;1m server/components        [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m server/components/buttons[0m |[32;1m    84.91[0m |[33;1m    66.67[0m |[32;1m       80[0m |[32;1m    84.91[0m |[31;1m                  [0m |
+[32;1m  constants.js            [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  middleware.js           [0m |[32;1m      100[0m |[33;1m    66.67[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m    24,27,62,65,85[0m |
+[32;1m  params.js               [0m |[32;1m      100[0m |[32;1m    82.35[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m             10,12[0m |
+[33;1m  script.js               [0m |[33;1m    57.89[0m |[31;1m       40[0m |[33;1m       50[0m |[33;1m    57.89[0m |[31;1m... 32,33,34,35,40[0m |
+[32;1m  style.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[31;1m server/components/menu   [0m |[31;1m     3.13[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m     3.13[0m |[31;1m                  [0m |
+[32;1m  constants.js            [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[31;1m  middleware.js           [0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 29,30,33,43,44[0m |
+[31;1m  params.js               [0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 14,38,43,45,47[0m |
+[31;1m  script.js               [0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m        0[0m |[31;1m... 21,24,25,26,28[0m |
+[32;1m server/config            [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  config.js               [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  constants.js            [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[33;1m server/lib               [0m |[33;1m    73.77[0m |[31;1m    18.52[0m |[33;1m    55.56[0m |[33;1m    73.68[0m |[31;1m                  [0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  sdk.js                  [0m |[32;1m       80[0m |[31;1m    17.65[0m |[32;1m      100[0m |[32;1m       80[0m |[31;1m       67,73,74,75[0m |
+[33;1m  util.js                 [0m |[33;1m    70.73[0m |[31;1m       20[0m |[33;1m       50[0m |[33;1m    70.27[0m |[31;1m... 66,70,74,76,80[0m |
+[32;1m server/service           [0m |[32;1m    81.48[0m |[33;1m    69.57[0m |[33;1m       75[0m |[32;1m    81.48[0m |[31;1m                  [0m |
+[33;1m  fraudnet.js             [0m |[33;1m    76.92[0m |[33;1m    73.33[0m |[33;1m       50[0m |[33;1m    76.92[0m |[31;1m          31,42,47[0m |
+[32;1m  fundingEligibility.js   [0m |[32;1m      100[0m |[32;1m    83.33[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                94[0m |
+[32;1m  index.js                [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[33;1m  personalization.js      [0m |[33;1m       50[0m |[31;1m        0[0m |[32;1m      100[0m |[33;1m       50[0m |[31;1m             60,61[0m |
+[32;1m test/server              [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+[32;1m  mock.js                 [0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[32;1m      100[0m |[33;1m                  [0m |
+---------------------------|----------|----------|----------|----------|-------------------|
+[1mTest Suites: [22m[1m[32m1 passed[39m[22m, 1 total
+[1mTests:       [22m[1m[32m3 passed[39m[22m, 3 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        5.752s
+[2mRan all test suites[22m[2m matching [22m/test\/server/i[2m.[22m
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_client_version_2.0.139
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_render_version_5.0.58
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_params { params: '{"clientID":"xyz"}' }
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    smart_button_render
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_client_version_2.0.139
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_render_version_5.0.58
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_params { params:
+       '{"clientID":"xyz","fundingEligibility":"eyJwYXlwYWwiOnsiZWxpZ2libGUiOnRydWV9LCJjYXJkIjp7ImVsaWdpYmxlIjp0cnVlLCJ2ZW5kb3JzIjp7InZpc2EiOnsiZWxpZ2libGUiOnRydWV9LCJtYXN0ZXJjYXJkIjp7ImVsaWdpYmxlIjp0cnVlfX19fQ=="}' }
+
+[999D[K  [2m[31mconsole.error[39m[22m [2mserver/lib/util.js:44[22m
+[31m    funding_eligibility_error_fallback { err:[39m
+[31m       'Error: error\n    at getFundingEligibility (/home/travis/build/paypal/paypal-smart-payment-buttons/test/server/render.button.test.js:86:19)\n    at getFundingEligibility (/home/travis/build/paypal/paypal-smart-payment-buttons/server/service/fundingEligibility.js:89:22)\n    at resolveFundingEligibility (/home/travis/build/paypal/paypal-smart-payment-buttons/server/components/buttons/middleware.js:52:13)' }[39m
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    smart_button_render
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_client_version_2.0.139
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_render_version_5.0.58
+
+[999D[K  [2mconsole.info[22m [2mserver/lib/util.js:42[22m
+    button_params { params: '{}' }
+
+travis_time:end:262ca9ce:start=1569892632449476437,finish=1569892754336695208,duration=121887218771,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_fold:start:cache.2[0Kstore build cache
+travis_time:start:045341e4[0Ktravis_time:end:045341e4:start=1569892754342775761,finish=1569892754346357784,duration=3582023,event=cache[0Ktravis_time:start:022aefd4[0K[32;1mchanges detected (content changed, file is created, or file is deleted):\n/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/.cache/@babel/register/.babel.7.6.2.test.json\n[0m
+[32;1mchanges detected, packing new archive[0m
+[32;1muploading master/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mcache uploaded[0m
+travis_time:end:022aefd4:start=1569892754350958852,finish=1569892768639417237,duration=14288458385,event=cache[0Ktravis_fold:end:cache.2[0K
+
+Done. Your build exited with 0.

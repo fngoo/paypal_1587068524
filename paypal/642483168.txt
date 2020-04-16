@@ -1,0 +1,442 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: b4bc1fe7-ddaf-4f67-a0f8-8402e26c5ea9@1.worker-org-85d846cc5-htrjw.gce-production-1
+version: v6.2.6 https://github.com/travis-ci/worker/tree/ba21bd30589fd152126e13df30e0cc78ccdf2837
+instance: travis-job-01267580-5539-4e32-8278-b7f773bee231 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.069283661s
+travis_fold:end:worker_info[0Ktravis_time:start:23d2809c[0Ktravis_time:end:23d2809c:start=1580145400416320490,finish=1580145400567270895,duration=150950405,event=no_world_writable_dirs[0Ktravis_time:start:07595658[0Ktravis_time:end:07595658:start=1580145400571133495,finish=1580145400579094752,duration=7961257,event=agent[0Ktravis_time:start:16f9b921[0Ktravis_time:end:16f9b921:start=1580145400582058260,finish=1580145400584222638,duration=2164378,event=check_unsupported[0Ktravis_time:start:164c61db[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 642483167
+Job id: 642483168
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 74fa7e3af
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:164c61db:start=1580145400587321994,finish=1580145400594822234,duration=7500240,event=show_system_info[0Ktravis_time:start:0ebe966c[0Ktravis_time:end:0ebe966c:start=1580145400598739680,finish=1580145400613692107,duration=14952427,event=rm_riak_source[0Ktravis_time:start:064ba23c[0Ktravis_time:end:064ba23c:start=1580145400617534267,finish=1580145400628347759,duration=10813492,event=fix_rwky_redis[0Ktravis_time:start:08c8ba58[0Ktravis_time:end:08c8ba58:start=1580145400631521204,finish=1580145400966983961,duration=335462757,event=wait_for_network[0Ktravis_time:start:008f9c00[0Ktravis_time:end:008f9c00:start=1580145400970278513,finish=1580145401161254761,duration=190976248,event=update_apt_keys[0Ktravis_time:start:07c3037a[0Ktravis_time:end:07c3037a:start=1580145401164551239,finish=1580145401219501946,duration=54950707,event=fix_hhvm_source[0Ktravis_time:start:19da5e42[0Ktravis_time:end:19da5e42:start=1580145401222771289,finish=1580145401225519299,duration=2748010,event=update_mongo_arch[0Ktravis_time:start:0477f79c[0Ktravis_time:end:0477f79c:start=1580145401228323916,finish=1580145401268744576,duration=40420660,event=fix_sudo_enabled_trusty[0Ktravis_time:start:1240a5a0[0Ktravis_time:end:1240a5a0:start=1580145401271757310,finish=1580145401273816510,duration=2059200,event=update_glibc[0Ktravis_time:start:1d6d3e96[0Ktravis_time:end:1d6d3e96:start=1580145401276575503,finish=1580145401283543890,duration=6968387,event=clean_up_path[0Ktravis_time:start:024e7058[0Ktravis_time:end:024e7058:start=1580145401286209173,finish=1580145401293619683,duration=7410510,event=fix_resolv_conf[0Ktravis_time:start:0a481780[0Ktravis_time:end:0a481780:start=1580145401296495529,finish=1580145401304746049,duration=8250520,event=fix_etc_hosts[0Ktravis_time:start:06f8ddd2[0Ktravis_time:end:06f8ddd2:start=1580145401307463772,finish=1580145401315153109,duration=7689337,event=fix_mvn_settings_xml[0Ktravis_time:start:036de658[0Ktravis_time:end:036de658:start=1580145401317864828,finish=1580145401326742690,duration=8877862,event=no_ipv6_localhost[0Ktravis_time:start:010eac08[0Ktravis_time:end:010eac08:start=1580145401329672400,finish=1580145401331710893,duration=2038493,event=fix_etc_mavenrc[0Ktravis_time:start:116075f0[0Ktravis_time:end:116075f0:start=1580145401334471803,finish=1580145401337320119,duration=2848316,event=fix_wwdr_certificate[0Ktravis_time:start:23b85204[0Ktravis_time:end:23b85204:start=1580145401339967604,finish=1580145401362544694,duration=22577090,event=put_localhost_first[0Ktravis_time:start:055b1326[0Ktravis_time:end:055b1326:start=1580145401365621987,finish=1580145401368576375,duration=2954388,event=home_paths[0Ktravis_time:start:15fd5480[0Ktravis_time:end:15fd5480:start=1580145401371686364,finish=1580145401383533841,duration=11847477,event=disable_initramfs[0Ktravis_time:start:04493970[0Ktravis_time:end:04493970:start=1580145401386642643,finish=1580145401612672643,duration=226030000,event=disable_ssh_roaming[0Ktravis_time:start:123efd24[0Ktravis_time:end:123efd24:start=1580145401615793984,finish=1580145401618019679,duration=2225695,event=debug_tools[0Ktravis_time:start:04d48544[0Ktravis_time:end:04d48544:start=1580145401620799063,finish=1580145401623637975,duration=2838912,event=uninstall_oclint[0Ktravis_time:start:0fbb99e0[0Ktravis_time:end:0fbb99e0:start=1580145401626507961,finish=1580145401629253947,duration=2745986,event=rvm_use[0Ktravis_time:start:0bd0eab0[0Ktravis_time:end:0bd0eab0:start=1580145401631987512,finish=1580145401639289275,duration=7301763,event=rm_etc_boto_cfg[0Ktravis_time:start:03ef957b[0Ktravis_time:end:03ef957b:start=1580145401642092020,finish=1580145401644619038,duration=2527018,event=rm_oraclejdk8_symlink[0Ktravis_time:start:1429c11f[0Ktravis_time:end:1429c11f:start=1580145401647463029,finish=1580145401740255150,duration=92792121,event=enable_i386[0Ktravis_time:start:045c21af[0Ktravis_time:end:045c21af:start=1580145401743428992,finish=1580145401750520390,duration=7091398,event=update_rubygems[0Ktravis_time:start:11fc0a33[0Ktravis_time:end:11fc0a33:start=1580145401753838794,finish=1580145402545434587,duration=791595793,event=ensure_path_components[0Ktravis_time:start:0c47b150[0Ktravis_time:end:0c47b150:start=1580145402548508576,finish=1580145402550638415,duration=2129839,event=redefine_curl[0Ktravis_time:start:024b20c8[0Ktravis_time:end:024b20c8:start=1580145402553488557,finish=1580145402555568114,duration=2079557,event=nonblock_pipe[0Ktravis_time:start:125e88e6[0Ktravis_time:end:125e88e6:start=1580145402558361666,finish=1580145408591056420,duration=6032694754,event=apt_get_update[0Ktravis_time:start:02742f02[0Ktravis_time:end:02742f02:start=1580145408594507160,finish=1580145408596906752,duration=2399592,event=deprecate_xcode_64[0Ktravis_time:start:06658a59[0Ktravis_time:end:06658a59:start=1580145408599930789,finish=1580145410961720946,duration=2361790157,event=update_heroku[0Ktravis_time:start:07d28b90[0Ktravis_time:end:07d28b90:start=1580145410964632138,finish=1580145410966660659,duration=2028521,event=shell_session_update[0Ktravis_time:start:0f653a60[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0f653a60:start=1580145410969320192,finish=1580145413182881092,duration=2213560900,event=set_docker_mtu[0Ktravis_time:start:0e17d511[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:0e17d511:start=1580145413186674560,finish=1580145413251564947,duration=64890387,event=resolvconf[0Ktravis_time:start:20cab714[0Ktravis_time:end:20cab714:start=1580145413255464723,finish=1580145413387332122,duration=131867399,event=maven_central_mirror[0Ktravis_time:start:0fbbc8ac[0Ktravis_time:end:0fbbc8ac:start=1580145413390317176,finish=1580145413484306109,duration=93988933,event=maven_https[0Ktravis_time:start:078e0c24[0Ktravis_time:end:078e0c24:start=1580145413488033565,finish=1580145413490278843,duration=2245278,event=fix_ps4[0Ktravis_fold:start:hosts.before[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-01267580-5539-4e32-8278-b7f773bee231 travis-job-01267580-5539-4e32-8278-b7f773bee231 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-01267580-5539-4e32-8278-b7f773bee231 
+
+travis_fold:end:hosts.before[0Ktravis_fold:start:hosts[0Ktravis_fold:end:hosts[0Ktravis_fold:start:hosts.after[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-01267580-5539-4e32-8278-b7f773bee231 travis-job-01267580-5539-4e32-8278-b7f773bee231 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-01267580-5539-4e32-8278-b7f773bee231  localhost.paypal.com
+
+travis_fold:end:hosts.after[0Ktravis_time:start:03cfa008[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:02755569[0K$ git clone --depth=50 https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+remote: Enumerating objects: 1439, done.[K
+remote: Counting objects:   0% (1/1439)[Kremote: Counting objects:   1% (15/1439)[Kremote: Counting objects:   2% (29/1439)[Kremote: Counting objects:   3% (44/1439)[Kremote: Counting objects:   4% (58/1439)[Kremote: Counting objects:   5% (72/1439)[Kremote: Counting objects:   6% (87/1439)[Kremote: Counting objects:   7% (101/1439)[Kremote: Counting objects:   8% (116/1439)[Kremote: Counting objects:   9% (130/1439)[Kremote: Counting objects:  10% (144/1439)[Kremote: Counting objects:  11% (159/1439)[Kremote: Counting objects:  12% (173/1439)[Kremote: Counting objects:  13% (188/1439)[Kremote: Counting objects:  14% (202/1439)[Kremote: Counting objects:  15% (216/1439)[Kremote: Counting objects:  16% (231/1439)[Kremote: Counting objects:  17% (245/1439)[Kremote: Counting objects:  18% (260/1439)[Kremote: Counting objects:  19% (274/1439)[Kremote: Counting objects:  20% (288/1439)[Kremote: Counting objects:  21% (303/1439)[Kremote: Counting objects:  22% (317/1439)[Kremote: Counting objects:  23% (331/1439)[Kremote: Counting objects:  24% (346/1439)[Kremote: Counting objects:  25% (360/1439)[Kremote: Counting objects:  26% (375/1439)[Kremote: Counting objects:  27% (389/1439)[Kremote: Counting objects:  28% (403/1439)[Kremote: Counting objects:  29% (418/1439)[Kremote: Counting objects:  30% (432/1439)[Kremote: Counting objects:  31% (447/1439)[Kremote: Counting objects:  32% (461/1439)[Kremote: Counting objects:  33% (475/1439)[Kremote: Counting objects:  34% (490/1439)[Kremote: Counting objects:  35% (504/1439)[Kremote: Counting objects:  36% (519/1439)[Kremote: Counting objects:  37% (533/1439)[Kremote: Counting objects:  38% (547/1439)[Kremote: Counting objects:  39% (562/1439)[Kremote: Counting objects:  40% (576/1439)[Kremote: Counting objects:  41% (590/1439)[Kremote: Counting objects:  42% (605/1439)[Kremote: Counting objects:  43% (619/1439)[Kremote: Counting objects:  44% (634/1439)[Kremote: Counting objects:  45% (648/1439)[Kremote: Counting objects:  46% (662/1439)[Kremote: Counting objects:  47% (677/1439)[Kremote: Counting objects:  48% (691/1439)[Kremote: Counting objects:  49% (706/1439)[Kremote: Counting objects:  50% (720/1439)[Kremote: Counting objects:  51% (734/1439)[Kremote: Counting objects:  52% (749/1439)[Kremote: Counting objects:  53% (763/1439)[Kremote: Counting objects:  54% (778/1439)[Kremote: Counting objects:  55% (792/1439)[Kremote: Counting objects:  56% (806/1439)[Kremote: Counting objects:  57% (821/1439)[Kremote: Counting objects:  58% (835/1439)[Kremote: Counting objects:  59% (850/1439)[Kremote: Counting objects:  60% (864/1439)[Kremote: Counting objects:  61% (878/1439)[Kremote: Counting objects:  62% (893/1439)[Kremote: Counting objects:  63% (907/1439)[Kremote: Counting objects:  64% (921/1439)[Kremote: Counting objects:  65% (936/1439)[Kremote: Counting objects:  66% (950/1439)[Kremote: Counting objects:  67% (965/1439)[Kremote: Counting objects:  68% (979/1439)[Kremote: Counting objects:  69% (993/1439)[Kremote: Counting objects:  70% (1008/1439)[Kremote: Counting objects:  71% (1022/1439)[Kremote: Counting objects:  72% (1037/1439)[Kremote: Counting objects:  73% (1051/1439)[Kremote: Counting objects:  74% (1065/1439)[Kremote: Counting objects:  75% (1080/1439)[Kremote: Counting objects:  76% (1094/1439)[Kremote: Counting objects:  77% (1109/1439)[Kremote: Counting objects:  78% (1123/1439)[Kremote: Counting objects:  79% (1137/1439)[Kremote: Counting objects:  80% (1152/1439)[Kremote: Counting objects:  81% (1166/1439)[Kremote: Counting objects:  82% (1180/1439)[Kremote: Counting objects:  83% (1195/1439)[Kremote: Counting objects:  84% (1209/1439)[Kremote: Counting objects:  85% (1224/1439)[Kremote: Counting objects:  86% (1238/1439)[Kremote: Counting objects:  87% (1252/1439)[Kremote: Counting objects:  88% (1267/1439)[Kremote: Counting objects:  89% (1281/1439)[Kremote: Counting objects:  90% (1296/1439)[Kremote: Counting objects:  91% (1310/1439)[Kremote: Counting objects:  92% (1324/1439)[Kremote: Counting objects:  93% (1339/1439)[Kremote: Counting objects:  94% (1353/1439)[Kremote: Counting objects:  95% (1368/1439)[Kremote: Counting objects:  96% (1382/1439)[Kremote: Counting objects:  97% (1396/1439)[Kremote: Counting objects:  98% (1411/1439)[Kremote: Counting objects:  99% (1425/1439)[Kremote: Counting objects: 100% (1439/1439)[Kremote: Counting objects: 100% (1439/1439), done.[K
+remote: Compressing objects:   0% (1/630)[Kremote: Compressing objects:   1% (7/630)[Kremote: Compressing objects:   2% (13/630)[Kremote: Compressing objects:   3% (19/630)[Kremote: Compressing objects:   4% (26/630)[Kremote: Compressing objects:   5% (32/630)[Kremote: Compressing objects:   6% (38/630)[Kremote: Compressing objects:   7% (45/630)[Kremote: Compressing objects:   8% (51/630)[Kremote: Compressing objects:   9% (57/630)[Kremote: Compressing objects:  10% (63/630)[Kremote: Compressing objects:  11% (70/630)[Kremote: Compressing objects:  12% (76/630)[Kremote: Compressing objects:  13% (82/630)[Kremote: Compressing objects:  14% (89/630)[Kremote: Compressing objects:  15% (95/630)[Kremote: Compressing objects:  16% (101/630)[Kremote: Compressing objects:  17% (108/630)[Kremote: Compressing objects:  18% (114/630)[Kremote: Compressing objects:  19% (120/630)[Kremote: Compressing objects:  20% (126/630)[Kremote: Compressing objects:  21% (133/630)[Kremote: Compressing objects:  22% (139/630)[Kremote: Compressing objects:  23% (145/630)[Kremote: Compressing objects:  24% (152/630)[Kremote: Compressing objects:  25% (158/630)[Kremote: Compressing objects:  26% (164/630)[Kremote: Compressing objects:  27% (171/630)[Kremote: Compressing objects:  28% (177/630)[Kremote: Compressing objects:  29% (183/630)[Kremote: Compressing objects:  30% (189/630)[Kremote: Compressing objects:  31% (196/630)[Kremote: Compressing objects:  32% (202/630)[Kremote: Compressing objects:  33% (208/630)[Kremote: Compressing objects:  34% (215/630)[Kremote: Compressing objects:  35% (221/630)[Kremote: Compressing objects:  36% (227/630)[Kremote: Compressing objects:  37% (234/630)[Kremote: Compressing objects:  38% (240/630)[Kremote: Compressing objects:  39% (246/630)[Kremote: Compressing objects:  40% (252/630)[Kremote: Compressing objects:  41% (259/630)[Kremote: Compressing objects:  42% (265/630)[Kremote: Compressing objects:  43% (271/630)[Kremote: Compressing objects:  44% (278/630)[Kremote: Compressing objects:  45% (284/630)[Kremote: Compressing objects:  46% (290/630)[Kremote: Compressing objects:  47% (297/630)[Kremote: Compressing objects:  48% (303/630)[Kremote: Compressing objects:  49% (309/630)[Kremote: Compressing objects:  50% (315/630)[Kremote: Compressing objects:  51% (322/630)[Kremote: Compressing objects:  52% (328/630)[Kremote: Compressing objects:  53% (334/630)[Kremote: Compressing objects:  54% (341/630)[Kremote: Compressing objects:  55% (347/630)[Kremote: Compressing objects:  56% (353/630)[Kremote: Compressing objects:  57% (360/630)[Kremote: Compressing objects:  58% (366/630)[Kremote: Compressing objects:  59% (372/630)[Kremote: Compressing objects:  60% (378/630)[Kremote: Compressing objects:  61% (385/630)[Kremote: Compressing objects:  62% (391/630)[Kremote: Compressing objects:  63% (397/630)[Kremote: Compressing objects:  64% (404/630)[Kremote: Compressing objects:  65% (410/630)[Kremote: Compressing objects:  66% (416/630)[Kremote: Compressing objects:  67% (423/630)[Kremote: Compressing objects:  68% (429/630)[Kremote: Compressing objects:  69% (435/630)[Kremote: Compressing objects:  70% (441/630)[Kremote: Compressing objects:  71% (448/630)[Kremote: Compressing objects:  72% (454/630)[Kremote: Compressing objects:  73% (460/630)[Kremote: Compressing objects:  74% (467/630)[Kremote: Compressing objects:  75% (473/630)[Kremote: Compressing objects:  76% (479/630)[Kremote: Compressing objects:  77% (486/630)[Kremote: Compressing objects:  78% (492/630)[Kremote: Compressing objects:  79% (498/630)[Kremote: Compressing objects:  80% (504/630)[Kremote: Compressing objects:  81% (511/630)[Kremote: Compressing objects:  82% (517/630)[Kremote: Compressing objects:  83% (523/630)[Kremote: Compressing objects:  84% (530/630)[Kremote: Compressing objects:  85% (536/630)[Kremote: Compressing objects:  86% (542/630)[Kremote: Compressing objects:  87% (549/630)[Kremote: Compressing objects:  88% (555/630)[Kremote: Compressing objects:  89% (561/630)[Kremote: Compressing objects:  90% (567/630)[Kremote: Compressing objects:  91% (574/630)[Kremote: Compressing objects:  92% (580/630)[Kremote: Compressing objects:  93% (586/630)[Kremote: Compressing objects:  94% (593/630)[Kremote: Compressing objects:  95% (599/630)[Kremote: Compressing objects:  96% (605/630)[Kremote: Compressing objects:  97% (612/630)[Kremote: Compressing objects:  98% (618/630)[Kremote: Compressing objects:  99% (624/630)[Kremote: Compressing objects: 100% (630/630)[Kremote: Compressing objects: 100% (630/630), done.[K
+Receiving objects:   0% (1/1439)   Receiving objects:   1% (15/1439)   Receiving objects:   2% (29/1439)   Receiving objects:   3% (44/1439)   Receiving objects:   4% (58/1439)   Receiving objects:   5% (72/1439)   Receiving objects:   6% (87/1439)   Receiving objects:   7% (101/1439)   Receiving objects:   8% (116/1439)   Receiving objects:   9% (130/1439)   Receiving objects:  10% (144/1439)   Receiving objects:  11% (159/1439)   Receiving objects:  12% (173/1439)   Receiving objects:  13% (188/1439)   Receiving objects:  14% (202/1439)   Receiving objects:  15% (216/1439)   Receiving objects:  16% (231/1439)   Receiving objects:  17% (245/1439)   Receiving objects:  18% (260/1439)   Receiving objects:  19% (274/1439)   Receiving objects:  20% (288/1439)   Receiving objects:  21% (303/1439)   Receiving objects:  22% (317/1439)   Receiving objects:  23% (331/1439)   Receiving objects:  24% (346/1439)   Receiving objects:  25% (360/1439)   Receiving objects:  26% (375/1439)   Receiving objects:  27% (389/1439)   Receiving objects:  28% (403/1439)   Receiving objects:  29% (418/1439)   Receiving objects:  30% (432/1439)   Receiving objects:  31% (447/1439)   Receiving objects:  32% (461/1439)   Receiving objects:  33% (475/1439)   Receiving objects:  34% (490/1439)   Receiving objects:  35% (504/1439)   Receiving objects:  36% (519/1439)   Receiving objects:  37% (533/1439)   Receiving objects:  38% (547/1439)   Receiving objects:  39% (562/1439)   Receiving objects:  40% (576/1439)   Receiving objects:  41% (590/1439)   Receiving objects:  42% (605/1439)   Receiving objects:  43% (619/1439)   Receiving objects:  44% (634/1439)   Receiving objects:  45% (648/1439)   Receiving objects:  46% (662/1439)   Receiving objects:  47% (677/1439)   Receiving objects:  48% (691/1439)   Receiving objects:  49% (706/1439)   Receiving objects:  50% (720/1439)   Receiving objects:  51% (734/1439)   Receiving objects:  52% (749/1439)   Receiving objects:  53% (763/1439)   Receiving objects:  54% (778/1439)   Receiving objects:  55% (792/1439)   Receiving objects:  56% (806/1439)   Receiving objects:  57% (821/1439)   Receiving objects:  58% (835/1439)   Receiving objects:  59% (850/1439)   Receiving objects:  60% (864/1439)   Receiving objects:  61% (878/1439)   Receiving objects:  62% (893/1439)   Receiving objects:  63% (907/1439)   Receiving objects:  64% (921/1439)   Receiving objects:  65% (936/1439)   Receiving objects:  66% (950/1439)   Receiving objects:  67% (965/1439)   Receiving objects:  68% (979/1439)   Receiving objects:  69% (993/1439)   Receiving objects:  70% (1008/1439)   Receiving objects:  71% (1022/1439)   Receiving objects:  72% (1037/1439)   Receiving objects:  73% (1051/1439)   Receiving objects:  74% (1065/1439)   Receiving objects:  75% (1080/1439)   Receiving objects:  76% (1094/1439)   Receiving objects:  77% (1109/1439)   Receiving objects:  78% (1123/1439)   Receiving objects:  79% (1137/1439)   Receiving objects:  80% (1152/1439)   Receiving objects:  81% (1166/1439)   Receiving objects:  82% (1180/1439)   Receiving objects:  83% (1195/1439)   Receiving objects:  84% (1209/1439)   Receiving objects:  85% (1224/1439)   Receiving objects:  86% (1238/1439)   Receiving objects:  87% (1252/1439)   Receiving objects:  88% (1267/1439)   Receiving objects:  89% (1281/1439)   remote: Total 1439 (delta 783), reused 1364 (delta 732), pack-reused 0[K
+Receiving objects:  90% (1296/1439)   Receiving objects:  91% (1310/1439)   Receiving objects:  92% (1324/1439)   Receiving objects:  93% (1339/1439)   Receiving objects:  94% (1353/1439)   Receiving objects:  95% (1368/1439)   Receiving objects:  96% (1382/1439)   Receiving objects:  97% (1396/1439)   Receiving objects:  98% (1411/1439)   Receiving objects:  99% (1425/1439)   Receiving objects: 100% (1439/1439)   Receiving objects: 100% (1439/1439), 1.70 MiB | 15.53 MiB/s, done.
+Resolving deltas:   0% (0/783)   Resolving deltas:   1% (13/783)   Resolving deltas:   2% (20/783)   Resolving deltas:   3% (24/783)   Resolving deltas:   4% (32/783)   Resolving deltas:   5% (43/783)   Resolving deltas:   6% (51/783)   Resolving deltas:   7% (57/783)   Resolving deltas:   8% (63/783)   Resolving deltas:   9% (73/783)   Resolving deltas:  10% (79/783)   Resolving deltas:  11% (89/783)   Resolving deltas:  12% (97/783)   Resolving deltas:  13% (103/783)   Resolving deltas:  14% (111/783)   Resolving deltas:  15% (118/783)   Resolving deltas:  18% (144/783)   Resolving deltas:  19% (150/783)   Resolving deltas:  20% (157/783)   Resolving deltas:  21% (166/783)   Resolving deltas:  22% (176/783)   Resolving deltas:  24% (191/783)   Resolving deltas:  25% (196/783)   Resolving deltas:  26% (204/783)   Resolving deltas:  31% (245/783)   Resolving deltas:  32% (252/783)   Resolving deltas:  36% (283/783)   Resolving deltas:  37% (297/783)   Resolving deltas:  39% (307/783)   Resolving deltas:  40% (314/783)   Resolving deltas:  55% (434/783)   Resolving deltas:  60% (472/783)   Resolving deltas:  61% (482/783)   Resolving deltas:  62% (486/783)   Resolving deltas:  63% (497/783)   Resolving deltas:  65% (509/783)   Resolving deltas:  66% (517/783)   Resolving deltas:  67% (525/783)   Resolving deltas:  68% (539/783)   Resolving deltas:  69% (541/783)   Resolving deltas:  72% (565/783)   Resolving deltas:  73% (574/783)   Resolving deltas:  74% (582/783)   Resolving deltas:  75% (590/783)   Resolving deltas:  76% (600/783)   Resolving deltas:  77% (609/783)   Resolving deltas:  78% (613/783)   Resolving deltas:  79% (624/783)   Resolving deltas:  80% (633/783)   Resolving deltas:  81% (635/783)   Resolving deltas:  82% (647/783)   Resolving deltas:  83% (655/783)   Resolving deltas:  84% (659/783)   Resolving deltas:  85% (671/783)   Resolving deltas:  86% (676/783)   Resolving deltas:  87% (684/783)   Resolving deltas:  88% (690/783)   Resolving deltas:  89% (697/783)   Resolving deltas:  90% (710/783)   Resolving deltas:  91% (719/783)   Resolving deltas:  92% (726/783)   Resolving deltas:  93% (733/783)   Resolving deltas:  95% (746/783)   Resolving deltas:  96% (757/783)   Resolving deltas:  97% (761/783)   Resolving deltas:  98% (769/783)   Resolving deltas: 100% (783/783)   Resolving deltas: 100% (783/783), done.
+travis_time:end:02755569:start=1580145413507677610,finish=1580145414355564137,duration=847886527,event=checkout[0K$ cd paypal/paypal-messaging-components
+travis_time:start:052daad7[0K$ git fetch origin +refs/pull/113/merge:
+remote: Enumerating objects: 237, done.[K
+remote: Counting objects:   0% (1/131)[Kremote: Counting objects:   1% (2/131)[Kremote: Counting objects:   2% (3/131)[Kremote: Counting objects:   3% (4/131)[Kremote: Counting objects:   4% (6/131)[Kremote: Counting objects:   5% (7/131)[Kremote: Counting objects:   6% (8/131)[Kremote: Counting objects:   7% (10/131)[Kremote: Counting objects:   8% (11/131)[Kremote: Counting objects:   9% (12/131)[Kremote: Counting objects:  10% (14/131)[Kremote: Counting objects:  11% (15/131)[Kremote: Counting objects:  12% (16/131)[Kremote: Counting objects:  13% (18/131)[Kremote: Counting objects:  14% (19/131)[Kremote: Counting objects:  15% (20/131)[Kremote: Counting objects:  16% (21/131)[Kremote: Counting objects:  17% (23/131)[Kremote: Counting objects:  18% (24/131)[Kremote: Counting objects:  19% (25/131)[Kremote: Counting objects:  20% (27/131)[Kremote: Counting objects:  21% (28/131)[Kremote: Counting objects:  22% (29/131)[Kremote: Counting objects:  23% (31/131)[Kremote: Counting objects:  24% (32/131)[Kremote: Counting objects:  25% (33/131)[Kremote: Counting objects:  26% (35/131)[Kremote: Counting objects:  27% (36/131)[Kremote: Counting objects:  28% (37/131)[Kremote: Counting objects:  29% (38/131)[Kremote: Counting objects:  30% (40/131)[Kremote: Counting objects:  31% (41/131)[Kremote: Counting objects:  32% (42/131)[Kremote: Counting objects:  33% (44/131)[Kremote: Counting objects:  34% (45/131)[Kremote: Counting objects:  35% (46/131)[Kremote: Counting objects:  36% (48/131)[Kremote: Counting objects:  37% (49/131)[Kremote: Counting objects:  38% (50/131)[Kremote: Counting objects:  39% (52/131)[Kremote: Counting objects:  40% (53/131)[Kremote: Counting objects:  41% (54/131)[Kremote: Counting objects:  42% (56/131)[Kremote: Counting objects:  43% (57/131)[Kremote: Counting objects:  44% (58/131)[Kremote: Counting objects:  45% (59/131)[Kremote: Counting objects:  46% (61/131)[Kremote: Counting objects:  47% (62/131)[Kremote: Counting objects:  48% (63/131)[Kremote: Counting objects:  49% (65/131)[Kremote: Counting objects:  50% (66/131)[Kremote: Counting objects:  51% (67/131)[Kremote: Counting objects:  52% (69/131)[Kremote: Counting objects:  53% (70/131)[Kremote: Counting objects:  54% (71/131)[Kremote: Counting objects:  55% (73/131)[Kremote: Counting objects:  56% (74/131)[Kremote: Counting objects:  57% (75/131)[Kremote: Counting objects:  58% (76/131)[Kremote: Counting objects:  59% (78/131)[Kremote: Counting objects:  60% (79/131)[Kremote: Counting objects:  61% (80/131)[Kremote: Counting objects:  62% (82/131)[Kremote: Counting objects:  63% (83/131)[Kremote: Counting objects:  64% (84/131)[Kremote: Counting objects:  65% (86/131)[Kremote: Counting objects:  66% (87/131)[Kremote: Counting objects:  67% (88/131)[Kremote: Counting objects:  68% (90/131)[Kremote: Counting objects:  69% (91/131)[Kremote: Counting objects:  70% (92/131)[Kremote: Counting objects:  71% (94/131)[Kremote: Counting objects:  72% (95/131)[Kremote: Counting objects:  73% (96/131)[Kremote: Counting objects:  74% (97/131)[Kremote: Counting objects:  75% (99/131)[Kremote: Counting objects:  76% (100/131)[Kremote: Counting objects:  77% (101/131)[Kremote: Counting objects:  78% (103/131)[Kremote: Counting objects:  79% (104/131)[Kremote: Counting objects:  80% (105/131)[Kremote: Counting objects:  81% (107/131)[Kremote: Counting objects:  82% (108/131)[Kremote: Counting objects:  83% (109/131)[Kremote: Counting objects:  84% (111/131)[Kremote: Counting objects:  85% (112/131)[Kremote: Counting objects:  86% (113/131)[Kremote: Counting objects:  87% (114/131)[Kremote: Counting objects:  88% (116/131)[Kremote: Counting objects:  89% (117/131)[Kremote: Counting objects:  90% (118/131)[Kremote: Counting objects:  91% (120/131)[Kremote: Counting objects:  92% (121/131)[Kremote: Counting objects:  93% (122/131)[Kremote: Counting objects:  94% (124/131)[Kremote: Counting objects:  95% (125/131)[Kremote: Counting objects:  96% (126/131)[Kremote: Counting objects:  97% (128/131)[Kremote: Counting objects:  98% (129/131)[Kremote: Counting objects:  99% (130/131)[Kremote: Counting objects: 100% (131/131)[Kremote: Counting objects: 100% (131/131), done.[K
+remote: Compressing objects:  10% (1/10)[Kremote: Compressing objects:  20% (2/10)[Kremote: Compressing objects:  30% (3/10)[Kremote: Compressing objects:  40% (4/10)[Kremote: Compressing objects:  50% (5/10)[Kremote: Compressing objects:  60% (6/10)[Kremote: Compressing objects:  70% (7/10)[Kremote: Compressing objects:  80% (8/10)[Kremote: Compressing objects:  90% (9/10)[Kremote: Compressing objects: 100% (10/10)[Kremote: Compressing objects: 100% (10/10), done.[K
+remote: Total 35 (delta 22), reused 34 (delta 22), pack-reused 0[K
+Unpacking objects:   2% (1/35)   Unpacking objects:   5% (2/35)   Unpacking objects:   8% (3/35)   Unpacking objects:  11% (4/35)   Unpacking objects:  14% (5/35)   Unpacking objects:  17% (6/35)   Unpacking objects:  20% (7/35)   Unpacking objects:  22% (8/35)   Unpacking objects:  25% (9/35)   Unpacking objects:  28% (10/35)   Unpacking objects:  31% (11/35)   Unpacking objects:  34% (12/35)   Unpacking objects:  37% (13/35)   Unpacking objects:  40% (14/35)   Unpacking objects:  42% (15/35)   Unpacking objects:  45% (16/35)   Unpacking objects:  48% (17/35)   Unpacking objects:  51% (18/35)   Unpacking objects:  54% (19/35)   Unpacking objects:  57% (20/35)   Unpacking objects:  60% (21/35)   Unpacking objects:  62% (22/35)   Unpacking objects:  65% (23/35)   Unpacking objects:  68% (24/35)   Unpacking objects:  71% (25/35)   Unpacking objects:  74% (26/35)   Unpacking objects:  77% (27/35)   Unpacking objects:  80% (28/35)   Unpacking objects:  82% (29/35)   Unpacking objects:  85% (30/35)   Unpacking objects:  88% (31/35)   Unpacking objects:  91% (32/35)   Unpacking objects:  94% (33/35)   Unpacking objects:  97% (34/35)   Unpacking objects: 100% (35/35)   Unpacking objects: 100% (35/35), done.
+From https://github.com/paypal/paypal-messaging-components
+ * branch            refs/pull/113/merge -> FETCH_HEAD
+travis_time:end:052daad7:start=1580145414359500869,finish=1580145414812518330,duration=453017461,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:052daad7:start=1580145414359500869,finish=1580145414856735055,duration=497234186,event=checkout[0Ktravis_time:start:00819e22[0K
+[33;1mEncrypted environment variables have been removed for security reasons.[0m
+[33;1mSee https://docs.travis-ci.com/user/pull-requests/#pull-requests-and-security-restrictions[0m
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DIRTY_SNAPSHOTS=0
+
+travis_time:end:00819e22:start=1580145414860031368,finish=1580145414865981886,duration=5950518,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:2e5e2bb6[0K$ nvm install 10
+Downloading and installing node v10.18.1...
+Downloading https://nodejs.org/dist/v10.18.1/node-v10.18.1-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.18.1 (npm v6.13.4)
+travis_time:end:2e5e2bb6:start=1580145415611291931,finish=1580145418594288138,duration=2982996207,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.18.1
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:267e8146[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.18.1/bin/npm -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npm-cli.js
+/home/travis/.nvm/versions/node/v10.18.1/bin/npx -> /home/travis/.nvm/versions/node/v10.18.1/lib/node_modules/npm/bin/npx-cli.js
++ npm@6.13.6
+updated 2 packages in 5.338s
+travis_time:end:267e8146:start=1580145419595154728,finish=1580145425379077592,duration=5783922864,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:2419b4b0[0K$ npm install 
+
+> @paypal/messaging-components@1.5.1 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m istanbul@0.4.5: This module is no longer maintained, try this instead:
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m   npm i nyc
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m Visit https://istanbul.js.org/integrations for other alternatives.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m left-pad@1.3.0: use String.prototype.padStart()
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+[0m
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> puppeteer@2.1.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer
+> node install.js
+
+[1GDownloading Chromium r722234 - 121.1 Mb [                    ] 0% 0.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [                    ] 0% 3.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [                    ] 0% 4.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [                    ] 1% 2.7s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=                   ] 2% 2.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=                   ] 3% 2.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=                   ] 5% 2.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=                   ] 6% 2.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==                  ] 8% 1.8s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==                  ] 9% 1.6s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==                  ] 11% 1.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===                 ] 13% 1.4s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===                 ] 14% 1.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===                 ] 15% 1.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===                 ] 16% 1.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [====                ] 18% 1.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [====                ] 20% 1.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [====                ] 22% 1.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=====               ] 24% 1.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=====               ] 25% 1.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=====               ] 26% 1.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [======              ] 27% 1.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [======              ] 29% 0.9s [0K[1GDownloading Chromium r722234 - 121.1 Mb [======              ] 31% 0.9s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=======             ] 32% 0.9s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=======             ] 34% 0.8s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=======             ] 36% 0.8s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=======             ] 37% 0.8s [0K[1GDownloading Chromium r722234 - 121.1 Mb [========            ] 39% 0.7s [0K[1GDownloading Chromium r722234 - 121.1 Mb [========            ] 42% 0.7s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=========           ] 44% 0.6s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=========           ] 47% 0.6s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==========          ] 49% 0.6s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==========          ] 50% 0.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===========         ] 53% 0.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===========         ] 55% 0.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===========         ] 57% 0.5s [0K[1GDownloading Chromium r722234 - 121.1 Mb [============        ] 59% 0.4s [0K[1GDownloading Chromium r722234 - 121.1 Mb [============        ] 62% 0.4s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=============       ] 64% 0.4s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=============       ] 67% 0.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==============      ] 69% 0.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==============      ] 71% 0.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==============      ] 72% 0.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===============     ] 73% 0.3s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===============     ] 75% 0.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [===============     ] 77% 0.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [================    ] 79% 0.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [================    ] 81% 0.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=================   ] 83% 0.2s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=================   ] 85% 0.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==================  ] 87% 0.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==================  ] 89% 0.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [==================  ] 91% 0.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=================== ] 94% 0.1s [0K[1GDownloading Chromium r722234 - 121.1 Mb [=================== ] 96% 0.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [====================] 99% 0.0s [0K[1GDownloading Chromium r722234 - 121.1 Mb [====================] 100% 0.0s [0K
+Chromium downloaded to /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer/.local-chromium/linux-722234
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/wait-on/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @typescript-eslint/parser@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/messaging-components@1.5.1 No license field.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/mocha/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/karma/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
+added 2724 packages from 2333 contributors and audited 1821753 packages in 57.729s
+
+40 packages are looking for funding
+  run `npm fund` for details
+
+found [91m49[0m vulnerabilities (8 [1mlow[0m, 25 [93mmoderate[0m, 16 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:2419b4b0:start=1580145425581613466,finish=1580145484969710015,duration=59388096549,event=install[0Ktravis_fold:end:install.npm[0K
+travis_fold:start:before_script.1[0Ktravis_time:start:1a229858[0K$ npm run dev:standalone &
+travis_time:end:1a229858:start=1580145484974013073,finish=1580145484977693648,duration=3680575,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:07c03656[0K$ sleep 20
+
+> @paypal/messaging-components@1.5.1 dev:standalone /home/travis/build/paypal/paypal-messaging-components
+> webpack-dev-server --config webpack.config.dev.js --env.localMessage --env.standalone
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at [1m[34mhttp://localhost.paypal.com:8080/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from [1m[34m/[39m[22m
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from [1m[34m./demo[39m[22m
+[34mℹ[39m [90m｢wdm｣[39m: wait until bundle finished: /standalone.html
+[34mℹ[39m [90m｢wdm｣[39m: Hash: [1m9c96d2b624cb0cfc67ad[39m[22m
+Version: webpack [1m4.41.5[39m[22m
+Time: [1m15903[39m[22mms
+Built at: 01/27/2020 [1m5:18:22 PM[39m[22m
+               [1mAsset[39m[22m      [1mSize[39m[22m  [1mChunks[39m[22m  [1m[39m[22m           [1m[39m[22m[1mChunk Names[39m[22m
+        [1m[32mmessaging.js[39m[22m  1.85 MiB    [1mmain[39m[22m  [1m[32m[emitted][39m[22m  main
+[1m[32mmessaging.js.LICENSE[39m[22m  51 bytes        [1m[39m[22m  [1m[32m[emitted][39m[22m  
+Entrypoint [1mmain[39m[22m = [1m[32mmessaging.js[39m[22m
+[0] [1mmulti (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js[39m[22m 40 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[[1m./node_modules/ansi-html/index.js[39m[22m] 4.27 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[[1m./node_modules/html-entities/index.js[39m[22m] 230 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[[1m./node_modules/loglevel/lib/loglevel.js[39m[22m] 7.43 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[[1m./node_modules/url/url.js[39m[22m] 22.3 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] [1m(webpack)-dev-server/client?http://localhost.paypal.com:8080[39m[22m 4.29 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/overlay.js] [1m(webpack)-dev-server/client/overlay.js[39m[22m 3.51 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/socket.js] [1m(webpack)-dev-server/client/socket.js[39m[22m 1.53 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] [1m(webpack)-dev-server/client/utils/createSocketUrl.js[39m[22m 2.91 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/utils/log.js] [1m(webpack)-dev-server/client/utils/log.js[39m[22m 964 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] [1m(webpack)-dev-server/client/utils/reloadApp.js[39m[22m 1.59 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] [1m(webpack)-dev-server/client/utils/sendMessage.js[39m[22m 402 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack-dev-server/node_modules/strip-ansi/index.js] [1m(webpack)-dev-server/node_modules/strip-ansi/index.js[39m[22m 162 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./node_modules/webpack/hot sync ^\.\/log$] [1m(webpack)/hot sync nonrecursive ^\.\/log$[39m[22m 170 bytes {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Module is not an ECMAScript module[39m[22m
+[./src/index.js] [1m./src/index.js + 174 modules[39m[22m 366 KiB {[1m[33mmain[39m[22m}[1m[32m [built][39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/every.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/number/is-nan.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/assign.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/values.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/ends-with.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/includes.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/pad-start.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)[39m[22m
+    [1m[33mModuleConcatenation bailout: Cannot concat with ./node_modules/zalgo-promise/index.js (<- Module is not an ECMAScript module)[39m[22m
+    | [1m./src/index.js[39m[22m 161 bytes[1m[32m [built][39m[22m
+    |     [1m[33mModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js (referenced with single entry)[39m[22m
+    | [1m./src/interface/messages.js[39m[22m 1.84 KiB[1m[32m [built][39m[22m
+    | [1m./node_modules/@babel/runtime/helpers/esm/extends.js[39m[22m 397 bytes[1m[32m [built][39m[22m
+    | [1m./src/utils/index.js[39m[22m 166 bytes[1m[32m [built][39m[22m
+    | [1m./src/messages/services/logger/index.js[39m[22m 4.74 KiB[1m[32m [built][39m[22m
+    | [1m./src/messages/index.js[39m[22m 928 bytes[1m[32m [built][39m[22m
+    | [1m./src/utils/mockServices.js[39m[22m 4.91 KiB[1m[32m [built][39m[22m
+    | [1m./src/utils/functional.js[39m[22m 4.1 KiB[1m[32m [built][39m[22m
+    | [1m./src/utils/objects.js[39m[22m 6.51 KiB[1m[32m [built][39m[22m
+    | [1m./src/utils/elements.js[39m[22m 5.36 KiB[1m[32m [built][39m[22m
+    | [1m./src/utils/sdk.js[39m[22m 969 bytes[1m[32m [built][39m[22m
+    | [1m./src/utils/miscellaneous.js[39m[22m 3.62 KiB[1m[32m [built][39m[22m
+    | [1m./src/utils/global.js[39m[22m 1.05 KiB[1m[32m [built][39m[22m
+    | [1m./src/messages/services/logger/sendBeacon.js[39m[22m 1.13 KiB[1m[32m [built][39m[22m
+    | [1m./src/messages/controllers/render.js[39m[22m 2.48 KiB[1m[32m [built][39m[22m
+    |     + 160 hidden modules
+    + 141 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+travis_time:end:07c03656:start=1580145484986135814,finish=1580145504991368655,duration=20005232841,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_time:start:1b081ab0[0K$ npm run lint
+
+> @paypal/messaging-components@1.5.1 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js[24m[0m
+[0m  [2m165:17[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m  [2m176:17[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Modal/index.js[24m[0m
+[0m  [2m167:21[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js[24m[0m
+[0m  [2m118:17[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m  [2m125:9[22m   [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-messaging-components/utils/proxyImadserv.js[24m[0m
+[0m  [2m76:31[22m  [33mwarning[39m  Unexpected console statement  [2mno-console[22m[0m
+[0m[0m
+[0m[33m[1m✖ 6 problems (0 errors, 6 warnings)[22m[39m[0m
+[0m[33m[1m[22m[39m[0m
+travis_time:end:1b081ab0:start=1580145504995498088,finish=1580145514994209330,duration=9998711242,event=script[0K[32;1mThe command "npm run lint" exited with 0.[0m
+travis_time:start:2fa69200[0K$ npm run test
+
+> @paypal/messaging-components@1.5.1 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Container/[22m[1mevents.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/utils/[22m[1mindex.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Modal/[22m[1mindex.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Container/[22m[1msetSize.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Container/[22m[1mstats.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Banner/[22m[1mvalidateOptions.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Banner/[22m[1mindex.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Container/[22m[1minsertMarkup.test.js[22m
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/unit/spec/src/messages/models/Container/[22m[1mindex.test.js[22m
+[999D[K
+[1mTest Suites: [22m[1m[32m9 passed[39m[22m, 9 total
+[1mTests:       [22m[1m[32m55 passed[39m[22m, 55 total
+[1mSnapshots:   [22m0 total
+[1mTime:[22m        9.619s
+[2mRan all test suites[22m[2m.[22m
+travis_time:end:2fa69200:start=1580145514998499600,finish=1580145525631371038,duration=10632871438,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_time:start:2ec5f3cd[0K$ ./scripts/snapshot-tests/run-tests.sh
+
+> @paypal/messaging-components@1.5.1 test:func /home/travis/build/paypal/paypal-messaging-components
+> jest --projects tests/functional
+
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/US/[22m[1mtext.test.js[22m ([0m[1m[41m150.531s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/DE/[22m[1mtext.test.js[22m ([0m[1m[41m56.48s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/US/[22m[1mflex.test.js[22m ([0m[1m[41m171.896s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/DE/[22m[1mflex.test.js[22m ([0m[1m[41m76.145s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/US/[22m[1mlegacy.test.js[22m ([0m[1m[41m34.025s[49m[22m[0m)
+[0m[7m[1m[32m PASS [39m[22m[27m[0m [2mtests/functional/spec/US/[22m[1mcustom.test.js[22m
+[999D[K
+[1mTest Suites: [22m[1m[32m6 passed[39m[22m, 6 total
+[1mTests:       [22m[1m[32m401 passed[39m[22m, 401 total
+[1mSnapshots:   [22m[1m[32m401 passed[39m[22m, 401 total
+[1mTime:[22m        491.679s
+[2mRan all test suites[22m[2m.[22m
+travis_time:end:2ec5f3cd:start=1580145525635273333,finish=1580146018719602538,duration=493084329205,event=script[0K[32;1mThe command "./scripts/snapshot-tests/run-tests.sh" exited with 0.[0m
+
+
+Done. Your build exited with 0.
+/home/travis/.travis/functions: line 533:  4391 Terminated              npm run dev:standalone

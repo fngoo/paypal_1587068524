@@ -1,0 +1,433 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 19637056-1675-4769-b09c-f050caa1dafc@1.worker-org-5f9bd8864f-j9sws.gce-production-2
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.032865947s
+travis_fold:end:worker_info[0Ktravis_time:start:062f1af8[0Ktravis_time:end:062f1af8:start=1581363641008257768,finish=1581363641151185705,duration=142927937,event=no_world_writable_dirs[0Ktravis_time:start:069eb58f[0Ktravis_time:end:069eb58f:start=1581363641153842795,finish=1581363641156478330,duration=2635535,event=setup_filter[0Ktravis_time:start:1a694876[0Ktravis_time:end:1a694876:start=1581363641160727071,finish=1581363641167802043,duration=7074972,event=agent[0Ktravis_time:start:0742b4e3[0Ktravis_time:end:0742b4e3:start=1581363641170303043,finish=1581363641172150695,duration=1847652,event=check_unsupported[0Ktravis_time:start:25ad94ae[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 648571443
+Job id: 648571444
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 08047b878
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:25ad94ae:start=1581363641174681896,finish=1581363641179855277,duration=5173381,event=show_system_info[0Ktravis_time:start:0e36505c[0Ktravis_time:end:0e36505c:start=1581363641182472254,finish=1581363641194444225,duration=11971971,event=rm_riak_source[0Ktravis_time:start:12f30330[0Ktravis_time:end:12f30330:start=1581363641197348759,finish=1581363641203346001,duration=5997242,event=fix_rwky_redis[0Ktravis_time:start:22a32c23[0Ktravis_time:end:22a32c23:start=1581363641206553992,finish=1581363641615606543,duration=409052551,event=wait_for_network[0Ktravis_time:start:00ac652f[0Ktravis_time:end:00ac652f:start=1581363641620290195,finish=1581363641820228726,duration=199938531,event=update_apt_keys[0Ktravis_time:start:153f669f[0Ktravis_time:end:153f669f:start=1581363641824450547,finish=1581363641878781549,duration=54331002,event=fix_hhvm_source[0Ktravis_time:start:013f89bc[0Ktravis_time:end:013f89bc:start=1581363641883012130,finish=1581363641885642478,duration=2630348,event=update_mongo_arch[0Ktravis_time:start:0233a84c[0Ktravis_time:end:0233a84c:start=1581363641889715617,finish=1581363641930907808,duration=41192191,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0e9ceaa6[0Ktravis_time:end:0e9ceaa6:start=1581363641935193094,finish=1581363641937172235,duration=1979141,event=update_glibc[0Ktravis_time:start:1926b268[0Ktravis_time:end:1926b268:start=1581363641940866659,finish=1581363641948716949,duration=7850290,event=clean_up_path[0Ktravis_time:start:347fdb10[0Ktravis_time:end:347fdb10:start=1581363641953944591,finish=1581363641962286604,duration=8342013,event=fix_resolv_conf[0Ktravis_time:start:020432b4[0Ktravis_time:end:020432b4:start=1581363641967651559,finish=1581363641977723509,duration=10071950,event=fix_etc_hosts[0Ktravis_time:start:00c5aa66[0Ktravis_time:end:00c5aa66:start=1581363641981714434,finish=1581363641991447832,duration=9733398,event=fix_mvn_settings_xml[0Ktravis_time:start:28933e42[0Ktravis_time:end:28933e42:start=1581363641994779698,finish=1581363642003676763,duration=8897065,event=no_ipv6_localhost[0Ktravis_time:start:1e851d12[0Ktravis_time:end:1e851d12:start=1581363642007449753,finish=1581363642009723708,duration=2273955,event=fix_etc_mavenrc[0Ktravis_time:start:0c6ae0db[0Ktravis_time:end:0c6ae0db:start=1581363642013361774,finish=1581363642016806512,duration=3444738,event=fix_wwdr_certificate[0Ktravis_time:start:0282ba53[0Ktravis_time:end:0282ba53:start=1581363642020262988,finish=1581363642044205284,duration=23942296,event=put_localhost_first[0Ktravis_time:start:0a26dae0[0Ktravis_time:end:0a26dae0:start=1581363642052028406,finish=1581363642056053099,duration=4024693,event=home_paths[0Ktravis_time:start:06f3a7b8[0Ktravis_time:end:06f3a7b8:start=1581363642062764553,finish=1581363642075187198,duration=12422645,event=disable_initramfs[0Ktravis_time:start:034775c8[0Ktravis_time:end:034775c8:start=1581363642081453134,finish=1581363642320917812,duration=239464678,event=disable_ssh_roaming[0Ktravis_time:start:0beb4c2c[0Ktravis_time:end:0beb4c2c:start=1581363642325369650,finish=1581363642327552066,duration=2182416,event=debug_tools[0Ktravis_time:start:19183bc0[0Ktravis_time:end:19183bc0:start=1581363642331684187,finish=1581363642334601458,duration=2917271,event=uninstall_oclint[0Ktravis_time:start:10268b4a[0Ktravis_time:end:10268b4a:start=1581363642338456417,finish=1581363642341090554,duration=2634137,event=rvm_use[0Ktravis_time:start:0ab22614[0Ktravis_time:end:0ab22614:start=1581363642344698661,finish=1581363642352646512,duration=7947851,event=rm_etc_boto_cfg[0Ktravis_time:start:094e1977[0Ktravis_time:end:094e1977:start=1581363642357205138,finish=1581363642360146957,duration=2941819,event=rm_oraclejdk8_symlink[0Ktravis_time:start:2a43605c[0Ktravis_time:end:2a43605c:start=1581363642367689786,finish=1581363642470530701,duration=102840915,event=enable_i386[0Ktravis_time:start:0b5cf4d4[0Ktravis_time:end:0b5cf4d4:start=1581363642474995359,finish=1581363642481545731,duration=6550372,event=update_rubygems[0Ktravis_time:start:14d73fce[0Ktravis_time:end:14d73fce:start=1581363642488306170,finish=1581363643276709533,duration=788403363,event=ensure_path_components[0Ktravis_time:start:38aa0d08[0Ktravis_time:end:38aa0d08:start=1581363643284151206,finish=1581363643287319380,duration=3168174,event=redefine_curl[0Ktravis_time:start:0352824f[0Ktravis_time:end:0352824f:start=1581363643292166410,finish=1581363643385724679,duration=93558269,event=nonblock_pipe[0Ktravis_time:start:00421d4c[0Ktravis_time:end:00421d4c:start=1581363643389979906,finish=1581363649422767307,duration=6032787401,event=apt_get_update[0Ktravis_time:start:24d44490[0Ktravis_time:end:24d44490:start=1581363649426531644,finish=1581363649428661937,duration=2130293,event=deprecate_xcode_64[0Ktravis_time:start:0049103f[0Ktravis_time:end:0049103f:start=1581363649432394453,finish=1581363651889039517,duration=2456645064,event=update_heroku[0Ktravis_time:start:03e11883[0Ktravis_time:end:03e11883:start=1581363651895171568,finish=1581363651898000719,duration=2829151,event=shell_session_update[0Ktravis_time:start:29559014[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:29559014:start=1581363651901825839,finish=1581363654051239797,duration=2149413958,event=set_docker_mtu[0Ktravis_time:start:222e159a[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:222e159a:start=1581363654054907399,finish=1581363654124375454,duration=69468055,event=resolvconf[0Ktravis_time:start:21af3588[0Ktravis_time:end:21af3588:start=1581363654129186323,finish=1581363654255621596,duration=126435273,event=maven_central_mirror[0Ktravis_time:start:306da526[0Ktravis_time:end:306da526:start=1581363654260153403,finish=1581363654354504734,duration=94351331,event=maven_https[0Ktravis_time:start:134fbcef[0Ktravis_time:end:134fbcef:start=1581363654359610193,finish=1581363654362137679,duration=2527486,event=fix_ps4[0Ktravis_fold:start:hosts.before[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 
+
+travis_fold:end:hosts.before[0Ktravis_fold:start:hosts[0Ktravis_fold:end:hosts[0Ktravis_fold:start:hosts.after[0K
+## Managed by Chef on packer-5c98fea1-aa3f-407c-10e9-32c3c213ffca.c.eco-emissary-99515.internal :heart_eyes_cat:
+## cookbook:: travis_build_environment
+##     file:: templates/default/etc/cloud/templates/hosts.tmpl.erb
+
+127.0.1.1 travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8 ip4-loopback xenial64
+
+127.0.0.1 localhost nettuno travis vagrant travis-job-0fa148f0-8335-4096-b4be-503c60bf13f8  localhost.paypal.com
+
+travis_fold:end:hosts.after[0Ktravis_time:start:1a5abff8[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:2e77179d[0K$ git clone --depth=50 --branch=modal-apply-now https://github.com/paypal/paypal-messaging-components.git paypal/paypal-messaging-components
+Cloning into 'paypal/paypal-messaging-components'...
+travis_time:end:2e77179d:start=1581363654393508789,finish=1581363655633988714,duration=1240479925,event=checkout[0K$ cd paypal/paypal-messaging-components
+$ git checkout -qf 28bac3cd60419fa3193f1c0796c56962a4eab053
+travis_fold:end:git.checkout[0K
+travis_time:end:2e77179d:start=1581363654393508789,finish=1581363655710735272,duration=1317226483,event=checkout[0Ktravis_time:start:05cbb5d8[0K
+[33;1mSetting environment variables from repository settings[0m
+$ export NPM_EMAIL=[secure]
+$ export GH_TOKEN=[secure]
+$ export NPM_TOKEN=[secure]
+$ export PR_COMMENT_TOKEN=[secure]
+
+[33;1mSetting environment variables from .travis.yml[0m
+$ export DIRTY_SNAPSHOTS=0
+
+travis_time:end:05cbb5d8:start=1581363655715109771,finish=1581363655724935614,duration=9825843,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:12311643[0K$ nvm install 10
+Downloading and installing node v10.19.0...
+Downloading https://nodejs.org/dist/v10.19.0/node-v10.19.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.19.0 (npm v6.13.4)
+travis_time:end:12311643:start=1581363656686005030,finish=1581363659635150165,duration=2949145135,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.19.0
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.2
+
+travis_fold:start:before_install[0Ktravis_time:start:18688437[0K$ npm i -g npm@6
+/home/travis/.nvm/versions/node/v10.19.0/bin/npx -> /home/travis/.nvm/versions/node/v10.19.0/lib/node_modules/npm/bin/npx-cli.js
+/home/travis/.nvm/versions/node/v10.19.0/bin/npm -> /home/travis/.nvm/versions/node/v10.19.0/lib/node_modules/npm/bin/npm-cli.js
++ npm@6.13.7
+added 7 packages from 3 contributors, removed 3 packages and updated 12 packages in 5.453s
+travis_time:end:18688437:start=1581363660714526238,finish=1581363666601560315,duration=5887034077,event=before_install[0Ktravis_fold:end:before_install[0Ktravis_fold:start:install.npm[0Ktravis_time:start:0448d2b6[0K$ npm install 
+
+> @paypal/messaging-components@1.6.1 preinstall /home/travis/build/paypal/paypal-messaging-components
+> rm -rf node_modules
+
+npm WARN deprecated core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+npm WARN deprecated istanbul@0.4.5: This module is no longer maintained, try this instead:
+npm WARN deprecated   npm i nyc
+npm WARN deprecated Visit https://istanbul.js.org/integrations for other alternatives.
+npm WARN deprecated hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+npm WARN deprecated cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+npm WARN deprecated left-pad@1.3.0: use String.prototype.padStart()
+npm WARN deprecated socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+
+> husky@2.7.0 install /home/travis/build/paypal/paypal-messaging-components/node_modules/husky
+> node husky install
+
+husky > Setting up git hooks
+CI detected, skipping Git hooks installation.
+
+> puppeteer@2.1.1 install /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer
+> node install.js
+
+
+Chromium downloaded to /home/travis/build/paypal/paypal-messaging-components/node_modules/puppeteer/.local-chromium/linux-722234
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/ejs
+> node ./postinstall.js
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/wait-on/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-messaging-components/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+npm WARN @semantic-release/changelog@3.0.6 requires a peer of semantic-release@>=15.8.0 <16.0.0 || >=16.0.0-beta <17.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/exec@3.3.8 requires a peer of semantic-release@>=15.9.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @semantic-release/git@7.0.18 requires a peer of semantic-release@>=15.4.0 <16.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN jest-image-snapshot@2.12.0 requires a peer of jest@>=20 <=24 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+npm WARN karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @typescript-eslint/parser@1.13.0 requires a peer of eslint@^5.0.0 but none is installed. You must install peer dependencies yourself.
+npm WARN @paypal/messaging-components@1.6.1 No license field.
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/jest-runtime/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/jest-runner/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/jest-config/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/grumbler-scripts/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/chokidar/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/@jest/test-sequencer/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/@jest/reporters/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/@jest/environment/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.11 (node_modules/@jest/core/node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+npm WARN optional SKIPPING OPTIONAL DEPENDENCY: fsevents@2.1.2 (node_modules/fsevents):
+npm WARN notsup SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+
+added 3075 packages from 2350 contributors and audited 2139713 packages in 72.958s
+
+46 packages are looking for funding
+  run `npm fund` for details
+
+found 52 vulnerabilities (8 low, 25 moderate, 19 high)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:0448d2b6:start=1581363666801649293,finish=1581363741777774158,duration=74976124865,event=install[0Ktravis_fold:end:install.npm[0K
+travis_fold:start:before_script.1[0Ktravis_time:start:05cc0688[0K$ npm run dev:snapshot &
+travis_time:end:05cc0688:start=1581363741783184759,finish=1581363741786595929,duration=3411170,event=before_script[0Ktravis_fold:end:before_script.1[0Ktravis_fold:start:before_script.2[0Ktravis_time:start:02da4a70[0K$ sleep 20
+
+> @paypal/messaging-components@1.6.1 dev:snapshot /home/travis/build/paypal/paypal-messaging-components
+> webpack-dev-server --config webpack.config.snapshot.js --env.TARGET=standalone --env.NODE_ENV=local
+
+[34mℹ[39m [90m｢wds｣[39m: Project is running at http://localhost.paypal.com:8080/
+[34mℹ[39m [90m｢wds｣[39m: webpack output is served from /
+[34mℹ[39m [90m｢wds｣[39m: Content not from webpack is served from ./tests/functional/content
+travis_time:end:02da4a70:start=1581363741792604838,finish=1581363761797994345,duration=20005389507,event=before_script[0Ktravis_fold:end:before_script.2[0Ktravis_time:start:098894f8[0K$ npm run lint
+
+> @paypal/messaging-components@1.6.1 lint /home/travis/build/paypal/paypal-messaging-components
+> eslint . --ext .js,.jsx
+
+Warning: React version was set to "detect" in eslint-plugin-react settings, but the "react" package is not installed. Assuming latest React version for linting.
+[34mℹ[39m [90m｢wdm｣[39m: Hash: 1ad0b7f1be815ca82332
+Version: webpack 4.41.5
+Time: 38489ms
+Built at: 02/10/2020 7:43:01 PM
+                   Asset      Size     Chunks             Chunk Names
+             merchant.js  2.58 MiB   merchant  [emitted]  merchant
+ merchant.js.LICENSE.txt  51 bytes             [emitted]  
+            messaging.js  2.53 MiB  messaging  [emitted]  messaging
+messaging.js.LICENSE.txt  51 bytes             [emitted]  
+Entrypoint messaging = messaging.js
+Entrypoint merchant = merchant.js
+[0] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js 40 bytes {messaging} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[1] multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js 40 bytes {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/@babel/runtime/helpers/esm/extends.js] 397 bytes {messaging} {merchant} [built]
+[./node_modules/core-js-pure/stable/array/from.js] 70 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/core-js-pure/stable/object/entries.js] 74 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/core-js-pure/stable/string/starts-with.js] 78 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/index.js?http://localhost.paypal.com:8080] (webpack)-dev-server/client?http://localhost.paypal.com:8080 4.29 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/overlay.js] (webpack)-dev-server/client/overlay.js 3.51 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/socket.js] (webpack)-dev-server/client/socket.js 1.53 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/createSocketUrl.js] (webpack)-dev-server/client/utils/createSocketUrl.js 2.91 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/log.js] (webpack)-dev-server/client/utils/log.js 964 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/reloadApp.js] (webpack)-dev-server/client/utils/reloadApp.js 1.59 KiB {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./node_modules/webpack-dev-server/client/utils/sendMessage.js] (webpack)-dev-server/client/utils/sendMessage.js 402 bytes {messaging} {merchant} [built]
+    ModuleConcatenation bailout: Module is not an ECMAScript module
+[./src/index.js] 161 bytes {messaging} [built]
+    ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/index.js (referenced with single entry)
+[./src/legacy/index.js] ./src/legacy/index.js + 2 modules 17.4 KiB {merchant} [built]
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/@babel/runtime/helpers/esm/extends.js
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/find.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/from.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/array/includes.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/object/entries.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./node_modules/core-js-pure/stable/string/starts-with.js (<- Module is not an ECMAScript module)
+    ModuleConcatenation bailout: Cannot concat with ./src/interface/messages.js
+    ModuleConcatenation bailout: Cannot concat with ./src/messages/services/logger/index.js
+    ModuleConcatenation bailout: Cannot concat with ./src/utils/index.js
+    | ./src/legacy/index.js 10.2 KiB [built]
+    |     ModuleConcatenation bailout: Module is referenced from these modules with unsupported syntax: multi (webpack)-dev-server/client?http://localhost.paypal.com:8080 ./src/legacy/index.js (referenced with single entry)
+    | ./src/legacy/toNewPipeline.js 4.02 KiB [built]
+    | ./src/legacy/map.js 3.14 KiB [built]
+    + 154 hidden modules
+[34mℹ[39m [90m｢wdm｣[39m: Compiled successfully.
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/models/Banner/index.js
+  167:17  warning  Unexpected console statement  no-console
+  178:17  warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/src/messages/services/logger/index.js
+  118:17  warning  Unexpected console statement  no-console
+  125:9   warning  Unexpected console statement  no-console
+
+/home/travis/build/paypal/paypal-messaging-components/utils/devServerProxy.js
+  147:31  warning  Unexpected console statement  no-console
+
+✖ 5 problems (0 errors, 5 warnings)
+
+travis_time:end:098894f8:start=1581363761812183459,finish=1581363783003114144,duration=21190930685,event=script[0K[32;1mThe command "npm run lint" exited with 0.[0m
+travis_time:start:0cbb984e[0K$ npm run test
+
+> @paypal/messaging-components@1.6.1 test /home/travis/build/paypal/paypal-messaging-components
+> jest
+
+PASS tests/unit/spec/src/messages/models/Container/events.test.js
+PASS tests/unit/spec/src/utils/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/setSize.test.js
+PASS tests/unit/spec/src/messages/models/Container/stats.test.js
+PASS tests/unit/spec/src/messages/models/Banner/validateOptions.test.js
+PASS tests/unit/spec/src/messages/models/Banner/index.test.js
+PASS tests/unit/spec/src/messages/models/Container/insertMarkup.test.js
+PASS tests/unit/spec/src/messages/models/Container/index.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/helpers.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/transitionState.test.js
+PASS tests/unit/spec/src/messages/components/Modal/index.test.js
+PASS tests/unit/spec/src/modal/lib/transition.test.js
+PASS tests/unit/spec/src/modal/lib/hooks/calculator.test.js
+
+Test Suites: 13 passed, 13 total
+Tests:       6 todo, 49 passed, 55 total
+Snapshots:   0 total
+Time:        6.818s
+Ran all test suites.
+travis_time:end:0cbb984e:start=1581363783008206097,finish=1581363790794150384,duration=7785944287,event=script[0K[32;1mThe command "npm run test" exited with 0.[0m
+travis_time:start:0a7cd576[0K$ ./scripts/snapshot-tests/run-tests.sh
+
+> @paypal/messaging-components@1.6.1 test:func /home/travis/build/paypal/paypal-messaging-components
+> jest --projects tests/functional
+
+PASS tests/functional/spec/US/text.test.js (110.528s)
+PASS tests/functional/spec/DE/text.test.js (41.311s)
+PASS tests/functional/spec/US/flex.test.js (120.444s)
+PASS tests/functional/spec/DE/flex.test.js (52.7s)
+PASS tests/functional/spec/US/legacy.test.js (36.029s)
+PASS tests/functional/spec/US/custom.test.js
+
+Test Suites: 6 passed, 6 total
+Tests:       401 passed, 401 total
+Snapshots:   401 passed, 401 total
+Time:        363.815s
+Ran all test suites.
+travis_time:end:0a7cd576:start=1581363790799331015,finish=1581364156156185974,duration=365356854959,event=script[0K[32;1mThe command "./scripts/snapshot-tests/run-tests.sh" exited with 0.[0m
+
+[33;1mSkipping a deployment with the script provider because this branch is not permitted: modal-apply-now[0m
+
+Done. Your build exited with 0.
+/home/travis/.travis/functions: line 536:  4340 Terminated              npm run dev:snapshot

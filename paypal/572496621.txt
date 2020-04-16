@@ -1,0 +1,270 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: 73fa4f67-1016-4e59-bc05-cabf1698950f@1.worker-org-5dcc948c89-tm8vl.gce-production-2
+version: v6.2.1 https://github.com/travis-ci/worker/tree/4e3246c044eb4915c2378ffacd0b3d3ed0136bba
+instance: travis-job-907eb8b7-14ef-4851-ae9f-66347fbd9cdf travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 6.337142453s
+travis_fold:end:worker_info[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 572496615
+Job id: 572496621
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 74f67850b
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:2166fbbc[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2019-08-15 21:47:08 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [59477810/59477810] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:2166fbbc:start=1565905627162653746,finish=1565905628425884399,duration=1263230653[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (76.0.3809.100-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (76.0.3809.100-1) ...
+Processing triggers for man-db (2.7.5-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+travis_fold:end:install_chrome[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:0152869e[0K$ git clone --depth=50 https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 478, done.[K
+remote: Counting objects:   0% (1/478)[Kremote: Counting objects:   1% (5/478)[Kremote: Counting objects:   2% (10/478)[Kremote: Counting objects:   3% (15/478)[Kremote: Counting objects:   4% (20/478)[Kremote: Counting objects:   5% (24/478)[Kremote: Counting objects:   6% (29/478)[Kremote: Counting objects:   7% (34/478)[Kremote: Counting objects:   8% (39/478)[Kremote: Counting objects:   9% (44/478)[Kremote: Counting objects:  10% (48/478)[Kremote: Counting objects:  11% (53/478)[Kremote: Counting objects:  12% (58/478)[Kremote: Counting objects:  13% (63/478)[Kremote: Counting objects:  14% (67/478)[Kremote: Counting objects:  15% (72/478)[Kremote: Counting objects:  16% (77/478)[Kremote: Counting objects:  17% (82/478)[Kremote: Counting objects:  18% (87/478)[Kremote: Counting objects:  19% (91/478)[Kremote: Counting objects:  20% (96/478)[Kremote: Counting objects:  21% (101/478)[Kremote: Counting objects:  22% (106/478)[Kremote: Counting objects:  23% (110/478)[Kremote: Counting objects:  24% (115/478)[Kremote: Counting objects:  25% (120/478)[Kremote: Counting objects:  26% (125/478)[Kremote: Counting objects:  27% (130/478)[Kremote: Counting objects:  28% (134/478)[Kremote: Counting objects:  29% (139/478)[Kremote: Counting objects:  30% (144/478)[Kremote: Counting objects:  31% (149/478)[Kremote: Counting objects:  32% (153/478)[Kremote: Counting objects:  33% (158/478)[Kremote: Counting objects:  34% (163/478)[Kremote: Counting objects:  35% (168/478)[Kremote: Counting objects:  36% (173/478)[Kremote: Counting objects:  37% (177/478)[Kremote: Counting objects:  38% (182/478)[Kremote: Counting objects:  39% (187/478)[Kremote: Counting objects:  40% (192/478)[Kremote: Counting objects:  41% (196/478)[Kremote: Counting objects:  42% (201/478)[Kremote: Counting objects:  43% (206/478)[Kremote: Counting objects:  44% (211/478)[Kremote: Counting objects:  45% (216/478)[Kremote: Counting objects:  46% (220/478)[Kremote: Counting objects:  47% (225/478)[Kremote: Counting objects:  48% (230/478)[Kremote: Counting objects:  49% (235/478)[Kremote: Counting objects:  50% (239/478)[Kremote: Counting objects:  51% (244/478)[Kremote: Counting objects:  52% (249/478)[Kremote: Counting objects:  53% (254/478)[Kremote: Counting objects:  54% (259/478)[Kremote: Counting objects:  55% (263/478)[Kremote: Counting objects:  56% (268/478)[Kremote: Counting objects:  57% (273/478)[Kremote: Counting objects:  58% (278/478)[Kremote: Counting objects:  59% (283/478)[Kremote: Counting objects:  60% (287/478)[Kremote: Counting objects:  61% (292/478)[Kremote: Counting objects:  62% (297/478)[Kremote: Counting objects:  63% (302/478)[Kremote: Counting objects:  64% (306/478)[Kremote: Counting objects:  65% (311/478)[Kremote: Counting objects:  66% (316/478)[Kremote: Counting objects:  67% (321/478)[Kremote: Counting objects:  68% (326/478)[Kremote: Counting objects:  69% (330/478)[Kremote: Counting objects:  70% (335/478)[Kremote: Counting objects:  71% (340/478)[Kremote: Counting objects:  72% (345/478)[Kremote: Counting objects:  73% (349/478)[Kremote: Counting objects:  74% (354/478)[Kremote: Counting objects:  75% (359/478)[Kremote: Counting objects:  76% (364/478)[Kremote: Counting objects:  77% (369/478)[Kremote: Counting objects:  78% (373/478)[Kremote: Counting objects:  79% (378/478)[Kremote: Counting objects:  80% (383/478)[Kremote: Counting objects:  81% (388/478)[Kremote: Counting objects:  82% (392/478)[Kremote: Counting objects:  83% (397/478)[Kremote: Counting objects:  84% (402/478)[Kremote: Counting objects:  85% (407/478)[Kremote: Counting objects:  86% (412/478)[Kremote: Counting objects:  87% (416/478)[Kremote: Counting objects:  88% (421/478)[Kremote: Counting objects:  89% (426/478)[Kremote: Counting objects:  90% (431/478)[Kremote: Counting objects:  91% (435/478)[Kremote: Counting objects:  92% (440/478)[Kremote: Counting objects:  93% (445/478)[Kremote: Counting objects:  94% (450/478)[Kremote: Counting objects:  95% (455/478)[Kremote: Counting objects:  96% (459/478)[Kremote: Counting objects:  97% (464/478)[Kremote: Counting objects:  98% (469/478)[Kremote: Counting objects:  99% (474/478)[Kremote: Counting objects: 100% (478/478)[Kremote: Counting objects: 100% (478/478), done.[K
+remote: Compressing objects:   0% (1/272)[Kremote: Compressing objects:   1% (3/272)[Kremote: Compressing objects:   2% (6/272)[Kremote: Compressing objects:   3% (9/272)[Kremote: Compressing objects:   4% (11/272)[Kremote: Compressing objects:   5% (14/272)[Kremote: Compressing objects:   6% (17/272)[Kremote: Compressing objects:   7% (20/272)[Kremote: Compressing objects:   8% (22/272)[Kremote: Compressing objects:   9% (25/272)[Kremote: Compressing objects:  10% (28/272)[Kremote: Compressing objects:  11% (30/272)[Kremote: Compressing objects:  12% (33/272)[Kremote: Compressing objects:  13% (36/272)[Kremote: Compressing objects:  14% (39/272)[Kremote: Compressing objects:  15% (41/272)[Kremote: Compressing objects:  16% (44/272)[Kremote: Compressing objects:  17% (47/272)[Kremote: Compressing objects:  18% (49/272)[Kremote: Compressing objects:  19% (52/272)[Kremote: Compressing objects:  20% (55/272)[Kremote: Compressing objects:  21% (58/272)[Kremote: Compressing objects:  22% (60/272)[Kremote: Compressing objects:  23% (63/272)[Kremote: Compressing objects:  24% (66/272)[Kremote: Compressing objects:  25% (68/272)[Kremote: Compressing objects:  26% (71/272)[Kremote: Compressing objects:  27% (74/272)[Kremote: Compressing objects:  28% (77/272)[Kremote: Compressing objects:  29% (79/272)[Kremote: Compressing objects:  30% (82/272)[Kremote: Compressing objects:  31% (85/272)[Kremote: Compressing objects:  32% (88/272)[Kremote: Compressing objects:  33% (90/272)[Kremote: Compressing objects:  34% (93/272)[Kremote: Compressing objects:  35% (96/272)[Kremote: Compressing objects:  36% (98/272)[Kremote: Compressing objects:  37% (101/272)[Kremote: Compressing objects:  38% (104/272)[Kremote: Compressing objects:  39% (107/272)[Kremote: Compressing objects:  40% (109/272)[Kremote: Compressing objects:  41% (112/272)[Kremote: Compressing objects:  42% (115/272)[Kremote: Compressing objects:  43% (117/272)[Kremote: Compressing objects:  44% (120/272)[Kremote: Compressing objects:  45% (123/272)[Kremote: Compressing objects:  46% (126/272)[Kremote: Compressing objects:  47% (128/272)[Kremote: Compressing objects:  48% (131/272)[Kremote: Compressing objects:  49% (134/272)[Kremote: Compressing objects:  50% (136/272)[Kremote: Compressing objects:  51% (139/272)[Kremote: Compressing objects:  52% (142/272)[Kremote: Compressing objects:  53% (145/272)[Kremote: Compressing objects:  54% (147/272)[Kremote: Compressing objects:  55% (150/272)[Kremote: Compressing objects:  56% (153/272)[Kremote: Compressing objects:  57% (156/272)[Kremote: Compressing objects:  58% (158/272)[Kremote: Compressing objects:  59% (161/272)[Kremote: Compressing objects:  60% (164/272)[Kremote: Compressing objects:  61% (166/272)[Kremote: Compressing objects:  62% (169/272)[Kremote: Compressing objects:  63% (172/272)[Kremote: Compressing objects:  64% (175/272)[Kremote: Compressing objects:  65% (177/272)[Kremote: Compressing objects:  66% (180/272)[Kremote: Compressing objects:  67% (183/272)[Kremote: Compressing objects:  68% (185/272)[Kremote: Compressing objects:  69% (188/272)[Kremote: Compressing objects:  70% (191/272)[Kremote: Compressing objects:  71% (194/272)[Kremote: Compressing objects:  72% (196/272)[Kremote: Compressing objects:  73% (199/272)[Kremote: Compressing objects:  74% (202/272)[Kremote: Compressing objects:  75% (204/272)[Kremote: Compressing objects:  76% (207/272)[Kremote: Compressing objects:  77% (210/272)[Kremote: Compressing objects:  78% (213/272)[Kremote: Compressing objects:  79% (215/272)[Kremote: Compressing objects:  80% (218/272)[Kremote: Compressing objects:  81% (221/272)[Kremote: Compressing objects:  82% (224/272)[Kremote: Compressing objects:  83% (226/272)[Kremote: Compressing objects:  84% (229/272)[Kremote: Compressing objects:  85% (232/272)[Kremote: Compressing objects:  86% (234/272)[Kremote: Compressing objects:  87% (237/272)[Kremote: Compressing objects:  88% (240/272)[Kremote: Compressing objects:  89% (243/272)[Kremote: Compressing objects:  90% (245/272)[Kremote: Compressing objects:  91% (248/272)[Kremote: Compressing objects:  92% (251/272)[Kremote: Compressing objects:  93% (253/272)[Kremote: Compressing objects:  94% (256/272)[Kremote: Compressing objects:  95% (259/272)[Kremote: Compressing objects:  96% (262/272)[Kremote: Compressing objects:  97% (264/272)[Kremote: Compressing objects:  98% (267/272)[Kremote: Compressing objects:  99% (270/272)[Kremote: Compressing objects: 100% (272/272)[Kremote: Compressing objects: 100% (272/272), done.[K
+Receiving objects:   0% (1/478)   Receiving objects:   1% (5/478)   Receiving objects:   2% (10/478)   Receiving objects:   3% (15/478)   Receiving objects:   4% (20/478)   Receiving objects:   5% (24/478)   Receiving objects:   6% (29/478)   Receiving objects:   7% (34/478)   Receiving objects:   8% (39/478)   Receiving objects:   9% (44/478)   Receiving objects:  10% (48/478)   Receiving objects:  11% (53/478)   Receiving objects:  12% (58/478)   Receiving objects:  13% (63/478)   Receiving objects:  14% (67/478)   Receiving objects:  15% (72/478)   Receiving objects:  16% (77/478)   Receiving objects:  17% (82/478)   Receiving objects:  18% (87/478)   Receiving objects:  19% (91/478)   Receiving objects:  20% (96/478)   Receiving objects:  21% (101/478)   Receiving objects:  22% (106/478)   Receiving objects:  23% (110/478)   Receiving objects:  24% (115/478)   Receiving objects:  25% (120/478)   Receiving objects:  26% (125/478)   Receiving objects:  27% (130/478)   Receiving objects:  28% (134/478)   Receiving objects:  29% (139/478)   Receiving objects:  30% (144/478)   Receiving objects:  31% (149/478)   Receiving objects:  32% (153/478)   Receiving objects:  33% (158/478)   Receiving objects:  34% (163/478)   Receiving objects:  35% (168/478)   Receiving objects:  36% (173/478)   Receiving objects:  37% (177/478)   Receiving objects:  38% (182/478)   Receiving objects:  39% (187/478)   Receiving objects:  40% (192/478)   Receiving objects:  41% (196/478)   Receiving objects:  42% (201/478)   Receiving objects:  43% (206/478)   Receiving objects:  44% (211/478)   Receiving objects:  45% (216/478)   Receiving objects:  46% (220/478)   Receiving objects:  47% (225/478)   Receiving objects:  48% (230/478)   Receiving objects:  49% (235/478)   Receiving objects:  50% (239/478)   Receiving objects:  51% (244/478)   Receiving objects:  52% (249/478)   Receiving objects:  53% (254/478)   Receiving objects:  54% (259/478)   Receiving objects:  55% (263/478)   Receiving objects:  56% (268/478)   Receiving objects:  57% (273/478)   Receiving objects:  58% (278/478)   Receiving objects:  59% (283/478)   Receiving objects:  60% (287/478)   Receiving objects:  61% (292/478)   Receiving objects:  62% (297/478)   Receiving objects:  63% (302/478)   Receiving objects:  64% (306/478)   Receiving objects:  65% (311/478)   Receiving objects:  66% (316/478)   Receiving objects:  67% (321/478)   Receiving objects:  68% (326/478)   Receiving objects:  69% (330/478)   Receiving objects:  70% (335/478)   Receiving objects:  71% (340/478)   Receiving objects:  72% (345/478)   Receiving objects:  73% (349/478)   Receiving objects:  74% (354/478)   Receiving objects:  75% (359/478)   Receiving objects:  76% (364/478)   Receiving objects:  77% (369/478)   Receiving objects:  78% (373/478)   Receiving objects:  79% (378/478)   Receiving objects:  80% (383/478)   Receiving objects:  81% (388/478)   Receiving objects:  82% (392/478)   Receiving objects:  83% (397/478)   Receiving objects:  84% (402/478)   Receiving objects:  85% (407/478)   Receiving objects:  86% (412/478)   Receiving objects:  87% (416/478)   Receiving objects:  88% (421/478)   remote: Total 478 (delta 256), reused 376 (delta 198), pack-reused 0[K
+Receiving objects:  89% (426/478)   Receiving objects:  90% (431/478)   Receiving objects:  91% (435/478)   Receiving objects:  92% (440/478)   Receiving objects:  93% (445/478)   Receiving objects:  94% (450/478)   Receiving objects:  95% (455/478)   Receiving objects:  96% (459/478)   Receiving objects:  97% (464/478)   Receiving objects:  98% (469/478)   Receiving objects:  99% (474/478)   Receiving objects: 100% (478/478)   Receiving objects: 100% (478/478), 505.63 KiB | 5.27 MiB/s, done.
+Resolving deltas:   0% (0/256)   Resolving deltas:   2% (6/256)   Resolving deltas:   6% (16/256)   Resolving deltas:   7% (19/256)   Resolving deltas:   8% (21/256)   Resolving deltas:  11% (29/256)   Resolving deltas:  12% (33/256)   Resolving deltas:  14% (36/256)   Resolving deltas:  17% (46/256)   Resolving deltas:  23% (59/256)   Resolving deltas:  27% (70/256)   Resolving deltas:  31% (81/256)   Resolving deltas:  33% (86/256)   Resolving deltas:  35% (90/256)   Resolving deltas:  39% (100/256)   Resolving deltas:  40% (103/256)   Resolving deltas:  41% (105/256)   Resolving deltas:  42% (108/256)   Resolving deltas:  48% (123/256)   Resolving deltas:  50% (128/256)   Resolving deltas:  55% (143/256)   Resolving deltas:  58% (150/256)   Resolving deltas:  59% (152/256)   Resolving deltas:  61% (157/256)   Resolving deltas:  62% (161/256)   Resolving deltas:  63% (163/256)   Resolving deltas:  65% (167/256)   Resolving deltas:  66% (170/256)   Resolving deltas:  67% (172/256)   Resolving deltas:  68% (176/256)   Resolving deltas:  69% (177/256)   Resolving deltas:  71% (182/256)   Resolving deltas:  74% (190/256)   Resolving deltas:  75% (192/256)   Resolving deltas:  76% (195/256)   Resolving deltas:  78% (201/256)   Resolving deltas:  79% (203/256)   Resolving deltas:  80% (205/256)   Resolving deltas:  81% (209/256)   Resolving deltas:  82% (212/256)   Resolving deltas:  83% (215/256)   Resolving deltas:  85% (220/256)   Resolving deltas:  87% (223/256)   Resolving deltas:  88% (226/256)   Resolving deltas:  89% (229/256)   Resolving deltas:  90% (231/256)   Resolving deltas:  92% (238/256)   Resolving deltas:  94% (241/256)   Resolving deltas: 100% (256/256)   Resolving deltas: 100% (256/256), done.
+travis_time:end:0152869e:start=1565905647014861185,finish=1565905648026666449,duration=1011805264[0K$ cd paypal/paypal-smart-payment-buttons
+travis_time:start:06989172[0K$ git fetch origin +refs/pull/18/merge:
+remote: Enumerating objects: 127, done.[K
+remote: Counting objects:   1% (1/77)[Kremote: Counting objects:   2% (2/77)[Kremote: Counting objects:   3% (3/77)[Kremote: Counting objects:   5% (4/77)[Kremote: Counting objects:   6% (5/77)[Kremote: Counting objects:   7% (6/77)[Kremote: Counting objects:   9% (7/77)[Kremote: Counting objects:  10% (8/77)[Kremote: Counting objects:  11% (9/77)[Kremote: Counting objects:  12% (10/77)[Kremote: Counting objects:  14% (11/77)[Kremote: Counting objects:  15% (12/77)[Kremote: Counting objects:  16% (13/77)[Kremote: Counting objects:  18% (14/77)[Kremote: Counting objects:  19% (15/77)[Kremote: Counting objects:  20% (16/77)[Kremote: Counting objects:  22% (17/77)[Kremote: Counting objects:  23% (18/77)[Kremote: Counting objects:  24% (19/77)[Kremote: Counting objects:  25% (20/77)[Kremote: Counting objects:  27% (21/77)[Kremote: Counting objects:  28% (22/77)[Kremote: Counting objects:  29% (23/77)[Kremote: Counting objects:  31% (24/77)[Kremote: Counting objects:  32% (25/77)[Kremote: Counting objects:  33% (26/77)[Kremote: Counting objects:  35% (27/77)[Kremote: Counting objects:  36% (28/77)[Kremote: Counting objects:  37% (29/77)[Kremote: Counting objects:  38% (30/77)[Kremote: Counting objects:  40% (31/77)[Kremote: Counting objects:  41% (32/77)[Kremote: Counting objects:  42% (33/77)[Kremote: Counting objects:  44% (34/77)[Kremote: Counting objects:  45% (35/77)[Kremote: Counting objects:  46% (36/77)[Kremote: Counting objects:  48% (37/77)[Kremote: Counting objects:  49% (38/77)[Kremote: Counting objects:  50% (39/77)[Kremote: Counting objects:  51% (40/77)[Kremote: Counting objects:  53% (41/77)[Kremote: Counting objects:  54% (42/77)[Kremote: Counting objects:  55% (43/77)[Kremote: Counting objects:  57% (44/77)[Kremote: Counting objects:  58% (45/77)[Kremote: Counting objects:  59% (46/77)[Kremote: Counting objects:  61% (47/77)[Kremote: Counting objects:  62% (48/77)[Kremote: Counting objects:  63% (49/77)[Kremote: Counting objects:  64% (50/77)[Kremote: Counting objects:  66% (51/77)[Kremote: Counting objects:  67% (52/77)[Kremote: Counting objects:  68% (53/77)[Kremote: Counting objects:  70% (54/77)[Kremote: Counting objects:  71% (55/77)[Kremote: Counting objects:  72% (56/77)[Kremote: Counting objects:  74% (57/77)[Kremote: Counting objects:  75% (58/77)[Kremote: Counting objects:  76% (59/77)[Kremote: Counting objects:  77% (60/77)[Kremote: Counting objects:  79% (61/77)[Kremote: Counting objects:  80% (62/77)[Kremote: Counting objects:  81% (63/77)[Kremote: Counting objects:  83% (64/77)[Kremote: Counting objects:  84% (65/77)[Kremote: Counting objects:  85% (66/77)[Kremote: Counting objects:  87% (67/77)[Kremote: Counting objects:  88% (68/77)[Kremote: Counting objects:  89% (69/77)[Kremote: Counting objects:  90% (70/77)[Kremote: Counting objects:  92% (71/77)[Kremote: Counting objects:  93% (72/77)[Kremote: Counting objects:  94% (73/77)[Kremote: Counting objects:  96% (74/77)[Kremote: Counting objects:  97% (75/77)[Kremote: Counting objects:  98% (76/77)[Kremote: Counting objects: 100% (77/77)[Kremote: Counting objects: 100% (77/77), done.[K
+remote: Compressing objects:   5% (1/20)[Kremote: Compressing objects:  10% (2/20)[Kremote: Compressing objects:  15% (3/20)[Kremote: Compressing objects:  20% (4/20)[Kremote: Compressing objects:  25% (5/20)[Kremote: Compressing objects:  30% (6/20)[Kremote: Compressing objects:  35% (7/20)[Kremote: Compressing objects:  40% (8/20)[Kremote: Compressing objects:  45% (9/20)[Kremote: Compressing objects:  50% (10/20)[Kremote: Compressing objects:  55% (11/20)[Kremote: Compressing objects:  60% (12/20)[Kremote: Compressing objects:  65% (13/20)[Kremote: Compressing objects:  70% (14/20)[Kremote: Compressing objects:  75% (15/20)[Kremote: Compressing objects:  80% (16/20)[Kremote: Compressing objects:  85% (17/20)[Kremote: Compressing objects:  90% (18/20)[Kremote: Compressing objects:  95% (19/20)[Kremote: Compressing objects: 100% (20/20)[Kremote: Compressing objects: 100% (20/20), done.[K
+remote: Total 35 (delta 25), reused 21 (delta 13), pack-reused 0[K
+Unpacking objects:   2% (1/35)   Unpacking objects:   5% (2/35)   Unpacking objects:   8% (3/35)   Unpacking objects:  11% (4/35)   Unpacking objects:  14% (5/35)   Unpacking objects:  17% (6/35)   Unpacking objects:  20% (7/35)   Unpacking objects:  22% (8/35)   Unpacking objects:  25% (9/35)   Unpacking objects:  28% (10/35)   Unpacking objects:  31% (11/35)   Unpacking objects:  34% (12/35)   Unpacking objects:  37% (13/35)   Unpacking objects:  40% (14/35)   Unpacking objects:  42% (15/35)   Unpacking objects:  45% (16/35)   Unpacking objects:  48% (17/35)   Unpacking objects:  51% (18/35)   Unpacking objects:  54% (19/35)   Unpacking objects:  57% (20/35)   Unpacking objects:  60% (21/35)   Unpacking objects:  62% (22/35)   Unpacking objects:  65% (23/35)   Unpacking objects:  68% (24/35)   Unpacking objects:  71% (25/35)   Unpacking objects:  74% (26/35)   Unpacking objects:  77% (27/35)   Unpacking objects:  80% (28/35)   Unpacking objects:  82% (29/35)   Unpacking objects:  85% (30/35)   Unpacking objects:  88% (31/35)   Unpacking objects:  91% (32/35)   Unpacking objects:  94% (33/35)   Unpacking objects:  97% (34/35)   Unpacking objects: 100% (35/35)   Unpacking objects: 100% (35/35), done.
+From https://github.com/paypal/paypal-smart-payment-buttons
+ * branch            refs/pull/18/merge -> FETCH_HEAD
+travis_time:end:06989172:start=1565905648032061310,finish=1565905648646821413,duration=614760103[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_fold:start:nvm.install[0Ktravis_time:start:10377c78[0K$ nvm install 10
+Downloading and installing node v10.16.2...
+Downloading https://nodejs.org/dist/v10.16.2/node-v10.16.2-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.16.2 (npm v6.9.0)
+travis_time:end:10377c78:start=1565905649863283168,finish=1565905654056978411,duration=4193695243[0Ktravis_fold:end:nvm.install[0K
+travis_fold:start:cache.1[0KSetting up build cache
+$ export CASHER_DIR=${TRAVIS_HOME}/.casher
+travis_time:start:026d7089[0K$ Installing caching utilities
+travis_time:end:026d7089:start=1565905655583031715,finish=1565905655864049354,duration=281017639[0Ktravis_time:start:1c1ba5f8[0Ktravis_time:end:1c1ba5f8:start=1565905655870118017,finish=1565905655873942716,duration=3824699[0Ktravis_time:start:06d818d5[0Kattempting to download cache archive[0m
+[32;1mfetching PR.18/cache-linux-xenial-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855--node-10.tgz[0m
+[32;1mfound cache[0m
+travis_time:end:06d818d5:start=1565905655878646094,finish=1565905658652942726,duration=2774296632[0Ktravis_fold:end:cache.1[0K
+travis_fold:start:cache.npm[0K
+travis_time:start:0bbc74ce[0Ktravis_time:end:0bbc74ce:start=1565905658881668001,finish=1565905658885411300,duration=3743299[0Ktravis_time:start:00aa298a[0Kadding /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules to cache[0m
+creating directory /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules[0m
+travis_time:end:00aa298a:start=1565905658890187093,finish=1565905665070737975,duration=6180550882[0Ktravis_fold:end:cache.npm[0K$ node --version
+v10.16.2
+$ npm --version
+6.10.0
+$ nvm --version
+0.34.0
+
+travis_fold:start:install.npm[0Ktravis_time:start:2e360a25[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.125 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.125 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@1.2.9 (node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.9: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m
+audited 53591 packages in 10.924s
+found [91m174[0m vulnerabilities (72 [1mlow[0m, 76 [93mmoderate[0m, 26 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:2e360a25:start=1565905666245060908,finish=1565905677708771323,duration=11463710415[0Ktravis_fold:end:install.npm[0K
+travis_time:start:108868f8[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.125 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest; fi;
+
+
+> @paypal/smart-payment-buttons@2.0.125 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint src/ server/ test/ *.js
+
+
+[4m/home/travis/build/paypal/paypal-smart-payment-buttons/server/components/buttons/middleware.js[24m
+  [2m19:40[22m  [31merror[39m  'ExpressRequest' is not defined  [2mno-undef[22m
+
+[31m[1m✖ 1 problem (1 error, 0 warnings)[22m[39m
+[31m[1m[22m[39m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.125 lint: `eslint src/ server/ test/ *.js`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.125 lint script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-08-15T21_48_07_129Z-debug.log
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.125 test: `if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow && npm run karma && npm run jest; fi;`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.125 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2019-08-15T21_48_07_150Z-debug.log
+[0mtravis_time:end:108868f8:start=1565905677714214762,finish=1565905687162311528,duration=9448096766[0K[31;1mThe command "npm run test" exited with 1.[0m
+
+travis_fold:start:cache.2[0Kstore build cache
+travis_time:start:07ab733a[0Ktravis_time:end:07ab733a:start=1565905687168448195,finish=1565905687172726021,duration=4277826[0Ktravis_time:start:10f5f360[0K[32;1mnothing changed[0m
+travis_time:end:10f5f360:start=1565905687178029710,finish=1565905691078279166,duration=3900249456[0Ktravis_fold:end:cache.2[0K
+
+Done. Your build exited with 1.

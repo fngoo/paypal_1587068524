@@ -1,0 +1,395 @@
+travis_fold:start:worker_info[0K[33;1mWorker information[0m
+hostname: f79fbc42-1d2c-4c59-93a1-5376ae40d21e@1.worker-org-db8cd8d97-7q5xr.gce-production-1
+version: v6.2.8 https://github.com/travis-ci/worker/tree/6d3048d96b26562be21fa1a8b8144f4c4cecd083
+instance: travis-job-9a4d93ad-6112-4334-89a3-3d80e1e370b8 travis-ci-sardonyx-xenial-1553530528-f909ac5 (via amqp)
+startup: 5.991988915s
+travis_fold:end:worker_info[0Ktravis_time:start:1150fb30[0Ktravis_time:end:1150fb30:start=1583785444475970558,finish=1583785444623192425,duration=147221867,event=no_world_writable_dirs[0Ktravis_time:start:1fff30b0[0Ktravis_time:end:1fff30b0:start=1583785444626181611,finish=1583785444633230217,duration=7048606,event=agent[0Ktravis_time:start:06d08783[0Ktravis_time:end:06d08783:start=1583785444636055094,finish=1583785444638171910,duration=2116816,event=check_unsupported[0Ktravis_time:start:0e28bb6d[0Ktravis_fold:start:system_info[0K[33;1mBuild system information[0m
+Build language: node_js
+Build group: stable
+Build dist: xenial
+Build id: 660335317
+Job id: 660335318
+Runtime kernel version: 4.15.0-1028-gcp
+travis-build version: 781e881fa
+[34m[1mBuild image provisioning date and time[0m
+Mon Mar 25 16:43:24 UTC 2019
+[34m[1mOperating System Details[0m
+Distributor ID:	Ubuntu
+Description:	Ubuntu 16.04.6 LTS
+Release:	16.04
+Codename:	xenial
+[34m[1mSystemd Version[0m
+systemd 229
+[34m[1mCookbooks Version[0m
+42e42e4 https://github.com/travis-ci/travis-cookbooks/tree/42e42e4
+[34m[1mgit version[0m
+git version 2.21.0
+[34m[1mbash version[0m
+GNU bash, version 4.3.48(1)-release (x86_64-pc-linux-gnu)
+[34m[1mgcc version[0m
+gcc (Ubuntu 5.4.0-6ubuntu1~16.04.11) 5.4.0 20160609
+[34m[1mdocker version[0m
+Client:
+ Version:           18.06.0-ce
+ API version:       1.38
+ Go version:        go1.10.3
+ Git commit:        0ffa825
+ Built:             Wed Jul 18 19:11:02 2018
+ OS/Arch:           linux/amd64
+ Experimental:      false
+
+Server:
+ Engine:
+  Version:          18.06.0-ce
+  API version:      1.38 (minimum version 1.12)
+  Go version:       go1.10.3
+  Git commit:       0ffa825
+  Built:            Wed Jul 18 19:09:05 2018
+  OS/Arch:          linux/amd64
+  Experimental:     false
+[34m[1mclang version[0m
+clang version 7.0.0 (tags/RELEASE_700/final)
+[34m[1mjq version[0m
+jq-1.5
+[34m[1mbats version[0m
+Bats 0.4.0
+[34m[1mshellcheck version[0m
+0.6.0
+[34m[1mshfmt version[0m
+v2.6.3
+[34m[1mccache version[0m
+3.2.4
+[34m[1mcmake version[0m
+cmake version 3.12.4
+[34m[1mheroku version[0m
+heroku/7.22.7 linux-x64 node-v11.10.1
+[34m[1mimagemagick version[0m
+Version: ImageMagick 6.8.9-9 Q16 x86_64 2018-09-28 http://www.imagemagick.org
+[34m[1mmd5deep version[0m
+4.4
+[34m[1mmercurial version[0m
+version 4.8
+[34m[1mmysql version[0m
+mysql  Ver 14.14 Distrib 5.7.25, for Linux (x86_64) using  EditLine wrapper
+[34m[1mopenssl version[0m
+OpenSSL 1.0.2g  1 Mar 2016
+[34m[1mpacker version[0m
+1.3.3
+[34m[1mpostgresql client version[0m
+psql (PostgreSQL) 10.7 (Ubuntu 10.7-1.pgdg16.04+1)
+[34m[1mragel version[0m
+Ragel State Machine Compiler version 6.8 Feb 2013
+[34m[1msudo version[0m
+1.8.16
+[34m[1mgzip version[0m
+gzip 1.6
+[34m[1mzip version[0m
+Zip 3.0
+[34m[1mvim version[0m
+VIM - Vi IMproved 7.4 (2013 Aug 10, compiled Nov 24 2016 16:44:48)
+[34m[1miptables version[0m
+iptables v1.6.0
+[34m[1mcurl version[0m
+curl 7.47.0 (x86_64-pc-linux-gnu) libcurl/7.47.0 GnuTLS/3.4.10 zlib/1.2.8 libidn/1.32 librtmp/2.3
+[34m[1mwget version[0m
+GNU Wget 1.17.1 built on linux-gnu.
+[34m[1mrsync version[0m
+rsync  version 3.1.1  protocol version 31
+[34m[1mgimme version[0m
+v1.5.3
+[34m[1mnvm version[0m
+0.34.0
+[34m[1mperlbrew version[0m
+/home/travis/perl5/perlbrew/bin/perlbrew  - App::perlbrew/0.86
+[34m[1mphpenv version[0m
+rbenv 1.1.2
+[34m[1mrvm version[0m
+rvm 1.29.7 (latest) by Michal Papis, Piotr Kuczynski, Wayne E. Seguin [https://rvm.io]
+[34m[1mdefault ruby version[0m
+ruby 2.5.3p105 (2018-10-18 revision 65156) [x86_64-linux]
+[34m[1mCouchDB version[0m
+couchdb 1.6.1
+[34m[1mElasticSearch version[0m
+5.5.0
+[34m[1mInstalled Firefox version[0m
+firefox 63.0.1
+[34m[1mMongoDB version[0m
+MongoDB 4.0.7
+[34m[1mPhantomJS version[0m
+2.1.1
+[34m[1mPre-installed PostgreSQL versions[0m
+9.4.21
+9.5.16
+9.6.12
+[34m[1mRedis version[0m
+redis-server 5.0.4
+[34m[1mPre-installed Go versions[0m
+1.11.1
+[34m[1mmvn version[0m
+Apache Maven 3.6.0 (97c98ec64a1fdfee7767ce5ffb20918da4f719f3; 2018-10-24T18:41:47Z)
+[34m[1mgradle version[0m
+Gradle 4.10.2!
+[34m[1mlein version[0m
+Leiningen 2.9.1 on Java 11.0.2 OpenJDK 64-Bit Server VM
+[34m[1mPre-installed Node.js versions[0m
+v10.15.3
+v11.0.0
+v4.9.1
+v6.17.0
+v8.12.0
+v8.15.1
+v8.9
+[34m[1mphpenv versions[0m
+  system
+  5.6
+  5.6.40
+  7.1
+  7.1.27
+  7.2
+* 7.2.15 (set by /home/travis/.phpenv/version)
+  hhvm
+  hhvm-stable
+[34m[1mcomposer --version[0m
+Composer version 1.8.4 2019-02-11 10:52:10
+[34m[1mPre-installed Ruby versions[0m
+ruby-2.3.8
+ruby-2.4.5
+ruby-2.5.3
+travis_fold:end:system_info[0K
+travis_time:end:0e28bb6d:start=1583785444640975046,finish=1583785444646755601,duration=5780555,event=show_system_info[0Ktravis_time:start:001ef3a5[0Ktravis_time:end:001ef3a5:start=1583785444649566831,finish=1583785444661812264,duration=12245433,event=rm_riak_source[0Ktravis_time:start:00153730[0Ktravis_time:end:00153730:start=1583785444665139652,finish=1583785444670605728,duration=5466076,event=fix_rwky_redis[0Ktravis_time:start:01e7cba0[0Ktravis_time:end:01e7cba0:start=1583785444673639940,finish=1583785444974121454,duration=300481514,event=wait_for_network[0Ktravis_time:start:13da2d9c[0Ktravis_time:end:13da2d9c:start=1583785444978074756,finish=1583785445190739588,duration=212664832,event=update_apt_keys[0Ktravis_time:start:06849a92[0Ktravis_time:end:06849a92:start=1583785445193784370,finish=1583785445247481046,duration=53696676,event=fix_hhvm_source[0Ktravis_time:start:395f1172[0Ktravis_time:end:395f1172:start=1583785445250728657,finish=1583785445253363115,duration=2634458,event=update_mongo_arch[0Ktravis_time:start:10c3c43a[0Ktravis_time:end:10c3c43a:start=1583785445256491119,finish=1583785445297650367,duration=41159248,event=fix_sudo_enabled_trusty[0Ktravis_time:start:0f3bf092[0Ktravis_time:end:0f3bf092:start=1583785445300924767,finish=1583785445303239898,duration=2315131,event=update_glibc[0Ktravis_time:start:00966fb5[0Ktravis_time:end:00966fb5:start=1583785445306114819,finish=1583785445313734658,duration=7619839,event=clean_up_path[0Ktravis_time:start:018dfb2a[0Ktravis_time:end:018dfb2a:start=1583785445316733608,finish=1583785445324845370,duration=8111762,event=fix_resolv_conf[0Ktravis_time:start:2afb8f13[0Ktravis_time:end:2afb8f13:start=1583785445327851926,finish=1583785445336510800,duration=8658874,event=fix_etc_hosts[0Ktravis_time:start:00538e86[0Ktravis_time:end:00538e86:start=1583785445339550829,finish=1583785445348455816,duration=8904987,event=fix_mvn_settings_xml[0Ktravis_time:start:18617b58[0Ktravis_time:end:18617b58:start=1583785445351499406,finish=1583785445360726327,duration=9226921,event=no_ipv6_localhost[0Ktravis_time:start:067390a0[0Ktravis_time:end:067390a0:start=1583785445363716573,finish=1583785445365863554,duration=2146981,event=fix_etc_mavenrc[0Ktravis_time:start:1e1380ff[0Ktravis_time:end:1e1380ff:start=1583785445368789275,finish=1583785445371866340,duration=3077065,event=fix_wwdr_certificate[0Ktravis_time:start:0f3706e0[0Ktravis_time:end:0f3706e0:start=1583785445374717803,finish=1583785445397919697,duration=23201894,event=put_localhost_first[0Ktravis_time:start:0171de0e[0Ktravis_time:end:0171de0e:start=1583785445401140642,finish=1583785445404249344,duration=3108702,event=home_paths[0Ktravis_time:start:0421ad63[0Ktravis_time:end:0421ad63:start=1583785445407317058,finish=1583785445418894209,duration=11577151,event=disable_initramfs[0Ktravis_time:start:082abe49[0Ktravis_time:end:082abe49:start=1583785445421994557,finish=1583785445711885374,duration=289890817,event=disable_ssh_roaming[0Ktravis_time:start:124c5c70[0Ktravis_time:end:124c5c70:start=1583785445715241597,finish=1583785445717548993,duration=2307396,event=debug_tools[0Ktravis_time:start:1d094a80[0Ktravis_time:end:1d094a80:start=1583785445720431997,finish=1583785445723345758,duration=2913761,event=uninstall_oclint[0Ktravis_time:start:1426ee72[0Ktravis_time:end:1426ee72:start=1583785445726053041,finish=1583785445728847820,duration=2794779,event=rvm_use[0Ktravis_time:start:08c3d6da[0Ktravis_time:end:08c3d6da:start=1583785445731882183,finish=1583785445740004624,duration=8122441,event=rm_etc_boto_cfg[0Ktravis_time:start:0fa02670[0Ktravis_time:end:0fa02670:start=1583785445743189282,finish=1583785445746265270,duration=3075988,event=rm_oraclejdk8_symlink[0Ktravis_time:start:18b9b1ee[0Ktravis_time:end:18b9b1ee:start=1583785445749164542,finish=1583785445845212203,duration=96047661,event=enable_i386[0Ktravis_time:start:1351bda1[0Ktravis_time:end:1351bda1:start=1583785445848390729,finish=1583785445853799075,duration=5408346,event=update_rubygems[0Ktravis_time:start:02428eb4[0Ktravis_time:end:02428eb4:start=1583785445856945573,finish=1583785446665123724,duration=808178151,event=ensure_path_components[0Ktravis_time:start:00e86311[0Ktravis_time:end:00e86311:start=1583785446668495372,finish=1583785446670972728,duration=2477356,event=redefine_curl[0Ktravis_time:start:2931412a[0Ktravis_time:end:2931412a:start=1583785446674072342,finish=1583785446676508138,duration=2435796,event=nonblock_pipe[0Ktravis_time:start:11313910[0Ktravis_time:end:11313910:start=1583785446679608526,finish=1583785452710566179,duration=6030957653,event=apt_get_update[0Ktravis_time:start:0a54820e[0Ktravis_time:end:0a54820e:start=1583785452713723797,finish=1583785452715836129,duration=2112332,event=deprecate_xcode_64[0Ktravis_time:start:14e629a3[0Ktravis_time:end:14e629a3:start=1583785452718808108,finish=1583785455323320760,duration=2604512652,event=update_heroku[0Ktravis_time:start:012a663c[0Ktravis_time:end:012a663c:start=1583785455326274161,finish=1583785455328386279,duration=2112118,event=shell_session_update[0Ktravis_time:start:0ea58c3e[0Ktravis_fold:start:docker_mtu[0Ktravis_fold:end:docker_mtu[0Ktravis_time:end:0ea58c3e:start=1583785455331181232,finish=1583785457583415170,duration=2252233938,event=set_docker_mtu[0Ktravis_time:start:17588e34[0Ktravis_fold:start:resolvconf[0Ktravis_fold:end:resolvconf[0Ktravis_time:end:17588e34:start=1583785457586925638,finish=1583785457644545130,duration=57619492,event=resolvconf[0Ktravis_time:start:09b8b208[0Ktravis_time:end:09b8b208:start=1583785457654049943,finish=1583785457793270248,duration=139220305,event=maven_central_mirror[0Ktravis_time:start:1e20bf57[0Ktravis_time:end:1e20bf57:start=1583785457796424524,finish=1583785457889817052,duration=93392528,event=maven_https[0Ktravis_time:start:03bf68a4[0Ktravis_time:end:03bf68a4:start=1583785457893238776,finish=1583785457895669242,duration=2430466,event=fix_ps4[0Ktravis_fold:start:install_chrome[0K$ export CHROME_SOURCE_URL=https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb
+[33;1mInstalling Google Chrome stable[0m
+travis_time:start:00a3d476[0K$ wget --no-verbose -O /tmp/$(basename $CHROME_SOURCE_URL) $CHROME_SOURCE_URL
+2020-03-09 20:24:18 URL:https://dl.google.com/dl/linux/direct/google-chrome-stable_current_amd64.deb [63597456/63597456] -> "/tmp/google-chrome-stable_current_amd64.deb" [1]
+travis_time:end:00a3d476:start=1583785457941659958,finish=1583785458291379679,duration=349719721,event=prepare[0K(Reading database ... (Reading database ... 5%(Reading database ... 10%(Reading database ... 15%(Reading database ... 20%(Reading database ... 25%(Reading database ... 30%(Reading database ... 35%(Reading database ... 40%(Reading database ... 45%(Reading database ... 50%(Reading database ... 55%(Reading database ... 60%(Reading database ... 65%(Reading database ... 70%(Reading database ... 75%(Reading database ... 80%(Reading database ... 85%(Reading database ... 90%(Reading database ... 95%(Reading database ... 100%(Reading database ... 124189 files and directories currently installed.)
+Preparing to unpack .../google-chrome-stable_current_amd64.deb ...
+Unpacking google-chrome-stable (80.0.3987.132-1) over (73.0.3683.86-1) ...
+Setting up google-chrome-stable (80.0.3987.132-1) ...
+Processing triggers for mime-support (3.59ubuntu1) ...
+Processing triggers for man-db (2.7.5-1) ...
+travis_fold:end:install_chrome[0Ktravis_time:start:0218a3bb[0K
+travis_fold:start:git.checkout[0Ktravis_time:start:1f68b76c[0K$ git clone --depth=50 https://github.com/paypal/paypal-smart-payment-buttons.git paypal/paypal-smart-payment-buttons
+Cloning into 'paypal/paypal-smart-payment-buttons'...
+remote: Enumerating objects: 652, done.[K
+remote: Counting objects:   0% (1/652)[Kremote: Counting objects:   1% (7/652)[Kremote: Counting objects:   2% (14/652)[Kremote: Counting objects:   3% (20/652)[Kremote: Counting objects:   4% (27/652)[Kremote: Counting objects:   5% (33/652)[Kremote: Counting objects:   6% (40/652)[Kremote: Counting objects:   7% (46/652)[Kremote: Counting objects:   8% (53/652)[Kremote: Counting objects:   9% (59/652)[Kremote: Counting objects:  10% (66/652)[Kremote: Counting objects:  11% (72/652)[Kremote: Counting objects:  12% (79/652)[Kremote: Counting objects:  13% (85/652)[Kremote: Counting objects:  14% (92/652)[Kremote: Counting objects:  15% (98/652)[Kremote: Counting objects:  16% (105/652)[Kremote: Counting objects:  17% (111/652)[Kremote: Counting objects:  18% (118/652)[Kremote: Counting objects:  19% (124/652)[Kremote: Counting objects:  20% (131/652)[Kremote: Counting objects:  21% (137/652)[Kremote: Counting objects:  22% (144/652)[Kremote: Counting objects:  23% (150/652)[Kremote: Counting objects:  24% (157/652)[Kremote: Counting objects:  25% (163/652)[Kremote: Counting objects:  26% (170/652)[Kremote: Counting objects:  27% (177/652)[Kremote: Counting objects:  28% (183/652)[Kremote: Counting objects:  29% (190/652)[Kremote: Counting objects:  30% (196/652)[Kremote: Counting objects:  31% (203/652)[Kremote: Counting objects:  32% (209/652)[Kremote: Counting objects:  33% (216/652)[Kremote: Counting objects:  34% (222/652)[Kremote: Counting objects:  35% (229/652)[Kremote: Counting objects:  36% (235/652)[Kremote: Counting objects:  37% (242/652)[Kremote: Counting objects:  38% (248/652)[Kremote: Counting objects:  39% (255/652)[Kremote: Counting objects:  40% (261/652)[Kremote: Counting objects:  41% (268/652)[Kremote: Counting objects:  42% (274/652)[Kremote: Counting objects:  43% (281/652)[Kremote: Counting objects:  44% (287/652)[Kremote: Counting objects:  45% (294/652)[Kremote: Counting objects:  46% (300/652)[Kremote: Counting objects:  47% (307/652)[Kremote: Counting objects:  48% (313/652)[Kremote: Counting objects:  49% (320/652)[Kremote: Counting objects:  50% (326/652)[Kremote: Counting objects:  51% (333/652)[Kremote: Counting objects:  52% (340/652)[Kremote: Counting objects:  53% (346/652)[Kremote: Counting objects:  54% (353/652)[Kremote: Counting objects:  55% (359/652)[Kremote: Counting objects:  56% (366/652)[Kremote: Counting objects:  57% (372/652)[Kremote: Counting objects:  58% (379/652)[Kremote: Counting objects:  59% (385/652)[Kremote: Counting objects:  60% (392/652)[Kremote: Counting objects:  61% (398/652)[Kremote: Counting objects:  62% (405/652)[Kremote: Counting objects:  63% (411/652)[Kremote: Counting objects:  64% (418/652)[Kremote: Counting objects:  65% (424/652)[Kremote: Counting objects:  66% (431/652)[Kremote: Counting objects:  67% (437/652)[Kremote: Counting objects:  68% (444/652)[Kremote: Counting objects:  69% (450/652)[Kremote: Counting objects:  70% (457/652)[Kremote: Counting objects:  71% (463/652)[Kremote: Counting objects:  72% (470/652)[Kremote: Counting objects:  73% (476/652)[Kremote: Counting objects:  74% (483/652)[Kremote: Counting objects:  75% (489/652)[Kremote: Counting objects:  76% (496/652)[Kremote: Counting objects:  77% (503/652)[Kremote: Counting objects:  78% (509/652)[Kremote: Counting objects:  79% (516/652)[Kremote: Counting objects:  80% (522/652)[Kremote: Counting objects:  81% (529/652)[Kremote: Counting objects:  82% (535/652)[Kremote: Counting objects:  83% (542/652)[Kremote: Counting objects:  84% (548/652)[Kremote: Counting objects:  85% (555/652)[Kremote: Counting objects:  86% (561/652)[Kremote: Counting objects:  87% (568/652)[Kremote: Counting objects:  88% (574/652)[Kremote: Counting objects:  89% (581/652)[Kremote: Counting objects:  90% (587/652)[Kremote: Counting objects:  91% (594/652)[Kremote: Counting objects:  92% (600/652)[Kremote: Counting objects:  93% (607/652)[Kremote: Counting objects:  94% (613/652)[Kremote: Counting objects:  95% (620/652)[Kremote: Counting objects:  96% (626/652)[Kremote: Counting objects:  97% (633/652)[Kremote: Counting objects:  98% (639/652)[Kremote: Counting objects:  99% (646/652)[Kremote: Counting objects: 100% (652/652)[Kremote: Counting objects: 100% (652/652), done.[K
+remote: Compressing objects:   0% (1/378)[Kremote: Compressing objects:   1% (4/378)[Kremote: Compressing objects:   2% (8/378)[Kremote: Compressing objects:   3% (12/378)[Kremote: Compressing objects:   4% (16/378)[Kremote: Compressing objects:   5% (19/378)[Kremote: Compressing objects:   6% (23/378)[Kremote: Compressing objects:   7% (27/378)[Kremote: Compressing objects:   8% (31/378)[Kremote: Compressing objects:   9% (35/378)[Kremote: Compressing objects:  10% (38/378)[Kremote: Compressing objects:  11% (42/378)[Kremote: Compressing objects:  12% (46/378)[Kremote: Compressing objects:  13% (50/378)[Kremote: Compressing objects:  14% (53/378)[Kremote: Compressing objects:  15% (57/378)[Kremote: Compressing objects:  16% (61/378)[Kremote: Compressing objects:  17% (65/378)[Kremote: Compressing objects:  18% (69/378)[Kremote: Compressing objects:  19% (72/378)[Kremote: Compressing objects:  20% (76/378)[Kremote: Compressing objects:  21% (80/378)[Kremote: Compressing objects:  22% (84/378)[Kremote: Compressing objects:  23% (87/378)[Kremote: Compressing objects:  24% (91/378)[Kremote: Compressing objects:  25% (95/378)[Kremote: Compressing objects:  26% (99/378)[Kremote: Compressing objects:  27% (103/378)[Kremote: Compressing objects:  28% (106/378)[Kremote: Compressing objects:  29% (110/378)[Kremote: Compressing objects:  30% (114/378)[Kremote: Compressing objects:  31% (118/378)[Kremote: Compressing objects:  32% (121/378)[Kremote: Compressing objects:  33% (125/378)[Kremote: Compressing objects:  34% (129/378)[Kremote: Compressing objects:  35% (133/378)[Kremote: Compressing objects:  36% (137/378)[Kremote: Compressing objects:  37% (140/378)[Kremote: Compressing objects:  38% (144/378)[Kremote: Compressing objects:  39% (148/378)[Kremote: Compressing objects:  40% (152/378)[Kremote: Compressing objects:  41% (155/378)[Kremote: Compressing objects:  42% (159/378)[Kremote: Compressing objects:  43% (163/378)[Kremote: Compressing objects:  44% (167/378)[Kremote: Compressing objects:  45% (171/378)[Kremote: Compressing objects:  46% (174/378)[Kremote: Compressing objects:  47% (178/378)[Kremote: Compressing objects:  48% (182/378)[Kremote: Compressing objects:  49% (186/378)[Kremote: Compressing objects:  50% (189/378)[Kremote: Compressing objects:  51% (193/378)[Kremote: Compressing objects:  52% (197/378)[Kremote: Compressing objects:  53% (201/378)[Kremote: Compressing objects:  54% (205/378)[Kremote: Compressing objects:  55% (208/378)[Kremote: Compressing objects:  56% (212/378)[Kremote: Compressing objects:  57% (216/378)[Kremote: Compressing objects:  58% (220/378)[Kremote: Compressing objects:  59% (224/378)[Kremote: Compressing objects:  60% (227/378)[Kremote: Compressing objects:  61% (231/378)[Kremote: Compressing objects:  62% (235/378)[Kremote: Compressing objects:  63% (239/378)[Kremote: Compressing objects:  64% (242/378)[Kremote: Compressing objects:  65% (246/378)[Kremote: Compressing objects:  66% (250/378)[Kremote: Compressing objects:  67% (254/378)[Kremote: Compressing objects:  68% (258/378)[Kremote: Compressing objects:  69% (261/378)[Kremote: Compressing objects:  70% (265/378)[Kremote: Compressing objects:  71% (269/378)[Kremote: Compressing objects:  72% (273/378)[Kremote: Compressing objects:  73% (276/378)[Kremote: Compressing objects:  74% (280/378)[Kremote: Compressing objects:  75% (284/378)[Kremote: Compressing objects:  76% (288/378)[Kremote: Compressing objects:  77% (292/378)[Kremote: Compressing objects:  78% (295/378)[Kremote: Compressing objects:  79% (299/378)[Kremote: Compressing objects:  80% (303/378)[Kremote: Compressing objects:  81% (307/378)[Kremote: Compressing objects:  82% (310/378)[Kremote: Compressing objects:  83% (314/378)[Kremote: Compressing objects:  84% (318/378)[Kremote: Compressing objects:  85% (322/378)[Kremote: Compressing objects:  86% (326/378)[Kremote: Compressing objects:  87% (329/378)[Kremote: Compressing objects:  88% (333/378)[Kremote: Compressing objects:  89% (337/378)[Kremote: Compressing objects:  90% (341/378)[Kremote: Compressing objects:  91% (344/378)[Kremote: Compressing objects:  92% (348/378)[Kremote: Compressing objects:  93% (352/378)[Kremote: Compressing objects:  94% (356/378)[Kremote: Compressing objects:  95% (360/378)[Kremote: Compressing objects:  96% (363/378)[Kremote: Compressing objects:  97% (367/378)[Kremote: Compressing objects:  98% (371/378)[Kremote: Compressing objects:  99% (375/378)[Kremote: Compressing objects: 100% (378/378)[Kremote: Compressing objects: 100% (378/378), done.[K
+Receiving objects:   0% (1/652)   Receiving objects:   1% (7/652)   Receiving objects:   2% (14/652)   Receiving objects:   3% (20/652)   Receiving objects:   4% (27/652)   Receiving objects:   5% (33/652)   Receiving objects:   6% (40/652)   Receiving objects:   7% (46/652)   Receiving objects:   8% (53/652)   Receiving objects:   9% (59/652)   Receiving objects:  10% (66/652)   Receiving objects:  11% (72/652)   Receiving objects:  12% (79/652)   Receiving objects:  13% (85/652)   Receiving objects:  14% (92/652)   Receiving objects:  15% (98/652)   Receiving objects:  16% (105/652)   Receiving objects:  17% (111/652)   Receiving objects:  18% (118/652)   Receiving objects:  19% (124/652)   Receiving objects:  20% (131/652)   Receiving objects:  21% (137/652)   Receiving objects:  22% (144/652)   Receiving objects:  23% (150/652)   Receiving objects:  24% (157/652)   Receiving objects:  25% (163/652)   Receiving objects:  26% (170/652)   Receiving objects:  27% (177/652)   Receiving objects:  28% (183/652)   Receiving objects:  29% (190/652)   Receiving objects:  30% (196/652)   Receiving objects:  31% (203/652)   Receiving objects:  32% (209/652)   Receiving objects:  33% (216/652)   Receiving objects:  34% (222/652)   Receiving objects:  35% (229/652)   Receiving objects:  36% (235/652)   Receiving objects:  37% (242/652)   Receiving objects:  38% (248/652)   Receiving objects:  39% (255/652)   Receiving objects:  40% (261/652)   Receiving objects:  41% (268/652)   Receiving objects:  42% (274/652)   Receiving objects:  43% (281/652)   Receiving objects:  44% (287/652)   Receiving objects:  45% (294/652)   Receiving objects:  46% (300/652)   Receiving objects:  47% (307/652)   Receiving objects:  48% (313/652)   Receiving objects:  49% (320/652)   Receiving objects:  50% (326/652)   Receiving objects:  51% (333/652)   Receiving objects:  52% (340/652)   Receiving objects:  53% (346/652)   Receiving objects:  54% (353/652)   Receiving objects:  55% (359/652)   Receiving objects:  56% (366/652)   Receiving objects:  57% (372/652)   Receiving objects:  58% (379/652)   Receiving objects:  59% (385/652)   Receiving objects:  60% (392/652)   Receiving objects:  61% (398/652)   Receiving objects:  62% (405/652)   Receiving objects:  63% (411/652)   Receiving objects:  64% (418/652)   Receiving objects:  65% (424/652)   Receiving objects:  66% (431/652)   Receiving objects:  67% (437/652)   Receiving objects:  68% (444/652)   Receiving objects:  69% (450/652)   Receiving objects:  70% (457/652)   Receiving objects:  71% (463/652)   Receiving objects:  72% (470/652)   Receiving objects:  73% (476/652)   Receiving objects:  74% (483/652)   Receiving objects:  75% (489/652)   Receiving objects:  76% (496/652)   Receiving objects:  77% (503/652)   Receiving objects:  78% (509/652)   Receiving objects:  79% (516/652)   Receiving objects:  80% (522/652)   Receiving objects:  81% (529/652)   Receiving objects:  82% (535/652)   Receiving objects:  83% (542/652)   Receiving objects:  84% (548/652)   Receiving objects:  85% (555/652)   Receiving objects:  86% (561/652)   Receiving objects:  87% (568/652)   Receiving objects:  88% (574/652)   Receiving objects:  89% (581/652)   Receiving objects:  90% (587/652)   Receiving objects:  91% (594/652)   Receiving objects:  92% (600/652)   Receiving objects:  93% (607/652)   Receiving objects:  94% (613/652)   Receiving objects:  95% (620/652)   Receiving objects:  96% (626/652)   Receiving objects:  97% (633/652)   Receiving objects:  98% (639/652)   Receiving objects:  99% (646/652)   remote: Total 652 (delta 357), reused 478 (delta 262), pack-reused 0[K
+Receiving objects: 100% (652/652)   Receiving objects: 100% (652/652), 949.34 KiB | 6.33 MiB/s, done.
+Resolving deltas:   0% (0/357)   Resolving deltas:   2% (10/357)   Resolving deltas:   5% (21/357)   Resolving deltas:   8% (32/357)   Resolving deltas:  14% (53/357)   Resolving deltas:  16% (58/357)   Resolving deltas:  17% (61/357)   Resolving deltas:  19% (70/357)   Resolving deltas:  20% (72/357)   Resolving deltas:  21% (75/357)   Resolving deltas:  24% (89/357)   Resolving deltas:  25% (91/357)   Resolving deltas:  26% (93/357)   Resolving deltas:  27% (97/357)   Resolving deltas:  28% (102/357)   Resolving deltas:  29% (104/357)   Resolving deltas:  30% (108/357)   Resolving deltas:  32% (116/357)   Resolving deltas:  33% (120/357)   Resolving deltas:  34% (122/357)   Resolving deltas:  35% (127/357)   Resolving deltas:  36% (131/357)   Resolving deltas:  37% (133/357)   Resolving deltas:  40% (143/357)   Resolving deltas:  41% (148/357)   Resolving deltas:  48% (173/357)   Resolving deltas:  51% (184/357)   Resolving deltas:  52% (186/357)   Resolving deltas:  56% (201/357)   Resolving deltas:  57% (205/357)   Resolving deltas:  58% (208/357)   Resolving deltas:  59% (211/357)   Resolving deltas:  60% (217/357)   Resolving deltas:  61% (219/357)   Resolving deltas:  63% (228/357)   Resolving deltas:  64% (229/357)   Resolving deltas:  65% (233/357)   Resolving deltas:  66% (236/357)   Resolving deltas:  67% (240/357)   Resolving deltas:  68% (243/357)   Resolving deltas:  69% (247/357)   Resolving deltas:  70% (250/357)   Resolving deltas:  71% (255/357)   Resolving deltas:  72% (258/357)   Resolving deltas:  74% (267/357)   Resolving deltas:  75% (268/357)   Resolving deltas:  76% (272/357)   Resolving deltas:  77% (275/357)   Resolving deltas:  78% (279/357)   Resolving deltas:  79% (283/357)   Resolving deltas:  80% (287/357)   Resolving deltas:  84% (303/357)   Resolving deltas:  85% (304/357)   Resolving deltas:  86% (308/357)   Resolving deltas:  87% (311/357)   Resolving deltas:  88% (315/357)   Resolving deltas:  89% (318/357)   Resolving deltas:  90% (322/357)   Resolving deltas:  91% (325/357)   Resolving deltas:  92% (329/357)   Resolving deltas:  93% (333/357)   Resolving deltas:  94% (336/357)   Resolving deltas:  95% (341/357)   Resolving deltas: 100% (357/357)   Resolving deltas: 100% (357/357), done.
+travis_time:end:1f68b76c:start=1583785466400964262,finish=1583785467344978091,duration=944013829,event=checkout[0K$ cd paypal/paypal-smart-payment-buttons
+travis_time:start:0137fade[0K$ git fetch origin +refs/pull/34/merge:
+remote: Enumerating objects: 97, done.[K
+remote: Counting objects:   1% (1/69)[Kremote: Counting objects:   2% (2/69)[Kremote: Counting objects:   4% (3/69)[Kremote: Counting objects:   5% (4/69)[Kremote: Counting objects:   7% (5/69)[Kremote: Counting objects:   8% (6/69)[Kremote: Counting objects:  10% (7/69)[Kremote: Counting objects:  11% (8/69)[Kremote: Counting objects:  13% (9/69)[Kremote: Counting objects:  14% (10/69)[Kremote: Counting objects:  15% (11/69)[Kremote: Counting objects:  17% (12/69)[Kremote: Counting objects:  18% (13/69)[Kremote: Counting objects:  20% (14/69)[Kremote: Counting objects:  21% (15/69)[Kremote: Counting objects:  23% (16/69)[Kremote: Counting objects:  24% (17/69)[Kremote: Counting objects:  26% (18/69)[Kremote: Counting objects:  27% (19/69)[Kremote: Counting objects:  28% (20/69)[Kremote: Counting objects:  30% (21/69)[Kremote: Counting objects:  31% (22/69)[Kremote: Counting objects:  33% (23/69)[Kremote: Counting objects:  34% (24/69)[Kremote: Counting objects:  36% (25/69)[Kremote: Counting objects:  37% (26/69)[Kremote: Counting objects:  39% (27/69)[Kremote: Counting objects:  40% (28/69)[Kremote: Counting objects:  42% (29/69)[Kremote: Counting objects:  43% (30/69)[Kremote: Counting objects:  44% (31/69)[Kremote: Counting objects:  46% (32/69)[Kremote: Counting objects:  47% (33/69)[Kremote: Counting objects:  49% (34/69)[Kremote: Counting objects:  50% (35/69)[Kremote: Counting objects:  52% (36/69)[Kremote: Counting objects:  53% (37/69)[Kremote: Counting objects:  55% (38/69)[Kremote: Counting objects:  56% (39/69)[Kremote: Counting objects:  57% (40/69)[Kremote: Counting objects:  59% (41/69)[Kremote: Counting objects:  60% (42/69)[Kremote: Counting objects:  62% (43/69)[Kremote: Counting objects:  63% (44/69)[Kremote: Counting objects:  65% (45/69)[Kremote: Counting objects:  66% (46/69)[Kremote: Counting objects:  68% (47/69)[Kremote: Counting objects:  69% (48/69)[Kremote: Counting objects:  71% (49/69)[Kremote: Counting objects:  72% (50/69)[Kremote: Counting objects:  73% (51/69)[Kremote: Counting objects:  75% (52/69)[Kremote: Counting objects:  76% (53/69)[Kremote: Counting objects:  78% (54/69)[Kremote: Counting objects:  79% (55/69)[Kremote: Counting objects:  81% (56/69)[Kremote: Counting objects:  82% (57/69)[Kremote: Counting objects:  84% (58/69)[Kremote: Counting objects:  85% (59/69)[Kremote: Counting objects:  86% (60/69)[Kremote: Counting objects:  88% (61/69)[Kremote: Counting objects:  89% (62/69)[Kremote: Counting objects:  91% (63/69)[Kremote: Counting objects:  92% (64/69)[Kremote: Counting objects:  94% (65/69)[Kremote: Counting objects:  95% (66/69)[Kremote: Counting objects:  97% (67/69)[Kremote: Counting objects:  98% (68/69)[Kremote: Counting objects: 100% (69/69)[Kremote: Counting objects: 100% (69/69), done.[K
+remote: Compressing objects:   6% (1/16)[Kremote: Compressing objects:  12% (2/16)[Kremote: Compressing objects:  18% (3/16)[Kremote: Compressing objects:  25% (4/16)[Kremote: Compressing objects:  31% (5/16)[Kremote: Compressing objects:  37% (6/16)[Kremote: Compressing objects:  43% (7/16)[Kremote: Compressing objects:  50% (8/16)[Kremote: Compressing objects:  56% (9/16)[Kremote: Compressing objects:  62% (10/16)[Kremote: Compressing objects:  68% (11/16)[Kremote: Compressing objects:  75% (12/16)[Kremote: Compressing objects:  81% (13/16)[Kremote: Compressing objects:  87% (14/16)[Kremote: Compressing objects:  93% (15/16)[Kremote: Compressing objects: 100% (16/16)[Kremote: Compressing objects: 100% (16/16), done.[K
+remote: Total 26 (delta 9), reused 25 (delta 9), pack-reused 0[K
+Unpacking objects:   3% (1/26)   Unpacking objects:   7% (2/26)   Unpacking objects:  11% (3/26)   Unpacking objects:  15% (4/26)   Unpacking objects:  19% (5/26)   Unpacking objects:  23% (6/26)   Unpacking objects:  26% (7/26)   Unpacking objects:  30% (8/26)   Unpacking objects:  34% (9/26)   Unpacking objects:  38% (10/26)   Unpacking objects:  42% (11/26)   Unpacking objects:  46% (12/26)   Unpacking objects:  50% (13/26)   Unpacking objects:  53% (14/26)   Unpacking objects:  57% (15/26)   Unpacking objects:  61% (16/26)   Unpacking objects:  65% (17/26)   Unpacking objects:  69% (18/26)   Unpacking objects:  73% (19/26)   Unpacking objects:  76% (20/26)   Unpacking objects:  80% (21/26)   Unpacking objects:  84% (22/26)   Unpacking objects:  88% (23/26)   Unpacking objects:  92% (24/26)   Unpacking objects:  96% (25/26)   Unpacking objects: 100% (26/26)   Unpacking objects: 100% (26/26), done.
+From https://github.com/paypal/paypal-smart-payment-buttons
+ * branch            refs/pull/34/merge -> FETCH_HEAD
+travis_time:end:0137fade:start=1583785467348930705,finish=1583785467818661131,duration=469730426,event=checkout[0K$ git checkout -qf FETCH_HEAD
+travis_fold:end:git.checkout[0K
+travis_time:end:0137fade:start=1583785467348930705,finish=1583785467847691077,duration=498760372,event=checkout[0Ktravis_time:start:390e5824[0Ktravis_time:end:390e5824:start=1583785467851444830,finish=1583785467857463082,duration=6018252,event=env[0Ktravis_fold:start:nvm.install[0Ktravis_time:start:012f754f[0K$ nvm install 10
+Downloading and installing node v10.19.0...
+Downloading https://nodejs.org/dist/v10.19.0/node-v10.19.0-linux-x64.tar.xz...
+Computing checksum with sha256sum
+Checksums matched!
+Now using node v10.19.0 (npm v6.13.4)
+travis_time:end:012f754f:start=1583785468665365447,finish=1583785471603286664,duration=2937921217,event=setup[0Ktravis_fold:end:nvm.install[0K
+$ node --version
+v10.19.0
+$ npm --version
+6.13.4
+$ nvm --version
+0.35.3
+
+travis_fold:start:install.npm[0Ktravis_time:start:07a55aac[0K$ npm install 
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m core-js@2.6.11: core-js@<3 is no longer maintained and not recommended for usage due to the number of issues. Please, upgrade your dependencies to the actual version of core-js@3.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m istanbul@0.4.5: This module is no longer maintained, try this instead:
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m   npm i nyc
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m Visit https://istanbul.js.org/integrations for other alternatives.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m request@2.88.2: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m request@2.81.0: request has been deprecated, see https://github.com/request/request/issues/3142
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hawk@3.1.3: This module moved to @hapi/hawk. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m hoek@2.16.3: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m cryptiles@2.0.5: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m boom@2.10.1: This version has been deprecated in accordance with the hapi support policy (hapi.im/support). Please upgrade to the latest version to get the best features, bug fixes, and security patches. If you are unable to upgrade at this time, paid support is available for older versions (hapi.im/commercial).
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m sntp@1.0.9: This module moved to @hapi/sntp. Please make sure to switch over as this distribution is no longer supported and may contain bugs and critical security issues.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m left-pad@1.3.0: use String.prototype.padStart()
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mdeprecated[0m socks@1.1.10: If using 2.x branch, please upgrade to at least 2.1.6 to avoid a serious bug with socket data flow and an import issue introduced in 2.1.0
+[0m
+> node-sass@4.13.1 install /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass
+> node scripts/install.js
+
+Downloading binary from https://github.com/sass/node-sass/releases/download/v4.13.1/linux-x64-64_binding.node
+Download complete
+Binary saved to /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Caching binary to /home/travis/.npm/node-sass/4.13.1/linux-x64-64_binding.node
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/@babel/polyfill/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@2.6.11 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/babel-runtime/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js@3.6.4 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/core-js
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> core-js-pure@3.6.4 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/core-js-pure
+> node -e "try{require('./postinstall')}catch(e){}"
+
+
+> ejs@2.7.4 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/ejs
+> node ./postinstall.js
+
+
+> node-sass@4.13.1 postinstall /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass
+> node scripts/build.js
+
+Binary found at /home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/node-sass/vendor/linux-x64-64/binding.node
+Testing binary
+Binary is fine
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m As of npm@5, `prepublish` scripts are deprecated.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m Use `prepare` for build steps and `prepublishOnly` for upload-only.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mprepublish-on-install[0m See the deprecation note in `npm help scripts` for more information.
+[0m
+> @paypal/smart-payment-buttons@2.0.199 prepublish /home/travis/build/paypal/paypal-smart-payment-buttons
+> in-publish && npm run babel || not-in-publish
+
+[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@^1.2.7 (node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@1.2.11: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.2 (node_modules/karma/node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fsevents@~2.1.1 (node_modules/mocha/node_modules/chokidar/node_modules/fsevents):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35mnotsup[0m SKIPPING OPTIONAL DEPENDENCY: Unsupported platform for fsevents@2.1.2: wanted {"os":"darwin","arch":"any"} (current: {"os":"linux","arch":"x64"})
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of chai@>=3.5.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon@>=2.1.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m karma-sinon-chai@2.0.2 requires a peer of sinon-chai@>=2.9.0 but none is installed. You must install peer dependencies yourself.
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m[35m[0m @paypal/smart-payment-buttons@2.0.199 license should be a valid SPDX license expression
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: abbrev@1.1.1 (node_modules/fsevents/node_modules/abbrev):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/abbrev' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.abbrev.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ansi-regex@2.1.1 (node_modules/fsevents/node_modules/ansi-regex):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ansi-regex' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ansi-regex.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: aproba@1.2.0 (node_modules/fsevents/node_modules/aproba):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/aproba' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.aproba.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: balanced-match@1.0.0 (node_modules/fsevents/node_modules/balanced-match):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/balanced-match' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.balanced-match.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: chownr@1.1.3 (node_modules/fsevents/node_modules/chownr):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/chownr' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.chownr.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: code-point-at@1.1.0 (node_modules/fsevents/node_modules/code-point-at):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/code-point-at' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.code-point-at.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: concat-map@0.0.1 (node_modules/fsevents/node_modules/concat-map):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/concat-map' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.concat-map.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: console-control-strings@1.1.0 (node_modules/fsevents/node_modules/console-control-strings):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/console-control-strings' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.console-control-strings.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: core-util-is@1.0.2 (node_modules/fsevents/node_modules/core-util-is):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/core-util-is' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.core-util-is.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: deep-extend@0.6.0 (node_modules/fsevents/node_modules/deep-extend):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/deep-extend' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.deep-extend.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: delegates@1.0.0 (node_modules/fsevents/node_modules/delegates):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/delegates' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.delegates.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: detect-libc@1.0.3 (node_modules/fsevents/node_modules/detect-libc):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/detect-libc' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.detect-libc.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: fs.realpath@1.0.0 (node_modules/fsevents/node_modules/fs.realpath):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/fs.realpath' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.fs.realpath.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: has-unicode@2.0.1 (node_modules/fsevents/node_modules/has-unicode):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/has-unicode' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.has-unicode.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: inherits@2.0.4 (node_modules/fsevents/node_modules/inherits):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/inherits' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.inherits.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ini@1.3.5 (node_modules/fsevents/node_modules/ini):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ini' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ini.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: isarray@1.0.0 (node_modules/fsevents/node_modules/isarray):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/isarray' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.isarray.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: minimist@0.0.8 (node_modules/fsevents/node_modules/minimist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/minimist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.minimist.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: ms@2.1.2 (node_modules/fsevents/node_modules/ms):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/ms' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.ms.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: npm-normalize-package-bin@1.0.1 (node_modules/fsevents/node_modules/npm-normalize-package-bin):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/npm-normalize-package-bin' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.npm-normalize-package-bin.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: number-is-nan@1.0.1 (node_modules/fsevents/node_modules/number-is-nan):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/number-is-nan' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.number-is-nan.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: object-assign@4.1.1 (node_modules/fsevents/node_modules/object-assign):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/object-assign' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.object-assign.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: os-homedir@1.0.2 (node_modules/fsevents/node_modules/os-homedir):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/os-homedir' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.os-homedir.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: os-tmpdir@1.0.2 (node_modules/fsevents/node_modules/os-tmpdir):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/os-tmpdir' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.os-tmpdir.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: path-is-absolute@1.0.1 (node_modules/fsevents/node_modules/path-is-absolute):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/path-is-absolute' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.path-is-absolute.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: process-nextick-args@2.0.1 (node_modules/fsevents/node_modules/process-nextick-args):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/process-nextick-args' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.process-nextick-args.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: minimist@1.2.0 (node_modules/fsevents/node_modules/rc/node_modules/minimist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/rc/node_modules/minimist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/rc/node_modules/.minimist.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: safe-buffer@5.1.2 (node_modules/fsevents/node_modules/safe-buffer):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/safe-buffer' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.safe-buffer.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: safer-buffer@2.1.2 (node_modules/fsevents/node_modules/safer-buffer):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/safer-buffer' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.safer-buffer.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: sax@1.2.4 (node_modules/fsevents/node_modules/sax):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/sax' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.sax.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: semver@5.7.1 (node_modules/fsevents/node_modules/semver):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/semver' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.semver.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: set-blocking@2.0.0 (node_modules/fsevents/node_modules/set-blocking):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/set-blocking' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.set-blocking.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: signal-exit@3.0.2 (node_modules/fsevents/node_modules/signal-exit):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/signal-exit' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.signal-exit.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: strip-json-comments@2.0.1 (node_modules/fsevents/node_modules/strip-json-comments):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/strip-json-comments' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.strip-json-comments.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: util-deprecate@1.0.2 (node_modules/fsevents/node_modules/util-deprecate):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/util-deprecate' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.util-deprecate.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: wrappy@1.0.2 (node_modules/fsevents/node_modules/wrappy):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/wrappy' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.wrappy.DELETE'
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35moptional[0m SKIPPING OPTIONAL DEPENDENCY: yallist@3.1.1 (node_modules/fsevents/node_modules/yallist):
+[0m[37;40mnpm[0m [0m[30;43mWARN[0m [0m[35menoent[0m SKIPPING OPTIONAL DEPENDENCY: ENOENT: no such file or directory, rename '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/yallist' -> '/home/travis/build/paypal/paypal-smart-payment-buttons/node_modules/fsevents/node_modules/.yallist.DELETE'
+[0m
+added 2946 packages from 2479 contributors and audited 925386 packages in 59.435s
+
+57 packages are looking for funding
+  run `npm fund` for details
+
+found [91m60[0m vulnerabilities (8 [1mlow[0m, 32 [93mmoderate[0m, 20 [91mhigh[0m)
+  run `npm audit fix` to fix them, or `npm audit` for details
+travis_time:end:07a55aac:start=1583785472897207968,finish=1583785534055143924,duration=61157935956,event=install[0Ktravis_fold:end:install.npm[0K
+travis_time:start:15916457[0K$ npm run test
+
+> @paypal/smart-payment-buttons@2.0.199 test /home/travis/build/paypal/paypal-smart-payment-buttons
+> if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow check && npm run karma && npm run jest; fi;
+
+
+> @paypal/smart-payment-buttons@2.0.199 lint /home/travis/build/paypal/paypal-smart-payment-buttons
+> eslint --ext .js --ext .jsx src/ server/ test/ *.js
+
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/credit/banner/index.jsx[24m[0m
+[0m  [2m15:1[22m   [31merror[39m  Unexpected 'todo' comment  [2mno-warning-comments[22m[0m
+[0m  [2m30:9[22m   [31merror[39m  Unexpected 'todo' comment  [2mno-warning-comments[22m[0m
+[0m  [2m39:22[22m  [31merror[39m  Unexpected 'todo' comment  [2mno-warning-comments[22m[0m
+[0m[0m
+[0m[4m/home/travis/build/paypal/paypal-smart-payment-buttons/src/wallet/components/credit/detailsSubType/index.jsx[24m[0m
+[0m  [2m25:5[22m  [31merror[39m  Unexpected 'todo' comment  [2mno-warning-comments[22m[0m
+[0m[0m
+[0m[31m[1m✖ 4 problems (4 errors, 0 warnings)[22m[39m[0m
+[0m[31m[1m[22m[39m[0m
+[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.199 lint: `eslint --ext .js --ext .jsx src/ server/ test/ *.js`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.199 lint script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2020-03-09T20_25_48_377Z-debug.log
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35mcode[0m ELIFECYCLE
+[0m[37;40mnpm[0m [0m[31;40mERR![0m [0m[35merrno[0m 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m @paypal/smart-payment-buttons@2.0.199 test: `if [ ! $SKIP_TEST ]; then npm run lint && npm run flow-typed && npm run flow check && npm run karma && npm run jest; fi;`
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Exit status 1
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m 
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m Failed at the @paypal/smart-payment-buttons@2.0.199 test script.
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m This is probably not a problem with npm. There is likely additional logging output above.
+[0m
+[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m A complete log of this run can be found in:
+[0m[37;40mnpm[0m [0m[31;40mERR![0m[35m[0m     /home/travis/.npm/_logs/2020-03-09T20_25_48_392Z-debug.log
+[0mtravis_time:end:15916457:start=1583785534059217360,finish=1583785548403253188,duration=14344035828,event=script[0K[31;1mThe command "npm run test" exited with 1.[0m
+
+
+Done. Your build exited with 1.
